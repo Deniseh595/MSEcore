@@ -1,0 +1,1744 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+% \def\nompreamble{\addcontentsline{toc}{section} %{\nomname}\markboth{\nomname}{\nomname}}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl} 
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+
+
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 4
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue, citecolor=blue, linkcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch hiddensolution
+\selected 0
+\filename_suffix 0
+\color #ffff7f
+\end_branch
+\branch unused
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch shownsolution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 0
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Section
+315 Problems 
+\end_layout
+
+\begin_layout Enumerate
+Use the Ellingham Diagram (reproduced here as Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ellingham-diagram for problems"
+
+\end_inset
+
+) to answer the following.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the temperature and partial pressure of 
+\begin_inset Formula $\mathrm{O_{2}}$
+\end_inset
+
+ where Ni(s), Ni(l), and NiO(s) are in equilibrium.
+\end_layout
+
+\begin_layout Enumerate
+Can the same equilibrium be achieved with 
+\begin_inset Formula $\mathrm{H_{2}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathrm{H_{2}O}$
+\end_inset
+
+ instead of oxygen? If so, what is the ratio of 
+\begin_inset Formula $\mathrm{H_{2}/H_{2}O}?$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/Ellingham-diagram.svg
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ellingham diagram.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ellingham-diagram for problems"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Use the Ellingham Diagram to answer the following question.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+At 
+\begin_inset Formula $1245\mathrm{^{o}C}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathrm{H_{2}}$
+\end_inset
+
+, and 
+\begin_inset Formula $\mathrm{H_{2}O}$
+\end_inset
+
+ with a ratio of partial pressures of 10:1 is flowed through a tube furnace
+ containing a crucible filled with MnO powder.
+ Determine the driving force for the reaction
+\end_layout
+
+\begin_layout Enumerate
+Using the Ellingham diagram, can you safely melt aluminum in a magnesia
+ (MgO) container? Why or why not? What is the resulting reaction and its
+ driving force?
+\end_layout
+
+\begin_layout Enumerate
+Establish the T-log 
+\begin_inset Formula $P_{O_{2}}$
+\end_inset
+
+ phase diagram between 
+\begin_inset Formula $\mathrm{1000{}^{o}C}$
+\end_inset
+
+ and 
+\begin_inset Formula $1500\mathrm{^{o}C}$
+\end_inset
+
+ fort he Mn-O system at 1 atm total pressure.
+\end_layout
+
+\begin_layout Enumerate
+In the days before the industrial revolution the 
+\begin_inset Formula $P_{CO_{2}}$
+\end_inset
+
+ in the earth's atmosphere was 275 ppm.
+ Use the data in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mg and ca thermo data"
+
+\end_inset
+
+ to calculate how high one would need to heat 
+\begin_inset Formula $\mathrm{CaCO_{3}}$
+\end_inset
+
+ to decompose it at a 
+\begin_inset Formula $P_{CO_{2}}$
+\end_inset
+
+ for the preindustrial concentration of 275 ppm and for present day 
+\begin_inset Formula $P_{CO_{2}}$
+\end_inset
+
+ (You will have to look this up, please give your source).
+ Also calculate how high one would need to heat 
+\begin_inset Formula $\mathrm{CaCO_{3}}$
+\end_inset
+
+ to decompose it if the 
+\begin_inset Formula $\mathrm{CO_{2}}$
+\end_inset
+
+ level in the atmosphere reaches 500 ppm.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+figure is 9.22 in Intro to Cermamics, Kingery et al, 2nd edition.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/kingery free energy fig.png
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Thermodynamic data for Mg and Ca oxides and carbonates.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mg and ca thermo data"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Based on Raoultian liquid solution behavior, calculate the Sn-Bi eutectic
+ phase diagram (using Excel, Mathematica, MATLAB, etc).
+ Assume that there is negligible solid solubility of both Sn and Bi in the
+ other component, and that 
+\begin_inset Formula $\Delta\mathrm{Cp}\approx0$
+\end_inset
+
+ for both end members.
+ Use the following melting points and enthalpies of fusion:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tm(K)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta\mathrm{H(s\rightarrow l)(J/mol)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sn
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+505.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7030
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+544.59
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11300
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Use MATLAB or a spreadsheet to calculate liquidus and solidus lines for
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+lens-type
+\begin_inset Quotes erd
+\end_inset
+
+ T-X diagram for the A-B system, using the data below.
+ You may assume both the liquid and solid solutions behave ideally.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tm(
+\begin_inset Formula $\mathrm{^{o}C}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta$
+\end_inset
+
+Hm(J/mol)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+910
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34700
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49800
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Plot the T vs.
+ X phase diagram.
+ Label each region on the diagram with the phases present and the degrees
+ of freedom.
+\end_layout
+
+\begin_layout Enumerate
+For the temperatures 
+\begin_inset Formula $\mathrm{800^{o}C}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathrm{1100^{o}C}$
+\end_inset
+
+, and 
+\begin_inset Formula $\mathrm{1500^{o}C}$
+\end_inset
+
+, draw plots of the activity of component A vs.
+ composition.
+ Include two plots for each: One with respect to liquid as the reference
+ state and one with respect to solid as the reference state.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Based upon the temperature at the top of the miscibility gap in the Cr-W
+ system (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cr-W phase diagram"
+
+\end_inset
+
+), do the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Predict the miscibility gap (solvus) and spinodals based upon the regular
+ solution model.
+ Use the spreadsheet and plot the results.
+\end_layout
+
+\begin_layout Enumerate
+Compare your miscibility gap with the experimental one in the attached figure.
+ Speculate about why there might be differences.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/cr w phase diagram.png
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cr-W Phase diagram.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cr-W phase diagram"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider the Pb-Sn phase diagram (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pb-Sn phase diagram"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Label each region on the diagram with the degrees of freedom.
+\end_layout
+
+\begin_layout Enumerate
+Sketch free energy vs.
+ composition curves for all phases at 
+\begin_inset Formula $150\mathrm{^{o}C}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathrm{200^{o}C}$
+\end_inset
+
+, 
+\begin_inset Formula $250\mathrm{^{o}C}$
+\end_inset
+
+, and the eutectic temperature.
+\end_layout
+
+\begin_layout Enumerate
+For each temperature from part (b), draw plots of the activity of Sn vs.
+ composition.
+ Include two plots for each: One with respect to liquid as the reference
+ state and one with respect to solid as the reference state.
+ You may assume the liquid solution to be Raoultia.
+ At 
+\begin_inset Formula $150\mathrm{^{o}C}$
+\end_inset
+
+, only plot activity of Sn vs.
+ composition with respect to the solid reference state.
+ At 
+\begin_inset Formula $\mathrm{250^{o}C}$
+\end_inset
+
+, only plot activity of Sn vs.
+ composition with respect to the liquid reference state.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/pb sn phase diagram.png
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pb-Sn phase diagram.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pb-Sn phase diagram"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This is Figure 9.7 from something.
+ Adapted from 
+\begin_inset Quotes eld
+\end_inset
+
+Metals Handbook - Metallagrophy, Structures and Phase Diagrams, Vol.
+ 8, 8th ed.
+ ASM Handbook committee, T.
+ Lyman, ed.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate and plot the liquidus projection of the ternary phase diagram
+ for the NaF-NaCl-NaI system.
+ The melting temperatures and heats of fusion are as follows: NaF (
+\begin_inset Formula $\mathrm{990^{o}C}$
+\end_inset
+
+, 29,300 J/mol), NaCl (
+\begin_inset Formula $\mathrm{801^{o}C}$
+\end_inset
+
+, 30,200 J/mol) and NaI (
+\begin_inset Formula $\mathrm{659.3^{o}C}$
+\end_inset
+
+, 22,300 J/mol).
+ Assume and ideal liquid solution and negligible solid solubility.
+ Compare your result with the experimental diagram shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:NaF-NaCl-NaI-phase-diagram."
+
+\end_inset
+
+.
+ Why might they be different?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/NaI-NaCl-NaF ternary phase diagram.png
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NaF-NaCl-NaI phase diagram.
+ From ref.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "johnson_solidliquid_1971"
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:NaF-NaCl-NaI-phase-diagram."
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+copyright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+On the liquidus projection diagram for the hypothetical system A-B-C shown
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Liquidus-projection-diagram."
+
+\end_inset
+
+), complete the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Label primary phase fields
+\end_layout
+
+\begin_layout Enumerate
+Draw the subsolidus compatibility joins.
+\end_layout
+
+\begin_layout Enumerate
+Label all the binary and ternary invariant points.
+\end_layout
+
+\begin_layout Enumerate
+Indicate the directions of falling temperature (binaries and ternary).
+\end_layout
+
+\begin_layout Enumerate
+Sketch all the binary phase diagrams (including those formed by subsolidus
+ compatibility joins).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/ternary for homework set.png
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Liquidus projection diagram.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Liquidus-projection-diagram."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Using the attached liquidus projection diagram for the hypothetical system
+ A-B-C shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Liquidus-projection-diagram.-1"
+
+\end_inset
+
+, complete the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Determine the equilibrium crystallization path for the composition marked
+ with the star.
+\end_layout
+
+\begin_layout Enumerate
+Determine the microstructural constituents:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Just prior tot he liquid striking the phase boundary (liquid + solid 1 +
+ solid 2).
+\end_layout
+
+\begin_layout Enumerate
+At the eutectic but just prior to eutectic crystallization.
+\end_layout
+
+\begin_layout Enumerate
+After crystallization is complete.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/liquidus projection diagram for homework.png
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Liquidus projection diagram.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Liquidus-projection-diagram.-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+On the 
+\begin_inset Formula $(\mathrm{LiCl)_{2}-CaCl_{2}-(KCl)_{2}}$
+\end_inset
+
+ phase diagram shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:-LiCl-CaCl2-KCl phase-diagram."
+
+\end_inset
+
+, draw isothermal sections at the following temperatures: (note- Ternary
+ eutectic 
+\begin_inset Formula $\mathrm{E_{1}}$
+\end_inset
+
+ is at 
+\begin_inset Formula $332^{\mathrm{o}}\mathrm{C}$
+\end_inset
+
+ and ternary eutectic 
+\begin_inset Formula $\mathrm{E_{2}}$
+\end_inset
+
+ is at 
+\begin_inset Formula $412\mathrm{^{o}C}$
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $600\mathrm{^{o}C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $450\mathrm{^{o}C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $400\mathrm{^{o}C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $300\mathrm{^{o}C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Also determine the precise (not schematic!) 
+\begin_inset Formula $(\mathrm{LiCl)_{2}-KCaCl_{3}}$
+\end_inset
+
+ phase diagram.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/KCl-LiCl-CaCl2 phase diagram.png
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{\left(LiCl\right)_{2}-CaCl_{2}-\left(KCl\right)_{2}}$
+\end_inset
+
+ phase diagram.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:-LiCl-CaCl2-KCl phase-diagram."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(Bonus question - 10% of problem set value) Starting with the regular solution
+ model, prove that regardless of how positive the interaction parameter
+ (or heat of mixing) might be, the inital slope on any free energy vs.
+ composition curve must be infinitely negative on the left side (
+\begin_inset Formula $\mathrm{X_{B}\rightarrow0}$
+\end_inset
+
+) and infinitely positive on the right side (
+\begin_inset Formula $\mathrm{X_{B}\rightarrow1}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+A steel tank contains hydrogen at 15 atm pressure.
+ If the solubility of hydrogen in steel is 1x
+\begin_inset Formula $10^{-2}$
+\end_inset
+
+ g/
+\begin_inset Formula $\mathrm{cm^{3}}$
+\end_inset
+
+ under 15 atm pressure, the diffusion coefficient is 8x
+\begin_inset Formula $10^{-5}\mathrm{cm^{2}/s}$
+\end_inset
+
+ at room temperature and the tank is placed in a vacuum, calculate the flux
+ of hydrogen through a 3.5 mm thick wall.
+\end_layout
+
+\begin_layout Enumerate
+Austenite (
+\begin_inset Formula $\gamma-$
+\end_inset
+
+Fe) with .85 wt% carbon has a diffusion coefficient of 1.9x
+\begin_inset Formula $10^{-11}$
+\end_inset
+
+
+\begin_inset Formula $\mathrm{m^{2}}$
+\end_inset
+
+/s at 900
+\begin_inset Formula $\mathrm{^{o}C}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Determine the jump distance in terms of the lattice parameter 
+\begin_inset Formula $a_{o}$
+\end_inset
+
+ and the coordination number for carbon diffusion in this structure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+How many jumps does a carbon interstitial make each second? Assuming a lattice
+ vibration frequency of 
+\begin_inset Formula $10^{13}\mathrm{s^{-1}}$
+\end_inset
+
+, what fraction of jumps is successful?
+\end_layout
+
+\begin_layout Enumerate
+Calculate and compare the random walk distance with the total distance (back
+ and forth) traveled by an interstitial carbon atom in one second.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ferrite (
+\begin_inset Formula $\alpha-$
+\end_inset
+
+Fe) (BCC structure) dissolves carbon to a lesser extent than austenite (FCC
+ structure).
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Determine the jump distance in terms of the lattice parameter 
+\begin_inset Formula $a_{o}$
+\end_inset
+
+ and the coordination number for carbon diffusion in this structure.
+\end_layout
+
+\begin_layout Enumerate
+Given the data in Table 2.1 of Porter, Easterling & Sherif, make an Arrhenius
+ plot of diffusion coefficients of carbon and nitrogen from room temperature
+ to 
+\begin_inset Formula $800\mathrm{^{o}C}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A different interstitial solute diffuses at a rate of 4.1x
+\begin_inset Formula $10^{-2}\mathrm{mm^{2}}$
+\end_inset
+
+/s at 300
+\begin_inset Formula $\mathrm{^{o}C}$
+\end_inset
+
+ and 7.3x
+\begin_inset Formula $10^{-2}\mathrm{mm^{2}}$
+\end_inset
+
+/s at 600
+\begin_inset Formula $\mathrm{^{o}C}$
+\end_inset
+
+.
+ Determine its activation energy and pre-exponential factor.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Write a MATLAB code to evaluate the composition as a function of distance
+ for the draining plate problem.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For 
+\begin_inset Formula $t/\tau$
+\end_inset
+
+ = 0.05 how many terms in the series is necessary to obtain a composition
+ that is converged to within 1% of the exact answer.
+ The percent error is the maximum value of 
+\begin_inset Formula $|c(x)-c_{exact}(x)|/c_{exact}(c)$
+\end_inset
+
+x100.
+ To determine the exact answer evaluate the summation to 
+\begin_inset Formula $j=200$
+\end_inset
+
+.
+ L=100um, 
+\begin_inset Formula $\mathrm{C_{o}=0.1}$
+\end_inset
+
+at.
+ %
+\end_layout
+
+\begin_layout Enumerate
+Plot the converged solution as a function of 
+\begin_inset Formula $x$
+\end_inset
+
+ for 
+\begin_inset Formula $t/\tau$
+\end_inset
+
+ = 0.05, 0.5, 1.0, 2.0.
+\end_layout
+
+\begin_layout Enumerate
+For what approximate value of 
+\begin_inset Formula $t/\tau$
+\end_inset
+
+ does a single term in the summation with 
+\begin_inset Formula $j=0$
+\end_inset
+
+ provide an approximation to the exact solution within 10%?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(After Shewmon 2-13) We wish to consider the rate at which the vacancy concentra
+tion increases in a specimen after an increase in temperature.
+ We assume that the vacancy concentration in the lattice near the free surface,
+ grain boundaries and edge dislocations will rise to the new equilibrium
+ value of the new temperature as soon as the temperature is raised.
+ The vacancy concentration far from these vacancy sources rises only as
+ fast as vacancies can diffuse to the region from the source.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Assume that vacancies come only from grain boundaries, and the grain diameter
+ is approximately 1 mm.
+ Calculate the relaxation time in two regimes, at high temperatures where
+ the diffusion coefficient 
+\begin_inset Formula $Dv$
+\end_inset
+
+ is 
+\begin_inset Formula $10^{-5}$
+\end_inset
+
+
+\begin_inset Formula $\mathrm{cm^{2}}$
+\end_inset
+
+/s.
+\end_layout
+
+\begin_layout Enumerate
+Calculate the relaxation time (
+\begin_inset Formula $\tau$
+\end_inset
+
+) given a dislocation line length (dislocation density) of 
+\begin_inset Formula $10^{7}$
+\end_inset
+
+cm/
+\begin_inset Formula $\mathrm{cm^{3}.}$
+\end_inset
+
+ (Hint: First, calculate the distance between dislocations, i.e, the vacancy
+ sources.)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The diffusion coefficient of carbon in austenite can be approximated as:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{c}=0.2\exp\left(\frac{-136,000\,\mathrm{J/mol}}{RT}\right)\mathrm{cm^{2}/s}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+How long does it take for the composition 
+\begin_inset Formula $c_{0.5}$
+\end_inset
+
+ during carburization to penetrate .45 mm at 
+\begin_inset Formula $900\mathrm{^{o}C}$
+\end_inset
+
+? How long for 5 mm?
+\end_layout
+
+\begin_layout Enumerate
+What annealing temperature is required to double the penetration in a given
+ time?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider two blocks initially one pure 
+\begin_inset Formula $A$
+\end_inset
+
+ and the other pure 
+\begin_inset Formula $B$
+\end_inset
+
+ that are welded together and annealed at 
+\begin_inset Formula $1100\mathrm{^{o}C.}$
+\end_inset
+
+ Plot the diffusion profile as a function of distance after half an hour.
+ Assume that the diffusion coefficient of both specie is 
+\begin_inset Formula $D=4.5\mbox{x}10^{-11}\mathrm{m^{2}/s}$
+\end_inset
+
+ and that 
+\begin_inset Formula $D$
+\end_inset
+
+ is not a function of concentration.
+\end_layout
+
+\begin_layout Enumerate
+Calculate the enthalpy and entropy of vacancy formation (
+\begin_inset Formula $\Delta H_{v},\Delta S_{v}$
+\end_inset
+
+) for a system given the equilibrium concentration of vacancies (
+\begin_inset Formula $X_{v}^{\beta}$
+\end_inset
+
+) is 
+\begin_inset Formula $1.7\mathrm{x10^{-8}}$
+\end_inset
+
+ at 440 K and 
+\begin_inset Formula $1.5\mathrm{x10^{-5}}$
+\end_inset
+
+ at 650 K.
+\end_layout
+
+\begin_layout Enumerate
+Given that 
+\begin_inset Formula $D=\frac{1}{6}\Gamma v\alpha^{2}$
+\end_inset
+
+, consider the diffusion of vacancies in an FCC lattice:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $\frac{\Delta S_{m}}{R}=2$
+\end_inset
+
+ and 
+\begin_inset Formula $v=10^{13}\mathrm{s^{-1}}$
+\end_inset
+
+.
+ Calculate the pre-exponential factor 
+\begin_inset Formula $D_{o}$
+\end_inset
+
+ for vacancies (assume 
+\begin_inset Formula $a_{o}=0.4$
+\end_inset
+
+ nm.)
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $\Delta H_{m}=6.5$
+\end_inset
+
+ kJ/mol, calculate 
+\begin_inset Formula $D_{v}$
+\end_inset
+
+ for vacancies at 750
+\begin_inset Formula $\mathrm{^{o}C}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Below are the linear thermal expansion (
+\begin_inset Formula $\Delta L/L_{o}$
+\end_inset
+
+) and X-ray lattice parameter (
+\begin_inset Formula $\Delta a/a_{o}$
+\end_inset
+
+) results at different temperatures for aluminum.
+ Calculate and plot ln
+\begin_inset Formula $X_{v}$
+\end_inset
+
+ from this data versus 
+\begin_inset Formula $T^{-1}$
+\end_inset
+
+ and determine the enthalpy and entropy of vacancy formation in aluminum.
+ Show all equations used.
+\end_layout
+
+\begin_layout Enumerate
+Below is a table of linear thermal expansion (
+\begin_inset Formula $\Delta$
+\end_inset
+
+L/L) and lattice parameter expansion (
+\begin_inset Formula $\Delta$
+\end_inset
+
+a/a) vs.
+ temperature for aluminum.
+ Calculate and plot ln
+\begin_inset Formula $\mathrm{X_{v}}$
+\end_inset
+
+ form this data versus 1/T and determine the enthalpy and entropy of vacancy
+ formation in this material.
+ Show all equations used.
+\end_layout
+
+\begin_layout Enumerate
+A gold specimen is quenched from 
+\begin_inset Formula $700\mathrm{^{o}C}$
+\end_inset
+
+ to room temperature (
+\begin_inset Formula $25\mathrm{^{o}C}$
+\end_inset
+
+).
+ An identical specimen is air cooled from 
+\begin_inset Formula $700\mathrm{^{o}C}$
+\end_inset
+
+ to room temperature.
+ The difference in their resistances is 
+\begin_inset Formula $\Delta\rho_{o}$
+\end_inset
+
+.
+ The quenched specimen is annealed at 
+\begin_inset Formula $40\mathrm{^{o}C}$
+\end_inset
+
+ for 120 hours and then annealed at 
+\begin_inset Formula $60\mathrm{^{o}C}$
+\end_inset
+
+.
+ Resistivity measurements were taken periodically by quenching the sample
+ to room temperature.
+ From the two slopes shown in attached Figure 2-16, find 
+\begin_inset Formula $\Delta\mathrm{H_{motion}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Write balanced Kröger-Vink reactions for the following reactions, assuming
+ full ionic charge for all ionic species.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Schottky defect formation in 
+\begin_inset Formula $\mathrm{Li_{2}O}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Anion Frenkel defect formation in 
+\begin_inset Formula $\mathrm{Nb_{2}O_{5}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Oxidation of CdO to yield Cd/O < 1/1 (write both possible reactions)
+\end_layout
+
+\begin_layout Enumerate
+Doping 
+\begin_inset Formula $\mathrm{Al_{2}O_{3}}$
+\end_inset
+
+ with ZnO to produce oxygen vacancies.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Pure ZnO is an n-type semiconductor dominated by oxygen vacancies, but it
+ can be further donor-doped by substituting 
+\begin_inset Formula $\mathrm{Al^{3+}}$
+\end_inset
+
+ for 
+\begin_inset Formula $\mathrm{Zn^{2+}}$
+\end_inset
+
+ sites.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Draw a schematic Brouwer diagram as a function of 
+\begin_inset Formula $\mathrm{pO_{2}}$
+\end_inset
+
+ at fixed Al content.
+\end_layout
+
+\begin_layout Enumerate
+Draw a schematic Brouwer diagram at fixed 
+\begin_inset Formula $\mathrm{pO_{2}}$
+\end_inset
+
+ as a function of Al content.
+\begin_inset VSpace defskip
+\end_inset
+
+Include all relevant point defect reactions and mass-action relationships.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Given the following oxygen ion diffusivities for calcia-stabilized zirconia
+ (CSZ) of composition (
+\begin_inset Formula $\mathrm{ZrO_{2}}$
+\end_inset
+
+)
+\begin_inset Formula $_{0.85}$
+\end_inset
+
+(CaO)
+\begin_inset Formula $_{0.15}$
+\end_inset
+
+ and density 5.5 g/
+\begin_inset Formula $\mathrm{cm^{3}}$
+\end_inset
+
+, calculate a) the ionic conductivity at each temperature, and b) the enthalpy
+ of motion.
+ Assume oxygen vacancies are the dominant defect.
+\end_layout
+
+\end_body
+\end_document

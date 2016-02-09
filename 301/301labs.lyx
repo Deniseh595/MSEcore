@@ -1,0 +1,6051 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "316-1 Labs"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue, linkcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch labonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 1
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+301 Laboratories
+\end_layout
+
+\begin_layout Subsection
+Laboratory 1: Crystal Structure, Imperfections, and Diffraction
+\end_layout
+
+\begin_layout Subsubsection
+Objective
+\end_layout
+
+\begin_layout Standard
+The objectives of this lab are to gain a better understanding of crystal
+ structures, how they are measured and/or identified and the types of defects
+ present in crystalline materials.
+\end_layout
+
+\begin_layout Subsubsection
+Outcomes
+\end_layout
+
+\begin_layout Standard
+Upon completion of the laboratory, the student will be able to:
+\end_layout
+
+\begin_layout Enumerate
+Distinguish FCC, BCC and HCP structures.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Understand how - broadly - diffraction enables qualitative identification
+ and quantitative measurement of repeating structures.
+\end_layout
+
+\begin_layout Enumerate
+Describe edge and screw dislocations and how they might affect material
+ properties.
+\end_layout
+
+\begin_layout Paragraph
+Experimental Details
+\end_layout
+
+\begin_layout Standard
+Tennis balls simulate “metal atoms” formed into different structures.
+ A laser pointer, ruler and tape measure are used to measure spacing of
+ a two-dimensional pattern, simulating the application of x-ray diffraction.
+\end_layout
+
+\begin_layout Subsubsection
+Exercise 1: Benchtop Simulation of Crystal Structures
+\end_layout
+
+\begin_layout Paragraph
+A.
+ FCC and HCP space-filling structures
+\end_layout
+
+\begin_layout Standard
+Each group should have a box, several tennis balls, and small wooden balls.
+\end_layout
+
+\begin_layout Enumerate
+Arrange the tennis balls in a single close-packed layer in the bottom of
+ the box.
+ Start with a line of balls parallel to the “Start here” arrows along one
+ side of the box.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add a second (partial) layer.
+ Identify the three-fold symmetry (six atoms around one) in the first and
+ second planes.
+ Compare this to the HCP model, and you will notice that this hexagonal
+ structure occurs in the basal (base) plane with Miller indices (0001).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add a third plane.
+ At this point in building your structure, you must choose between two different
+ sites.
+ What is the difference between picking between one site and another? Which
+ sites correpond to which crystal structure? (FCC vs HCP)
+\end_layout
+
+\begin_layout Enumerate
+Identify the three-fold symmetry associated with the close-packed planes
+ in many directions.
+ In all, there are 4 such planes, perpendicular to the 4 different cube
+ diagonals.
+ The Miller indices are (111), ( ), ( ) and ( ).
+ There is only one set of close-packed planes in HCP, (0001).
+ What are the consequences of FCC having multiple close-packed planes and
+ HCP having only one? Think about the class discussion of dislocations.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Identify the FCC unit cell.
+ It isn’t easy…..it is easier to start with an FCC model and find the close-packed
+ planes.
+ They form the diagonals of the cube! That is, the family of {111} planes.
+ (Look for the half-unit cell styrofoam ball models, which you may put together
+ and take apart – carefully!!!)
+\end_layout
+
+\begin_layout Enumerate
+Due to applied stress or deformation of a material, “mistakes” in stacking
+ can occur.
+ These “mistakes” are known as stacking faults.
+ Create a stacking fault in the third plane of tennis balls with one side
+ FCC and the other side HCP.
+\end_layout
+
+\begin_layout Paragraph
+B.
+ Interstitial Sites
+\end_layout
+
+\begin_layout Enumerate
+You will notice gaps, or interstices, between the spherical atoms.
+ These “interstitial” sites leave room for small solute atoms, and reinforce
+ that that atomic packing factor (APF) is less than 1.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Identify two different interstitial sites: octahedral and tetrahedral.
+ To aid with visualization, you may take the small wooden balls (“solute
+ atoms”) and place them in the intersitial sites.
+ What are the coordination numbers for each of these interstitial sites?
+\end_layout
+
+\begin_layout Paragraph
+C.
+ Body Centered Cubic Space Filling Model
+\end_layout
+
+\begin_layout Standard
+Build a BCC lattice with tennis balls.
+ Be careful about which balls touch.
+ How do the interstices of BCC compare to that of the close packed structures
+ from Part A?
+\end_layout
+
+\begin_layout Subsubsection
+Exercise 2: Diffraction (HW is the last part below)
+\end_layout
+
+\begin_layout Standard
+Diffraction occurs when wavelength of the source and obstacle spacing are
+ similar in size.
+ The wavelength of x-rays, 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ = 0.1-0.5 nm, is well suited to investigate atoms with d-spacings with the
+ same order of magnitude.
+ Constructive interference occurs when the Bragg law is satisfied: 
+\begin_inset Formula $n\lambda=2dsin\theta$
+\end_inset
+
+, where n is an integer and diffraction (3-D sample) occurs at an angle
+ 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ from the incident direction.
+ The spacing between atom planes is d.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/diffraction1.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/diffraction2.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diffraction condition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Visible light with wavelength about a thousand times larger (
+\begin_inset Formula $\lambda$
+\end_inset
+
+ =0.4-0.7 µm) can be diffracted by small dots on a glass plate with a spacing
+ similar to d.
+ Optical diffraction of dot arrays is thus an analogy to crystal structure
+ determination by x-ray diffraction.
+ 
+\end_layout
+
+\begin_layout Standard
+Here, for a two-dimensional array, 
+\begin_inset Formula $n\lambda=dsin\theta$
+\end_inset
+
+.
+ This equation applies to the lab HW.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/diffraction3.JPG
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Figures from: The optical transform: Simulating diffraction experiments
+ in introductory courses George C.
+ Lisensky , Thomas F.
+ Kelly , Donald R.
+ Neu and Arthur B.
+ Ellis J.
+ Chem.
+ Educ., 1991, 68 (2), p 91 DOI: 10.1021/ed068p91 Publication Date: February
+ 1991 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two 35 mm slides are “samples” for this lab.
+ Each slide contains eight patterns as indidated below and are designated
+ A-H.
+ Make sure the ICE text is on the right hand side, facing the laser, as
+ shown below.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Discovery slide = green
+\end_layout
+
+\begin_layout Enumerate
+Unit cell slide = black
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Warm-up exercise:
+\series default
+ Label each of the patterns below with its location (a-h) on the slide to
+ the right.
+ You may check your conclusions by looking at the slide under the stereomicrosco
+pe.
+ Don’t spend too much time here- make sure you proceed to the quantitative
+ measurements, below.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/ex1.png
+	width 50cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/ex2.png
+	width 20text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lab Writeup
+\end_layout
+
+\begin_layout Standard
+Due at the beginning of the next lab session.
+ 
+\end_layout
+
+\begin_layout Standard
+For the lab writeup you will be using the black unit cell slide.
+ See note about measurement accuracy, above.
+ Record your measurements and calculations with the appropriate number of
+ significant figures.
+ Estimate the uncertainty in each computed value.
+ (Assume your measurement tools are accurate, but with limited precision.)
+ 
+\end_layout
+
+\begin_layout Enumerate
+Generate the diffraction pattern corresponding to unit cell (B) using a
+ red laser.
+ What wavelength is your laser? (How well do you know this value? How will
+ you account for uncertainty? How might you measure the wavelength? ) 
+\end_layout
+
+\begin_layout Enumerate
+Measure the distance between “sample” and “detector.” (Note how changing
+ this distance affects the pattern.) 
+\end_layout
+
+\begin_layout Enumerate
+Record the diffraction pattern (trace spots) on a sheet of paper, taped
+ to the wall and use the spacing of your “detector” spots applied ot the
+ Fraunhaurfer equation to determine the spacing of dots on the slide (the
+ spacing in the “sample”).
+ Is this a reasonable value? Be sure to consider the number of significant
+ figures you should report in your answer.
+\end_layout
+
+\begin_layout Enumerate
+Repeat the process to measure the spading for unit Cell (D) based on the
+ corresponding diffraction pattern.
+ Again, pay careful attention to the significance of your answer.
+\end_layout
+
+\begin_layout Enumerate
+What if you used a green laser? Qualitatively, how would the diffraction
+ pattern (displayed on the paper) change?
+\end_layout
+
+\begin_layout Enumerate
+What type of packing arrangement is observed for Unit Cell (H)?
+\end_layout
+
+\begin_layout Subsubsection
+Models: Visualizing Defects
+\end_layout
+
+\begin_layout Standard
+Look at the models at the front of the room and identify which model represents
+ 
+\end_layout
+
+\begin_layout Standard
+(a) an edge dislocation 
+\end_layout
+
+\begin_layout Standard
+(b) a screw dislocation 
+\end_layout
+
+\begin_layout Standard
+(c) FCC 
+\end_layout
+
+\begin_layout Standard
+(d) HCP 
+\end_layout
+
+\begin_layout Standard
+(e) BCC 
+\end_layout
+
+\begin_layout Subsubsection
+DEMO: Atomic Packing illustrated with the 
+\begin_inset Quotes eld
+\end_inset
+
+Atomix Raft
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The steel ball raft is a 2-dimensional model of atomic packing.
+ Observe the following features in the demonstration: vacancies, hexagonal-packe
+d grains, square-packed grains, grain and twin boundaries.
+ Similar structures can be seen in (micrographs of) copper and brass samples.
+\end_layout
+
+\begin_layout Subsubsection
+DEMO: 
+\begin_inset Quotes eld
+\end_inset
+
+Atomic Trampoline
+\begin_inset Quotes erd
+\end_inset
+
+ Amorphous vs.
+ Polycrystalline Metal
+\end_layout
+
+\begin_layout Standard
+The effect of defects and micro-structure on macroscopic properties:
+\end_layout
+
+\begin_layout Standard
+Stacking the tennis balls provides an example of the ordered crystalline
+ arrays that most metals form.
+ Is it possible for metals to have a completely disordered amorphous structure?
+ Yes.
+ But typically these are many-component alloys.
+ 
+\end_layout
+
+\begin_layout Standard
+In this demonstration, one base is aluminum (polycrystalline FCC), the second
+ base has a 1/8”thick disc of amorphous metal alloy (Zr0.42Ti.14Cu.12Ni.10Be.22)
+ glued to the aluminum.
+ As the ball bearing bounces on the aluminum base, it loses kinetic energy
+ to friction, heat and sound generation, and the formation of crystalline
+ defects - slip and dislocation formation.
+ The amorphous metal plate has a highly disordered structure – it is not
+ a regular crystalline array – and these defects do not form.
+ Hence less energy is transferred from the ball to the base.
+ This explains why these alloys are used in state-of-the-art golf clubs.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 2: Electrical Conductivity & Optoelectronics
+\end_layout
+
+\begin_layout Subsubsection
+Prelab
+\end_layout
+
+\begin_layout Standard
+Before lab, please READ CAREFULLY both the lab handout and Callister Chapter
+ 18, pages 666-689 & 694-695.
+ The relevant concepts are: Ohm’s Law, the difference between resistance
+ (R) and resistivity (ρ), how conductivity changes with temperature in metals
+ vs.
+ semiconductors, bandgaps, and p-n junctions (pp.
+ 694-695).
+ Come in with questions.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Exercise 1
+\end_layout
+
+\begin_layout Paragraph
+Conductivity and Resistivity
+\end_layout
+
+\begin_layout Standard
+In this exercise, we will determine resistance as a function of temperature
+ for different materials.
+ This behavior distinguishes semiconductors from metals.
+ If the geometry of the sample is known, you may convert measured 
+\series bold
+resistance (R)
+\series default
+ to the corresponding property, 
+\series bold
+resistivity (ρ)
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+A.
+ Metals
+\end_layout
+
+\begin_layout Enumerate
+Measure the series resistance of your meter and leads: connect the two leads,
+ then turn the meter to the most sensitive resistance scale, which has a
+ maximum value of 200 Ω.
+ (Ignore the ►+ , which indicates the diode test function.) Note: the meter
+ will read 1 if R is greater than the maximum of scale chosen.
+ In that case, turn the dial to the next higher scale.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure the resistance R of the steel wire at room temperature.
+ Record R in the table below.
+\end_layout
+
+\begin_layout Enumerate
+Measure R at 77K.
+ With the leads attached, immerse the coil in liquid nitrogen (T = 77 K
+ = -196 °C).
+ Record the value in the table.
+\end_layout
+
+\begin_layout Enumerate
+Calculate resistivity and conductivity.
+ The wire has a length of 1 meter and a diameter of 0.203 mm.
+ Remember to subtract the series resistance from the measured value of R!
+\end_layout
+
+\begin_layout Enumerate
+Compare your σ to that for "Steel alloy A36" in Table B.9 of the text; some
+ deviation from the “book value” is expected.
+ Why may your result differ from the book's? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temperature
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R 
+\begin_inset Formula $(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ρ(\Omega m)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Series resistance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RT (~298K)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Steel Wire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $LN_{2}$
+\end_inset
+
+(77K)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Graphite Composite
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $LN_{2}(77K)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+c
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resistance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Semiconductor: Thermistor
+\end_layout
+
+\begin_layout Enumerate
+Measure the resistance of the metal oxide thermistor at three or more temperatur
+es between 0°C and ~+80°C.
+ Use water baths to expose the thermistor to these temperatures; measure
+ the water bath temperatures with the thermocouple.
+\end_layout
+
+\begin_layout Enumerate
+Plot ln(R) vs.
+ 1/T in Kelvin; the slope = Eg/2k.
+ Note that R α 1/σ α exp(Eg/2kT).
+ What is the effective bandgap, Eg (in eV)? Hint: make sure k is in appropriate
+ units.
+ Typically 0.5 < Eg < 3 eV for semiconductors..
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Temperature (K)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Resistance 
+\begin_inset Formula $(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Thermistor Resistance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+B.
+ Graphite Composite of Unknown Composite
+\end_layout
+
+\begin_layout Enumerate
+Measure the resistance of the graphite composite pencil “lead” at room temperatu
+re.
+ Record in the table on pg.
+ 1.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure the resistance of the graphite composite cooled in liquid nitrogen.
+ Observe what happens immediately when it is dunked into the LN2.
+ If the clips freeze, the measurement will be inaccurate.
+ Record in the table on pg.
+ 1.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calculate the resistivity of the graphite composite.
+ The diameter of the rod is 0.7 mm.
+ Measure the length between the leads.
+ Does this material behave like a metal or a semiconductor? 
+\end_layout
+
+\begin_layout Subsubsection
+Exercise 2
+\end_layout
+
+\begin_layout Paragraph
+Optoelectronics
+\end_layout
+
+\begin_layout Standard
+In this exercise, we will determine the relationship between the current
+ (I) through and voltage across (V) a light emitting diode (LED) and a photoresi
+stor.
+ We will correlate the I-V behavior with light emission (LED) or absorption
+ (photoresistor).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+A.
+ Light Emitting Diode
+\end_layout
+
+\begin_layout Standard
+A light emitting diode is an example of a p-n junction.
+ It is based on a solid solution of GaP and GaAs (
+\begin_inset Formula $GaAs_{x}P_{1-x}$
+\end_inset
+
+).
+ The emission wavelength depends on the composition of this solution, as
+ well as any dopants present.
+\end_layout
+
+\begin_layout Enumerate
+Set up the measurement apparatus.
+ Attach the voltmeter clips to the alligator clips on the board, so it is
+ in parallel with the diode (p-n junction) that you will also attach there.
+ (Note, red = +) Attach the ammeter in series, across the two bare wire
+ connections on the bottom of the board.
+ (Connect red to red, so you obtain the correct sign for I.) 
+\end_layout
+
+\begin_layout Enumerate
+Forward Bias (
+\begin_inset Formula $V_{bias}$
+\end_inset
+
+ >0).
+ Do a quick check that as you turn up the voltage (rotate the post on the
+ potentiometer) the diode eventually emits light.
+ Start with the ammeter on the most sensitive scale (200 μA).
+ Take enough data points (about 10 total) to determine the I-V curve from
+ 0V <
+\begin_inset Formula $V_{bias}$
+\end_inset
+
+ <+3V.
+ Remember to note the units for both V,I.
+\end_layout
+
+\begin_layout Enumerate
+Reverse Bias (
+\begin_inset Formula $V_{bias}$
+\end_inset
+
+ <0) Connect the circuit in reverse bias: take the black lead with the alligator
+ clip and attach it to the opposite side of the potentiometer.
+ Again, measure the I- V response.
+ The magnitude should very small; be sure to use the maximum sensitivity
+ of the ammeter.
+ Please plot the I-V curve based on both forward and reverse bias on one
+ graph (use graphing software).
+ Note that the voltage where the current increases rapidly, and where the
+ light intensity increases, corresponds (approximately) to the bandgap energy.
+ How would the curve change for a green LED? An IR LED? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="14">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reverse Bias (-V,-I)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Forward Bias (+V,+I)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Light?
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+LED I-V Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+B.
+ Photoresistor
+\end_layout
+
+\begin_layout Standard
+This photoresistor is made of CdS, a II/VI compound intrinsic semiconductor
+ (not doped).
+ The bandgap 
+\begin_inset Formula $E_{g}$
+\end_inset
+
+ = 2.59 eV, which means that conduction electron/holes provided by thermal
+ energy (kT) are very rare.
+ However, light with energy E(eV) = hc/λ = 1.24/ λ= Eg (λ ≤ 0.48 μm) will
+ promote valence electrons to create conduction electron/hole pairs.
+ Visible light ranges from 0.4 to 0.7 μm.
+ More light will provide more charge carriers (ne = nh), and increasing
+ conductivity σ.
+ A CdS element is the heart of light meters, etc.
+\end_layout
+
+\begin_layout Enumerate
+Measure R in the dark.
+ Shield the resistor from ambient light with your hand or a cardboard box.
+ Record the resistance.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure R in ambient light.
+ Take photoresistor out of shadow and record the resistance.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Observe how R changes with distance from a light source.
+ Move the photoresistor closer to the ceiling lights.
+ What would happen if you illuminated your photoresistor with monochromatic
+ 1μm wavelength light? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="21">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dark
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Light
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resistance 
+\begin_inset Formula $(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Photoresistor resistance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+C.
+ Light Emission vs.
+ Composition
+\end_layout
+
+\begin_layout Standard
+Light emission is possible when charge carriers (electrons and holes) recombine
+ across the bandgap of some semiconductors.
+ The four LED’s are solid solutions of GaAs (
+\begin_inset Formula $E_{g}$
+\end_inset
+
+ = 1.4eV) and GaP(
+\begin_inset Formula $E_{g}$
+\end_inset
+
+=2.3eV).
+ Varying the composition of the solid solution allows us to control the
+ bandgap, and thus vary the color of emission.
+\end_layout
+
+\begin_layout Enumerate
+Observe light emission from the four LEDs.
+ The LEDs have differing ratios of GaAs and GaP- this ratio varies monotonically
+ along the strip.
+ Given what you know, which LED has the highest ratio of GaAs:GaP?
+\end_layout
+
+\begin_layout Enumerate
+Observe the blue LED.
+ This LED is made of a different material.
+ Why might one have to switch to a different material to get the observed
+ light emission? What property would need to be different?
+\end_layout
+
+\begin_layout Subsubsection
+Lab Writeup
+\end_layout
+
+\begin_layout Standard
+One writeup per person (not per group) is due at the beginning of the next
+ lab session.
+\end_layout
+
+\begin_layout Standard
+Please turn in a full set of data tables, including calculated numbers like
+ resistivity, and answer the questions/do the tasks in italics.
+ The questions are repeated below for your convenience.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Compare your result for the σ of Steel alloy A36 to that in the book.
+ Why might your value differ?
+\end_layout
+
+\begin_layout Enumerate
+For the Thermistor, Plot ln(R) vs.
+ 1/T in Kelvin; the slope = Eg/2k.
+ Note that R α 1/σ α exp(Eg/2kT).
+\end_layout
+
+\begin_layout Enumerate
+What is the effective bandgap, Eg (in eV)? Hint: make sure k is in appropriate
+ units.
+ Typically 0.5 < Eg < 3 eV for semiconductors.
+\end_layout
+
+\begin_layout Enumerate
+Does the graphite composite behave like a metal or a semiconductor?
+\end_layout
+
+\begin_layout Enumerate
+Plot the LED I-V curve based on both forward and reverse bias on one graph
+ (use graphing software).
+\end_layout
+
+\begin_layout Enumerate
+How would the curve change for a green LED? An IR LED? Note that the voltage
+ where the current increases rapidly, and where the light intensity increases,
+ corresponds (approximately) to the bandgap energy.
+\end_layout
+
+\begin_layout Enumerate
+What would happen if you illuminated your photoresistor with monochromatic
+ 1μm wavelength light?
+\end_layout
+
+\begin_layout Enumerate
+Given what you know, which LED has the highest ratio of GaAs:GaP?
+\end_layout
+
+\begin_layout Enumerate
+Why might one have to switch to a different material to get the observed
+ light emission? What property would need to be different? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 3: Mechanical Properties of Metals
+\end_layout
+
+\begin_layout Subsubsection
+Objective
+\end_layout
+
+\begin_layout Standard
+The objectives of this lab are to explore how crystal structure and defects
+ affect mechanical properties and to understand how these properties are
+ measured.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Outcomes
+\end_layout
+
+\begin_layout Standard
+Upon completion of the laboratory, the student will be able to: 
+\end_layout
+
+\begin_layout Enumerate
+Describe the effects of work-hardening and annealing in metal samples.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Describe a ductile-to-brittle transition temperature.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Compute the elastic modulus, yield strength, ultimate tensile strength and
+ strain at fracture from load-displacement (stress-strain) curves.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Experiment
+\end_layout
+
+\begin_layout Standard
+Parts A and B are in Room 2068, while parts C and D are in Room 1034.
+ Safety**
+\end_layout
+
+\begin_layout Paragraph
+A.
+ Work hardening and annealing in copper - Use caution with torch and hot
+ tubing - see below.*
+\end_layout
+
+\begin_layout Standard
+You are supplied a length of copper tubing.
+ Grasp it near one end and bend it slightly (through about 20-30
+\begin_inset Formula $\textdegree$
+\end_inset
+
+).
+ Now bend it back to straighten the piece.
+ You should feel considerable additional resistance to straightening.
+ Bend and straighten the same place once again, and perhaps a third time.
+ Resistance will continue to grow.
+ Now bend an "original" section near the other end - notice how easy it
+ is to deform the as-received Cu.
+ You are feeling the effect of "work hardening" or "strain hardening".
+ Plastic deformation is accomplished by dislocation motion.
+ The force required to achieve plastic deformation also creates many additional
+ dislocations that were not present initially.
+ 
+\end_layout
+
+\begin_layout Standard
+Dislocations move easily through structurally regular crystals.
+ The dislocations created during the first deformation constitute numerous
+ irregularities, and hence make the material more resistant to further deformati
+on, in this case the straightening step.
+ Dislocations are high energy defects that can be removed by annealing the
+ material at Ta ~ 0.5Tm.
+ The melting temperature of Cu is 1360 K, so annealing effects are rapid
+ above 680 K or 407 
+\begin_inset Formula $\textdegree$
+\end_inset
+
+C.
+ The propane torch has a flame temperature greater than 1000 
+\begin_inset Formula $\textdegree$
+\end_inset
+
+C.
+\end_layout
+
+\begin_layout Standard
+**Keep the propane torch on the table at all times.
+ Holding the Cu tubing with tongs or pliers, heat the "cold worked" region
+ until it is red hot.
+ Cool the entire length of copper and the pliers in water!! Now test the
+ copper for yield force; you should be back to the original "soft" condition.
+\end_layout
+
+\begin_layout Paragraph
+B.
+ Rolling of brass
+\end_layout
+
+\begin_layout Standard
+As for copper above, brass is capable of significant work hardening.
+ The purpose of this exercise is to quantify the effect of work hardening
+ that was observed qualitatively with the copper tubing.
+ Resistance to yield is here measured by hardness after different extents
+ of plastic deformation by rolling.
+\end_layout
+
+\begin_layout Standard
+You are provided with a set of brass samples that have been rolled to different
+ thicknesses.
+ For each:
+\end_layout
+
+\begin_layout Enumerate
+Measure the thickness of the specimen.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure its hardness.
+ (Use the Rockwell B scale: 1/16" ball indenter, 100 kg load) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="8">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sample
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+D
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+E
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Thickness
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+%CW
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hardness, 
+\begin_inset Formula $\mathbf{R_{B}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rolling of brass
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+C.
+ Charpy impact testing
+\end_layout
+
+\begin_layout Standard
+Impact tests (also called Charpy tests) induce fracture under conditions
+ of high rates (impact) at an intentional flaw (the notch).
+ This method readily demonstrates the effect of temperature upon the fracture
+ energy of A36 steel (carbon content of not more than 0.30 wt%) and on an
+ Al alloy (2024, 4.4 wt.
+ % Cu).
+ Note: steel is a BCC metal, while Aluminum is FCC.
+ Complete the table below.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sample
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temperature (
+\begin_inset Formula $\textdegree C)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impact Energy (ft-lb)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A36 steel, RT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25
+\begin_inset Formula $\textdegree C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A36 steel, LN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-196 
+\begin_inset Formula $\textdegree C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2024 Al, RT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25 
+\begin_inset Formula $\textdegree C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2024 Al, LN2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-196 
+\begin_inset Formula $\textdegree C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+D.
+ Tensile test of an Al alloy
+\end_layout
+
+\begin_layout Standard
+You will have an opportunity to observe a tensile test on a sample of an
+ Al alloy.
+ Notice inhomogeneous deformation (necking) before failure.
+ The plot below indicates the tensile test results for two 2024 Al samples,
+ one as-received and a second after heat-treatment.
+ 2024 is an aluminum alloy containing small amounts of Cu.
+ Both test samples had the same dimensions: width (w) = 6.35mm, thickness
+ (t) = 1.59mm, and gauge length (
+\begin_inset Formula $L_{o}$
+\end_inset
+
+) = 12.7mm.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/tensiletest1.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/tensiletest2.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/tensiletest3.JPG
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tensile test of an Al alloy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Homework Problems
+\end_layout
+
+\begin_layout Enumerate
+(Part A) Copper Work Hardening 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Given the information in this handout, would you expect to be able to anneal
+ work-hardened copper in boiling water? 
+\end_layout
+
+\begin_layout Enumerate
+Would you expect annealing temperatures for molybdenum to be higher or lower?
+ Why? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(Part C) Charpy Impact testing 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Why do the high and low temperature steel samples differ in appearance of
+ the fracture region, while they appear similar for the aluminum? Note:
+ this steel is BCC, while the aluminum is FCC.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(Part D) Tensile Testing: Convert load and displacement values from the
+ graph to stress and strain to calculate the following.
+ Show your work.
+ Use engineering stress and strain (i.e.
+ assume the cross-sectional area remains the same throughout the test).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Elastic (Young’s) modulus for 2024 Al.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The 0.2% offset field strength for both the as-received sample and the annealed
+ sample.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The ultimate tensile strength for the both the as-received sample and the
+ annealed sample.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The amount of strain at fracture for both samples.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 4: Phase Diagrams and Transformations 
+\end_layout
+
+\begin_layout Subsubsection
+I.
+ Eutectic salt solidification
+\end_layout
+
+\begin_layout Standard
+Below is part of the phase diagram for the ammonium nitrate-sodium nitrate
+ salt solution.
+ The diagram shows a eutectic reaction at 21wt% 
+\begin_inset Formula $NaNO_{3}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/lab4_1.png
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $NH_{4}NO_{3}-NaNO_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NOTE: Phase diagrams are determined assuming equilibrium and thus predict
+ equilibrium concentrations and phases.
+ On heating, transitions occur close to equilibrium temperatures.
+ This is not true for cooling (nucleation).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+II.
+ Steel rod
+\end_layout
+
+\begin_layout Standard
+Many useful properties of iron and steel are determined by the crystal structure
+ of the material, which in turn may be altered by heating and cooling.
+ When steel is liquid, carbon dissolves readily in the iron.
+ Even as a solid, carbon dissolves into the iron, forming a solid solution;
+ however, the solubility of carbon in iron is limited by the crystal structure,
+ based on the size of the interstitial sites available for carbon in the
+ crystal structure.
+ FCC gamma iron (austenite) can accommodate carbon at the edges of the crystal
+ cell with little distortion.
+ BCC alpha iron (ferrite) can accommodate carbon at the edge or face center
+ of a cell; however the sites are smaller, and significant distortion of
+ the crystal lattice occurs.
+\end_layout
+
+\begin_layout Standard
+When slow cooled, the carbon has time to diffuse through the iron and form
+ cementite Fe3C at dislocation sites; the steel remains ductile at room
+ temperature.
+\end_layout
+
+\begin_layout Standard
+When quenched, the carbon atoms are not given time to diffuse; they force
+ iron atoms out of the usual places in the unit cell, resulting in a distortion
+ of the crystal.
+ This new structure is called martensite.
+ It results in material that is hard-- because dislocations cannot move
+ easily through the distorted lattice, and brittle, for the same reason.
+\end_layout
+
+\begin_layout Standard
+If martensite is tempered, that is, heated to a temperature below the eutectoid
+ transformation (usually this means between 250 – 600°C), the material will
+ remain hard, but ductility and toughness will be enhanced.
+ (Getting this right with the torch is a bit tricky – because the temperature
+ is not well-controlled.)
+\end_layout
+
+\begin_layout Subsubsection
+III.
+ Shape Memory wires (NiTi)
+\end_layout
+
+\begin_layout Standard
+The wire on the table is NiTi (or NiTiNOL, named for the NiTi alloys developed
+ at the Naval Ordinance Lab).
+\end_layout
+
+\begin_layout Enumerate
+Start with the wire at room temperature.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Deform it gently, i.e.
+ curl or bend it.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Warm it above the austenite transformation temperature, and observe how
+ it recovers.
+ 
+\end_layout
+
+\begin_layout Standard
+The low temperature phase (martensite) is deformable, but the alloy “remembers”
+ its shape when it returns to the higher temperature (austenite) phase at
+ T < 100°C.
+\end_layout
+
+\begin_layout Subsubsection
+IV.
+ Bi-Cd binary eutectic alloy
+\end_layout
+
+\begin_layout Standard
+We will examine metallographic sections of different compositions in the
+ Bi-Cd system, which exhibits a eutectic at 39.7 wt.% Cd.
+ Note that the Bi-Cd system has negligible solid solubility.
+ Compare this to the binary eutectic Pb-Sn system which does have solid
+ solubility, shown in Fig.5.7 of your text.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/BiCd.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bi-Cd Bismuth-Cadmium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+HOMEWORK PROBLEM
+\series default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Sketch
+\series default
+ each of the three microstructures corresponding to samples A-C.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Label the composition of the alloy you were shown.
+
+\series default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Label the phases present 
+\series default
+(indicate which phase is etched dark, which phase is etched light).
+ 
+\end_layout
+
+\begin_layout Enumerate
+For each sample, use the
+\series bold
+ lever rule
+\series default
+ to predict amounts (wt%) of 
+\series bold
+primary phase vs.
+ eutectic.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+V.
+ Steel wire/carburized steel samples
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/steelwire.png
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Microstructures of hypoeutectoid iron-carbon alloy 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+A.
+ _________wt% Cd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Amount primary phase: _________
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Amount eutectic: _________
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/circle.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part A
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+B.
+ _________wt%Cd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Amount primary phase: ________
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Amount eutectic: _________
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/circle.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part B
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+C.
+ _________wt%Cd
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Amount primary phase: ________
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Amount eutectic: _________
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/circle.png
+	width 25text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part C
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Phase Transformation
+\end_layout
+
+\begin_layout Standard
+When piano (~0.8% carbon steel) wire is heated (in this case by running a
+ current through it) it transforms from BCC alpha iron to FCC gamma iron.
+ The reverse is true on cooling.
+ Why does the wire sag as it is cooled?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Name: ______________________
+\end_layout
+
+\begin_layout Subsubsection
+Homework Problems
+\end_layout
+
+\begin_layout Enumerate
+Identify (circle) the eutectic phase transformation on the NH4NO3-NaNO3
+ phase diagram and indicate the temperature/composition at which it occurs.
+\end_layout
+
+\begin_layout Enumerate
+Explain why steel quenched from high temperature which forms a martensite
+ phase exhibits higher hardness and strength then slow cooled steel which
+ forms a mixture of ferrite/cementite.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Sketch each of the three microstructures you observed, corresponding to
+ samples A-C.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Label the composition of the alloy you were shown.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Label the phases present, which is etched dark and which is etched light?
+ 
+\end_layout
+
+\begin_layout Enumerate
+For each of the samples use the lever rules to predict the amounts (wt %)
+ of the primary phase vs.
+ the eutectic.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Are the samples hypo- or hyper eutectic? 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/homeworklab4.JPG
+	width 75text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.
+ When piano (~0.8% carbon steel) wire is heated (in this case by running
+ a current through it) it transforms from BCC alpha iron to FCC gamma iron.
+ The reverse is true on cooling.
+ Why does the wire sag as it cools?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 5: Mechanical Behavior of Ceramics and Polymers
+\end_layout
+
+\begin_layout Subsubsection
+Polymer 1.
+ Crystallization of Isotatic Polypropylene
+\end_layout
+
+\begin_layout Standard
+When cooled from the melt, this isomer, with R = CH3 groups all on the same
+ side of the chain, crystallizes into spherulites.
+ Note that crystallization occurs below Tm = 165 oC (undercooling).
+\end_layout
+
+\begin_layout Subsubsection
+Ceramics 1.
+ Three-Point bend test (Bonus)
+\end_layout
+
+\begin_layout Standard
+It is difficult to perform conventional tensile tests on most ceramic materials;
+ they are brittle and break in the grips of the test apparatus.
+ It is easier to test these materials in the bending mode, as illustrated
+ below.
+ Note that when loaded, the top of the material is in compression and the
+ bottom is in tension.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/threepoint.jpg
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Three-point bend test
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A.
+ Measure the force F (weight of volume of water plus container) to fracture
+ a pristine glass microscope slide.
+ 
+\end_layout
+
+\begin_layout Standard
+B.
+ Abrade a second microscope slide with 180 grit (a = 80 µm) paper.
+ Abrasion should be in center of slide, and in the "b" direction (above).
+ BE SURE YOUR HANDS AND SLIDE ARE DRY.
+ Measure fracture force for slide with flaw dimension a; flaw on bottom
+ (tensile side).
+\end_layout
+
+\begin_layout Standard
+C.
+ If time permits, repeat part b with abraded side up (under compression).
+ This should be close to your answer in part a.
+\end_layout
+
+\begin_layout Standard
+D.
+ Glassblowers often use the trick of scribing a mark, then wetting it, to
+ get the glass to break there.
+ If you notice the maximum load is less when the abraded region of the slide
+ is wet, you have observed stress corrosion cracking.
+ The Si-O-Si network in the glass is broken by formation of Si-O-H bonds
+ at the surface, and the material effectively "unzips." 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Container weight = 118 g (Add to obtain total load)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vol (ml)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total load (g)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A.
+ Pristine slide: vol.
+ (ml)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B.
+ Flawed slide: vol.
+ (ml)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C.
+ Compression: vol.
+ (ml)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D.
+ Repeat b, but WET abraded region
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bend test results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lab Homework
+\end_layout
+
+\begin_layout Enumerate
+Calculate fracture force for experiments A and B.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Use equation 12.3a in Callister (see addendum) to calculate the "flexural
+ strength" obtained with this three point bend experiment.
+ Sample dimensions are 
+\begin_inset Formula $d$
+\end_inset
+
+ = 1 mm, 
+\begin_inset Formula $b$
+\end_inset
+
+ = 25 mm, and L = 62 mm between support points.
+ Your answer should be in MPa, and you will need to convert Ff from g to
+ N.
+\end_layout
+
+\begin_layout Enumerate
+Use your result from experiment B and the following equation to calculate
+ 
+\begin_inset Formula $K_{IC}$
+\end_inset
+
+ for the microscope glass material: 
+\begin_inset Formula $K_{IC}=Y\sigma_{f}\sqrt{\pi a}$
+\end_inset
+
+ , where a is the flaw size 
+\begin_inset Formula $(=80\mu)$
+\end_inset
+
+ and Y, dependent on sample & flaw geometry = 1.
+ Compare your 
+\begin_inset Formula $K_{IC}$
+\end_inset
+
+ to the range predicted for ceramic materials in Table 8.1.
+\end_layout
+
+\begin_layout Enumerate
+Use your 
+\begin_inset Formula $K_{IC}$
+\end_inset
+
+ and the result from experiment A to calculate flaw size 
+\begin_inset Formula $a$
+\end_inset
+
+ in the pristine glass slide (the slide you did not intentionally scratch).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Ceramics 2.
+ Softening glass
+\end_layout
+
+\begin_layout Standard
+Hold the glass rod in the flame of the propane torch.
+ When the rod becomes hot enough, that is when the temperature exceeds the
+ "glass transition temperature," 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+, the glass will flow and you can easily bend it.
+ 
+\series bold
+BE CAREFUL NOT TO BURN YOUR FINGERS.
+ Don’t touch the HOT glass.
+\end_layout
+
+\begin_layout Subsubsection
+Polymers 2: Nylon Polymerization
+\end_layout
+
+\begin_layout Standard
+Nylon is formed by the reaction of two liquid monomers, here dissolved in
+ immiscible liquids.
+ These can react with each other, but not with themselves:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{0.5 M hexamethylenediamine} & H_{2}N-(CH_{2})_{6}-NH_{2} & \mbox{in 0.5 M NaOH}\\
+\mbox{0.2 M sebacoyl chloride } & Cl-C-(CH_{2})-C-Cl & \mbox{in hexane}\\
+ & \mbox{}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The reaction occurs in a thin layer at the interface between the two liquids.
+ By slowly pulling the film in this region, a long, continuous filament
+ can be pulled from the beaker.
+ NOTE THE BYPRODUCT IS HCl – so use gloves.
+\end_layout
+
+\begin_layout Subsubsection
+Polymers 3.
+ Plastic Deformation of Polyethylene
+\end_layout
+
+\begin_layout Enumerate
+With thumbs separated by about 0.5 cm, stretch the strip with a slow, steady
+ force.
+ The polyethylene will yield and deform plastically.
+ Here the sliding of planes of atoms (crystals) is accompanied by uncoiling
+ sections of the chain-like polymer molecules (amorphous regions).
+\end_layout
+
+\begin_layout Enumerate
+You will notice that a thin portion or "neck" is formed and propagates during
+ stretching.
+ The plastically deformed polymer is anisotropic with different properties
+ in different directions.
+ With many chains or portions of chains in the stretch direction, this chain
+ orientation means that covalent bonds are deformed or break when the film
+ is further loaded in the stretch direction.
+ Relatively weak van der Waals bonds control properties in the transverse
+ directions.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Grasp a section of the necked polymer and pull in the stretch direction.
+ The oriented film is stiff and strong (no easy yield or failure) in this
+ direction.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Now grasp the same necked portion in the transverse direction and pull slowly.
+ The materials will yield and "split", as weak secondary bonds are dominant
+ in this direction.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/necked.png
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Necked polymer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conclusion: You can "feel" the difference between strong covalent and weak
+ van der Waals bonds when the chains are oriented.
+\end_layout
+
+\begin_layout Subsubsection
+Polymers 4.
+ Plastic Deformation of Polyethylene
+\end_layout
+
+\begin_layout Standard
+You are all familiar with "high density" (fc = 0.7) and "low density" (fc
+ = 0.4) polyethylene.
+ As PE at room temperature is a crystal/rubber combination, the elastic
+ modulus of HDPE is larger.
+ As there are more crystals, the yield strength 
+\begin_inset Formula $\sigma_{y}$
+\end_inset
+
+ of HDPE is larger as well.
+ 
+\end_layout
+
+\begin_layout Itemize
+With increased yield strength (more crystallinity) comes reduced ductility.
+\end_layout
+
+\begin_layout Itemize
+Somewhat similar to BCC metals, the yield strength of polymers is temperature
+ dependent.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Test with your fingers the two flexure samples.
+ Which is high density polyethylene? Which is low density polyethylene?
+\end_layout
+
+\begin_layout Enumerate
+Cool the tensile samples in liquid nitrogen and repeat.
+ A substantial change in ductility (and likewise an increase in yield stress)
+ will be noticed.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Polymers 5.
+ Rubber nails (Glass Transition Temperature (a))
+\end_layout
+
+\begin_layout Standard
+Cool a rubber “nail” by holding in liquid nitrogen (with tongs!!).
+ The material is now a glass.
+ Use the glassy nail to join two pieces of (soft) balsa wood.
+ Hints: grasp the nail with the tongs; align the nail with the grain of
+ the wood; use repeated soft taps to avoid shattering your “nail.” Have everyone
+ in your group contribute a nail.
+\end_layout
+
+\begin_layout Subsubsection
+Polymers 6.
+ Rubber band (Glass Transition Temperature (b))
+\end_layout
+
+\begin_layout Standard
+At room temperature, rubber is above its glass transition temperatures 
+\begin_inset Formula $T_{g}=-70\textdegree C$
+\end_inset
+
+, but at liquid nitrogen temperature, rubber is below 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A stretched rubber band is cooled with liquid nitrogen.
+ The shape is conserved as the macro-molecules are “frozen in”, and the
+ band is very brittle.
+ As the temperature increases back toward room temperature and 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ is reached, the band recovers its natural undeformed shape.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Polymers 7.
+ Happy/ Sad balls (Glass Transition Temperature (c))
+\end_layout
+
+\begin_layout Standard
+Two polymer balls of different compositions are provided, along with hot
+ water and LN2.
+ DO NOT try to FREEZE the balls completely in LN2.
+ Cool them gently, while moving around in a small amount of liquid, for
+ 10-20 seconds.
+ Otherwise, the balls will fracture.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Drop both balls onto a table at room temperature.
+ Ball 1 is above its Tg and thus bounces back elastically (rubber elasticity).
+ Ball 2 is near its 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ and dissipates all the kinetic energy without bouncing.
+\end_layout
+
+\begin_layout Enumerate
+Heat Ball 2 and repeat the experiment.
+ The ball is now above its 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ and bounces back elastically (rubber elasticity)
+\end_layout
+
+\begin_layout Enumerate
+Cool Ball 2 and repeat the experiment.
+ The ball is now below its 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ and bounces elastically (glass elasticity).
+\end_layout
+
+\begin_layout Enumerate
+Cool Ball 1 and repeat the experiment.
+ The ball will be glass elastic below 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ , "dead" near 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ and rubber elastic above 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+ .
+ Very cool! 
+\end_layout
+
+\begin_layout Standard
+What practical items are made from such rubbery elastomers? Rubber o-rings,
+ used to seal surfaces – except when they get cold, below 
+\begin_inset Formula $T_{g}$
+\end_inset
+
+, they become stiff and don’t conform – hence resulting in leaks.
+ (The Challenger Disaster was a consequence.)
+\end_layout
+
+\begin_layout Paragraph
+E.
+ Viscoelasticity (Stain rate dependence)
+\end_layout
+
+\begin_layout Standard
+Silly Putty is a polymer above its glass transition temperature which is
+ thus viscoelastic at room temp.
+ At high strain rates, it behaves elastically, while at low strain-rates,
+ it is viscous.
+\end_layout
+
+\begin_layout Subsubsection
+Ceramics Demonstrations
+\end_layout
+
+\begin_layout Paragraph
+III.
+ Thermal Shock
+\end_layout
+
+\begin_layout Standard
+If you have ever poured hot water into a cold glass, or vice versa, you
+ may have experienced the effect of the material’s low resistance to thermal
+ shock.
+ 
+\begin_inset Formula $(TSR=σ_{c}k/Eα_{1}).$
+\end_inset
+
+ This, in turn, is due to the large thermal expansion coefficient and low
+ thermal conductivity typical of most ceramic materials.
+ These properties may be varied by changing the composition of the glass,
+ as indicated below.
+ (Of course, the cost changes, too.)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Composition (wt%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thermal Conductivity, k (
+\begin_inset Formula $Wm^{-1}K^{-1})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thermal expansion coefficient (linear), 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+(
+\begin_inset Formula $K^{-1})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thermal Shock Resistance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Soda-lime (windows,bottles)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70% 
+\begin_inset Formula $SiO_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $8.5\times10^{-6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+84
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10% 
+\begin_inset Formula $CaO$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15% 
+\begin_inset Formula $Na_{2}O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Borosilicate (Pyrex)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80% 
+\begin_inset Formula $SiO_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4.0\times10^{-6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+280
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15% 
+\begin_inset Formula $B_{2}O_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5% 
+\begin_inset Formula $Na_{2}O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Thermal properties of glass
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+IV.
+ Toughening plates
+\end_layout
+
+\begin_layout Standard
+As you will see in the laboratory exercise, ceramics have a high probability
+ of fracturing when a tensile force is applied.
+ This is due to the crack propagation through the material.
+ One way to strengthen ceramics, then, is to introduce compressive forces
+ in the outer portion of the piece, where cracks are likely to initiate.
+ The compressive forces act to close surface cracks, rather than cause them
+ to propagate.
+ An example is tempered glass, which is formed by quickly cooling from above
+ its glass transition temperature: the outside cools faster than the inside,
+ and is put into compression by contraction of the slower cooling core.
+ This technique is used in making car windshields.
+\end_layout
+
+\begin_layout Standard
+A second method for producing ceramics with an outer layer in compression
+ is to use layered materials.
+ In this case, the outside layer has a lower thermal expansion coefficient
+ than the inside, and again is put into compression as the piece forms.
+ 
+\end_layout
+
+\begin_layout Paragraph
+V.
+ Tough ceramic ball
+\end_layout
+
+\begin_layout Standard
+The material is 
+\begin_inset Formula $Zr_{2}$
+\end_inset
+
+/CaO “alloy.” At room temperature it contains ~10% of nonequilibrium tetragonal
+ phase in a matrix of equilibrium monoclinic phase.
+ Large local tensile stress near a crack tip triggers a tet
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ mono transition with a 4% volume increase.
+ The larger volume of new monoclinic crystals creates compressive stress
+ that “pinches” the crack shut.
+ 
+\begin_inset Formula $K_{IC}$
+\end_inset
+
+ is increased to about 10 MPa 
+\begin_inset Formula $m^{1/2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+VI.
+ Other Ceramics
+\end_layout
+
+\begin_layout Standard
+Ceramics are refractrory, That is, they maintain structural integrity at
+ high temperature, and may provide thermal and electrical insulation.
+ Some are used as capacitors or resistors on computer motherboards.
+ Some are piezoelectric, that is they may be used to transform mechanical
+ energy into a voltage.
+ Others are magnetic (Hard B 
+\begin_inset Formula $BaFe_{12}O_{19}$
+\end_inset
+
+, 
+\begin_inset Formula $SrFe_{12}O_{19}$
+\end_inset
+
+, used for small electric motor field magnets, Refrigerator door seals and
+ posting magnets; Soft B 
+\begin_inset Formula $NiFe_{2}O_{4}$
+\end_inset
+
+, 
+\begin_inset Formula $MnFe_{2}O_{4}$
+\end_inset
+
+, transformers, inductors) or superconducting.
+\end_layout
+
+\begin_layout Subsubsection
+Addendum:
+\end_layout
+
+\begin_layout Standard
+For a sample with a rectangular cross-section tested on a three-point bend
+ apparatus, the tensile breaking stress, termed the flexural strength, 
+\begin_inset Formula $\sigma_{fs}$
+\end_inset
+
+, is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma_{fs}=\frac{3F_{b}L}{2bd^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here Fb is the load at break, L is the distance between supports, b is the
+ width and d is the thickness of the rectangular cross-section.
+\begin_inset Formula $^{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+1.
+ Callister, William D.
+ Jr.
+ Materials Science and Engineering: An Introduction, 6th Edition, ISBN 0-471-135
+76-3, John Wiley and Sons, Inc., New York, 2003.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Discovery Lab 1: Cholesteryl Ester Liquid Crystals
+\end_layout
+
+\begin_layout Subsubsection
+Pre-lab
+\end_layout
+
+\begin_layout Standard
+Important: Be sure that you are wearing long pants and closed -toed shoes
+ for this lab.
+ Lab coats, safety glasses, and gloves will be provided.
+\end_layout
+
+\begin_layout Paragraph
+Goal
+\end_layout
+
+\begin_layout Standard
+To investigate the relationship between temperature, composition, and reflected/
+trans-mitted colors of a cholesteryl ester liquid crystal.
+\end_layout
+
+\begin_layout Paragraph
+Background
+\end_layout
+
+\begin_layout Standard
+Liquid crystals are organic compounds that are in a state between liquid
+ and solid forms.
+ They are viscous, jelly-like materials that resemble liquids in certain
+ respects (viscosity) and crystals in other properties (light scattering
+ and reflection).
+ Liquid crystals must be geometrically highly anisotropic, as opposed to
+ an isotropic liquid.
+ Such properties, however, can be altered through thermal action (heat)
+ or by the influence of a solvent.
+\end_layout
+
+\begin_layout Standard
+Common liquid crystals are composed of derivatives of cholesterol, C27H46O.
+ Materials that will be used in this lab for making the cholesteryl ester
+ liquid crystals are cholesteryl benzoate, C34H50O2, cholesteryl pelargonate,
+ C36H62O2, and cholesteryl oleyl carbonate, C46H80O3.
+ 
+\end_layout
+
+\begin_layout Standard
+Cholesteric-phase liquid crystals contain molecules aligned in layers rotated
+ with respect to one another, resembling helix structures (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cholesteric-phase-liquid-crystal"
+
+\end_inset
+
+).
+ The distance between layers that have the same orientation is known as
+ the pitch, p.
+ At high temperature, the rotation angle from one layer to the next increases,
+ hence the pitch is smaller.
+ A color will be reflected when the pitch is approximately equal to the
+ color's wavelength of light.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/crystalshelix.JPG
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cholesteric-phase liquid crystals (Figure courtesy of George Lindsey)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cholesteric-phase-liquid-crystal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Pre-lab Questions
+\end_layout
+
+\begin_layout Enumerate
+What are the safety concerns with each of the chemicals? What is the proper
+ way to handle the chemical waste? Please read the Materials Safety Data
+ Sheets (MSDS) for each chemical used in this lab beforehand.
+\end_layout
+
+\begin_layout Enumerate
+Liquid crystals have anisotropic structures.
+ In your own words, explain the term “anisotropy” and how will this affect
+ the material properties of liquid crystals.
+\end_layout
+
+\begin_layout Enumerate
+If the reflected color is green and changes to red, chemically/physically
+ explain what has happened to the liquid crystal.
+ Be specific.
+ Does this correspond to a temperature increase or decrease? Why?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lab Part 1
+\end_layout
+
+\begin_layout Paragraph
+Objective
+\end_layout
+
+\begin_layout Standard
+Build a cholesteryl ester liquid crystals thermometer that covers the temperatur
+e range between 17-40
+\begin_inset Formula $\textdegree$
+\end_inset
+
+C.
+\end_layout
+
+\begin_layout Paragraph
+Laboratory Procedure
+\end_layout
+
+\begin_layout Enumerate
+Based on Table 1, select 5 ratio combinations of the cholesteryl oleyl carbonate
+, the cholesteryl pelargonate, and the cholesteryl benzoate.
+\end_layout
+
+\begin_layout Enumerate
+Measure out the alloted amounts of each of the cholesterol components and
+ place them in a 10 ml vial.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Melt the solid in a smaple vial using a hair drier or heat gun.
+ (Make sure the vial lid is off during the melting process because it can
+ ruin the seal on the vial.)
+\end_layout
+
+\begin_layout Enumerate
+Cut one piece of clear packing tape and lay the sticky side up on a table.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Take the vial of teh cholesteryl ester mixture, open it and transfer a small
+ amount of the gel paste to the tape with a spatula.
+ Spread the gel uniformly in the middle of the tape.
+ Be sure to leave a centimeter clearance from the edge of the tape.
+ Take the other piece of packing tape and place the sticky sides together.
+ Smooth the paste evenly so there are no air bubbles.
+\end_layout
+
+\begin_layout Enumerate
+Submerge the liquid crystal sandwich in a beaker of water and gently heat
+ the water with a hot plate.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure and record the temperature at which the liquid crystals first change
+ color.
+ What color do you see first?
+\end_layout
+
+\begin_layout Enumerate
+Measure and record the temperature at which the liquid crystals become colorless.
+ What color do you see last?
+\end_layout
+
+\begin_layout Enumerate
+Cool the sample by removing it from the water.
+ Repeat steps 2-3 as necessary to list the order of colors observed.
+\end_layout
+
+\begin_layout Paragraph
+Lab Writeup
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cholesteryl oleyl carbonate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cholesteryl pelargonate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cholesteryl benzoate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transition range, 
+\begin_inset Formula $\textdegree C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.65 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.25 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.70 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.20 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.45 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.45 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.43 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.47 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.44 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.46 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.42 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.40 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.50 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.38 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.52 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.36 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.54 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.34 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.56 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.32 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.58 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.30 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.60 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10 g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cholesteryl liquid crystal mixtures and their transition temperatures.
+ Different compositions give different color patterns over different temperature
+ ranges.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Upon heating, when the liquid crystal sandwich undergoes a color change,
+ what color do you see first (i.e., at coolest temperature)? What color do
+ you see last (warmest)? What is the order of colors you see going from
+ coolest to warmest? Explain what happens to the liquid crystal during this
+ transition at molecular level.
+\end_layout
+
+\begin_layout Enumerate
+What is the relationship between the mass of cholesteryl oleyl carbonate
+ in the mixture and the transition temperature? What do you think might
+ be the reason for this?
+\end_layout
+
+\begin_layout Enumerate
+As the liquid crystal changes temperature it reflects different colors.
+ Is the color change better observed over a black background or a white
+ background? Why?
+\end_layout
+
+\begin_layout Enumerate
+What are some of the applications you can think of with the temperature
+ sensitive cholesteryl ester liquid crystals?
+\end_layout
+
+\begin_layout Enumerate
+What happens if you heat 0.30 g of Cholesteryl oleyl carbonate, Cholesteryl
+ pelargonate, Cholesteryl benzoate by themselves, will you observe the same
+ behavior?
+\end_layout
+
+\begin_layout Paragraph
+References
+\end_layout
+
+\begin_layout Enumerate
+Lisensky, G (2007).
+ Preparation of cholesteryl ester liquid crystals.
+ Interdisciplinary Education Group, Retrieved May 26, 2008.
+\end_layout
+
+\begin_layout Enumerate
+Lisensky, G, & Boatman, E (2005).
+ Colors in liquid crystals.
+ Journal of Chemical Education, 82, 1360A, Retrieved June 4, 2008.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lab Part 2 
+\end_layout
+
+\begin_layout Paragraph
+Liquid crystal display
+\end_layout
+
+\begin_layout Standard
+(http://www.microscopyu.com/articles/polarized/polarizedlightintro.html)
+\end_layout
+
+\begin_layout Standard
+One of the most common and practical applications of polarization is the
+ liquid crystal display (LCD) used in numerous devices including wristwatches,
+ computer screens, timers, clocks, and a host of others.
+ These display systems are based upon the interaction of rod-like liquid
+ crystalline molecules with an electric field and polarized light waves.
+ The liquid crystalline phase exists in a ground state that is termed cholesteri
+c, in which the molecules are oriented in layers, and each successive layer
+ is slightly twisted to form a spiral pattern (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Liquid-crystal-display"
+
+\end_inset
+
+).
+ When polarized light waves interact with the liquid crystalline phase the
+ wave is "twisted" by an angle of approximately 90 degrees with respect
+ to the incident wave.
+ The exact magnitude of this angle is a function of the helical pitch of
+ the cholesteric liquid crystalline phase, which is dependent upon the chemical
+ composition of the molecules (it can be fine-tuned by small changes to
+ the molecular structure).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/LCDdisp.JPG
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Liquid crystal display 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Liquid-crystal-display"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An excellent example of the basic application of liquid crystals to display
+ devices can be found in the seven- segment liquid crystal numerical display
+ (illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Liquid-crystal-display"
+
+\end_inset
+
+).
+ Here, the liquid crystalline phase is sandwiched between two glass plates
+ that have electrodes attached, similar to those depicted in the illustration.
+ In Figure 2, the glass plates are configured with seven black electrodes
+ that can be individually charged (these electrodes are transparent to light
+ in real devices).
+ Light passing through polarizer 1 is polarized in the vertical direction
+ and, when no current is applied to the electrodes, the liquid crystalline
+ phase induces a 90 degree "twist" of the light that enables it to pass
+ through polarizer 2, which is polarized horizontally and is oriented perpendicu
+lar to polarizer 1.
+ This light can then form one of the seven segments on the display.
+\end_layout
+
+\begin_layout Standard
+When current is applied to the electrodes, the liquid crystalline phase
+ aligns with the current and loses the cholesteric spiral pattern.
+ Light passing through a charged electrode is not twisted and is blocked
+ by polarizer 2.
+ By coordinating the voltage on the seven positive and negative electrodes,
+ the display is capable of rendering the numbers 0 through 9.
+ In this example the upper right and lower left electrodes are charged and
+ block light passing through them, allowing formation of the number "2"
+ by the display device (seen reversed in the figure).
+ 
+\end_layout
+
+\begin_layout Paragraph
+Procedure
+\end_layout
+
+\begin_layout Standard
+Liquid Crystal Transition Temperature Measurement by Optical Characterization
+\end_layout
+
+\begin_layout Enumerate
+Heat the liquid crystal mixtures prepared in last lab
+\end_layout
+
+\begin_layout Enumerate
+Prepare sample slides for the 5 compositions of liquid crystals (LC) prepared
+ in Lab 1
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+It will be helpful if you heat up your slide so that the LC mixture is still
+ liquid when you carefully put a coverslip on top of it
+\end_layout
+
+\begin_layout Enumerate
+While placing coverslip try to avoid trapping as many bubble as possible
+ in your sample
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+TA/instructor will provide instructions on how to operate the optical microscope
+ and record your data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The polarized light microscope is designed to observe and photograph specimens
+ that are visible primarily due to their optically anisotropic character.
+ In order to accomplish this task, the microscope must be equipped with
+ both a polarizer, positioned in the light path somewhere before the specimen,
+ and an analyzer (a second polarizer; see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Polarized-light-microscope"
+
+\end_inset
+
+), placed in the optical pathway between the objective rear aperture and
+ the observation tubes or camera port.
+ It is a contrast-enhancing technique exploits the optical properties specific
+ to anisotropy and reveals detailed information concerning the structure
+ and composition of materials that are invaluable for identification and
+ diagnostic purposes.
+\end_layout
+
+\begin_layout Enumerate
+The liquid crystalline phase exists in a ground state that is termed cholesteric
+ where the molecules are oriented in layers where each successive layer
+ is slightly twisted to form a spiral pattern.
+ When polarized light waves interact with the liquid crystalline phase the
+ wave is "twisted" by an angle of approximately 90 degrees with respect
+ to the incident wave.
+ This angle is a function of the helical pitch of the cholesteric liquid
+ crystalline phase, which is dependent upon the chemical composition of
+ the molecules (it can be fine-tuned by small changes to the molecules).
+\end_layout
+
+\begin_layout Enumerate
+References: http://www.microscopyu.com/articles/polarized/polarizedintro.html
+ http://www.olympusmicro.com/primer/lightandcolor/polarization.html
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/lab2fig.jpg
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Polarized light microscope 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Polarized-light-microscope"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+You will generate movies of transitions observed in the liquid crystals
+ with changing temperatures.
+\end_layout
+
+\begin_layout Enumerate
+For the report please record observations of transition in structures from
+ the different samples.
+ 
+\end_layout
+
+\end_body
+\end_document

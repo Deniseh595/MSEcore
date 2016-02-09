@@ -1,0 +1,5 @@
+set(0,'defaultaxesbox', 'on') % draw the axes box (including the top and right axes)
+set(0,'defaultlinelinewidth',2)
+set(0,'defaultaxesfontsize',16)
+set(0,'defaultfigurepaperposition',[0,0,5,5])
+set(0,'defaultfigurepapersize',[5,5]')

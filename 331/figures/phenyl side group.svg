@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><svg height="28.59231mm" version="1.0" viewBox="0 0 175 108" width="46.33013mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-107,-187)">
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="247.17" x2="194.29" y1="286.81" y2="286.81"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="273.59" x2="247.18" y1="241.09" y2="195.28"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="194.30" x2="247.18" y1="195.28" y2="195.28"/>
+      <line x1="198.26" x2="243.21" y1="203.21" y2="203.21"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="194.29" x2="167.88" y1="286.81" y2="241.00"/>
+      <line x1="199.18" x2="176.73" y1="279.41" y2="240.47"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="115.00" x2="167.88" y1="241.00" y2="241.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="247.17" x2="273.59" y1="286.81" y2="241.09"/>
+      <line x1="242.29" x2="264.74" y1="279.41" y2="240.55"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26634382567">
+      <line x1="167.88" x2="194.30" y1="241.00" y2="195.28"/>
+    </g>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="helvetica" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule63994" name="">
+      <atom id="atom33761" name="C" valency="4">
+        <point x="3.045cm" y="6.380cm"/>
+      </atom>
+      <atom id="atom49802" name="C" valency="4">
+        <point x="4.445cm" y="6.380cm"/>
+      </atom>
+      <atom id="atom65716" name="C" valency="4">
+        <point x="6.544cm" y="7.593cm"/>
+      </atom>
+      <atom id="atom67826" name="C" valency="4">
+        <point x="5.144cm" y="7.593cm"/>
+      </atom>
+      <atom id="atom19282" name="C" valency="4">
+        <point x="5.144cm" y="5.170cm"/>
+      </atom>
+      <atom id="atom20978" name="C" valency="4">
+        <point x="7.243cm" y="6.383cm"/>
+      </atom>
+      <atom id="atom58659" name="C" valency="4">
+        <point x="6.544cm" y="5.170cm"/>
+      </atom>
+      <bond double_ratio="0.85" end="atom67826" id="bond23112" line_width="2.26634382567" start="atom65716" type="n1"/>
+      <bond double_ratio="0.85" end="atom58659" id="bond75351" line_width="2.26634382567" start="atom20978" type="n1"/>
+      <bond bond_width="-7.93220338983" center="no" double_ratio="0.85" end="atom58659" id="bond21088" line_width="2.26634382567" start="atom19282" type="n2"/>
+      <bond bond_width="-7.93220338983" center="no" double_ratio="0.85" end="atom49802" id="bond47917" line_width="2.26634382567" start="atom67826" type="n2"/>
+      <bond double_ratio="0.85" end="atom49802" id="bond80537" line_width="2.26634382567" start="atom33761" type="n1"/>
+      <bond bond_width="7.93220338983" center="no" double_ratio="0.85" end="atom20978" id="bond31034" line_width="2.26634382567" start="atom65716" type="n2"/>
+      <bond double_ratio="0.85" end="atom19282" id="bond12387" line_width="2.26634382567" start="atom49802" type="n1"/>
+    </molecule>
+  </cdml>
+</svg>

@@ -1,0 +1,4811 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "316-1 Labs"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue, linkcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch labonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -1
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+361 Laboratories
+\end_layout
+
+\begin_layout Subsection
+Laboratory 1: Symmetry in Two Dimensions
+\end_layout
+
+\begin_layout Subsubsection
+Objectives
+\end_layout
+
+\begin_layout Standard
+We will be working with 2-dimensional lattices.
+ You will see the how the symmetry of the lattice and not its shape determines
+ to which of the four axial systems it belongs.
+ Parts A and B examine unit cells, translational symmetry, and Miller Planes.
+ Parts C and D add rotational symmetry, mirror, and glide planes.
+ In Part E, we will examine 2-D Si and Ga surface structures grown on a
+ Si (100) substrate.
+\end_layout
+
+\begin_layout Subsubsection
+Laboratory Procedure
+\end_layout
+
+\begin_layout Paragraph
+Part A1: Lattices and Unit Cells (see worksheet p.4)
+\end_layout
+
+\begin_layout Standard
+A unit cell must be able to reproduce the lattice when translated along
+ the axes directions.
+ A primitive unit cell is the simplest case where there is only one lattice
+ point per unit cell.
+ Non-Primitive unit cells contain more than one lattice point per unit cell.
+ All lattice points must have identical surroundings.
+ NOTE: this lattice belongs to the Oblique axial system.
+\end_layout
+
+\begin_layout Enumerate
+You are to locate and outline two different primitive unit cells.
+ Use as your lattice point the 
+\end_layout
+
+\begin_layout Enumerate
+angle corner of the triangle.
+ Note that any point would be equally valid as a lattice point but I chose
+ that so everyone would use the same point.
+\end_layout
+
+\begin_layout Enumerate
+Now locate and outline a non-primitive unit cell.
+\end_layout
+
+\begin_layout Enumerate
+Label your unit cells 1,2, and 3.
+ For all unit cells, locate a corner where the angle 
+\begin_inset Formula $\ge90\textdegree(\gamma)$
+\end_inset
+
+ and mark it as the origin.
+ Using a right-handed convention, (i) label the axes 
+\series bold
+a,b
+\series default
+ and (ii) measure 
+\series bold
+a,b,
+\series default
+ and 
+\begin_inset Formula $\gamma.$
+\end_inset
+
+ In the worksheet margin, calculate the unit cell area:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+Area = 
+\begin_inset Formula $(ab)sin\gamma$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+You will note that non-primitive cells have an area that is an integer multiple
+ of the area for a primitive cell.
+\end_layout
+
+\begin_layout Paragraph
+Part A2: Miller Indices
+\end_layout
+
+\begin_layout Enumerate
+Draw a line parallel to MN and another to OP inside each of your cells;
+ the lines must touch somewhere on the cell axes.
+ Label them MN’ and OP’.
+ For convenience, you may want to make these lines intersect a cell axis
+ at: 1, 1/3, 1/10, 3/4 ...
+ etc of the unit length.
+\end_layout
+
+\begin_layout Enumerate
+Using the table at the bottom of the worksheet, calculate the Miller Indices
+ for each line (six total).
+\end_layout
+
+\begin_layout Paragraph
+Part B: More Lattices
+\end_layout
+
+\begin_layout Standard
+Select a printed fabric.
+ Note: all fabrics belong to the Oblique axial system.
+ Choose a feature in the pattern that “stands out to your eye” as a lattice
+ point.
+ Locate a primitive unit cell.
+ Examine it for translational symmetry.
+ Trace the primitive unit cell on 2 the tracing paper provided.
+ Measure and label a, b, γ, and record the pattern number.
+\end_layout
+
+\begin_layout Paragraph
+Part C: Symmetry, Plane Group, Plane Lattice, and Axial System (worksheets
+ p.5, 6)
+\end_layout
+
+\begin_layout Enumerate
+See the example.
+ Look for symmetry in the pattern #1 and draw the appropriate symbol at
+ all the locations.
+ (e.g.
+ 3-fold ▲, mirror plane \SpecialChar \-
+\SpecialChar \-
+\SpecialChar \-
+\SpecialChar \-
+\SpecialChar \-
+\SpecialChar \-
+, glide plane ----)
+\end_layout
+
+\begin_layout Enumerate
+In the blank area to the right of hte pattern, make a sketch of the primitive
+ unit cell.
+\end_layout
+
+\begin_layout Enumerate
+Draw the appropriate symbols for all the symmetry you found at the locations
+ where you found them on your sketch.
+ It should match up with a plane group in Hammond p.67.
+ 4) On the work sheet state the: 1) plane group 2) axial system (Symmetry
+ Notes) and 3) plane lattice (Hammond p.62).
+ At home do the same for patterns #2 and #3.
+ These are more difficult.
+\end_layout
+
+\begin_layout Paragraph
+Part D: Motif (asymmetric) 
+\end_layout
+
+\begin_layout Standard
+For two Escher drawings: 
+\end_layout
+
+\begin_layout Enumerate
+On tracing paper, repeat what you did in Part C.
+\end_layout
+
+\begin_layout Enumerate
+Trace the motif of the pattern.
+\end_layout
+
+\begin_layout Paragraph
+Part E: Surface Reconstruction (worksheet p.7)
+\end_layout
+
+\begin_layout Standard
+The lattice vectors for a surface structure will be different from those
+ of the substrate.
+ This change is known as a surface reconstruction.
+ If we define the lattice vectors of the substrate as
+\series bold
+ a
+\series default
+ and 
+\series bold
+b
+\series default
+; the lattice vectors for a given surface structure can then expressed in
+ terms relative to the substrate.
+ The unit length of the surface vectors will be
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbf{a}_{surface}=N\mathbf{a}_{substrate} &  & \mathbf{b}_{surface}=M\mathbf{b}_{substrate}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e.g.
+ If 
+\begin_inset Formula $\mathbf{a}_{surface}=3\mathbf{a}_{substrate}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{b}_{surface}=5\mathbf{b}_{substrate}$
+\end_inset
+
+, then N=3, M=5.
+ The surface is then called a 3x5(NxM).
+\end_layout
+
+\begin_layout Standard
+Now consider the two surface structures on the Si (001) substrate Here,
+ Ga-addimers have been adsorbed on a surface consisting of Si-dimers on
+ top of a Si (001) bulk.
+ Sketch the primitive lattice of: 1) Si bulk 2) Si-dimer 3) Ga ad-dimer
+ layers with the NxM for each structure.
+ Ignore the symmetry of the pattern.
+ I am only interested in the primitive unit cells.
+\end_layout
+
+\begin_layout Subsubsection
+Deliverables
+\end_layout
+
+\begin_layout Standard
+Please do everything asked for.
+ Make everything neat and orderly so as to get full credit.
+ Erase all unnecessary lines, marks etc.
+\end_layout
+
+\begin_layout Subsubsection
+Symmetry Notes
+\end_layout
+
+\begin_layout Standard
+I.
+ Periodic structures or patterns in two dimensions belong to one of four
+ axial systems.
+ These are named according to the shape of the unit cell: oblique (parallelogram
+), rectangular, square, hexagonal (triangular).
+ 
+\end_layout
+
+\begin_layout Standard
+There are, however, a total of five two-dimensional plane lattices (Hammond
+ p.62) in which all lattice points have equivalent surroundings; these are
+ analogous to the 14 Bravais lattices in three dimensions.
+ The two-dimensional plane lattices (or nets) are sketched below.
+ Four are primitive and one is non-primitive (rectangular centered/diamond).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/bravaislattices.JPG
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+2-D plane lattices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+II.
+ The preceding applies to arrays of featureless points, or, if you prefer,
+ circles, which have "perfect" symmetry.
+ A real pattern is made up of motifs (asymmetric objects, e.g."7"), which
+ have certain spatial relations.
+ Each lattice point has one or more motifs associated with it.
+ Any pattern can be classified by the symmetry of the collection of motifs
+ at each (or any) lattice point.
+ There are only 17 different patterns in two dimensions; every periodic
+ wallpaper, decorator fabric, etc.
+ conforms to one of these.
+ Such classification is beyond the scope of this course, but a few instructions
+ or conventions are useful.
+ (The summary of the 17 patterns plane groups Hammond p.67).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/partaex.JPG
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part A1 example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="13">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cell 1
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cell 2
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cell 3
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(MN)'
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(OP)'
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(MN)'
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(OP)'
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(MN)'
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(OP)'
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reciprocal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Miller Indice
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part A2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/ex2.JPG
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part C Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/numberone.JPG
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/numbertwo.JPG
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/numberthree.JPG
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part C # 1-3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/parte.JPG
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/last.JPG
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part E
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 2: Symmetry in Three Dimensions
+\end_layout
+
+\begin_layout Standard
+Reading: Cullity and Stock sec 2.5, 2.6, 2.7, 2.9, 2.10, 2.11, Hammond Sec 12.1,
+ 12.2, 12.3
+\end_layout
+
+\begin_layout Subsubsection
+Part A1: Crystal Shapes and Point Group Symmetry
+\end_layout
+
+\begin_layout Standard
+Inspection of a crystal can provide significant information about its symmetry.
+ One can observe the presence (or absence) of mirror planes, rotation axes,
+ rotoinversion axes and inversion centers.
+ These identify the crystal system and the orientation of the conventional
+ unit cell.
+ One can do even better: the presence of more than the minimum crystal symmetry
+ (C&S table 2.3) specifies the point group symmetry within the crystal system.
+ There are 32 of these: stereographic projections are from the International
+ Tables of Crystallography vol.
+ 1.
+ 
+\end_layout
+
+\begin_layout Standard
+You have 5 crystal models; each is from a different crystal axial system
+ (trigonal is combined with hexagonal and orthorhombic will be studied in
+ Part 2).
+ Inspect each for symmetry: mirror planes, rotation axes, roto-inversion
+ axes, and inversion center.
+ Make a stereographic projection of the collection symmetry you found using
+ the symbols below.
+ Next to this, make a perspective sketch of the model indicating which face
+ is at the projection point (center) of your stereographic projection.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/lab2.JPG
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consult the point group symmetry table only after you have thoroughly examined
+ your models to help find any symmetry elements you may have missed.
+ On your worksheet you should have: 1) the identifying number 2) the stereograph
+ic projection along with a simple sketch of the model 3) state the axial
+ system 4) state whether the crystal 
+\bar under
+has
+\bar default
+ or 
+\bar under
+does not have
+\bar default
+ a inversion center.
+
+\series bold
+ NOTE: Please do not draw on the models and be careful with them; they are
+ very fragile.
+\end_layout
+
+\begin_layout Subsubsection*
+Part A2: Wulff net (orthorhombic) 
+\end_layout
+
+\begin_layout Standard
+Use a right-handed coordinate system and make 1) a simple sketch the model,
+ 2) label the axes 
+\series bold
+a
+\series default
+, 
+\series bold
+b
+\series default
+, 
+\series bold
+c
+\series default
+ 3) record the axes ratio 
+\series bold
+a
+\series default
+:
+\series bold
+b
+\series default
+:
+\series bold
+c
+\series default
+, and include the model number.
+\end_layout
+
+\begin_layout Standard
+Now select two faces (only one can be a {100} type) and label these faces
+ “A” and “B” on your sketch.
+ Approximate the angle of the plane-normal between the faces relative to
+ the axes and plot these as 
+\series bold
+poles
+\series default
+ on the provided stereographic (m) ( 2 ) (3) (3) (4) (4) (6) (6) 2 projection.
+ Use the 
+\series bold
+c
+\series default
+ axis as the projection point (center).
+ 
+\end_layout
+
+\begin_layout Standard
+GRADUATE STUDENTS: (after class) From the three direction cosines for both
+ poles and the axis ratio 
+\series bold
+a
+\series default
+:
+\series bold
+b
+\series default
+:
+\series bold
+c
+\series default
+ , calculate and normalize the ratio of integers 
+\begin_inset Formula $h:k:l$
+\end_inset
+
+ (C&S p.
+ 82.) These are the Miller Indices of the crystal faces.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part B: Crystal Models-Cubic 
+\end_layout
+
+\begin_layout Standard
+You are provided with open and space filling models of FCC and an open diamond
+ cubic model.
+\end_layout
+
+\begin_layout Enumerate
+Inspect the FCC structure; this can be formed by stacking close packed planes
+ (ABCABC...) which become {111} in the cubic representation.
+ There are octahedral voids (CN=6) at 1/2, 1/2, 1/2 + fct and tetrahedral
+ voids (CN=4) at 1/4, 1/4, 1/4, etc.
+ (one in each corner).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+a.
+ After class, calculate the radius of the void(r) in terms of the lattice
+ parameter(a) and radius of the atom(R).
+ Do this for both the octahedral and tetrahedral voids.
+ 
+\end_layout
+
+\begin_layout Standard
+b.
+ GRADUATE STUDENTS (after class): Consider the primitive unit cell of the
+ FCC structure.
+ (Hammond section 5.8.) Write Miller indices for planes in the primitive cell
+ (HKL) in terms of (hkl) in the FCC cell.
+ You can consult Azaroff p.
+ 53-54.
+ The figure 3-19 is incorrect.
+ Switch 
+\begin_inset Formula $a_{01}$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{02}$
+\end_inset
+
+ (
+\series bold
+a b
+\series default
+ in the primitive cell) so the axis system is right handed.
+ 
+\end_layout
+
+\begin_layout Standard
+2.
+ Examine the Diamond Cubic structure.
+ Tetrahedral coordination of each atom should be evident.
+ Note the "diamond glide" planes.
+ <110> 2 per face.
+ 
+\end_layout
+
+\begin_layout Standard
+a.
+ Give the coordinates of each atom in primitive unit cell.
+ 
+\end_layout
+
+\begin_layout Standard
+b.
+ Are all atoms equivalent? Briefly explain your answer with a simple sketch.
+ _
+\end_layout
+
+\begin_layout Standard
+c.
+ Is the three-fold axis along <111> a 3 or 3? Briefly explain.
+ _ 
+\end_layout
+
+\begin_layout Standard
+d.
+ Is the four-fold axis along < 100> a 4 or 4? Briefly explain.
+ 
+\end_layout
+
+\begin_layout Standard
+e.
+ Identify "diamond glide" planes (2 per face).
+ Note both the plane orientation {hkl} and glide direction <uvw>.
+ Briefly explain.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Part C: Crystal Models - Hexagonal
+\end_layout
+
+\begin_layout Standard
+For the open HCP model, primitive hexagonal, locate the 2 atoms per unit
+ cell.
+ Observe the 6 roto-inversion axis that is present in this structure with
+ 3 inversion centers at z=0, z=1/2.
+ Identify the 4 tetrahedral voids per cell.
+ The two "internal" ones are easy to see and the others are on vertical
+ edges.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Locate the octahedral interstices (voids) and give the coordinates; 2 per
+ unit cell.
+ 
+\end_layout
+
+\begin_layout Enumerate
+All the octahedral sites could be occupied in a compound.
+ Alumina, Al2O3, presents an interesting variation.
+ The O-2 form an HCP structure however; the Al+3‘s occupy only 2/3 of the
+ available octahedral sites.
+ Note the pattern of occupation varies from layer to layer.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many layers are required for the structure to repeat? Hint: Start counting
+ at the midpoint of the bottom most HCP structure.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The crystal system is actually rhombohedral (trigonal), but the model and
+ structure are most easily visualized in a hexagonal setting.
+ To determine the proper symmetry, show the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\noindent
+\align left
+A 6 fold is not present along c.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align left
+A 3 fold is present along c.
+ _
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align left
+A 6 is not present along c (this is trickier; consider both O and Al atoms).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 3: Laue Diffraction Patterns
+\end_layout
+
+\begin_layout Standard
+Reading: Cullity sec.
+ 16-1, 16-2, 2-13, Hammond sec 12.1, 12.2, 12.3
+\end_layout
+
+\begin_layout Subsubsection
+Lab Summary
+\end_layout
+
+\begin_layout Standard
+You will use the Laue Back Scattering technique to determine the crystallographi
+c orientation of a single crystal.
+ Then you will re-orientate the crystal to a different plane.
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+The Laue method records the x-ray diffraction pattern on a CCD camera, image
+ plate or photographic film.
+ The Back Reflection Laue technique is for high x-ray absorbing samples
+ at diffraction angles 
+\begin_inset Formula $(2\theta)$
+\end_inset
+
+ between 
+\begin_inset Formula $120\textdegree$
+\end_inset
+
+ and 
+\begin_inset Formula $180\textdegree$
+\end_inset
+
+.
+ The Front Reflection Laue method is used for 
+\begin_inset Formula $0\textdegree<2\theta<60\textdegree$
+\end_inset
+
+ but is suitable only with low absorbing samples like polymers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/backfrontlaue.JPG
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Back Reflection and Front Reflection Laue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+While Laue methods are used for several purposes, one of the most important
+ is to determine the orientation of single crystals.
+ Well-grown crystals have habits (shapes or facets) that indicate the symmetry
+ possessed by the lattice on which the crystal was "constructed".
+ But if a crystal is poorly formed or was made in such a way that facet
+ development is prevented, xrays can be used to determine the presence and
+ orientation of planes within a crystal using Bragg Diffraction.
+ Bragg Diffraction or Bragg Scattering only occurs when: 
+\end_layout
+
+\begin_layout Standard
+i) the Bragg condition is satisfied,
+\begin_inset Formula $n\lambda=2d_{hkl}sin\theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ii) 
+\begin_inset Formula $r_{hkl}^{*}$
+\end_inset
+
+ the normal to a plane(hkl), bisects the incident and diffracted x-rays.
+ This is shown in the figure above.
+ 
+\end_layout
+
+\begin_layout Standard
+Crystals have many planes of atoms with different values of 
+\begin_inset Formula $d_{hkl}$
+\end_inset
+
+.
+ To ensure that the Bragg condition will be satisfied for many of these,
+ a large range of 
+\begin_inset Formula $\lambda$
+\end_inset
+
+’s are supplied by the white or Bremsstrahlung radiation of the x-ray tube.
+ Generally Mo or W anode x-ray tubes are used for Laue because of the greater
+ white component to their spectrum at lower operating voltages but any target
+ material (e.g.
+ Cu, Cr, etc.) is suitable.
+\end_layout
+
+\begin_layout Standard
+The incident x-rays are collimated into a beam, pass through a hole in the
+ film holder and strike the sample.
+ X-rays backscatter onto the film where the pattern is recorded.
+ The sample is mounted on a 
+\bar under
+goniostat
+\bar default
+, a device that permits the rotation of the sample about its horizontal
+ and vertical axes (see figure page 3).
+ The position of a diffraction spot enables us to determine the direction
+ of 
+\begin_inset Formula $r*_{hkl}$
+\end_inset
+
+, if we remember that 
+\begin_inset Formula $r*_{hkl}$
+\end_inset
+
+ bisects So the incident beam direction and S the scattered beam direction.
+\end_layout
+
+\begin_layout Subsubsection
+Experimental Procedure
+\end_layout
+
+\begin_layout Standard
+With both goniostat axes set to 0.0°, record a back reflection Laue pattern
+ of the MgO crystal.
+ Your instructor will give you recommended voltage, current, and exposure
+ times.
+ Note the symmetry apparent in the diffraction pattern.
+ Given that MgO has the sodium chloride crystal structure, which pole (plane
+ normal) is nearly parallel to the x-ray beam? 
+\end_layout
+
+\begin_layout Standard
+With the assistance of your instructor, locate six zones and label them
+ as 1,2,3 etc.
+ Measure the position of each zone using the Greninger Chart.
+ The Greninger Chart is a device that saves tedious trigonometric calculations,
+ allowing you to read directly the latitude (
+\begin_inset Formula $\gamma°$
+\end_inset
+
+) and longitude (
+\begin_inset Formula $\delta°$
+\end_inset
+
+) of individual poles.
+ We will further simplify the work by measuring ã° for an entire zone of
+ poles simply by rotating
+\begin_inset Formula $\varepsilon°$
+\end_inset
+
+( the Greninger Chart) and aligning 
+\begin_inset Formula $\gamma°$
+\end_inset
+
+.
+ Make a table of 
+\begin_inset Formula $\varepsilon°$
+\end_inset
+
+, its direction(CW/CCW), and 
+\begin_inset Formula $\gamma°$
+\end_inset
+
+.
+ For accuracy, read all angles to the nearest 1/2°.
+ 
+\end_layout
+
+\begin_layout Standard
+To Plot: Orientate the Wulff Net with NS axis 
+\series bold
+horizonta
+\series default
+l to make tracing easier.
+ You need to rotate the Wulff Net the same direction as the Greninger Chart
+ to plot the zones.
+ However, the Wulff Net will be remaining stationary and you will be rotating
+ the tracing paper.
+ Therefore, you need to rotate the tracing paper in the
+\series bold
+ opposite
+\series default
+ direction that you rotated the Greninger Chart.
+ Plot zones as great circles.
+\end_layout
+
+\begin_layout Standard
+Now measure the interplaner angles between zones simply by placing two poles
+ (intersecting zones) on the same great circle and measuring the angle between
+ them.
+ Index all intersecting zones with this technique referring to the table
+ of inter-axial angles for cubic crystals provided in lab.
+ Note: If you cannot match a pole, label it with a “?”.
+ Bad guesses will be graded as incorrect.
+ When you finish, you should find at least one pole to be a {111} or {110}.
+ Reorientate the sample to one of these reflections by adjusting the goniostat
+ arcs.
+ Record the diffraction pattern and note the symmetry.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Report: 
+\end_layout
+
+\begin_layout Standard
+Provide the experimental conditions: x-ray tube anode material, voltage,
+ current, exposure times, beam size, and sample to film distance.
+ Attach both photographs, table of zones with 
+\begin_inset Formula $\gamma,\varepsilon$
+\end_inset
+
+, CW/CCW, and goniostat setting for the second photo.
+ Lastly, 
+\begin_inset Formula $index$
+\end_inset
+
+ your stereographic projection using a standard projection (Cullity fig
+ 2-40.)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 4: X-Ray Diffractometer Part I
+\end_layout
+
+\begin_layout Subsubsection
+Lab Summary 
+\end_layout
+
+\begin_layout Standard
+Labs IV and V examine the principle of operation of the X-ray Diffractometer
+ system.
+ The instrument you will be using is a Rigaku Dmax.
+ Note that both labs will be combined into one report.
+ This week you will investigate the details of: 1) the X-ray spectrum emitted
+ from the X-ray tube, 2) absorption of X-rays by materials.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Experimental Procedure
+\end_layout
+
+\begin_layout Standard
+The instrument is equipped with a Cu anode X-ray tube.
+ The source is a line, 10mm high x 0.4mm wide at a 
+\begin_inset Formula $6\textdegree$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+take-off angle
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The apparent source size therefore is 0.04mm or 
+\begin_inset Formula $0.01\textdegree$
+\end_inset
+
+ at a sample distance of 185mm, the 
+\begin_inset Quotes eld
+\end_inset
+
+radius of the diffractometer.
+\begin_inset Quotes erd
+\end_inset
+
+ With your instructors assistance and X-rays off
+\end_layout
+
+\begin_layout Standard
+: 1) Inspect the X-ray generator and X-ray shutter operation to be certain
+ how they work together with the indicator lights.
+ 
+\end_layout
+
+\begin_layout Standard
+2) Note the X-ray collimating system with the incident beam slit 
+\begin_inset Quotes eld
+\end_inset
+
+Divergence Slit
+\begin_inset Quotes erd
+\end_inset
+
+ (DS), and the scattered beam slits, 
+\begin_inset Quotes eld
+\end_inset
+
+Receiving Slit
+\begin_inset Quotes erd
+\end_inset
+
+ (RS) and 
+\begin_inset Quotes eld
+\end_inset
+
+Scatter Slit
+\begin_inset Quotes erd
+\end_inset
+
+ (SS).
+ These are used to define the incident and scattered beam directions 
+\begin_inset Formula $S_{o}$
+\end_inset
+
+ and S.
+ 
+\end_layout
+
+\begin_layout Standard
+3) Note the Specular Reflection geometry of the diffractometer with the
+ sample axis 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and detector axis 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ as they change simultaneously.
+ The X-ray detector is a scintillation type and uses an electronic device
+ called a Pulse Height Analyzer (PHA).
+ We will need to re-adjust the PHA for this weekfs lab.
+ Record the initial PHA settings: Baseline (BL) and Window (W) voltages.
+ Adjust the BL to 0.5V and the W to 5.0V.
+\end_layout
+
+\begin_layout Subsubsection
+Part A: X-ray Tube Emission Spectrum
+\end_layout
+
+\begin_layout Standard
+Energize the X-ray tube to -20kV and 2mA.
+ X-rays will irradiate a LiF (100) single crystal that acts like a diffraction
+ grating scattering X-rays.
+ LiF has the FCC NaCl crystal structure.
+ Scan 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ from 
+\begin_inset Formula $15\textdegree$
+\end_inset
+
+ to 
+\begin_inset Formula $50\textdegree$
+\end_inset
+
+, Appendix L4A1.
+ Ignoring the absorption effects of: 1) the X-ray tube Be window, 2) the
+ detector Be window, 3) air, and 4) the Al absorber foil, you have recorded
+ the emission spectrum of the Cu anode X-ray tube.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that the most intense peak in the spectrum is from the Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ emission line, 
+\begin_inset Formula $\lambda=1.54056\mathring{A}$
+\end_inset
+
+.
+ You will now determine a more precise 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ position for the line by scanning with a smaller step size, L4A2.
+ Now having an accurate value for the Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ position, calculate the exact value for 
+\begin_inset Formula $LiFd_{200}$
+\end_inset
+
+.
+ For your report, using Bragg's Law and 
+\begin_inset Formula $d_{200}$
+\end_inset
+
+ of LiF, calculate 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ for all the notable lines and features present in the spectrum i.e.
+ the Bremsstrahlung radiation, short wavelength limit (SWL), and 
+\series bold
+all
+\series default
+ emission lines.
+ Identify the element(s) responsible for each noted emission line, see Cullity
+ app 7.
+ (Hint: What impurity metal is present inside the X-ray tube?) Also include
+ in your report, the comparison between your measured 
+\begin_inset Formula $\lambda_{SWL}$
+\end_inset
+
+ wavelength and the calculated value using the X-ray tube operating voltage
+ (kV).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part B: Scattering from LiF (400)
+\end_layout
+
+\begin_layout Standard
+Calculate the 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ position for the LiF (004) 
+\begin_inset Formula $CuK_{\alpha1}$
+\end_inset
+
+ line.
+ Scan 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ from 
+\begin_inset Formula $99\textdegree$
+\end_inset
+
+ to 
+\begin_inset Formula $101\textdegree$
+\end_inset
+
+ (L4B) to determine the exact angles for 
+\begin_inset Formula $CuK_{\alpha1}$
+\end_inset
+
+and 
+\begin_inset Formula $K_{\alpha2}$
+\end_inset
+
+ wavelengths.
+ Compare measured and calculated positions.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part C: Absorption of X-rays by Al
+\end_layout
+
+\begin_layout Standard
+Move the detector to the Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ line.
+ Use the Ratemeter to count the X-ray intensity for ten one-second measurements,
+ average these values (
+\begin_inset Formula $I_{0}$
+\end_inset
+
+), and record.
+ CLOSE THE SHUTTER, insert two sheets of Al foil in front of the detector,
+ open the shutter and average 10 more one-second measurements.
+ Repeat, adding two foils at a time until I = 0.1 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+.
+ For your report plot 
+\begin_inset Formula $ln$
+\end_inset
+
+ 
+\begin_inset Formula $I$
+\end_inset
+
+ vs.
+ t ( foil thickness in cm).
+ If the detector response is linear, this will be a straight line.
+ From the slope of this line you can calculate the absorption coefficient
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+.
+ Calculate the Al foil thickness given the density = 2.70 
+\begin_inset Formula $g/cm^{3}$
+\end_inset
+
+ and the weight of 100 
+\begin_inset Formula $cm^{2}$
+\end_inset
+
+ of foil = 0.439g.
+ Compare your value of ƒÊ to that found in the 
+\shape italic
+International Tables for X-ray Crystallography (SEL)
+\shape default
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part D: Absorption of X-rays by Ni
+\end_layout
+
+\begin_layout Standard
+Insert the Ni filter.
+ Scan 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ from 
+\begin_inset Formula $39\textdegree$
+\end_inset
+
+ to 
+\begin_inset Formula $46\textdegree$
+\end_inset
+
+ to include the Cu 
+\begin_inset Formula $K_{\beta}$
+\end_inset
+
+ and Cu 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ emission lines (L4D).
+ Note the differences in the spectrum, especially the relative intensities
+ of the 
+\begin_inset Formula $K_{\beta}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ lines by comparing to L4A1.
+ Re-plot the region between the 
+\begin_inset Formula $K_{\beta}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ peaks to experimentally locate the K absorption edge of Ni.
+ For your report, calculate the thickness of the Ni filter using the data
+ from the Cu 
+\begin_inset Formula $K_{\beta}$
+\end_inset
+
+ absorption.
+ You will need to look up the 
+\begin_inset Formula $\frac{\mu}{ρ}$
+\end_inset
+
+ and 
+\begin_inset Formula $ρ$
+\end_inset
+
+ values for Ni.
+ Calculate the wavelength of the Ni K absorption edge and compare this to
+ the value in the International Tables.
+ Close the shutter, turn off the X-rays, and return the PHA to the original
+ settings.
+\end_layout
+
+\begin_layout Subsubsection
+APPENDIX 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+File Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Start (
+\begin_inset Formula $2\theta\textdegree)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stop (
+\begin_inset Formula $2\theta\textdegree)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Step Size (
+\begin_inset Formula $2\theta\textdegree)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dwell (s)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Axis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L4A1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L4A2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L4B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+99
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+101
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L4D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 5: X-Ray Diffractometer Part 2
+\end_layout
+
+\begin_layout Standard
+Reading, Cullity and Stock: sec 6-7, 6-9, 6-11, and p.201-202
+\end_layout
+
+\begin_layout Subsubsection
+Lab Summary
+\end_layout
+
+\begin_layout Standard
+This week you will study the details of the X-ray detector system.
+ You will: 1) perform measurements to determine the energy resolution of
+ the NaI scintillation detector 2) select filters and make adjustments to
+ the PHA to produce a monochromatic X-ray beam from the polychromatic X-ray
+ source suitable for Powder X-ray Diffraction (PXRD) experiments.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part A: Energy resolution of the NaI detector
+\end_layout
+
+\begin_layout Standard
+When a single X-ray photon enters a scintillation detector, it produces
+ a voltage pulse whose amplitude (in volts) is linearly proportional to
+ the X-ray energy.
+ However, there is a limit (resolution) where a small change in λ produces
+ no change in voltage.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Procedure
+\end_layout
+
+\begin_layout Standard
+Adjust the PHA, slits, and the X-ray tube power to that used last week.
+ Scan the LiF (200) crystal (L5) to locate the Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ emission line and move the detector to the position.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Open the shutter so X-rays from the 
+\begin_inset Formula $CuK_{α1}$
+\end_inset
+
+ emission line enter the detector.
+ (Note: Δλ/λ is ~ 0.1%)
+\end_layout
+
+\begin_layout Enumerate
+Adjust the PHA: Baseline = 0.4V, Window = 0.2V.
+ Lock the Window setting, as it must remain constant throughout the entire
+ measurement! 
+\end_layout
+
+\begin_layout Enumerate
+Use the Ratemeter function and average ten one-second readings and record:
+ i) Intensity (counts), ii) 
+\begin_inset Formula $V_{detectoroutput}=V_{Baseline}+1/2V_{Window}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Increase the 
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ by 0.5V and repeat step 3.
+\end_layout
+
+\begin_layout Enumerate
+Keep repeating until the upper limit of 
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ is reached.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Collect additional data around the maxima by stepping
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ at 0.2V intervals.
+ A plot of I vs.
+ Vdetector is the differential voltage curve for the detector.
+ Measuring the Full Width Half Maximum (FWHM) of the curve yields the resolution
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Resolution\%=100\times\frac{FWHM}{V_{det}(maxima)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+More useful plots are of I vs.
+ 
+\begin_inset Formula $\lambda$
+\end_inset
+
+
+\begin_inset Formula $(\mathring{A})$
+\end_inset
+
+ and especially I vs.
+ E (keV) as 
+\begin_inset Formula 
+\[
+\Delta V/V=\Delta\lambda/\lambda=\Delta E/E
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To plot I vs.
+ E:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E(ke)=(V_{BL}+0.1V)\times\frac{8.05keV}{V_{det}(maxima}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To plot I vs.
+ 
+\begin_inset Formula $\lambda$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda(\mathring{A})=\frac{12.4}{E(keV)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You have now calibarated the PHA for Energy (keV), Wavelength (
+\begin_inset Formula $\mathring{A})$
+\end_inset
+
+ and Voltage (V).
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Part B: Adjusting the PHA for a 90% Window
+\end_layout
+
+\begin_layout Standard
+The PHA can be adjusted to prevent the scattering from unwanted wavelengths
+ from being recorded in an X-ray pattern.
+ That is desirable in kinematic scattering experiments like PXRD.
+ Also, to keep the intensity high, you will set a “90% window” as it allows
+ 90% of the intensity to pass to the counter and rejects 10%.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Procedure
+\end_layout
+
+\begin_layout Standard
+Open the shutter to allow Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ radiation to enter the detector
+\end_layout
+
+\begin_layout Enumerate
+Set 
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ = 0.5V and 
+\begin_inset Formula $V_{W}$
+\end_inset
+
+ = 5.0V.
+\end_layout
+
+\begin_layout Enumerate
+Start the Ratemeter and record I0 (average ten one-second readings.) Note
+ this is the integrated intensity (100%) of the differential curve: I vs.
+ 
+\begin_inset Formula $V_{det}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Increase
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ and reduce I0 by 5%, record 
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ 4) Without changing 
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+, decrease 
+\begin_inset Formula $V_{W}$
+\end_inset
+
+ to reduce I by another 5%, record 
+\begin_inset Formula $V_{W}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+You have now set the PHA to pass 90% of the intensity.
+ Consequently, x-rays whose energy is lower than 
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ or higher than 
+\begin_inset Formula $(V_{BL}+V_{W})$
+\end_inset
+
+ will be rejected and not be counted.
+\end_layout
+
+\begin_layout Standard
+For your report on each plot I vs.
+ E, I vs.
+ 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, and I vs.
+ V, indicate the positions of:
+\end_layout
+
+\begin_layout Standard
+1) Cu
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ 
+\begin_inset space \qquad{}
+\end_inset
+
+2) Cu 
+\begin_inset Formula $K_{\beta}$
+\end_inset
+
+ 
+\begin_inset space \qquad{}
+\end_inset
+
+3)
+\begin_inset Formula $V_{BL}$
+\end_inset
+
+ 
+\begin_inset space \qquad{}
+\end_inset
+
+4) 
+\begin_inset Formula $V_{BL}+V_{W}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For your report answer the following questions: With the PHA set to pass
+ 90% of the Cu 
+\begin_inset Formula $K_{α1}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+1) What range of wavelengths are: i) passed and ii) eliminated by the 90%
+ window? 
+\end_layout
+
+\begin_layout Standard
+2) What energies are: i) passed and ii) eliminated? 
+\end_layout
+
+\begin_layout Standard
+3) Is Cu Kβ eliminated by the 90% window?
+\end_layout
+
+\begin_layout Subsubsection
+Part C: Powder X-ray Diffraction (PXRD)
+\end_layout
+
+\begin_layout Standard
+With instructor's assistance, replace the LiF single crystal with a polycrystall
+ine LiF sample.
+ Scan the sample with the same conditions as L5, (L5C1).
+ Note the difference.
+ With your instructor's assistance, remove Al absorber, increase the tube
+ power, and change slits to increase the diffracted intensity.
+ Scan 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ from 
+\begin_inset Formula $35\textdegree$
+\end_inset
+
+ to 
+\begin_inset Formula $70\textdegree$
+\end_inset
+
+ (L5C2).
+\end_layout
+
+\begin_layout Standard
+For your report, 1) discuss why the intensity is lower (L5C1) 2) identify
+ all the diffraction peaks present in L5C2
+\end_layout
+
+\begin_layout Subsubsection
+Part D: Determining the best condition for PXRD
+\end_layout
+
+\begin_layout Standard
+For a PXRD experiment, you want to have monochromatic radiation in order
+ to simplify interpretation of the diffraction pattern.
+ You also would like high peak intensities and a low background.
+ We will investigate various combinations of PHA settings and the Ni filter
+ to determine the optimum conditions for recording a diffraction pattern.
+ The best condition will result with a high-diffracted intensity (
+\begin_inset Formula $I_{p}$
+\end_inset
+
+) for only one wavelength 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ and a low background level (
+\begin_inset Formula $I_{b}$
+\end_inset
+
+).
+ Note: Do not use the Jade peak finder.
+\end_layout
+
+\begin_layout Enumerate
+Set the PHA, BL = 0.5V, W= 5.0V, and scan the 
+\begin_inset Formula $K_{\beta}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ peaks for LiF (200) (L5D1).
+\end_layout
+
+\begin_layout Enumerate
+Close the shutter, insert the Ni filter and scan the same region (L5D2).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Set the PHA for a 90% window determined in Part B.
+ Scan again (L5D3).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Close the shutter, remove the Ni filter and scan again.
+ (L5D4).
+\end_layout
+
+\begin_layout Standard
+In your report, calculate (
+\begin_inset Formula $I_{p}-I_{b}$
+\end_inset
+
+) and 
+\begin_inset Formula $(I_{p}-I_{b})/I_{b}$
+\end_inset
+
+ for the 
+\begin_inset Formula $K_{α}$
+\end_inset
+
+ peak for each of the four conditions.
+ Also calculate 
+\begin_inset Formula $σ=\sqrt{N}/N$
+\end_inset
+
+ for 
+\begin_inset Formula $N=(I_{p}-I_{b})$
+\end_inset
+
+ and the ratio 
+\begin_inset Formula $(I_{p})K_{α}/(I_{p})K_{β}$
+\end_inset
+
+ in each case.
+ This data should be presented in a table.
+ The best condition is a large value of 
+\begin_inset Formula $(I_{p}-I_{b})/I_{b}$
+\end_inset
+
+ for 
+\begin_inset Formula $K_{α}$
+\end_inset
+
+, subject to a small σ for (
+\begin_inset Formula $I_{p}-I_{b}$
+\end_inset
+
+) and a relatively small 
+\begin_inset Formula $K_{β}$
+\end_inset
+
+ peak.
+ In other words, we want a large peak-to-background ratio and a high intensity
+ for only one peak.
+ (We cannot eliminate the 
+\begin_inset Formula $K_{α2}$
+\end_inset
+
+ radiation.) Your report should identify the best condition for obtaining
+ the powder diffraction pattern.
+\end_layout
+
+\begin_layout Subsubsection
+APPENDIX
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+File Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Start 
+\begin_inset Formula $(2\theta\textdegree)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stop (
+\begin_inset Formula $2\theta\textdegree)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Step Size (
+\begin_inset Formula $2\theta\textdegree)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dwell (s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5C1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5C2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5D1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5D2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5D3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5D4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 6: Quantitative Analysis of a Mixture
+\end_layout
+
+\begin_layout Standard
+Reading: Cullity and Stock.
+ sec 6-1,2,3, 9-1,2,3,7, 10-1,2,3 Supplement for Lab VI at the end of this
+ handout.
+\end_layout
+
+\begin_layout Subsubsection
+Lab Summary
+\end_layout
+
+\begin_layout Standard
+You are supplied with a mixture of two unknown powdered materials.
+ One has a cubic structure and the other is non-cubic.
+ We will collect a powder diffraction pattern for the mixture and use Search/Mat
+ch software to identify the unknowns.
+ After class, you will get information online or from the SEL library and
+ calculate the volume fraction for each phase in the mixture.
+\end_layout
+
+\begin_layout Subsubsection
+Experimental Procedure
+\end_layout
+
+\begin_layout Standard
+Prepare a powder xrd sample holder with the unknowns as instructed in lab.
+ Slit sizes to use are 1°DS/SS and 0.3mm RS 
+\begin_inset Formula $0.1\textdegree$
+\end_inset
+
+, Ni filter.
+ Adjust the x-ray tube power to 40kV and 20mA.
+ Perform a 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ scan from 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ from 
+\begin_inset Formula $20\textdegree$
+\end_inset
+
+ to 
+\begin_inset Formula $115\textdegree$
+\end_inset
+
+, 0.05 step size, and 1s count time (L6A).
+ Note the 
+\begin_inset Formula $CuK_{\alpha1,2}$
+\end_inset
+
+ peak splitting at the higher angles.
+ Examine the data to see that for all peaks there are least three data points
+ within the FWHM.
+ Check that the receiving slit has an angular size that is smaller than
+ the FWHM.
+ Also, the peak height for the six most intense peaks should have adequate
+ counts to better define the peak shape (
+\begin_inset Formula $\sigma$
+\end_inset
+
+ = .03~1000 counts.)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Identify the diffraction lines using Jade.
+
+\series default
+ With the instructor’s assistance, use the diffraction analysis software
+ to identify peaks.
+ Check the pattern carefully that Jade did not miss any peaks or incorrectly
+ chooses a peak from 
+\begin_inset Formula $CuK_{\beta}$
+\end_inset
+
+ or a tungsten L line.
+ Use the peak editor tool to correct peak finder.
+ Print the peak list, as you will need the info for the Volume % calculation
+ you do at home.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Search Match using Jade
+\series default
+.
+ Per instructor’s assistance, perform a Search/Match for your unknowns.
+ Overlay the many results of the search on your data to solve the unknowns.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+GRADUATE STUDENTS:
+\series default
+ Texture can be a problem in this type of analysis.
+ The theory assumes that each phase is randomly oriented, which may not
+ be the case.
+ You can check this assumption by comparing the calculated and observed
+ intensity ratios for more than one pair of peaks.
+ Check for random orientation by comparing the ratios for a second set of
+ using different (
+\begin_inset Formula $hkl$
+\end_inset
+
+’s).
+ Do not try to correct your derived volume fraction for any texture effect
+ you may have.
+ Simple knowledge of how close your intensities are to those with random
+ orientation is adequate for this laboratory.
+\end_layout
+
+\begin_layout Subsubsection
+Deliverables (non-formal report):
+\end_layout
+
+\begin_layout Standard
+1) Experimental conditions: tube target and power, slit sizes, sample ID
+ number, survey-scan, other scans and peak reports.
+\end_layout
+
+\begin_layout Standard
+2) A table of: The unknowns, 
+\begin_inset Formula $hkl$
+\end_inset
+
+, 
+\begin_inset Formula $f$
+\end_inset
+
+, F*F(show work), multiplicity, LP factor, unit cell volume and measured
+ integrated intensities.
+ You will use one peak for each phase (undergraduates) or two peaks for
+ each phase (graduates).
+ 
+\bar under
+The instructor will tell you which peaks you should use for this.
+
+\bar default
+ 
+\end_layout
+
+\begin_layout Standard
+3) Calculation of volume fractions of phases from XRD.
+ See Supplement for Lab IV
+\end_layout
+
+\begin_layout Standard
+To calculate F, you will need to look up the 
+\begin_inset Formula $x_{n},y_{n},z_{n}$
+\end_inset
+
+ atom positions for the given structure:
+\end_layout
+
+\begin_layout Standard
+1) Use ICCD tables to determine structure space group number, lattice constants
+ and z, the number of atoms per unit cell.
+\end_layout
+
+\begin_layout Standard
+2) Online databases or the R.W.G.
+ Wyckoff (SEL library ref.
+ section)"Crystal Structures, 2nd., ed., Wiley (1963) to obtain 
+\begin_inset Formula $x_{n},y_{n},z_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Supplement for Lab IV
+\end_layout
+
+\begin_layout Standard
+The following is to clarify the ideas and procedure of Laboratory IV from
+ Azaroff Ch 19.
+ We start with the result of the powder diffraction theorem (Azaroff eq.19-5):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I_{hkl}=I_{o}C\frac{F_{hkl}^{2}mLP}{V_{c}^{2}}V_{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here C is a constant (involving λ, electron characteristics and diffractometer
+ geometry), 
+\begin_inset Formula $V_{c}$
+\end_inset
+
+ is the unit cell volume and 
+\begin_inset Formula $V_{s}$
+\end_inset
+
+ is the effective diffracting volume of the sample (which depends on sample
+ absorption coefficient μ).
+ This is for 
+\bar under
+one
+\bar default
+ material.
+ If you have a two-component mixture, with material A present with volume
+ fraction 
+\begin_inset Formula $v_{A}$
+\end_inset
+
+, the intensity of a reflection from 
+\bar under
+that
+\bar default
+ material is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{I_{hkl}^{A}}{I_{hkl}^{B}}=\frac{\left[F_{hkl}^{2}mLP/V_{c}^{2}\right]_{A}}{\left[F_{hkl}^{2}mLP/V_{c}^{2}\right]}\frac{v_{A}}{v_{B}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The left hand side is from the experimental data.
+ The first ratio on the right hand side is calculated.
+ This gives you 
+\begin_inset Formula $v_{A}/v_{B}$
+\end_inset
+
+, or 
+\begin_inset Formula $v_{A}$
+\end_inset
+
+ since 
+\begin_inset Formula $v_{B}=1-v_{A}$
+\end_inset
+
+.
+ Azaroff is incorrect in omitting from the denominators in eqs: 19-5, 19-7
+ and 19-9 of the text.
+\end_layout
+
+\begin_layout Standard
+To use this you must be able to evaluate 
+\begin_inset Formula $F_{hkl}^{2}$
+\end_inset
+
+ for the two materials.
+ An example will be worked here.
+ Take the case of antimony (Sb).
+ You must know its crystal structure.
+ The JCPDS file says that the crystal system is "Rhombohedral (Hex)".
+ That means that the 
+\bar under
+primitive
+\bar default
+ unit cell is rhombohedral, but that the pattern is indexed (
+\begin_inset Formula $hkl$
+\end_inset
+
+) with the larger (more convenient) hexagonal cell (
+\begin_inset Formula $a=b,γ=120\textdegree$
+\end_inset
+
+).
+ There are three lattice points in the hexagonal cell at 000; 2/3 1/3 1/3;
+ 1/3 2/3 2/3 (Azaroff, pp.
+ 49 ff; Cullity, Appendix 4).
+ You must look up the crystal structure of Sb (it is not HCP!).
+ A good reference is: R.W.G.
+ Wyckoff, 
+\shape italic
+Crystal Structures
+\shape default
+, 2nd.
+ edn., Wiley (1963).
+ This multivolume set is in the reference section of SEL.
+ There you find that there are two Sb per lattice point with displacements
+ ±z = 0.233.
+ This information locates the 6 Sb atoms per hexagonal unit cell.
+ In writing down structure factors, it is convenient to factor the positions
+ of lattice points and the atom displacements from the lattice points (you
+ have done this with FCC structures such as diamond/silicon or NaCl):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{hkl}=f\left[1+e^{\frac{2\pi i}{3}(2h+k+l)}+e^{\frac{2\pi i}{3}(h+2k+l)}\right]\left[e^{2\pi izl}+e^{-2\pi izl}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Recalling that 
+\begin_inset Formula $e^{ix}+e^{-ix}=2cosx$
+\end_inset
+
+ and that 
+\begin_inset Formula $F^{2}=FF^{*}$
+\end_inset
+
+, straightforward algebra yields:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{hkl}^{2}=4f^{2}\left[3+2cos\frac{2\pi}{3}(2h+k+l)+2cos\frac{2\pi}{3}(h+2k+2l)+2cos\frac{2\pi}{3}(h-k-l)\right]cos^{2}2\pi zl
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Remember that the arguments of the trigonometric functions are in 
+\bar under
+radians.
+
+\bar default
+ An easy check on 
+\begin_inset Formula $F^{2}$
+\end_inset
+
+ is to see that it gives 
+\begin_inset Formula $Z^{2}f^{2}$
+\end_inset
+
+ when 
+\begin_inset Formula $h=k=l=0$
+\end_inset
+
+; here Z = 6 is the number of atoms per unit cell.
+\end_layout
+
+\begin_layout Standard
+Multiplicity 
+\shape italic
+m
+\shape default
+ is looked up or derived for each reflection, and LP factor and 
+\shape italic
+f
+\shape default
+ depend on 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ (or 
+\begin_inset Formula $sin\theta/\theta$
+\end_inset
+
+).
+ The remaining factor to be calculated is 
+\begin_inset Formula $V_{c}=a\cdot b\times c=abccos30\textdegree$
+\end_inset
+
+(
+\begin_inset Formula $\neq$
+\end_inset
+
+ abc in hexagonal systems!).
+ Do the same calculations for the other material and solve for 
+\begin_inset Formula $v_{A}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 7: Rotating Crystal Method (et al.)
+\end_layout
+
+\begin_layout Standard
+Reading: Lecture notes: “Rotating Crystal Method”(bring to lab), Cullity
+ pp.
+ 111-113, sec 5-2, 5- 6, Hammond App.
+ 6 Table A6.1, “Correction Term For Powder Diffractometry” (attached), and
+ Digital Image Plates (Lab Documents Folder).
+\end_layout
+
+\begin_layout Subsubsection
+Lab Summary 
+\end_layout
+
+\begin_layout Standard
+Polyethylene -(
+\begin_inset Formula $CH_{2}$
+\end_inset
+
+)- crystallizes into an orthorhombic unit cell.
+ One sample has been heated and drawn causing it to have a strong 
+\series bold
+c
+\series default
+-axis orientation along the draw direction but random in the 
+\series bold
+a-b
+\series default
+ plane.
+ The other is an isotropic polycrystalline sheet.
+ 
+\end_layout
+
+\begin_layout Standard
+A) This week you will perform a rotating crystal experiment using the Cylindrica
+l Camera to determine lattice parameter and Miller Indices for an orientated
+ polyethylene sample.
+\end_layout
+
+\begin_layout Standard
+B) For isotropic polyethylene, you will perform PXRD to measure, 1) the
+ average crystallite size, 2) the percent of the crystalline and amorphous
+ phases, and 3) the 2θ peak shift due to sample displacement for the Bragg/Brent
+ano diffractometer geometry.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part A: Determine Lattice Parameter and Index Sample
+\end_layout
+
+\begin_layout Standard
+With your instructor’s assistance, mount the sample in the cylindrical camera
+ with the sample draw direction along the axis of the camera and insert
+ the Image Plate (IP, a film like image recording media).
+ Mount the camera to a point focus port of a Ni filtered Cu x-ray tube (monochro
+matic radiation, λ=1.5418
+\begin_inset Formula $\mathring{A}$
+\end_inset
+
+).
+ Record a diffraction pattern for 5min at 40 kV, 11 mA.
+ Process the IP.
+\end_layout
+
+\begin_layout Standard
+Use the image analysis program “Image Quant” to process your data.
+ You will observe two “layer lines” corresponding to 
+\begin_inset Formula $l=0$
+\end_inset
+
+ and 
+\begin_inset Formula $l=1$
+\end_inset
+
+.
+ With the software, convert the image to an 
+\shape italic
+Intensity vs.
+ Distance
+\shape default
+ plot and with the peak finder function, locate peak positions.
+ Print data.
+\end_layout
+
+\begin_layout Standard
+After lab:
+\end_layout
+
+\begin_layout Standard
+Use the data from the layer line 
+\begin_inset Formula $l=0$
+\end_inset
+
+ and 
+\begin_inset Formula $r*_{H}^{2}$
+\end_inset
+
+ for each of the first two diffraction lines and solve for 
+\series bold
+a
+\series default
+* and 
+\series bold
+b
+\series default
+*.
+ You will have two equations and four unknowns.
+ Start by guessing values for 
+\shape italic
+h
+\shape default
+ and 
+\shape italic
+k
+\shape default
+.
+ (Hint: 
+\shape italic
+h
+\shape default
+ and 
+\shape italic
+k
+\shape default
+ are not (10) or (01)).
+ Understand that 
+\shape italic
+h
+\shape default
+ and 
+\shape italic
+k
+\shape default
+ can only be integers and start with numerically low values.
+ Once 
+\series bold
+a
+\series default
+* and 
+\series bold
+b
+\series default
+* are known, you can now index all other diffraction lines (use a spreadsheet
+ program) for both the l=0 and l=1.
+ Do this for six line pairs for each the 
+\begin_inset Formula $l=0$
+\end_inset
+
+ and 
+\begin_inset Formula $l=1$
+\end_inset
+
+ layer lines (12 total).
+ Make a table of the measured 
+\begin_inset Formula $r*_{H}^{2}$
+\end_inset
+
+ and compare with calculated 
+\begin_inset Formula $r*_{H_{calc}}^{2}$
+\end_inset
+
+ (using the 
+\series bold
+a
+\series default
+* and 
+\series bold
+b
+\series default
+* from above) to check accuracy.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part B: Perform a PXRD scan
+\end_layout
+
+\begin_layout Standard
+Cu 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+, 40kV, 5mA, DS/SS=2/3°, RS=0.1°(0.6mm), Ni filter, 2θ from 10°-50°, step=
+ 0.05°, dwell=1s (L7B).
+ 
+\end_layout
+
+\begin_layout Standard
+1) 
+\series bold
+Determine crystallite size.
+ 
+\series default
+Measure the FWHM (convert to radians) for each of the first eight peaks.
+ Use the Scherrer equation to average the results to calculate the apparent
+ average crystallite size D.
+\end_layout
+
+\begin_layout Standard
+2)
+\series bold
+ Determine percent crystallinity.
+
+\series default
+ Some materials are not totally crystalline or totally amorphous like glass,
+ but a mix of both.
+ In the diffraction pattern, a distinct amorphous halo will be seen mixed
+ with the crystalline diffraction peaks.
+ The percentage of each is determined by the ratio of the integrated intensities
+ after subtracting background i.e.
+ 
+\begin_inset Formula $\%crystallinity=I_{crystalline}/(I_{crystalline}+I_{amorphous})$
+\end_inset
+
+.
+ Use the peaks in the range of 2θ from 10° to 28°.
+\end_layout
+
+\begin_layout Standard
+3)
+\series bold
+ Peak shift due to sample displacement.
+ 
+\series default
+To simulate the error produced by an off-center sample, the instructor will
+ displace the sample holder with the spacer.
+ Rescan 2θ from 20°-23° (L7B3).
+ Note the peak shift and calculated the thickness of the spacer using the
+ attached handout: “Correction term for Powder Diffractometry.” The radius(R)
+ of the Rigaku Ultima diffractometer is 285mm.
+\end_layout
+
+\begin_layout Subsubsection
+Report
+\end_layout
+
+\begin_layout Paragraph
+Part A
+\end_layout
+
+\begin_layout Standard
+1) Make a table of the peaks #1-6 for both layer lines l=0, l=1 with: x,
+ y, measured 
+\begin_inset Formula $r*_{H}^{2}$
+\end_inset
+
+, 
+\shape italic
+hkl
+\shape default
+, 
+\series bold
+a
+\series default
+*, 
+\series bold
+b
+\series default
+*, 
+\series bold
+c
+\series default
+*, calculated 
+\begin_inset Formula $r*_{H}^{2}$
+\end_inset
+
+, and Miller Indices.
+ Include the multiple (ambiguous) indexing as appropriate.
+ 
+\end_layout
+
+\begin_layout Standard
+2) Make another table with 
+\series bold
+a
+\series default
+, 
+\series bold
+b
+\series default
+, 
+\series bold
+c,
+\series default
+ 
+\begin_inset Formula $V_{c}$
+\end_inset
+
+ (unit cell volume).
+\end_layout
+
+\begin_layout Standard
+3) Based on your unit cell parameters and a density of 1 
+\begin_inset Formula $g/cm^{3}$
+\end_inset
+
+, how many -
+\begin_inset Formula $CH_{2}$
+\end_inset
+
+- units are there per unit cell?
+\end_layout
+
+\begin_layout Standard
+4) Look for the systematic absences of Miller Indices to determine the Bravais
+ lattice (Hammond Table A6.1).
+ 
+\end_layout
+
+\begin_layout Paragraph
+Part B
+\end_layout
+
+\begin_layout Standard
+1) Calculate percent crystallinity, include calculations for background
+ and integrated intensities and L7B plot.
+\end_layout
+
+\begin_layout Standard
+2) The crystallite size calculation with a table of peak widths (degrees,
+ radians) for the first six peaks, and the averaged grain size.
+ Check that the angular size of the RS (0.6mm=0.1°) < FWHM in order to make
+ a valid measurement.
+\end_layout
+
+\begin_layout Standard
+3) For the displaced sample, include plot (L7B3) for the shifted 2θ peak.
+ Referring to the attached handout, calculate (show work) the spacer thickness
+ (δ) from the Δ2θ peak shifts.
+ Explain how sample absorption (the depth that x-rays penetrate the sample)
+ can cause shifting of peaks.
+\end_layout
+
+\begin_layout Subsubsection
+APPENDIX
+\end_layout
+
+\begin_layout Paragraph
+Correction Term For Powder Diffractometry
+\end_layout
+
+\begin_layout Standard
+If the sample is displaced from the center of the powder camera or diffractomete
+r of radius R by a distance of 
+\begin_inset Formula $\delta$
+\end_inset
+
+(
+\begin_inset Formula $\delta$
+\end_inset
+
+ may be due to misalignment and/or sample absorption), the following diagram
+ applies:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/lab7.JPG
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Powder diffractometry geometry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $\frac{sin(angle)}{\mbox{side opposite}}=constant,\frac{sin(\Delta2\theta}{\delta/sin\theta}=\frac{sin(180-2\theta)}{R}=\frac{sin2\theta}{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For small errors, 
+\begin_inset Formula $sin(\Delta2\theta)\approx\Delta2\theta=\frac{-\delta sin2\theta}{Rsin\theta}=\frac{-\delta2sin\theta cos\theta}{Rsin\theta}=-\frac{2\delta cos\theta}{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To determine effect on d, use 
+\begin_inset Formula $d=\lambda/(2sin\theta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta d=\frac{-\lambda}{2}(sin\theta)^{-2}\Delta sin\theta=\frac{-\lambda}{2sin^{2}\theta}cos\theta\Delta\theta=\frac{-\lambda\Delta\theta}{2tan\theta sin\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+then 
+\begin_inset Formula 
+\[
+\frac{\Delta d}{d_{o}}=\frac{-\lambda\Delta\theta/(2tan\theta sin\theta)}{\lambda/(2sin\theta)}=\frac{-\Delta\theta}{tan\theta}=\frac{\delta cos\theta}{Rtan\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta d}{d_{o}}=\frac{\delta cos^{2}\theta}{Rsin\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Complete Nelson-Riley function also corrects for vertical divergence of
+ beam, leading to additional term of 
+\begin_inset Formula $cos^{2}\theta/\theta$
+\end_inset
+
+; see Cullity, p.
+ 356.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 8: Single Crystal Epitaxial Thin Film 
+\end_layout
+
+\begin_layout Standard
+Reading: C.R.Wie, Introduction sec1,2,3, sec2.1, 3.1, 3.2 
+\end_layout
+
+\begin_layout Subsubsection
+Lab Summary 
+\end_layout
+
+\begin_layout Standard
+The sample to be studied is a PTO (
+\begin_inset Formula $PbTiO_{3}$
+\end_inset
+
+) (001) single crystal thin film grown epitaxially by MOCVD on a STO (
+\begin_inset Formula $SrTiO_{3}$
+\end_inset
+
+) (001) single crystal substrate.
+ Several things will be examined: 1) Measure the thickness of the PTO film.
+ 2) Determine the quality (how single crystal it is) of the PTO single crystal
+ film.
+ 3) Generate a simulated data set to compare with raw data to better refine
+ measured parameters.4) Determine the angular resolution limit of the x-ray
+ diffraction system using the “perfect crystal” STO substrate as a standard.
+\end_layout
+
+\begin_layout Standard
+Note you will be using an instrument that has been optimized for thin film
+ diffraction studies.
+ That is: 1) the radiation source is 
+\begin_inset Formula $CuK_{\alpha1}$
+\end_inset
+
+ having 
+\begin_inset Formula $CuK_{\alpha2}$
+\end_inset
+
+ removed by using a monochromator and slit, 2) the incident beam divergence
+ is ~0.02°.
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Both materials have the perovskite crystal structures, with the STO substrate
+ forming a cubic perovskite and the PTO forming a tetragonal perovskite
+ structure at RT (room temperature.) The current interest in PTO thin films
+ arises from its ferroelectric properties; under an applied electric field,
+ the 
+\begin_inset Formula $O^{2-}$
+\end_inset
+
+ anion sublattice can shift in position with respect to the 
+\begin_inset Formula $Pb^{2+}$
+\end_inset
+
+ and 
+\begin_inset Formula $Ti^{4+}$
+\end_inset
+
+cation sub-lattices, resulting a net dipole moment along the 
+\series bold
+c
+\series default
+ axis.
+ This shift is depicted in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:-perovskite-unit"
+
+\end_inset
+
+ below, which shows an a axis projection of the PTO perovskite at its two
+ different stable polarization states.
+ Investigating this ferroelectric behavior in thin films requires very high
+ crystalline perfection.
+ Since the cubic a-axis lattice constant (a=3.905 Å at RT) of bulk STO matches
+ closely with the a-axis lattice constant of bulk PTO (a=3.905 Å at RT),
+ the PTO film grows in the c-axis direction (for film thicknesses less than
+ a critical thickness of 600 Å).
+ The bulk PTO at RT is tetragonal with a c/a ratio of 1.063 (c = 4.151 Å.)
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/updown.JPG
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $PbTiO_{3}$
+\end_inset
+
+ perovskite unit cells
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:-perovskite-unit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Experimental Procedure 
+\end_layout
+
+\begin_layout Enumerate
+Perform the 
+\begin_inset Quotes eld
+\end_inset
+
+Half Beam Alignment
+\begin_inset Quotes erd
+\end_inset
+
+ sample alignment procedure with the aid of lab instructor, to align the
+ sample with the x-ray beam.
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ for Bragg peaks of both the substrate and film (001) reflections, given
+ that the xray source is Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ 
+\begin_inset Formula $\lambda$
+\end_inset
+
+= 1.54056 
+\begin_inset Formula $\mathring{A}$
+\end_inset
+
+ and move 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ the STO (001) peak.
+ Located and maximize the scattering intensity by making small positional
+ corrections to
+\begin_inset Formula $2\theta$
+\end_inset
+
+, 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $\chi$
+\end_inset
+
+ to better align the substrate scattering vector to the scatter plane.
+ Perform a 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\omega$
+\end_inset
+
+ or Rocking Scan
+\begin_inset Quotes erd
+\end_inset
+
+ of the STO (001) peak and record the peak width.
+ Rocking scans measure the distribution of plane-normals of the domains
+ within the sample.
+ The smaller the angle, the more 
+\begin_inset Quotes eld
+\end_inset
+
+single crystal
+\begin_inset Quotes erd
+\end_inset
+
+ it is.
+ Because the STO is a 
+\begin_inset Quotes eld
+\end_inset
+
+perfect
+\begin_inset Quotes erd
+\end_inset
+
+ crystal, the value will be the minimum angular divergence of the instrument.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Perform a 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ scan along a path in reciprocal space that passes through the (001) peaks
+ for both the PTO film and STO substrate peaks.
+ Thus you will be able to determine the c lattice constants for both the
+ film and substrate from their respective 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ peak positions.
+ Compare these to the bulk values.
+ Depending on the amount of perpendicular strain on the film due to any
+ lattice mismatch, the peak separation can vary from the amount predicted
+ by the bulk lattice constants of PTO.
+ With the data plotted on a log scale, you will also note the kinematic
+ thickness fringe peaks about the film peak maxima.
+ From the 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ scan it is possible to calculate the film thicknesses from the width of
+ the diffraction peaks by understanding the one dimensional interference
+ function,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $I(s)=K\frac{sin^{2}(M\pi s\cdot\mathbf{c)}}{sin^{2}(\pi s\cdot\mathbf{c})}$
+\end_inset
+
+where the scattering vector magnitude is 
+\begin_inset Formula $s=2sin\theta/\lambda$
+\end_inset
+
+ and M= number of unit cells.
+ Note that the film thickness is t = Mc.
+ This interference function, which is based on simple kinematical diffraction
+ theory, can describe the 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ scan scattered intensity from a thin epitaxial film such as the PTO.
+ This measured intensity I(s) will consist of the primary diffraction peaks
+ from the film and the substrate.
+ It will also show the thickness fringes from the film.
+ From the numerator of the interference function it can be seen that the
+ fringe periodicity (angular spacing) is directly related to the thickness
+ of the film by: 
+\begin_inset Formula $\Delta s=\frac{1}{tcos\theta}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Move 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ to the PTO (001) and locate the peak position.
+ Optimize 
+\begin_inset Formula $2\theta,\theta$
+\end_inset
+
+and 
+\begin_inset Formula $\chi$
+\end_inset
+
+ again.
+ Perform a rocking scan of the PTO (001) peak and record the peak width.
+ This angular width quantifies the film quality.
+ You can then determine if the film is epitaxial as depicted in Fig.
+ 1.
+ For example, if the film were polycrystalline with no preferred growth
+ direction an ω-scan of the PTO peak position would be rather flat and featurele
+ss.
+ If on the other hand the ω-scan shows a sharp peak then there is a preferred
+ growth direction.
+\end_layout
+
+\begin_layout Paragraph
+Simulation of kinematical diffraction
+\end_layout
+
+\begin_layout Standard
+Once c (PTO (001)) and the film thickness t are known, use a spreadsheet
+ program and plot the diffraction pattern from the PTO (001) film using
+ the one dimensional interference function described above plotting log
+ I vs.
+ q
+\begin_inset Formula $(\mathring{A^{-1}}$
+\end_inset
+
+).
+ Over-lay the simulation output on your 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ data (convert 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ to q(A-1) and re-scale the intensity if necessary.
+ Refine the values of t (M(t)) and 
+\series bold
+c
+\series default
+ so the simulation will best match your data.
+\end_layout
+
+\begin_layout Subsubsection
+Deliverables
+\end_layout
+
+\begin_layout Standard
+For your report: 
+\end_layout
+
+\begin_layout Enumerate
+Include the instrument parameter information: slits, target, scan parameters
+ etc,
+\end_layout
+
+\begin_layout Enumerate
+Rocking scans plots for STO and PTO with width measured and discuss the
+ significance of each plot.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A log plot of the 2θ/θ scan over the film and substrate peaks show thickness
+ fringes and calculation of the film thickness.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A simulation plot with t and c refined for the best match to your raw data
+ (overlaid.) Report the refined values you found for c(PTO (001) and t.
+ (see example below).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/simplot.JPG
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Simulation plot example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Simulation example
+\series default
+: A 
+\begin_inset Formula $2\theta/\theta$
+\end_inset
+
+ scan at l = 1.540 
+\begin_inset Formula $\mathring{A}$
+\end_inset
+
+ of t ~103 
+\begin_inset Formula $\mathring{A}$
+\end_inset
+
+ thick PTO (001) film grown by MOCVD on a (001) STO substrate.
+ Note the thickness fringes about the broad PTO (001) peak.
+ The solid line is a fit to the experimental data using the interference
+ function corrected for absorption from the film and substrate.
+ (From C.
+ Thompson, C.
+ Foster, J.A.
+ Eastman, and G.
+ B.
+ Stephenson, Appl.
+ Phys.
+ Lett.
+ 71, 3516 (1997).)
+\end_layout
+
+\end_body
+\end_document

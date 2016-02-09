@@ -1,0 +1,684 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{textcomp}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl} 
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+
+
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, urlcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch thisfileonly
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -2
+\tocdepth 4
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Branch thisfileonly
+status open
+
+\begin_layout Title
+331 MATLAB Exercises
+\end_layout
+
+\begin_layout Author
+Kenneth R.
+ Shull
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+331 Computational Exercises
+\end_layout
+
+\begin_layout Enumerate-Resume
+In binary blends where the two components have very different molar volumes
+ (often the case with polymers), the following form of the free energy expressio
+n is commonly used:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{v_{0}G_{v}}{k_{B}T}=\frac{\phi_{b}ln\phi_{b}}{N_{b}}+\frac{\left(1-\phi_{b}\right)\ln\left(1-\phi_{b}\right)}{N_{a}}+\chi\phi_{b}\left(1-\phi_{b}\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The expressions for the chemical potentials for the 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ molecules are given by the following expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\mu_{a}}{k_{B}T}=\ln\left(1-\phi_{b}\right)+\phi_{b}\left(1-N_{a}/N_{b}\right)+\chi N_{a}\phi_{b}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\mu_{b}}{k_{B}T}=\ln\left(\phi_{b}\right)+\left(1-\phi_{b}\right)\left(1-N_{b}/N_{a}\right)+\chi N_{b}\left(1-\phi_{b}\right)^{2}
+\]
+
+\end_inset
+
+Here 
+\begin_inset Formula $G_{v}$
+\end_inset
+
+ is the free energy per volume, 
+\begin_inset Formula $\phi_{b}$
+\end_inset
+
+is the volume fraction of 
+\begin_inset Formula $B$
+\end_inset
+
+ in the system, and 
+\begin_inset Formula $N_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{b}$
+\end_inset
+
+are proportional to the molecular volumes of the two components.
+ The quantity 
+\begin_inset Formula $v_{0}$
+\end_inset
+
+ is a reference volume, so the molecular volume of the '
+\begin_inset Formula $A$
+\end_inset
+
+' molecule is 
+\begin_inset Formula $v_{0}N_{a}$
+\end_inset
+
+ and the molecular volume of the '
+\begin_inset Formula $B$
+\end_inset
+
+' molecule is 
+\begin_inset Formula $v_{0}N_{b}$
+\end_inset
+
+.
+ Adapt the MATLAB script below to do the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/commontangent.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Plot the free energy expression 
+\begin_inset Formula $\chi=0.02$
+\end_inset
+
+, 
+\begin_inset Formula $N_{a}=200$
+\end_inset
+
+, and 
+\begin_inset Formula $N_{b}=100$
+\end_inset
+
+, along with its common tangent construction, and report the values of the
+ equilibrium compositions of the two phases.
+ Include the plot with your solution.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We just need to change the values of na, nb and chi in the original script.
+ This is what we end up with.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../316-2/figures/comtan_chi_0.02.eps
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equilibrium volume fractions (
+\begin_inset Formula $\phi_{b})$
+\end_inset
+
+ returned by fsolve are 0.200 and 0.870.
+ Here's the script I used to generate the set of plots for the solutions
+ to this problem.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "Matlab/commontangentsolutions.m"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Repeat the previous calculation for 
+\begin_inset Formula $\chi=0.025$
+\end_inset
+
+ and 
+\begin_inset Formula $\chi=0.05$
+\end_inset
+
+ (you may need to adjust the initial guess for the volume fractions).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+Here's the plot for 
+\begin_inset Formula $\chi=0.025$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../316-2/figures/comtan_chi_0.025.eps
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equilibrium values of 
+\begin_inset Formula $\phi_{b}$
+\end_inset
+
+ are 0.091 and 0.952
+\end_layout
+
+\begin_layout Standard
+And here's the one for 
+\begin_inset Formula $\chi=0.05$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../316-2/figures/comtan_chi_0.05.eps
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that the phase compositions are nearly pure in this case.
+ The actual values from fsolve are 0.005 and 0.999.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Decrease 
+\begin_inset Formula $\chi$
+\end_inset
+
+ to the critical value, 
+\begin_inset Formula $\chi_{crit}$
+\end_inset
+
+, which can be calculated analytically.
+ Include a plot of 
+\begin_inset Formula $G_{v}$
+\end_inset
+
+ as a function of 
+\begin_inset Formula $\phi_{b}$
+\end_inset
+
+ for value of 
+\begin_inset Formula $\chi$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+We use the following expression for 
+\begin_inset Formula $\chi_{crit}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Which for our values of 
+\begin_inset Formula $N_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{b}$
+\end_inset
+
+ gives 
+\begin_inset Formula $\chi_{crit}=0.0165$
+\end_inset
+
+.
+ This gives the following plot:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../316-2/figures/comtan_chi_crit.eps
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I have included the tangent line to the curve at 
+\begin_inset Formula $\phi_{b}=\phi_{crit}$
+\end_inset
+
+ so that you can see that this critical point is the point where we are
+ just starting to get two separate phase compositions from the common tangent
+ construction.
+ To do this I used the following expression for 
+\begin_inset Formula $\phi_{crit}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\phi_{crit}=\frac{\sqrt{N_{a}}}{\sqrt{N_{a}}+\sqrt{N_{b}}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Extend work from the previous problem to obtain a MATLAB code that generates
+ the full phase diagram (with 
+\begin_inset Formula $\chi$
+\end_inset
+
+ on the vertical axis and 
+\begin_inset Formula $\phi_{b}$
+\end_inset
+
+ on the horizontal axis) for a system with 
+\begin_inset Formula $N_{a}=200$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{b}=100$
+\end_inset
+
+.
+ Show both the bimodal and spinodal curves, and turn in a printout of your
+ actual MATLAB code.
+ 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Hint:
+\series default
+ You'll want to solve the equations for a variety of 
+\begin_inset Formula $\chi$
+\end_inset
+
+ values above the critical value of 
+\begin_inset Formula $\chi$
+\end_inset
+
+, which you can calculate analytically.
+ You can use a 'for' loop in MATLAB to do this.
+ Calculation of the spinodal curve is pretty easy, because there's an analytic
+ expression for that.
+ When you're developing your initial guesses for the bimodal compositions
+ to pass to the 'fsolve' command, keep in mind that the bimodal compositions
+ must lie outside the spinodal compositions.
+ This can help you develop sensible guesses to use for this quantity.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Here's the plot:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../316-2/figures/flory_chi_diagram.eps
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here's the script I used to generate the phase diagram plots:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "Matlab/calcphasediagram.m"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

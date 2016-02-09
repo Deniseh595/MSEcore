@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><svg height="32.03397mm" version="1.0" viewBox="0 0 246 121" width="65.12692mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-233,-122)">
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="425.13" x2="470.95" y1="140.97" y2="167.41"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="287.75" x2="287.75" y1="167.41" y2="202.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="287.75" x2="333.57" y1="167.41" y2="140.97"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="379.35" x2="425.13" y1="167.41" y2="140.97"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="333.57" x2="379.35" y1="140.97" y2="167.41"/>
+      <line x1="340.97" x2="379.88" y1="136.08" y2="158.55"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="241.93" x2="287.75" y1="140.97" y2="167.41"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="276.30" y="227.29">Cl</text>
+    <polyline fill="none" points="268.56,130.96 258.93,130.96 258.93,175.98 268.56,175.98 " stroke="#000000" stroke-width="2.26682408501"/>
+    <polyline fill="none" points="436.31,130.96 445.90,130.96 445.90,175.98 436.31,175.98 " stroke="#000000" stroke-width="2.26682408501"/>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule50381" name="">
+      <atom id="atom46618" name="C" valency="4">
+        <font family="Arial" size="24"/>
+        <point x="6.405cm" y="3.732cm"/>
+      </atom>
+      <atom id="atom11288" name="C" valency="4">
+        <font family="Arial" size="24"/>
+        <point x="7.618cm" y="4.432cm"/>
+      </atom>
+      <atom id="atom28056" name="C" valency="4">
+        <font family="Arial" size="24"/>
+        <point x="8.831cm" y="3.732cm"/>
+      </atom>
+      <atom id="atom95013" name="C" valency="4">
+        <font family="Arial" size="24"/>
+        <point x="10.043cm" y="4.432cm"/>
+      </atom>
+      <atom id="atom25934" name="C" valency="4">
+        <font family="Arial" size="24"/>
+        <point x="11.255cm" y="3.732cm"/>
+      </atom>
+      <atom id="atom76380" name="C" valency="4">
+        <font family="Arial" size="24"/>
+        <point x="12.468cm" y="4.432cm"/>
+      </atom>
+      <atom id="atom66401" name="Cl" pos="center-first" valency="1">
+        <font family="Arial" size="24"/>
+        <point x="7.618cm" y="5.832cm"/>
+      </atom>
+      <bond double_ratio="0.85" end="atom76380" id="bond77307" line_width="2.26682408501" start="atom25934" type="n1"/>
+      <bond double_ratio="0.85" end="atom66401" id="bond63182" line_width="2.26682408501" start="atom11288" type="n1"/>
+      <bond double_ratio="0.85" end="atom28056" id="bond48840" line_width="2.26682408501" start="atom11288" type="n1"/>
+      <bond double_ratio="0.85" end="atom25934" id="bond22347" line_width="2.26682408501" start="atom95013" type="n1"/>
+      <bond bond_width="7.93388429752" center="no" double_ratio="0.85" end="atom95013" id="bond37855" line_width="2.26682408501" start="atom28056" type="n2"/>
+      <bond double_ratio="0.85" end="atom11288" id="bond68778" line_width="2.26682408501" start="atom46618" type="n1"/>
+    </molecule>
+    <polyline line_color="#000" width="2.26682408501">
+      <point x="7.110cm" y="3.467cm"/>
+      <point x="6.855cm" y="3.467cm"/>
+      <point x="6.855cm" y="4.659cm"/>
+      <point x="7.110cm" y="4.659cm"/>
+    </polyline>
+    <polyline line_color="#000" width="2.26682408501">
+      <point x="11.551cm" y="3.467cm"/>
+      <point x="11.805cm" y="3.467cm"/>
+      <point x="11.805cm" y="4.659cm"/>
+      <point x="11.551cm" y="4.659cm"/>
+    </polyline>
+  </cdml>
+</svg>

@@ -1,0 +1,680 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{textcomp}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl} 
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+
+
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, urlcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch thisfileonly
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -2
+\tocdepth 4
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Branch thisfileonly
+status open
+
+\begin_layout Title
+314 MATLAB Exercises
+\end_layout
+
+\begin_layout Author
+Matt Peters and Lincoln Lauhon
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+314 Computational Exercises
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) For this problem, you will be using MATLAB’s symbolic solver (fzero)
+ and function handles to find the zero of an equation.
+ On last week’s quiz we found that 89.1 grams of ice were necessary to cool
+ a 1 kg block of Pb down to 300 K from 600 K.
+ We will be plotting the change in temperature for both the Pb and ice.
+ You will need the following parameters:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{c}
+C_{p}^{Pb}=0.1169+4.2x10^{-5}T\,\mathrm{\frac{kg}{kg\cdot K}}\\
+C_{p}^{H_{2}O}=4.2\,\mathrm{\frac{kJ}{kg\cdot K}}\\
+\Delta H_{fus}^{H_{2}O}=344\,\mathrm{\frac{kJ}{kg}}\\
+\frac{dH}{dt}=a\Delta T
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here 
+\begin_inset Formula $a$
+\end_inset
+
+ is a coefficient that controls the heat transfer in conduction, which we
+ will assume to be 
+\begin_inset Formula $3.33x10^{-3}\,\mathrm{kJ/K\cdot s},$
+\end_inset
+
+ and
+\begin_inset Formula $\Delta T$
+\end_inset
+
+ is the temperature difference between the two materials.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Use the equations derived in class to plot the change in temperature for
+ H2O and Pb.
+ Assume dt=1 s and calculate the first 200 time steps.
+ How do you know when the system is at equilibrium? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Create a plot that shows the amount of water in the system as a function
+ of time.
+ At what time is all the ice gone?
+\end_layout
+
+\begin_layout Enumerate-Resume
+Create a plot that shows the total heat transfer occurring between the Pb
+ and H2O.
+ How can you tell when equilibrium is reached from this plot? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) We will be putting together a program to help calculate phase diagrams
+ of all sorts piece by piece.
+ The first step is to create a MATLAB script that solves a system of two
+ equations.
+ The system is below:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+G_{s}-X_{s}\frac{dG_{s}}{dX_{s}}=G_{\ell}-X_{\ell}\frac{dG_{\ell}}{dX_{\ell}}\label{eq:phase diag proj eq1 to solve}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\frac{dG_{s}}{dX_{s}}=\frac{dG_{\ell}}{dX_{\ell}}\label{eq:phase diagram project eq2 to solve}
+\end{equation}
+
+\end_inset
+
+ where 
+\begin_inset Formula $G_{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $G_{\ell}$
+\end_inset
+
+ are given by the following expressions:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{s}\left(X_{s}\right)=\Omega_{s}X_{s}\left(1-X_{s}\right)+RT\left[X_{s}\ln X_{s}+\left(1-X_{s}\right)\ln\left(1-X_{s}\right)+200X_{s}-400\left(1-X_{s}\right)\right].
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{\ell}\left(X_{\ell}\right)=\Omega_{\ell}X_{\ell}\left(1-X_{\ell}\right)+RT\left[X_{\ell}\ln X_{\ell}+\left(1-X_{\ell}\right)\ln\left(1-X_{\ell}\right)\right].
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here 
+\begin_inset Formula $G_{s}$
+\end_inset
+
+ is the Gibbs energy of the solid phase, 
+\begin_inset Formula $G_{\ell}$
+\end_inset
+
+ the Gibbs free energy of the liquid phase, 
+\begin_inset Formula $R$
+\end_inset
+
+ the gas constant (8.314 J/K), 
+\begin_inset Formula $T$
+\end_inset
+
+ the absolute temperature, 
+\begin_inset Formula $X_{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{\ell}$
+\end_inset
+
+ are the compositions of the solid and liquid phase respectively, and 
+\color black
+
+\begin_inset Formula $\Omega_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $\Omega_{\ell}$
+\end_inset
+
+ are
+\color inherit
+ parameters to be defined later.
+ We can rewrite Eqs.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phase diag proj eq1 to solve"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phase diagram project eq2 to solve"
+
+\end_inset
+
+ as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+G_{s}-X_{s}\frac{dG_{s}}{dX_{s}}-G_{\ell}+X_{\ell}\frac{dG_{\ell}}{dX_{\ell}}=0\label{eq:phase diag proj eq1 to solve-1}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\frac{dG_{s}}{dX_{s}}-\frac{dG_{\ell}}{dX_{\ell}}=0\label{eq:phase diagram project eq2 to solve-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Create a MATLAB function that takes 
+\begin_inset Formula $X_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $X_{\ell}$
+\end_inset
+
+, 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $\Omega_{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Omega_{\ell}$
+\end_inset
+
+ as inputs and then create a script that uses the MATLAB command fsolve
+\series bold
+\shape italic
+ 
+\series default
+\shape default
+to calculate 
+\begin_inset Formula $X_{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{\ell}$
+\end_inset
+
+ for 
+\begin_inset Formula $T$
+\end_inset
+
+=700K, 
+\color black
+
+\begin_inset Formula $\Omega_{\ell}=1500\,\mathrm{cal/mol}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Omega_{s}=3000\,\mathrm{cal/mol}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maybe a bit of rewrite here.
+ Need units for 
+\begin_inset Formula $\Omega$
+\end_inset
+
+, also 200 and 400 that appear in Eq.
+ above.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) Now that we are able to solve for the composition of the solid and
+ liquid at one point, we will improve our script to calculate it over a
+ range of temperatures.
+ Start with an initial guess for both the solid and liquid near zero and
+ a temperature of 900 K.
+ Determine the composition of the liquid and solid down to 1 K for each
+ temperature using a for loop.
+ Make sure to update your guess with the correct answer for the previous
+ temperature to help your program converge.
+ Repeat again starting from 600 down to 1 K, this time starting with an
+ initial guess near 1, and plot your results.
+ Use the following parameters to make the Gibbs energy more physical: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T_{m}^{\alpha}=900\,\mathrm{K}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T_{m}^{\beta}=600\,\mathrm{K}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta H_{f}^{\alpha}=2000\,\mathrm{\frac{cal}{mol}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta H_{f}^{\beta}=1300\,\mathrm{\frac{cal}{mol}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The liquid and solid free energies are given by the following expressions.
+ (Note that the Gibbs energy for the solid phase has changed slightly and
+ should be adjusted in your code.
+ In these units 
+\begin_inset Formula $R=1.987\,\mathrm{cal/mol\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Check the following.
+ I believe this assumes negligible solid solubility.
+ Also make sure that 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ expressions should be liquid to solid and not the other way around.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{s}\left(X_{s}\right)=\Omega_{s}X_{s}\left(1-X_{s}\right)+RT\left[X_{s}\ln X_{s}+\left(1-X_{s}\right)\ln\left(1-X_{s}\right)+X_{s}\Delta G_{\beta}^{\ell\rightarrow s}+\left(1-X_{s}\right)\Delta G_{\alpha}^{\ell\rightarrow s}\right].
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{\ell}\left(X_{\ell}\right)=\Omega_{\ell}X_{\ell}\left(1-X_{\ell}\right)+RT\left[X_{\ell}\ln X_{\ell}+\left(1-X_{\ell}\right)\ln\left(1-X_{\ell}\right)\right].
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As a reminder, the free energy change for the melting transition can be
+ written in terms of the enthalpic and entropic contributions to the free
+ energy: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G^{s\rightarrow\ell}=\Delta H^{s\rightarrow\ell}-T\Delta S^{s\rightarrow\ell}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) Our phase diagram calculation is almost complete! We only have to
+ find the equilibrium between the two solid phases left.
+ To do that, we simply take the derivative of the Gibbs free energy of the
+ solid phase and set it equal to zero.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Note - this only works because the free energy expression is symmetric,
+ so the common tangent construction is a horizontal line.
+ 
+\end_layout
+
+\end_inset
+
+The equation becomes: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+RT\ln\left(\frac{X_{s}}{1-X_{s}}\right)-\Omega_{s}\left(2X_{s}-1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Again, assume that 
+\begin_inset Formula $\Omega_{s}$
+\end_inset
+
+= 3000 cal/mol.
+ This is easily done by creating a for loop that solves for the temperature
+ at each composition between .01 and .99.
+ Plot your results on the same figure from the previous homework and voila,
+ your first phase diagram!
+\end_layout
+
+\begin_layout Standard
+Now with your working code, replot the diagrams for the following interaction
+ coefficients.
+ You will have to change the range of temperatures for one of the sets below.
+ You can figure out which one it is, if you think of the physical significance
+ of the parameters.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Omega_{s}=3000\,\mathrm{cal/mol:\,}\Omega_{\ell}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Omega_{s}=0:\,\,\Omega_{\ell}=3000\,\mathrm{cal/mol}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Omega_{s}=0;\,\Omega_{\ell}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Omega_{s}=3000\,\mathrm{cal/mol:\,}\Omega_{\ell}=3000\,\mathrm{cal/mol}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For each phase diagram, plot your results and describe how the changing
+ interaction parameters changed the shape of the plot.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

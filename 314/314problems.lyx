@@ -1,0 +1,1348 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{tocbibind} % adds index to table of contents
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocloft}
+%\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+\def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command makeindex
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 4
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\notefontcolor #ff0000
+\branch hiddensolution
+\selected 0
+\filename_suffix 0
+\color #ffff7f
+\end_branch
+\branch unused
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch shownsolution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch thisfileonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 0
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+314 Problems 
+\end_layout
+
+\begin_layout Subsection
+Phases and Components
+\end_layout
+
+\begin_layout Enumerate
+(2014) For each of the following thermodynamic systems, indicate the number
+ of components, the number of phases, and whether the system is open or
+ closed.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+An open jar of water at room temperature (assume that the jar defines the
+ boundaries of the system).
+ Assume that the water molecules do not dissociate.
+\end_layout
+
+\begin_layout Enumerate
+A sealed jar of water at room temperature.
+\end_layout
+
+\begin_layout Enumerate
+A sealed jar of water with ice.
+\end_layout
+
+\begin_layout Enumerate
+An open jar of water with NaCl entirely dissolved within.
+\end_layout
+
+\begin_layout Enumerate
+If the jar is left open, in what ways might your description change?
+\end_layout
+
+\begin_layout Enumerate
+How would your answer to (a) change if you take into account equilibrium
+ between water, protons, and hydroxyl ions?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Here is the answer...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Intensive and Extensive Properties
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2014) Classify the following thermodynamic properties are intensive or
+ extensive:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The mass of an iron magnet.
+\end_layout
+
+\begin_layout Enumerate
+The mass density of an iron magnet.
+\end_layout
+
+\begin_layout Enumerate
+The concentration of phosphorous atoms in a piece of doped silicon.
+\end_layout
+
+\begin_layout Enumerate
+The volume of the piece of silicon.
+\end_layout
+
+\begin_layout Enumerate
+The fraction by weight of copper in a penny.
+\end_layout
+
+\begin_layout Enumerate
+The temperature of the penny in your pocket.
+\end_layout
+
+\begin_layout Enumerate
+The volume of gas in a hot air balloon.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Differential Quantities and State Functions
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2014) Consider the function 
+\begin_inset Formula $z=6x^{2}y^{3}\cos^{2}u$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write down the total differential of z.
+ Identify the coefficients of the three differentials in this expression
+ as partial derivatives.
+\end_layout
+
+\begin_layout Enumerate
+Demonstrate that three Maxwell relations (see section 2.3) hold between the
+ coefficients identified under (a).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2014) Why are state functions so useful in calculating the changes in a
+ thermodynamic system?
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2014) Derive equation 4.41 starting from 4.34 and 4.31.
+ Note that other equations listed in table 4.5 can be derived in a similar
+ fashion.
+\end_layout
+
+\begin_layout Subsection
+Entropy
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) Following Section 3.6, compute the change in entropy in the formation
+ of one mole of 
+\begin_inset Formula $\mathrm{SiO_{2}}$
+\end_inset
+
+ from Si and O at room temperature.
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) Consider an isolated system consisting of three compartments A, B,
+ and C.
+ Each compartment has the same volume 
+\emph on
+V
+\emph default
+, and they are separated by partitions that have about.
+ Initially, the valves are closed and volume A is filled with an ideal gas
+ to a pressure 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+ at 298 K.
+ Volumes B and C are under vacuum.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate the change in entropy when the valve between compartment A and
+ B is opened.
+\end_layout
+
+\begin_layout Enumerate
+Calculate the change in entropy when the valve between compartment B and
+ compartment C is opened.
+\end_layout
+
+\begin_layout Enumerate
+Without considering the calculations above, how would you know that the
+ overall change in entropy is positive?
+\end_layout
+
+\begin_layout Enumerate
+What would you need to do to the system to restore the initial condition?
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Thermodynamic Data
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) This problem requires you to find sources to look up the values of
+ important materials parameters that will be used to compute thermodynamic
+ functions.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Find values of the coefficient of thermal expansion for a metal, a semiconductor
+, an insulator, and a polymer.
+ Provide the information below in your answer.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Material Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Specific Material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Source (include page or link info)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Elemental Metal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+e.g.
+
+\emph default
+ Gold
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Semiconductor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Insulator
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Polymer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What is a common material with a negative 
+\begin_inset Formula $\alpha$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate-Resume
+How is the coefficient of compressibility related to the bulk modulus? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Which metal has the highest bulk modulus at room temperature, and what is
+ the value?
+\end_layout
+
+\begin_layout Enumerate-Resume
+The heat capacity is an extensive quantity.
+ Define the related intensive quantity.
+\end_layout
+
+\begin_layout Enumerate-Resume
+What trend do you observe in elemental solids? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is the smallest value you can find for a solid material? (Explain your
+ search method, and cite your sources.)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2014) The density of silicon carbide at 298 K and 1 atm is ~3.2 g/cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+.
+ Estimate the molar volume at 800 K and a pressure of 1000 atm.
+ See tables 4.1 and 4.2 on page 61 of DeHoff for useful materials parameters.
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) The density of aluminum at 298 K and 1 atm (or “bar”) is 
+\begin_inset space ~
+\end_inset
+
+2.7 g/cm3.
+ Estimate the molar volume at 1000 K and a pressure of 1000 atm.
+ See tables 4.1 and 4.2 on page 61 of DeHoff, and Appendix B, for useful materials
+ parameters.
+ Hint: break the problem into two steps, each corresponding to a path.
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) Use the car mileage dataset provided to do the following:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+include link
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Create a second order polynomial fit to determine the coefficients for the
+ mileage dataset online.
+ Use the systems of equations we developed during discussion to help you
+ solve for the coefficients.
+ Write your polynomial coefficients down in your submitted assignment.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Using your curve of best fit, determine the optimal speed for driving that
+ maximizes your mileage.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Identify an obvious failure of your model and comment on it below.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) Answer the following questions using the heat capacity dataset 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+provide data
+\end_layout
+
+\end_inset
+
+ and the following model:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{p}=a+bT+c/T^{2}+dT^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Use the system of equations derived in class to determine the coefficients
+ a, b, c, d.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Give a possible Gibbs free energy function for bulk silicon using your heat
+ capacity fit.
+ The Gibbs free energy is related to the heat capacity through the following
+ equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{p}=-T\left(\frac{\partial^{2}G}{\partial T^{2}}\right)_{P}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) Compare the change in entropy for the specific examples below of
+ isothermal compression and isobaric heating of gases and solids.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+One mole of nitrogen (
+\begin_inset Formula $\mathrm{N_{2}}$
+\end_inset
+
+) at 1000 K is compressed isothermally from 1 to 105 bar.
+\end_layout
+
+\begin_layout Enumerate-Resume
+One mole of silicon at 300 K is compressed isothermally from 1 to 105 bar.
+\end_layout
+
+\begin_layout Enumerate-Resume
+One mole of oxygen (O2) at 300 K is heated isobarically from 300 to 1200
+ K.
+\end_layout
+
+\begin_layout Enumerate-Resume
+One mole of tungsten at 300 K is heated isobarically from 300 to 1200 K.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) For each of the following processes carried out on one mole of a
+ monatomic ideal gas, calculate the work done by the gas, the heat absorbed
+ by the gas, and the changes in internal energy, enthalpy, and entropy (of
+ the gas).
+ The processes are carried out in the specified order.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Free expansion into the vacuum to twice the volume, starting from 300 K
+ and 4 bar.
+ Then,
+\end_layout
+
+\begin_layout Enumerate-Resume
+Heating to 600 K reversibly with the volume held constant.
+ Then,
+\end_layout
+
+\begin_layout Enumerate-Resume
+Reversible expansion at constant temperature to twice the volume of the
+ previous state.
+ Then,
+\end_layout
+
+\begin_layout Enumerate-Resume
+Reversible cooling to 300 K at constant pressure.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) Consider one mole of a monatomic ideal gas that undergoes a reversible
+ expansion one of two ways.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Under isobaric conditions, the gas absorbs 5000 J of heat in the entropy
+ of the gas increases by 12.0 J/K.
+ What are the initial and final temperatures of the gas?
+\end_layout
+
+\begin_layout Enumerate-Resume
+Under isothermal conditions, 1600 J of work is performed, resulting in an
+ entropy increase of 5.76 J/K and a doubling of the volume.
+ At what temperature was this expansion performed?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) In class we learned that the change in entropy of a material with
+ temperature is given by:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{2}-S_{1}={\displaystyle \int_{T_{1}}^{T_{2}}\frac{C_{p}\left(T\right)}{T}dT}\label{eq:entropy diff from heat capacity}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a prior homework, we fit the heat capacity to a polynomial, which we
+ could then integrate.
+ Now, we will numerically integrate the data points using the Trapezoid
+ Rule discussed in class: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\int_{T_{1}}^{T_{2}}f\left(x\right)\approx\left(T_{2}-T_{1}\right)\left[\frac{f\left(T_{1}+f\left(T_{2}\right)\right)}{2}\right]\label{eq:trapezoid approx}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where the function 
+\begin_inset Formula $f\left(T\right)$
+\end_inset
+
+ in our case is the right hand side of Equation , is simply the right hand
+ side of Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:entropy diff from heat capacity"
+
+\end_inset
+
+.
+ Do this by creating a “FOR” loop in MATLAB that sums up all the trapezoids
+ in the temperature range.
+ Email your MATLAB script to the TA by the due date.
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is the difference in entropy at 300 K and 1300 K? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Previously, we determined that the heat capacity is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{p}=22.83+3.826x10^{-3}T-\frac{3.533x10^{5}}{T^{2}}+2.131x10^{-8}T^{2}\label{eq:Cp numerical fit}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Use Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:entropy diff from heat capacity"
+
+\end_inset
+
+ to analytically solve for the change in entropy using Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Cp numerical fit"
+
+\end_inset
+
+.
+ Which method do you think is more accurate? Explain your reasoning.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Temperature Equilibration
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) 100 g of ice at 250 K is added to 100 g of water at 300 K, and the
+ mixture is allowed to come to equilibrium in an isolated container at constant
+ pressure.
+ You may assume that 
+\begin_inset Formula $C_{p}$
+\end_inset
+
+ is constant for this problem (though it is not the same for water and ice)
+ and that the melting point is 273 K.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+What is the final temperature? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+How much liquid is present? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+How would your answer change if the initial liquid was 40% ethanol?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) A square block of Al, initially at a uniform temperature of 300 K,
+ is brought into contact with another block of aluminum, initially at a
+ uniform temperature of 600K.
+ Both blocks are of equal mass, and they are isolated at constant pressure
+ while they come to equilibrium.
+ The questions below assume equilibrium has been reached.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+What do you know about the final temperatures of the Al blocks? 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Will the final temperature(s) be 450 K? Justify your answer.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Find the final temperature.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Statistical Thermodynamics
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) DeHoff 6.3: Consider a system of two particles (A and B) that may
+ each occupy any of the four energy levels (
+\begin_inset Formula $\epsilon_{1},\epsilon_{2},\epsilon_{3},\epsilon_{4}$
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+How many distinct microstates are there for this system?
+\end_layout
+
+\begin_layout Enumerate-Resume
+List each of the microstates and indicate which microstates have the same
+ energy.
+\end_layout
+
+\begin_layout Enumerate-Resume
+How many macrostates are there?
+\end_layout
+
+\begin_layout Enumerate-Resume
+List the most probable macrostates.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) DeHoff 6.5 Variant: Consider the system consisting of 9 identical
+ but distinguishable particles, each of which can be in any of three states.
+ The respective energy levels of the states are 
+\begin_inset Formula $\epsilon_{0}=0,\epsilon_{1}=\epsilon,\epsilon_{2}=2\epsilon$
+\end_inset
+
+.
+ The system has a temperature T.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Write the partition function for a single particle.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the average number of particles in each state.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Determine the number of configurations that have the following occupation
+ numbers for the three states: 
+\begin_inset Formula $n_{0}=4,\,n_{1}=3,\,n_{2}=2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the entropy of the macrostate described by the occupation numbers
+ above.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the internal energy.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Choose a different set of occupation numbers to give the same internal energy
+ (
+\emph on
+e.g.
+ 
+\emph default
+(3,5,1)) and repeat your calculation of the entropy.
+ Which macrostate is more likely?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) DeHoff 6.7 variant: A System containing 500 particles and 15 energy
+ levels is in the following macrostate: {14, 18, 27, 38, 51, 78, 67, 54,
+ 32, 27, 23, 20, 19, 17, 15}.
+ Estimate the change in entropyu when the system undergoes a process leading
+ to the following changes in occupation numbers: {0, 0, -1, -1, -2, 0, 1,
+ 0, 3, 2, -1, 1, -1, 0, -1}.
+ 
+\end_layout
+
+\begin_layout Subsection
+Single Component Thermodynamics
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) DeHoff 6.10: Compute the change in entropy when one mole of a monatomic
+ ideal gas is compressed from an initial condition at 273K and 1 bar to
+ 500K at 3.5 bar.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Calculate using the phenomenological thermodynamics of Chapter 4.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate using the results of statistical thermodynamics.
+ Hint: first calculate the initial and final volumes.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) DeHoff 7.5: Sketch 
+\begin_inset Formula $G(T)$
+\end_inset
+
+ for an element that the pressure corresponding to the triple point.
+ Repeat the sketch for a pressure slightly above and slightly below the
+ triple point.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/triplepoint.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) DeHoff 7.6 See Lecture 17, last page.
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) DeHoff 7.7 variant: At what pressure will ice melt at -2°C?
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) DeHoff 7.8: At 1 atm pressure and below 1155 K, the 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ form of titanium is stable; above 1155 K, the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ form is the stable phase (
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ becomes metastable).
+ Given the following data: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Delta S^{\varepsilon\rightarrow\beta}=3.43\,\mathrm{J/mol\cdot K}$
+\end_inset
+
+ (This is the difference in molar entropy 3 between the phases).
+ 
+\end_layout
+
+\begin_layout Itemize
+The change in molar entropy upon melting is 
+\begin_inset Formula $9.02\,\mathrm{J/mol\cdot K}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{m}^{\beta}$
+\end_inset
+
+=1940 K.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Sketch 
+\begin_inset Formula $G^{\varepsilon}$
+\end_inset
+
+, 
+\begin_inset Formula $G^{\beta}$
+\end_inset
+
+ and 
+\begin_inset Formula $G^{\ell}$
+\end_inset
+
+ in the temperature range of interest.
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is 
+\begin_inset Formula $T_{m}^{\varepsilon}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate-Resume
+There is a database of the Gibbs free energy of 78 pure elements as a function
+ of temperature.
+ The database can be found here: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.crct.polymtl.ca/sgte/unary50.tdb
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Find the 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ phase of titanium (labeled as GHSERTI), the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase (labeled as GBCCTI), and the liquid phase (labeled as GLIQTI) and
+ repeat a and b using the empirical formulas.
+ Compare your answers and comment on the accuracy of your assumptions.
+\end_layout
+
+\begin_layout Standard
+NOTE: The formula is written so that a program called Thermocalc can read
+ them.
+ Each free energy curve is a piecewise formula.
+ The “;” separates the parts of the function over different temperature
+ ranges.
+ In addition, a “**” is the same as an exponent or “^”.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Mulitcomponent Thermodynamics
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) DeHoff 8.1: Titanium metal is capable of dissolving up to 30 atomic
+ percent oxygen.
+ Consider a solid solution in the system Ti–O containing an atom fraction,
+ 
+\begin_inset Formula $X_{0}=0.12$
+\end_inset
+
+.
+ The molar volume of this alloy is 10.68 cc/mol.
+ Calculate the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The weight percent of O in the solution.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The molar concentration (mol/cc) of O in the solution.
+\end_layout
+
+\begin_layout Enumerate
+The mass concentration (gm/cc) of O in the solution.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Use these calculations to deduce general expressions for weight percent,
+ molar, and mass concentrations of a component in a binary solution in terms
+ of the atom fraction, 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+, the molar volume, 
+\begin_inset Formula $V$
+\end_inset
+
+, and the molecular weights, 
+\begin_inset Formula $MW_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $MW_{2}$
+\end_inset
+
+, of the elements involved.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+(2015) DeHoff 8.4: Use the partial molal volumes computed in Problem 8.3 (worked
+ out in class) to demonstrate that the Gibbs – Duhem equation holds for
+ these properties in this system.
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) DeHoff 8.6: For an ideal solution it is known that, for component
+ 2, 
+\begin_inset Formula $ΔG_{2}=RT\ln X_{2}$
+\end_inset
+
+.
+ Use the Gibbs – Duhem integration to derive corresponding relation for
+ component 1.
+\end_layout
+
+\begin_layout Enumerate-Resume
+(2015) One mole of solid 
+\begin_inset Formula $\mathrm{Cr_{2}O_{3}}$
+\end_inset
+
+ at 2500 K is dissolved in a large volume of a liquid Raoultian solution
+ (also at 2500 K) of 
+\begin_inset Formula $\mathrm{Al_{2}O_{3}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathrm{Cr_{2}O_{3}}$
+\end_inset
+
+ with 
+\begin_inset Formula $X_{\mathrm{Cr_{2}O_{3}}}$
+\end_inset
+
+= 0.2.
+ Calculate the resulting changes in the total enthalpy and entropy given
+ the following: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Formula $T_{m,\mathrm{Cr_{2}O_{3}}}=2538\,\mathrm{K}$
+\end_inset
+
+; 
+\begin_inset Formula $ΔH_{m,\mathrm{Al_{2}O_{3}}}=107,500\mathrm{\,J/mol\,at\,}T_{m,\mathrm{Al_{2}O_{3}}}=2324\,\mathrm{K}$
+\end_inset
+
+; 
+\begin_inset Formula $ΔS_{m,\mathrm{Al_{2}O_{3}}}=ΔS_{m,\mathrm{Cr_{2}O_{3}}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "314computation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,5312 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth -2
+\tocdepth 4
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+351-2 Laboratories
+\end_layout
+
+\begin_layout Subsection
+Laboratory 1: Measurement of Charge Carrier Transport Parameters Using the
+ Hall Effect
+\end_layout
+
+\begin_layout Subsubsection
+Objective
+\end_layout
+
+\begin_layout Standard
+The purpose of this lab is to measure the electronic transport properties
+ of semiconductors and semiconducting thin films using the ECOPIA Hall apparatus.
+\end_layout
+
+\begin_layout Subsubsection
+Outcomes
+\end_layout
+
+\begin_layout Standard
+Upon completion of the laboratory, the student will be able to: 
+\end_layout
+
+\begin_layout Enumerate
+Use a Hall effect apparatus to measure the mobility and carrier concentration
+ in a semiconductor.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Derive the equations that enable the extraction of fundamental materials
+ parameters using the Hall effect.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Describe the dependence of mobility on carrier concentration and temperature,
+ and explain the origins of differences in mobilities between different
+ semiconductors.
+\end_layout
+
+\begin_layout Subsubsection
+References
+\end_layout
+
+\begin_layout Standard
+(1) M.
+ Ali Omar, Elementary Solid State Physics; 
+\end_layout
+
+\begin_layout Standard
+(2) Solymar & Walsh, Electrical Properties of Materials; 
+\end_layout
+
+\begin_layout Standard
+(3) MSE 351-1 Lecture Notes; and 
+\end_layout
+
+\begin_layout Standard
+(4) the NIST web page: http://www.nist.gov/pml/div683/hall.cfm
+\end_layout
+
+\begin_layout Subsubsection
+Pre-Lab Questions
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+What is the Lorentz Force? 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+What is the Hall effect and when was it discovered? 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Write the equation describing the force, FM, on a particle of charge q and
+ with velocity v in a uniform magnetic field, B.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Does the velocity of a charged particle (with non-zero initial velocity)
+ in a uniform magnetic field change as a result of that field? If so, how?
+ Does its speed change?
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+What is the right-hand-rule? 
+\end_layout
+
+\begin_layout Enumerate
+For a particle with negative charge, q, in the situation below, in what
+ direction will the particle be deflected?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/heffect2.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part 7; B is uniform throughout the area of interest
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For the example below, what will be the sign of the charge built up on the
+ surfaces (M) and (N) if the particle P is charged (+)? if it is (-)? (
+\series bold
+B
+\series default
+ is into the page and uniform throughout the specimen.)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hall3.png
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="2.75cm">
+<column alignment="left" valignment="top" width="2.75cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+P = +
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+P = -
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M = 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M =
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N = 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N =
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part 6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+By convention, current is defined as the flow of what sign of charge carrier?
+\end_layout
+
+\begin_layout Enumerate
+What is the electric field, 
+\series bold
+E
+\series default
+, in the situation below? What is the electrostatic force, 
+\begin_inset Formula $\mathbf{F_{E}}$
+\end_inset
+
+ on the particle if it has a charge q?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hall4.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Part 9
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Why are both a resistivity measurement and a Hall measurement needed in
+ order to extract fundamental material parameters?
+\end_layout
+
+\begin_layout Subsubsection
+Experimental Details
+\end_layout
+
+\begin_layout Standard
+The samples to be characterized include: 
+\end_layout
+
+\begin_layout Enumerate
+“bulk” Si, GaAs, InAs (i.e.
+ substrates ~ 400 microns thick)
+\end_layout
+
+\begin_layout Enumerate
+“thin films” of InAs and doped GaAs, grown on semi-insulating GaAs substrates
+\end_layout
+
+\begin_layout Enumerate
+Indium tin oxide (ITO) on glass.
+\end_layout
+
+\begin_layout Standard
+You may have the opportunity to make additional samples.
+ For contacts on n-type GaAs, use In-Sn solder; for contacts on p-type GaAs,
+ use In-Zn solder.
+ Most samples are mounted on mini-circuit boards for easy insertion into
+ the apparatus.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Instructions/Methods
+\end_layout
+
+\begin_layout Standard
+See Instructor
+\end_layout
+
+\begin_layout Subsubsection
+Link to Google Form for Data Entry
+\end_layout
+
+\begin_layout Standard
+https://docs.google.com/forms/d/1lrAokPI1vIJ-a8pmLx4FVCqHh80PKgGr8oDD6eVzx_w/viewf
+orm 
+\end_layout
+
+\begin_layout Paragraph
+Spreadsheet: 
+\end_layout
+
+\begin_layout Standard
+https://docs.google.com/spreadsheet/ccc?key=0AqvIqAGCq74cdG53eWdINmFHMmRXSGJGVG9Rc
+E03RWc&usp=sharing
+\end_layout
+
+\begin_layout Subsubsection
+Lab Report Template
+\end_layout
+
+\begin_layout Enumerate
+Balance the forces (magnetic and electric) acting on a charged particle
+ in a Hall apparatus to derive the equation that describes the Hall Coefficient
+ in terms of the applied current and magnetic field and measured Hall voltage.
+ Show your work.
+ See hints at the end.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Apply data from a sample measurement to test the equation derived in (1).
+ Show your work.
+\end_layout
+
+\begin_layout Enumerate
+How is the carrier concentration related to the Hall Coefficient? What is
+ the difference between bulk and sheet concentration? 
+\end_layout
+
+\begin_layout Enumerate
+Calculate the carrier concentration (bulk and sheet) using the sample data
+ and the equations derived above.
+ Show your work.
+\end_layout
+
+\begin_layout Enumerate
+Does the mobility exhibit any dependence on the carrier concentration? Discuss
+ briefly; include observations from lab for the same material & type (e.g.
+ n-GaAs).
+\end_layout
+
+\begin_layout Enumerate
+What is the origin of the difference in mobilities between the n-type and
+ p-type samples, assuming that the doping levels are similar? 
+\end_layout
+
+\begin_layout Enumerate
+How do carrier mobilities compare for different materials? Use the pooled
+ data to compare mobility as a function of material (as well as carrier
+ type).
+ Explain your observations.
+\end_layout
+
+\begin_layout Enumerate
+When the magnetic field, current, and sample thickness are known, the carrier
+ concentration and type may be determined.
+ Conversely, if the current, sample thickness and carrier concentration
+ are known, the magnetic field may be determined.
+ A device that measures these parameters, known as a Hall Probe, provides
+ a way to measure magnetic fields.
+ Write an expression that relates these parameters.
+ Which is the more sensitive (higher ratio of mV/Tesla) Hall probe – the
+ bulk InAs or bulk GaAs sample? Show your work.
+ (Note – you should have recorded average Hall voltage for a given current.
+ How do these compare?)
+\end_layout
+
+\begin_layout Subsubsection
+Hints for derivation
+\end_layout
+
+\begin_layout Enumerate
+For the example below, what VH would you need to apply to make the particle
+ continue on in a straight line throughout the sample? (B is uniform throughout
+ the specimen.
+ Hint: Balance the magnetic and electric forces on the particle.) 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/halleffect.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The current density, 
+\series bold
+
+\begin_inset Formula $J$
+\end_inset
+
+, 
+\series default
+can be expressed in two ways: 
+\series bold
+J
+\series default
+=
+\series bold
+i
+\series default
+/(A), and 
+\series bold
+J
+\series default
+=nq
+\series bold
+v
+\series default
+, where i is the total current passing through a cross-sectional area A,
+ n is the concentration of carriers per unit volume in the material passing
+ the current, q is the charge on each carrier, and 
+\series bold
+v
+\series default
+ is the drift velocity of the carriers.
+ If you knew
+\series bold
+ i
+\series default
+, A, VH, d, 
+\series bold
+B
+\series default
+, and q from the situation illustrated above, what expression tells you
+ n?
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+The “Hall coefficient” of a material, 
+\begin_inset Formula $R_{H}$
+\end_inset
+
+, is defined as the Hall electric field, 
+\begin_inset Formula $E_{H}$
+\end_inset
+
+, per current density, per magnetic field, 
+\begin_inset Formula $R_{H}$
+\end_inset
+
+=
+\begin_inset Formula $E_{H}$
+\end_inset
+
+/(J*B) Using the equations given and derived thus far, express the Hall
+ coefficient in terms of just q and n.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 2: Diodes
+\end_layout
+
+\begin_layout Subsubsection
+Objective
+\end_layout
+
+\begin_layout Standard
+The purpose of this lab is to explore the I-V characteristics of semiconductor
+ diodes (including light emitting diodes (LEDs) and solar cells), and the
+ spectral response of LEDs and lasers.
+\end_layout
+
+\begin_layout Subsubsection
+Outcomes
+\end_layout
+
+\begin_layout Standard
+Upon completion of the laboratory, the student will be able to:
+\end_layout
+
+\begin_layout Enumerate
+Measure diode I-V characteristics and relate them to band diagrams.
+\end_layout
+
+\begin_layout Enumerate
+Fit I-V data to the diode equation, extract relevant parameters, and relate
+ these to materials constants.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Determine the open circuit voltage and short-circuit current of the solar
+ cell.
+\end_layout
+
+\begin_layout Enumerate
+Describe the dependence of emission wavelength on bandgap and describe origins
+ of spectral broadening.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Describe how lasers differ from LEDs in design and performance.
+\end_layout
+
+\begin_layout Subsubsection
+Pre-lab Questions
+\end_layout
+
+\begin_layout Enumerate
+What expression describes the I-V characteristics of a diode?
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Sketch the I-V characteristics of a diode and label the sections of the
+ curve corresponding to zero bias (1), forward bias (beyond the built-in
+ voltage) (2), and reverse bias(3), and then sketch the corresponding band
+ diagrams for 1, 2, and 3.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Sketch the I-V characteristics of a Zener diode and the corresponding band-diagr
+am for reverse bias.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Sketch the I-V characteristics of a p-n junction with and without illumination.
+ Label 
+\begin_inset Formula $V_{OC}$
+\end_inset
+
+ and 
+\begin_inset Formula $I_{SC}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Take pictures (use your phone) of lights around campus; try to get pictures
+ of LEDs.
+ Which do you think are LEDs (why?)?
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Why are fluorescent lights “white?” How white are they?
+\end_layout
+
+\begin_layout Subsubsection*
+Experimental Details
+\end_layout
+
+\begin_layout Standard
+The devices to be characterized include:
+\end_layout
+
+\begin_layout Enumerate
+Si diode 
+\end_layout
+
+\begin_layout Enumerate
+Zener diode
+\end_layout
+
+\begin_layout Enumerate
+LEDs (different colors)
+\end_layout
+
+\begin_layout Enumerate
+Si solar cell
+\end_layout
+
+\begin_layout Subsubsection
+References
+\end_layout
+
+\begin_layout Standard
+MSE 351-2 Lecture Notes, Omar Chapter 7, Solymar & Walsh Chapter 9, 12,
+ 13.
+\end_layout
+
+\begin_layout Subsubsection*
+Instructions/Methods
+\end_layout
+
+\begin_layout Standard
+Use multimeters and the Tektronix curve tracer for I-V measurements.
+ Use the Ocean Optics spectrometer to obtain spectral responses.
+\end_layout
+
+\begin_layout Subsubsection*
+Station 1 - CURVE TRACER
+\end_layout
+
+\begin_layout Paragraph*
+p-n junction diode 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+Attach diode to “diode” slot on Curve Tracer.
+ Measure both forward and reverse bias characteristics.
+ 
+\end_layout
+
+\begin_layout Enumerate
+(In lab) Measure and record the I-V (current-voltage) characteristics of
+ the silicon diode over the current range 2μA to 50 mA in the forward bias
+ condition.
+ Pay particular attention to the region from 200 to 800 mV.
+\end_layout
+
+\begin_layout Enumerate
+(In lab) Measure the I-V characteristics of the diode in the reverse bias
+ condition.
+\end_layout
+
+\begin_layout Enumerate
+(Post-lab) The ideal diode equation is: 
+\begin_inset Formula $I=I_{sat}[\exp(qV/kT)-1]$
+\end_inset
+
+.
+ Note that for V>>kT/q, 
+\begin_inset Formula $I=I_{sat}\exp(qV/kT)$
+\end_inset
+
+; however recombination of carriers in the space charge region leads to
+ a departure from ideality by a factor m, where
+\begin_inset Formula $I=I_{0}[\exp(qV/mkT)-1]$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Plot the data using 
+\emph on
+
+\begin_inset Formula $\ln(I)$
+\end_inset
+
+
+\emph default
+ vs.
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ plot to determine 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use the value of the applied voltage corresponding to ~ 1mA to solve for
+ 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ (which is too small to measure in our case.) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(In lab) Repeat the forward bias measurement using “Store.” Now cool the
+ diode and repeat.
+ Sketch the two curves.
+ (Post-lab) Explain what you observe.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Test red and green LEDs.
+ Record the color and the turn-on voltage.
+ 
+\end_layout
+
+\begin_layout Enumerate
+(Post-lab) Compare the I-V characteristics for the silicon diode and LEDs.
+ Why would you choose Si over Ge for a rectifier? (Omar 7.21)
+\end_layout
+
+\begin_layout Enumerate
+(In-Lab) Test the Zener diode.
+ Sketch.
+ (Post-lab) Compare to figure 9.28 (S&W).
+\end_layout
+
+\begin_layout Subsubsection*
+Station 2: Solar Cells
+\end_layout
+
+\begin_layout Enumerate
+Use the potentiometer, an ammeter and voltmeter to determine the I-V characteris
+tics of a solar cell at different light levels.
+ Determine the values of 
+\begin_inset Formula $V_{oc}$
+\end_inset
+
+ (the open circuit voltage) and 
+\begin_inset Formula $I_{sc}$
+\end_inset
+
+ (the short-circuit current) under ambient light, then use the potentiometer
+ to determine additional points on the I-V curve.
+ Record the results.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Repeat the I-V measurements for a higher light level.
+ Record the light intensity measured with the photodiode meter.
+ Area~1 cm2 : ____ Measure the area of the solar cell:______ 
+\end_layout
+
+\begin_layout Enumerate
+(Post-Lab) Estimate the fill – factor and the conversion efficiency of the
+ solar cell.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Station 3: Spectrometer and Power Supply
+\end_layout
+
+\begin_layout Paragraph
+Light Emitting Diodes
+\end_layout
+
+\begin_layout Enumerate
+Measure the spectral response (intensity vs.
+ wavelength) of the light emitting diodes using the spectrometer.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Cool the LEDs and observe the response.
+ Qualitatively, what do the results suggest about the change in Eg vs.
+ temperature? About emission efficiency vs.
+ temperature? How do these results compare to the I-V response of the cooled
+ silicon diode? 
+\end_layout
+
+\begin_layout Enumerate
+Record the peak-wavelength and the full-width-half-maximum (FWHM) for each
+ diode.
+\end_layout
+
+\begin_layout Enumerate
+Calculate the bandgap that would correspond to the peak wavelength.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="7">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+LED Color
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Peak wavelength
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{g}$
+\end_inset
+
+(in eV, from peak wavelength)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intensity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FW (left)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FW (right)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FWHM
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Laser
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spectrometer and Power Supply
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Semiconductor Lasers
+\end_layout
+
+\begin_layout Enumerate
+Attach the laser to the power meter and setup the power meter to measure
+ intensity from the device.
+ Slowly increase the voltage and record the I-V characteristics vs.
+ power output for the laser.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure the spectral response of the laser: i) below threshold, and ii)
+ above threshold.
+ Note the FWHM of the peaks.
+ How do they differ? How do they correspond to the I-V-power data? 
+\end_layout
+
+\begin_layout Enumerate
+Plot the light output (intensity) as a function of current.
+ What is the threshold current? Label the regions of spontaneous and stimulated
+ emission.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calculate the efficiency of the laser.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Determine the bandgap of the laser material.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Explain the change in the width of the spectral emission.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Station 4: Stereomicroscope
+\end_layout
+
+\begin_layout Enumerate
+Sketch the structure of the LED observed under the stereomicroscope.
+ Note the color of the chip when the device is off and the color of emission
+ when the device is on.
+ Sketch what the device structure might look like.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sketch the structure of the laser observed under the stereomicroscope.
+ Sketch what the device structure might look like.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 3: Transistors
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Objective
+\end_layout
+
+\begin_layout Standard
+\noindent
+The purpose of this lab is explore the input/output characteristics of transisto
+rs and understand how they are used in common technologies.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Outcomes
+\end_layout
+
+\begin_layout Standard
+\noindent
+Upon completion of the laboratory, the student will be able to: 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Measure the output characteristics of a few important transistors using
+ a “curve tracer.” 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Qualitatively relate the characteristics to the p-n junctions in the devices.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Describe transistor function and performance in terms of appropriate gains.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Identify applications of these devices in common technologies.
+\end_layout
+
+\begin_layout Subsubsection
+Pre-lab questions
+\end_layout
+
+\begin_layout Paragraph
+Bipolar Transistor
+\end_layout
+
+\begin_layout Enumerate
+Sketch and label the band-diagrams for npn and pnp transitors.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Sketch I-V characteristics for this device as a function of base current.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+In what technologies are these devices used?
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+MOSFETS
+\end_layout
+
+\begin_layout Enumerate-Resume
+\noindent
+Sketch and label a MOSFET structure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Sketch I-V characteristic for this device as a function of gate voltage.
+ In your sketch of the 
+\begin_inset Formula $I_{Source-Drain}–V_{Source-Drain}$
+\end_inset
+
+ characteristics vs.
+ gate voltage, 
+\begin_inset Formula $V_{gate}$
+\end_inset
+
+, label the linear and saturated regions.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+What is threshold voltage? What structural and materials properties determine
+ the threshold voltage?
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+In what technologies are these devices used?
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+Current Events” 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+What materials developments have changed transistor technology in the past
+ decade? (Hint: Search Intel high-k; Intel transistors)
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+What new types of devices are on the horizon? Hint: search IBM nanotubes
+ graphene 
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Experimental Details
+\end_layout
+
+\begin_layout Standard
+\noindent
+The devices to be characterized include the following
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+pnp and npn bi-polar junction transistors
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+phototransistor
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+metal oxide semiconductor field effect transistor (MOSFET).
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+References
+\end_layout
+
+\begin_layout Standard
+\noindent
+MSE 351-2 Lecture Notes, Omar Chapter 7; Solymar and Walsh Chapter 9
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+Instructions/Methods
+\end_layout
+
+\begin_layout Standard
+\noindent
+Use the Tektronix curve tracer for I-V measurements.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Bipolar Transistors (npn and pnp)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\noindent
+
+\series medium
+Attach an npn transistor to the T-shaped Transistor slot on the Curve Tracer
+ (making sure that E, B, & C all connect as indicated on the instrument).
+ Set the menu parameters to generate a family of I-V curves.
+ Keep the collector-emitter voltage 
+\begin_inset Formula $V_{CE}$
+\end_inset
+
+ below 30V to avoid damaging the device.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Sketch how E,B,C are configured in the device.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Measure 
+\begin_inset Formula $I_{collector}$
+\end_inset
+
+ (output current) for 
+\begin_inset Formula $V_{CE}>V_{saturation}$
+\end_inset
+
+ as a function of base (input) current, 
+\begin_inset Formula $I_{base}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Post-Lab: determine the transistor gains, 
+\begin_inset Formula $α=-I_{collector}/I_{emitter}$
+\end_inset
+
+ and 
+\begin_inset Formula $β=I_{collector}/I_{base}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Repeat for a pnp transistor.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\noindent
+Phototransistor
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\noindent
+Measure the I-V characteristics of the phototransistor under varying illuminatio
+n intensity (using the microscope light source).
+ Compare qualitatively to what you observed for the pnp and npn transistors.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Post-lab: discuss the mechanism by which the light influences the device
+ current, and compare with the bipolar transistor operation.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\noindent
+MOSFETS 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\noindent
+Attach MOSFET Device to the linear FET slot on the Curve Tracer, making
+ sure that S,G,D are connected appropriately.
+ Observe both the linear and saturated regions for 
+\begin_inset Formula $I_{Source-Drain}vs.V_{Source-Drain}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Vary the gate voltage step size and offset to estimate the threshold value
+ of the gate voltage (the voltage at which the device turns on).
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Measure the 
+\begin_inset Formula $V_{Source-Drain}$
+\end_inset
+
+ and 
+\begin_inset Formula $I_{Source-Drain}$
+\end_inset
+
+ to extract 
+\begin_inset Formula $R_{Source-Drain}$
+\end_inset
+
+ in the linear region as a function of 
+\begin_inset Formula $V_{Gate}$
+\end_inset
+
+.
+ You should take at least 4 measurements.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Post-lab, using the data from B, plot the conductance of the channel, 
+\begin_inset Formula $G_{Source-Drain}=1/R_{Source-Drain}$
+\end_inset
+
+, vs.
+ 
+\begin_inset Formula $V_{Gate}$
+\end_inset
+
+ .
+ You should observe a linear relationship following the equation ,
+\begin_inset Formula 
+\[
+G_{SD}=\left(\frac{\mu_{n}W}{L}\right)\left(\frac{C_{OX}}{A}\right)(V_{G}-V_{T})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+where 
+\begin_inset Formula $\mu_{n}$
+\end_inset
+
+ is the electron mobility and W, L, and A are the width, length and area
+ of the gate respectively (A = W x L).
+ 
+\begin_inset Formula $C_{OX}$
+\end_inset
+
+ is the capacitance of the oxide, which can be measured using an impedance
+ analyzer as a function of gate voltage.
+ A plot is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:n-Channel-MOFSET."
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\noindent
+Using 
+\begin_inset Formula $μ_{n}$
+\end_inset
+
+=1500 cm2/V-sec, C = 
+\begin_inset Formula $4.8x10^{-10}F$
+\end_inset
+
+ (from the attached plot), plot of conductance vs.
+ 
+\begin_inset Formula $V_{Gate}$
+\end_inset
+
+, calculate L, the length of the gate.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Determine 
+\begin_inset Formula $V_{threshold}$
+\end_inset
+
+ from the above values.
+ Compare with your observations from the curve tracer (part a).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/MOFSET.png
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+n-Channel MOFSET.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:n-Channel-MOFSET."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 4: Dielectric Materials
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Objective
+\end_layout
+
+\begin_layout Standard
+\noindent
+The objectives of this lab are to measure capacitance and understand the
+ dependence on geometry and the dielectric constant, which may vary with
+ temperature and frequency.
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Outcomes
+\end_layout
+
+\begin_layout Standard
+\noindent
+Upon completion of the laboratory, the student will be able to: 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Use an impedance analyzer to measure capacitance.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Given the capacitance of a parallel plate capacitor, calculate the dielectric
+ constant.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+For a known material, explain the microscopic origins of the temperature
+ dependence of the dielectric constant.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Understand how the dielectric constant and the index of refraction are related.
+ Use the reflectance spectroscopy to fit the thickness, index of refraction
+ and extinction coefficient of several thin films.
+ Explore how the index of refraction is affected by composition and how
+ this informs design of heterostructure devices.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Pre-lab questions
+\end_layout
+
+\begin_layout Enumerate
+What distinctions can you make between capacitance and the dielectric constant?
+ What are the units of each?
+\end_layout
+
+\begin_layout Enumerate
+What is the relationship between the dielectric constant and the ‘relative’
+ dielectric constant? 
+\end_layout
+
+\begin_layout Enumerate
+What is the dielectric constant (or permittivity) of ‘free space’ (or vacuum)?
+\end_layout
+
+\begin_layout Enumerate
+What is the relative dielectric constant of air? Water? Glass? 
+\begin_inset Formula $\mathrm{SiO_{2}}$
+\end_inset
+
+? Explain their relative magnitudes.
+\end_layout
+
+\begin_layout Enumerate
+For the capacitor shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Capacitor."
+
+\end_inset
+
+, what is the expression that relates the capacitance and relative dielectric
+ constant?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/dielectric.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Capacitor.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Capacitor."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What relationship determines the amount of charge stored on the plates of
+ a capacitor when a specific voltage is applied to it? 
+\end_layout
+
+\begin_layout Enumerate
+With the above answer in mind how could you measure the capacitance of a
+ structure?
+\end_layout
+
+\begin_layout Enumerate
+Name two materials for which the capacitance (charge per unit voltage) is
+ fixed.
+ Name a material type or structure for which the capacitance is dependent
+ on V.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is the relationship that gives the amount of energy stored on a capacitor?
+ 
+\end_layout
+
+\begin_layout Enumerate
+Why are batteries the primary storage medium for electric vehicles, rather
+ than capacitors?
+\end_layout
+
+\begin_layout Enumerate
+Intel and their competitors are interested in both “low-k” and “high-k”
+ dielectrics.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What defines the boundary between “low” and “high?”
+\end_layout
+
+\begin_layout Enumerate
+What drives the need for “high-k” dielectrics? What other properties besides
+ the dielectric constant are important characteristics of these materials?
+\end_layout
+
+\begin_layout Enumerate
+What drives the need for “low-k” dielectrics? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find one or two additional examples of technologies/devices that incorporate
+ capacitors, and explain the function of the capacitor in that context.
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Experimental Details
+\end_layout
+
+\begin_layout Standard
+\noindent
+The dielectric constant of a number of different materials will be probed
+ through measurements of parallel plate capacitance.
+ Capacitors of solid inorganic dielectrics (in thin slabs) is accomplished
+ through the evaporation of metal contacts on either side of the material.
+ The total capacitance of a p-n junction diode is measured through the device
+ contacts.
+ The capacitance of liquids is determined by filling a rectangular container
+ between two electrodes, and neglecting the contributions of the container.
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+References
+\end_layout
+
+\begin_layout Standard
+\noindent
+Solymar and Walsh Chapter 10, Omar Chapter 8, Kittel Chapter 16 
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Instructions/Methods
+\end_layout
+
+\begin_layout Standard
+\noindent
+Use the HP Impedance analyzer to measure the materials provided in lab.
+ Note the sample dimensions and the measured capacitance values on the attached
+ table.
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+Lab Report Template
+\end_layout
+
+\begin_layout Paragraph
+Part I - Dielectric constants; Measuring capacitance with Impedance Analyzer
+\end_layout
+
+\begin_layout Enumerate
+Using the default frequency of 100kHz and zero bias voltage, measure capacitance
+ and contact dimensions and then calculate the relative dielectric constant
+ of the following materials:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Area
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thickness
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacitance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varepsilon_{r}(lab)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varepsilon_{r}(lit)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass slide (sample 1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lithium niobate (
+\begin_inset Formula $LiNbO_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass sheet (sample 2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Plexiglass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dielectric Constants
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Using the default frequency of 100 kHz, measure capacitance vs.
+ voltage for several LEDs
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LED=
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LED=
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LED=
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bias
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacitance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bias
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacitance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bias
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacitance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Capacitance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Determine the built-in voltage of the corresponding p-n junction, 
+\begin_inset Formula $\varphi_{0}$
+\end_inset
+
+, for each diode, and discuss the difference.
+ See equation 7.64, pg.
+ 362, Omar.
+ Note that the equation may be re-written as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{C^{2}}=2\frac{(\varphi_{0}-V_{0})(N_{a}-N_{d})}{\varepsilon eN_{a}N_{d}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Plot 
+\begin_inset Formula $1/C^{2}$
+\end_inset
+
+vs.
+ 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+, and extrapolate the linear region (reverse bias) to the x-intercept to
+ determine the value of interest.
+ Note that the slope depends on the doping concentration.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate the relative dielectric constant, based on capacitance measured
+ in lab for: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+air (4.0inch x 3.5 inch plates, separated by _________ (measure this)) 
+\end_layout
+
+\begin_layout Enumerate
+water at room temperature (4.0 inch x 3.5 inch plate partially submerged;
+ measured dimension: Height:________ x width___________x separation_____________
+_______
+\end_layout
+
+\begin_layout Enumerate
+ethanol 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Fill in the table below, for water at the different temperatures measured
+ in lab, using the dimensions measured above.
+ Determine the corresponding values of the relative dielectric constant,
+\begin_inset Formula $ε_{r}$
+\end_inset
+
+.
+ Plot 
+\begin_inset Formula $(\varepsilon_{r}–1)/(ε_{r}+2)$
+\end_inset
+
+ vs 1/T (Kelvin) for both sets of data below, and compare to figure 8.13
+ (p.
+ 388, Omar).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Class data:
+\end_layout
+
+\begin_layout Standard
+\align block
+Area = __________; separation = __________ 
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="3em">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="3em">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temp (C)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Freq
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C (pF)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varepsilon_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Comparison from CRC handbook
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temp (C)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varepsilon_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+87.74
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80.14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73.15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+66.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+55.65
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Measure ice as a function of frequency & compare to Omar figure 8.10.
+ Discuss.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Dimension: Height:________ x width___________x separation____________________
+ 
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Freq
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C (pF)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varepsilon_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Freq
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C (pF)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varepsilon_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Practical applications: inspect the temperature/humidity meter.
+ Look for the devices used to measure each.
+ Measure the stand-alone capacitor that resembles that in the meter as a
+ function of exposure.
+\end_layout
+
+\begin_layout Paragraph
+Part II - Reflectance Spectroscopy of Thin Films
+\end_layout
+
+\begin_layout Enumerate
+Measure the reflectance spectra to determine n, k and thickness of:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+• ~ micron thick ~Al(0.3)Ga(0.7)As on GaAs substrate
+\end_layout
+
+\begin_layout Standard
+• ~ 1 micron thick ~ Al(0.6)Ga(0.4)As on GaAs substrate
+\end_layout
+
+\begin_layout Standard
+• SiO2 on Si substrate
+\end_layout
+
+\begin_layout Standard
+• Si3N4/Si substrate
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Compare the index of refraction of the two different AlGaAs samples.
+ What does this indicate about how you would “build” a waveguide? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 5: Magnetic Properties
+\end_layout
+
+\begin_layout Paragraph*
+\noindent
+Objective: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+The objectives of this lab are to measure the response of a material to
+ an applied magnetic field and understand the atomic origins of macroscopic
+ magnetic behavior.
+\end_layout
+
+\begin_layout Paragraph*
+\noindent
+Outcomes: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Upon completion of the laboratory, the student will be able to: 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Use a magnetometer to measure magnetic response with applied field.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Given the saturation magnetization, solve for the number of Bohr magnetons.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+For a known material, explain the microscopic origins of magnetism.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Distinguish qualitatively between “hard” and “soft” ferromagnetic materials.
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+Experimental Details
+\end_layout
+
+\begin_layout Standard
+\noindent
+The purpose of this experiment is to investigate the response of different
+ materials to an applied magnetic field, H.
+ Plotting the measured response, B, vs.
+ the applied field, H, indicates the type of magnetization possible, i.e.
+ whether the material is diamagnetic, paramagnetic or ferromagnetic.
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+References
+\end_layout
+
+\begin_layout Standard
+\noindent
+Solymar and Walsh Chapter 11, Omar Chapter 9 
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+1.
+ Magnetization of metal wires 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Qualitatively observe the hysteresis behavior of the following metals.
+ Indicate whether they are ferromagnetic or not, and why.
+ (Hint: Look at which electronic shells are filled/unfilled in each case.)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Metal wires
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="8">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2em">
+<column alignment="center" valignment="top" width="2em">
+<column alignment="center" valignment="top" width="2em">
+<column alignment="center" valignment="top" width="2em">
+<column alignment="center" valignment="top" width="2em">
+<column alignment="center" valignment="top" width="2em">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hysteresis? Y/N
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3d
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4s
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Co
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ni
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+W
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Steel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stainless Steel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Quantify the observations on the metal wires (Fe, Co, Ni, and W 1 mm diameter
+ and Cu 0.5 mm diameter – the cross sectional area must be entered in the
+ B-probe dimensions).
+ Record hysteresis curves in the “intrinsic” mode (without background subtractio
+n).
+ Also record “initial” curves for the first three metals.
+ Fill in the following table.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $B_{sat}$
+\end_inset
+
+ observed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $B_{sat}$
+\end_inset
+
+ literature
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+# Bohr magnetons, 
+\begin_inset Formula $n_{B}*$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.158 T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Co
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.87 T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ni
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.616 T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Question 1(a-c):
+\end_layout
+
+\begin_layout Standard
+Solve for the number of Bohr magnetons per atom in Fe, Ni and Co.
+ (Use experimental 
+\begin_inset Formula $B_{sat}$
+\end_inset
+
+ if the sample saturates; otherwise use literature value.) 
+\end_layout
+
+\begin_layout Subparagraph
+Note: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mu_{0}=4\pi\times10^{-7}T-m/A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B_{S}=\mu_{0}M_{S};M_{s}$
+\end_inset
+
+in A/m or Oe
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M_{S}=nM_{A};$
+\end_inset
+
+ n = # atoms/volume
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M_{A}=n_{B}\mu_{B};\mu_{B}=\frac{e\hbar}{2me}=9.27\times10^{-24}A-m^{2}=$
+\end_inset
+
+Bohr magneton
+\end_layout
+
+\begin_layout Subparagraph
+Question 2: Hard magnet
+\end_layout
+
+\begin_layout Standard
+The sintered CuNiFe pellets provide an example of a “hard” magnet.
+ Record (plot) a hysteresis curve and compare to the “soft” ferromagnetic
+ materials.
+ Comment on the observed behavior.
+\end_layout
+
+\begin_layout Paragraph*
+2.
+ Faraday Rotation
+\end_layout
+
+\begin_layout Subparagraph
+Set-up:
+\end_layout
+
+\begin_layout Itemize
+Red laser pointer (operated under 3.5V!!! and 40 mA!!!)
+\end_layout
+
+\begin_layout Itemize
+Glass rod (inside the solenoid coil): Diam = 5mm, length = 10 cm, SF-59.
+ 
+\end_layout
+
+\begin_layout Itemize
+Solenoid coil: L = 150 mm, turns/layer = 140, layers = 10, DC Resist = 2.6
+ Ohm
+\end_layout
+
+\begin_layout Itemize
+B = 11.1 mT/A x I, where I is in Amperes.
+ Maximum current is 3 Amps! 
+\end_layout
+
+\begin_layout Itemize
+Detector: Photodiode in series with 3 resistors.
+ 
+\end_layout
+
+\begin_layout Standard
+Measure the intensity of the laser vs.
+ rotation of the polarizer with zero magnetic field.
+ (Measure and record the intensity every two degrees or so.) Apply a magnetic
+ field and re-measure the intensity vs.
+ rotation.
+ Plot on the same graph to compare.
+ Find the difference in angle (average) between the on/off magnetic field
+ states.
+ Calculate the Verdet constant, 
+\begin_inset Formula $V$
+\end_inset
+
+, where 
+\begin_inset Formula $\theta(radians)=VB\ell$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ = magnetic field strength (millitesla), and 
+\begin_inset Formula $\ell$
+\end_inset
+
+= length glass rod = 10 cm.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+3.
+ Demonstration
+\end_layout
+
+\begin_layout Standard
+Heating a magnetized iron wire is one way to observe a second order phase
+ transition involving the spin degree of freedom (upon cooling, one observes
+ the onset of spontaneous magnetization).
+ What is this transition called? Estimate the value of the transition temperatur
+e for this system and compare to literature values.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1078 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\setenumerate[0]{leftmargin=0pt,itemindent=0pt,labelwidth=0pt}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{comment}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+\usepackage{lmodern}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "332 Labs"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 4
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "citecolor=blue, urlcolor=blue, linkcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch hiddensolution
+\selected 0
+\filename_suffix 0
+\color #ffff7f
+\end_branch
+\branch unused
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch shownsolution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 1
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+332 Laboratories
+\end_layout
+
+\begin_layout Subsection
+Laboratory 1: Tensile Testing of Materials
+\end_layout
+
+\begin_layout Standard
+Both the mechanical testing and the lab report will be completed in pairs.
+ Your partner should be the same partner as your FEM lab partner because
+ you will need to use the data collected here for one of the questions on
+ the Stress Concentration FEM assignment.
+\end_layout
+
+\begin_layout Subsubsection
+Goals
+\end_layout
+
+\begin_layout Itemize
+Gain experience with tensile testing of metals and polymers
+\end_layout
+
+\begin_layout Itemize
+Determine mechanical properties from stress strain curves
+\end_layout
+
+\begin_layout Itemize
+Determine the effect of defects on the mechanical behavior of metals.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use experimentally determined data to create FE models 
+\end_layout
+
+\begin_layout Subsubsection
+Materials
+\end_layout
+
+\begin_layout Standard
+Each pair of students will perform tension tests on one of the following
+ metals, plus a polymer (Lexan) sample:
+\end_layout
+
+\begin_layout Itemize
+Steel 1018
+\end_layout
+
+\begin_layout Itemize
+Steel 4130 (hot rolled, annealed)
+\end_layout
+
+\begin_layout Standard
+(Supplier of metal samples: Laboratory Devices Company)
+\end_layout
+
+\begin_layout Subsubsection
+Tensile Testing
+\end_layout
+
+\begin_layout Itemize
+Tensile tests will be performed using a Sintech 20G tensile testing apparatus
+ in the Central Laboratory for Materials Mechanical Testing (CLaMMP), Cook
+ Hall Room 1034.
+ 
+\end_layout
+
+\begin_layout Itemize
+You MUST wear safety glasses!
+\end_layout
+
+\begin_layout Itemize
+Prior to testing, measure and record the gauge length, gauge width, and
+ sample thickness of all the samples to be tested.
+ If the sample has a drilled hole, measure the diameter of the hole.
+\end_layout
+
+\begin_layout Itemize
+Select the appropriate test method from the “Method” menu.
+\end_layout
+
+\begin_layout Itemize
+Load tensile specimen into sample grips (first the top, then the bottom)
+ and tighten, making sure the sample is as vertical as possible.
+ If necessary, reduce load to 0 N by moving the crosshead (black wheel on
+ the handset.
+ CW is tension.
+ CCW is compression).
+\end_layout
+
+\begin_layout Itemize
+Start test.
+ You will be prompted to enter the specimen dimensions here.
+ Observe the sample deforming during the test.
+\end_layout
+
+\begin_layout Itemize
+The software will collect a force vs.
+ crosshead extension curve.
+ At the end of the test, the data will be exported as a .txt file to the
+ “MSE 332” folder under “Exports.” Please bring a USB drive to get the data
+ from the computer.
+\end_layout
+
+\begin_layout Itemize
+If your sample necked during testing, be sure to measure the cross section
+ of the neck after testing.
+\end_layout
+
+\begin_layout Subsubsection
+Lab Report Instructions 
+\end_layout
+
+\begin_layout Enumerate
+Briefly (no more than a paragraph or two) describe the experimental setup.
+ This should include materials tested, defect geometry, test conditions,
+ etc.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Using the Load vs.
+ Extension generated during the lab, plot both engineering and true stress
+ vs.
+ strain curves for each of the two samples you tested and each of the as-receive
+d samples (no hole in the center) given.
+ Are there any regions where you cannot calculate part of the stress vs.
+ strain curves? Why or why not? 
+\end_layout
+
+\begin_layout Enumerate
+Calculate the Young’s Modulus, tensile yield strength, ultimate tensile
+ strength, and strain to failure for each of the samples.
+ Provide a brief description of how you determined these values.
+ For the as-received steel sample label these values on the stress-strain
+ curve.
+\end_layout
+
+\begin_layout Enumerate
+How do the values calculated in Question 3 compare to the values reported
+ in literature for the as-received steel sample and the polymer sample (be
+ sure to cite here)? Calculate the % error and comment on why the values
+ are the same or different.
+\end_layout
+
+\begin_layout Enumerate
+Do you observe necking in any of the samples? Why or why not?
+\end_layout
+
+\begin_layout Enumerate
+What is the reduction of area (%) in the neck of the sample? Based on this
+ data is there any additional information you can plot on the engineering/true
+ stress vs.
+ strain curves?
+\end_layout
+
+\begin_layout Enumerate
+Describe the failure mechanisms for each of your samples.
+\end_layout
+
+\begin_layout Enumerate
+Compare the stress vs.
+ strain behavior for the as-received steel sample and the steel sample with
+ a defect.
+ Are there any similarities? Differences?
+\end_layout
+
+\begin_layout Enumerate
+Repeat Question 8 for the as-received polymer sample and the polymer sample
+ with a defect.
+\end_layout
+
+\begin_layout Enumerate
+Compare the behavior of the as-received steel sample to that of the polymer
+ sample.
+ How are they the same or different? Why?
+\end_layout
+
+\begin_layout Enumerate
+What is the chemical composition of the steel samples your group tested?
+ Why were each of the alloying elements added to the major constituent (strength
+ening, ductility, corrosion resistance, etc.)? Feel free to draw from the
+ class notes, textbook, or other literature for this, but be sure to cite
+ appropriately.
+\end_layout
+
+\begin_layout Enumerate
+What are some potential applications of this alloy and how are the mechanical
+ properties relevant to these applications? Which property(ies) is(are)
+ most important for the particular application?
+\end_layout
+
+\begin_layout Enumerate
+Compare the stress vs.
+ strain curve and relevant mechanical properties of the steel sample with
+ a defect that your group tested with that of another group.
+ Here, you might choose to look at the effect of material.
+ You may use the stress vs.
+ strain curves and data generated by the other group provided that you cite
+ appropriately or you may do these calculations yourself.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+A couple of reminders
+\end_layout
+
+\begin_layout Itemize
+Please use SI units.
+\end_layout
+
+\begin_layout Itemize
+Label all graphs, figures, and tables appropriately (title, legend, axes,
+ units, etc.).
+\end_layout
+
+\begin_layout Itemize
+Please cite any sources used for this assignment.
+\end_layout
+
+\begin_layout Itemize
+Please include captions for figures.
+\end_layout
+
+\begin_layout Itemize
+Please upload your final reports to Canvas as a .pdf file.
+ If you use MATLAB or another similar software to calculate things, upload
+ those files as well.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 2: Rectangular Cantilever Beam
+\end_layout
+
+\begin_layout Subsubsection
+General report guidelines for computational laboratories:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Compile the team's work into a single report.
+ Your report should contain:
+\end_layout
+
+\begin_layout Enumerate
+A brief introduction.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The work of each 
+\emph on
+individual
+\emph default
+ student as a separate section.
+ You can work together on the finite element analysis, but write up the
+ work for your component individually and combine work with labmates later.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A conclusion for the project as a whole.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+I am looking for accuracy and deliberation in your modeling and thoughtful
+ consideration of the results.
+ I am not concerned with formatting or the length of your report particularly,
+ but as for any report you write, readability, good citation sourcing, informati
+ve figure presentation, and conciseness are valued.
+ Broadly, the body of the report should include the following:
+\end_layout
+
+\begin_layout Enumerate
+The problem definition: geometry, materials properties, loads and boundary
+ conditions.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Discretization: Element type and mesh parameters.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The results: Provide the results as a function of parameter values and discretiz
+ation, as required.
+ Show 
+\emph on
+relevant
+\emph default
+ results --- displacement or stresses --- and make sure to note which stress
+ values you are showing.
+ Note how your results change as the parameters or mesh changes.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\emph on
+Hint - well-constructed figures are very important to a good report.
+ You may want to carefully design your figures so that that they are efficient
+\emph default
+ at conveying relevant information.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Note that the Abaqus/CAE viewport can be exported as an image by selecting
+ 
+\series bold
+File 
+\begin_inset Formula $\longrightarrow$
+\end_inset
+
+ Print
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Submit an electronic copy of your report, as well as your Abaqus files (.cae
+ and .odb files), by uploading them to CANVAS the date that they are due.
+\end_layout
+
+\begin_layout Subsubsection
+\noindent
+
+\family sans
+\size large
+The Effect of Beam Cross-sections on a Rectangular Cantilever Beam- Finite
+ Element Analysis
+\series medium
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Consider the elastic deformation of a beam.
+ From applied mechanics, it is well-known that the cross-sectional shape
+ of the beam has an important effect on its bending stiffness (
+\begin_inset Formula $K$
+\end_inset
+
+), or the resistance of a member to bending deformation.
+ Here we will use the simplest example of a rectangular cross-sectioned
+ 3D beam element to compare the Finite Element Analysis (FEA) and analytical
+ results.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Directions:
+\series default
+ Model a cantilever beam loaded on its top surface by a 
+\emph on
+distributed
+\emph default
+ force 
+\begin_inset Formula $P$
+\end_inset
+
+, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:CantileverBeam"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/CantileverBeam.pdf
+	width 4in
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Our model for a cantilever beam.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CantileverBeam"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The beam is made of a material with elastic modulus 
+\begin_inset Formula $E$
+\end_inset
+
+, and a Poisson's ratio 
+\begin_inset Formula $\nu$
+\end_inset
+
+.
+ Its dimensions are area 
+\begin_inset Formula $A=h\times b$
+\end_inset
+
+, where 
+\begin_inset Formula $h$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ are the rectangle's height and base, respectively.
+ The parameters we will use for this analysis are:
+\end_layout
+
+\begin_layout Standard
+2 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A=\unit[500]{mm^{2}}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L=\unit[150]{mm}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P=\unit[1]{MPa}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E=\unit[200]{GPa}$
+\end_inset
+
+ (
+\begin_inset Formula $\sim$
+\end_inset
+
+ steel) 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\nu=0.3$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $h\,\mathrm{and}\,b=\mathrm{variable}$
+\end_inset
+
+ (start with [20]mm and [25]mm) 
+\end_layout
+
+\begin_layout Standard
+\noindent
+For this exercise, each group will choose 2-3 aspect ratios of 
+\begin_inset Formula $\nicefrac{h}{b}$
+\end_inset
+
+ (be reasonable please: not too much more than 5/1), keeping the area of
+ the beam approximately constant, and solve for the deformation using Abaqus.
+ For your report, you will address the following questions:
+\end_layout
+
+\begin_layout Enumerate
+What is the deflection of the free end of the beam for your selected ratios?
+ Compare to exact values from the analytical max deflection: 
+\begin_inset Formula $\delta_{max}=\nicefrac{FL^{3}}{8EI}$
+\end_inset
+
+, where 
+\begin_inset Formula $F$
+\end_inset
+
+ is the force, 
+\begin_inset Formula $L$
+\end_inset
+
+ is the length of the beam, 
+\begin_inset Formula $E$
+\end_inset
+
+ is the elastic modulus, and 
+\begin_inset Formula $I$
+\end_inset
+
+ is the area moment of inertia.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What are the stresses in the beam? Do your beams remain in the elastic regime
+ under this load? 
+\end_layout
+
+\begin_layout Enumerate
+What is the effect of the boundary condition on the stresses in the beam?
+ 
+\end_layout
+
+\begin_layout Enumerate
+What conclusions can you draw regarding the shape of the beam cross-section
+ and the bending stiffness? 
+\end_layout
+
+\begin_layout Enumerate
+ difference between two specimens (with and without a defect).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 3: Stress Concentrators
+\end_layout
+
+\begin_layout Standard
+\noindent
+Stresses and strains are concentrated at holes, slots, or changes of dimension
+ in elastic bodies.
+ Here we will use finite elements to compute local stresses near stress
+ concentrators.
+ We will also utilize some new FEA techniques (non-native geometries, segmentati
+on, seed gradients, symmetry boundary conditions, mesh density) to analyze
+ a component that was designed in an external program and used as a source
+ file for a 3D printed part.
+ This computational lab is in many ways analagous to the experimental exercise
+ completed earlier in the course.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Directions:
+\series default
+ Load and modify a CAD file (previously used for as source file in your
+ 3D printing lab).
+ Modify it to produce an accurate simulation of a stress concentrator (a
+ circular or elliptical hole) as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:StressConcentrator"
+
+\end_inset
+
+.
+ As in the last lab, you can work together, but you are each individually
+ responsible for presenting one model in your report.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/StressConcentrator.svg
+	width 6in
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dog-bone specimens with circular (radius 
+\begin_inset Formula $r$
+\end_inset
+
+) and elliptical stress concentrators (dimensions 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:StressConcentrator"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The 3D-printed dog-bone specimen made from polymer proved to have non-isotropic
+ tensile behavior and is too complex of a problem at this level.
+ Instead, we will consider a dog-bone specimen of identical dimensions made
+ of steel (elastic modulus 
+\begin_inset Formula $E=\unit[209\times10^{3}]{MPa}$
+\end_inset
+
+, and a Poisson's ratio of 
+\begin_inset Formula $\nu=0.3$
+\end_inset
+
+.
+ We will use the .SAT files to define the dimensions of the material to ASTM
+ standard.
+ For the stress concentrators (holes) make sure that the total extruded
+ area is equal to 
+\begin_inset Formula $\unit[16\pi]{mm^{2}}$
+\end_inset
+
+ Use a total applied force of 10 MPa and use element type C3D8R.
+\end_layout
+
+\begin_layout Standard
+The directions for this lab will be less explicit than the previous Cantilever
+ Beam Lab.
+ Your goal is to construct as good of a model as possible.
+ You know how to construct an Abaqus simulation, but here are some tips
+ for approaching this more advanced problem: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Working with Non-native Geometries:
+\series default
+ It's perfectly possible to reproduce the ASTM D638 Type I geometry using
+ native design tools in Abaqus/CAE.
+ However, you already have a .SAT file from your earlier work (available
+ on Canvas in ./Computational Lab Documents/Lab #2/).
+ Abaqus can read this file format.
+ Simply go to 
+\family sans
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\series bold
+File 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Import-Part
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ and browse to find the ASTM D638 Type I.SAT file.
+ Rename the part as you like, and accept defaults for the Part Filter.
+ Your part should appear in your workspace.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+\series bold
+Modeling Forces/Boundary Conditions:
+\series default
+ You need not perfectly model the serrated grips' interaction with the specimen
+ shoulder (although you could), but carefully consider the forces on your
+ specimen when designing your boundary conditions.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+\series bold
+Symmetry Operations:
+\series default
+ One of the best ways to reduce computational expense is to take advantage
+ of symmetry in your model.
+ You can use cleverly defined symmetry conditions to reduce your mesh size
+ by and arrive at the most elegant FEA solution.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+\series bold
+Meshing Algorithms:
+\series default
+ The accuracy of FEA simulations are highly dependent on meshing.
+ If possible, you want to avoid irregular meshes with elements that have
+ high skews or low aspect ratios.
+ The native dog-bone geometry, as loaded, requires a sweep mesh algorithm
+ (it is yellow in the mesh module), which often works, but can lead to mesh
+ defects.
+ It is possible to use 
+\emph on
+partitioning
+\emph default
+ to create more regular segments that can be meshed using structural meshed
+ algorithms.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+\series bold
+Mesh Density and Seed Gradients:
+\series default
+ Your results will be greatly effected by your mesh density in the regions
+ of high stress (near the concentrator).
+ Too coarse of a mesh will yield imprecise stress values.
+ You should systematically adapt your mesh to ensure sufficient mesh density
+ but (somewhat) efficient computation.
+ Use of seed gradients are an excellent way to do this (hint.) 
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+\series bold
+Python Scripting (totally optional):
+\series default
+ Scripting can greatly speed your analyses.
+ If you'd like, look at 
+\begin_inset CommandInset href
+LatexCommand href
+name "this guide"
+target "http://softroboticstoolkit.com/files/sorotoolkit/files/learnabaqusscriptinonehour.pdf"
+
+\end_inset
+
+by J.
+ T.
+ B.
+ Overvelde to get started.
+ 
+\end_layout
+
+\begin_layout Standard
+For your write-up, please make sure to address the following:
+\end_layout
+
+\begin_layout Enumerate
+Describe/show how the specimens deform.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Describe/show the stresses in the specimen.
+ Relate this to your theoretical understanding of stress concentrators as
+ discussed in class.
+ 
+\end_layout
+
+\begin_layout Enumerate
+How do your stresses depend on mesh density? Note, you will have to examine
+ a number of mesh densities per specimen to investigate this.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What conclusions can you draw regarding the stress concentration at hole
+ with various shapes?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Where do the maximum stresses occur in the specimen's long axis? 
+\begin_inset Formula $\sigma_{11}$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma_{22}$
+\end_inset
+
+ or 
+\begin_inset Formula $\sigma_{33}$
+\end_inset
+
+, depending on your coordinate system)? Compare the maximum value with the
+ applied stress.
+\end_layout
+
+\begin_layout Itemize
+Where do the maximum stresses occur in the specimen's short axis? 
+\begin_inset Formula $\sigma_{11}$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma_{22}$
+\end_inset
+
+ or 
+\begin_inset Formula $\sigma_{33}$
+\end_inset
+
+, depending on your coordinate system)? Compare the maximum value with the
+ applied stress.
+\end_layout
+
+\begin_layout Itemize
+Prove that your mesh density near the stress concentrators is sufficient.
+ To do this, plot the maximum short-axis 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ values and long axis 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ values relative to the applied stress as a function of the number of elements
+ around the hole.
+ Compare these relative values with the theoretical solution for the stress
+ concentration near a circular hole in an infinite plate.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+And, as always:
+\end_layout
+
+\begin_layout Enumerate
+Make sure you use units in your report.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Label all graphs, figures, and tables appropriately (legend, axes, units,
+ captions, etc.) 
+\end_layout
+
+\begin_layout Enumerate
+Cite your sources.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Upload the reports to Canvas as a .pdf.
+ Include your (intuitively named) .cae and .odb files.
+ 
+\end_layout
+
+\end_body
+\end_document

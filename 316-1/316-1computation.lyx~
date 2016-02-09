@@ -1,0 +1,2258 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{textcomp}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl} 
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+
+
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, urlcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch thisfileonly
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -2
+\tocdepth 4
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Branch thisfileonly
+status open
+
+\begin_layout Title
+MATLAB Simulation
+\end_layout
+
+\begin_layout Author
+Oriane Senninger and Kenneth R.
+ Shull
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+316-1 Simulation Exercise
+\end_layout
+
+\end_inset
+
+316-1 Simulation Exercise: Monte Carlo Simulation of Decomposition in a
+ Binary Alloy
+\end_layout
+
+\begin_layout Subsubsection
+Background
+\end_layout
+
+\begin_layout Paragraph
+Scientific problem
+\end_layout
+
+\begin_layout Standard
+We want to analyze the thermodynamic evolution of a A-B alloy by simulation.
+ We assume that this system has the phase diagram presented in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A-B-alloy-phase"
+
+\end_inset
+
+.
+ In this figure we see that for temperatures lower than 
+\begin_inset Formula $T_{C}$
+\end_inset
+
+, the A-B alloy decomposes in two phases 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ with equilibrium concentrations 
+\begin_inset Formula $X_{B}^{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{B}^{\beta}$
+\end_inset
+
+.
+ The experiment that we want to model involves the following steps:
+\end_layout
+
+\begin_layout Enumerate
+We mix together the same number of moles of elements A and B to obtain a
+ homogeneous alloy at some temperature above 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The temperature is reduced to 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The temperature is held fixed at 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+, and the system evolves to form two different phases, with compositions
+ 
+\begin_inset Formula $X_{B}^{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{B}^{\beta}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/diagphi.svg
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-B-alloy-phase"
+
+\end_inset
+
+A-B alloy phase diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Atomistic Monte Carlo Model
+\end_layout
+
+\begin_layout Standard
+In this section, we introduce the Atomistic Monte Carlo model that we will
+ use to model the decomposition of the A-B alloy.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Atomistic model
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Atomistic-model"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this model, we suppose that the two elements (A and B) have the same
+ lattice structure.
+ This lattice is represented by a matrix with periodic boundary conditions
+ on its edges (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Lattice-with-periodic"
+
+\end_inset
+
+).
+ In 2 dimensions the left edge is connected to the right edge and the upper
+ edge is connected to the lower edge.
+ We reproduce the system evolution at the atomistic level: vacancies present
+ in the lattice migrate from site to site by exchanging their position with
+ their first nearest neighbors.
+ The successive displacements of vacancies make the system evolve toward
+ its equilibrium state.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/periodic_boundary.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Lattice-with-periodic"
+
+\end_inset
+
+Lattice with periodic boundary conditions.
+ The blue and red dashed lines represent bonds between sites induced by
+ periodic boundary conditions.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Monte Carlo model
+\end_layout
+
+\begin_layout Standard
+The thermodynamic evolution of the alloy is modeled with a Monte Carlo process.
+ The principle of Monte Carlo simulations is to model the A-B alloy evolution
+ in a statistic way.
+ To understand this model we can consider individual jumps of a vacancy
+ into one of the 
+\begin_inset Formula $z$
+\end_inset
+
+ nearest neighbor positions.
+ Within a certain specified time step, 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+, these different possible jumps occur with a probability 
+\begin_inset Formula $\varGamma_{\mu}$
+\end_inset
+
+ where 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is an index that indicates which direction the vacancy will move.
+ In a simple cubic lattice, for example, 
+\begin_inset Formula $z$
+\end_inset
+
+ = 6, and the 6 values of 
+\begin_inset Formula $\mu$
+\end_inset
+
+ correspond to jumps in the positive and negative x, y and z directions.
+ The sum over all possible jump probabilities in the statistical time must
+ sum to 1:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+{\displaystyle \sum_{\mu=1}^{z}}\varGamma_{\mu}=1\label{eq:proba-event}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To figure out which direction the vacancy moves, we draw a random number
+ 
+\begin_inset Formula $r_{n}$
+\end_inset
+
+ between 0 and 1.
+ The jump performed by the system during the time 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ is the 
+\begin_inset Formula $k^{th}$
+\end_inset
+
+ one such that the following condition holds: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+{\displaystyle \sum_{\mu=1}^{k-1}\varGamma_{\mu}}<r_{n}\leq{\displaystyle \sum_{\mu=1}^{k}\varGamma_{\mu}}\label{eq:choice}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probabilities of transitions 
+\begin_inset Formula $\varGamma_{\mu}$
+\end_inset
+
+ are related to the energetic barrier associated with vacancy motion, which
+ we refer to as 
+\begin_inset Formula $\Delta E_{\mu}$
+\end_inset
+
+.
+ Because vacancy hopping is a thermally activated process, we can use an
+ Arrhenius rate expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varGamma_{\mu}=\varGamma_{0}\exp\left(-\frac{\Delta E_{\mu}}{k_{B}T_{0}}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\varGamma_{0}$
+\end_inset
+
+ is a constant, 
+\begin_inset Formula $k_{B}$
+\end_inset
+
+ is Boltzmann's constant and 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ is the temperature of the system.
+\end_layout
+
+\begin_layout Standard
+The energy barrier is the difference between the maximum energy of the system
+ during the jump (the position of the migrating atom at this maximum energy
+ is called the saddle point) and the energy of the system before the jump.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta E_{\mu}=E^{SP}-E^{ini}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the superscript 
+\begin_inset Formula $SP$
+\end_inset
+
+ refers to 'Saddle Point' and 
+\begin_inset Formula $ini$
+\end_inset
+
+ means 'initial', as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Migration-barrier"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/Migration_barrier.jpg
+	width 50text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Migration-barrier"
+
+\end_inset
+
+Schematic representation of the evolution of the system energy during a
+ single atomic jump.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Energetic model
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Energetic-model"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To compute the energy barriers of the different possible jumps 
+\begin_inset Formula $\Delta E_{\mu}$
+\end_inset
+
+, we have to use an energetic model.
+ In Monte Carlo simulations, we usually use an Ising model or Broken bond
+ model.
+ In this energetic model, we assume that the total energy of the system
+ is equal to the sum of interaction energies 
+\begin_inset Formula $\varepsilon_{ij}$
+\end_inset
+
+ between the different elements (atoms of type A and B and vacancies V)
+ placed on the lattice sites.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E_{\nu}={\displaystyle \varSigma_{ij}\varepsilon_{ij}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With this energetic model, the migration barrier of an exchange between
+ an element 
+\begin_inset Formula $X$
+\end_inset
+
+ and the vacancy 
+\begin_inset Formula $V$
+\end_inset
+
+ becomes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta E_{\nu}={\displaystyle \sum_{k}}\varepsilon_{Xk}^{SP}-{\displaystyle \sum_{i}}\varepsilon_{Xi}-{\displaystyle \sum_{j}}\varepsilon_{Vj}\label{eq:Emigeps}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\varepsilon_{Ak}^{SP}$
+\end_inset
+
+ are interaction energies between the atom migrating and its neighbors at
+ the saddle point, 
+\begin_inset Formula $\varepsilon_{Ai}$
+\end_inset
+
+ are interaction energies between the atom migrating and its neighbors before
+ the jump and 
+\begin_inset Formula $\varepsilon_{Vj}$
+\end_inset
+
+ are interaction energies between the vacancy and its neighbors before the
+ jump.
+ The indices i, j and k indicate the following neighbors:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Index
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Meaning
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nearest neighbors of the migrating atom before the jump
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+j
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nearest neighbors of the vacancy before the jump
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nearest neighbors of migrating atom at the saddle point
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In theory, the range of interaction distances between elements are unlimited.
+ In practice, we usually restrict these interactions to first and sometimes
+ second nearest neighbors.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/Example1.png
+	scale 90
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Example1"
+
+\end_inset
+
+Example of configuration of atoms in the lattice.
+ The red circles are A atoms and the blue circles are B atoms.
+ The square is the vacancy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, the system presented in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Example1"
+
+\end_inset
+
+ has:
+\end_layout
+
+\begin_layout Itemize
+3 A-V interactions
+\end_layout
+
+\begin_layout Itemize
+1 B-V interaction
+\end_layout
+
+\begin_layout Itemize
+3 A-B interactions
+\end_layout
+
+\begin_layout Itemize
+9 A-A interactions
+\end_layout
+
+\begin_layout Itemize
+12 B-B interactions
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula $E_{\nu}=3\varepsilon_{AV}+1\varepsilon_{BV}+3\varepsilon_{AB}+9\varepsilon_{AA}+12\varepsilon_{BB}$
+\end_inset
+
+.
+ If we suppose that the vacancy exchange its position with the B atom on
+ its left side, the configuration of the system at the saddle point is the
+ one presented in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Example2"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/Example2.png
+	scale 90
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Example2"
+
+\end_inset
+
+Configuration of the system at the saddle point if the vacancy echange its
+ position with the B atom on its left
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this configuration, the system has:
+\end_layout
+
+\begin_layout Itemize
+2 B-B interactions at the saddle point
+\end_layout
+
+\begin_layout Itemize
+2 A-B ineractions at the saddle point
+\end_layout
+
+\begin_layout Itemize
+3 A-B interactions
+\end_layout
+
+\begin_layout Itemize
+9 A-A interactions
+\end_layout
+
+\begin_layout Itemize
+9 B-B interactions
+\end_layout
+
+\begin_layout Standard
+so 
+\begin_inset Formula $E^{SP}=2\varepsilon_{BB}^{SP}+2\varepsilon_{BA}^{SP}+3\varepsilon_{AB}+9\varepsilon_{AA}+9\varepsilon_{BB}$
+\end_inset
+
+.
+ The migration barrier of this jump is therefore: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta E_{\nu}=2\varepsilon_{BB}^{SP}+2\varepsilon_{BA}^{SP}-3\varepsilon_{AV}-1\varepsilon_{BV}-3\varepsilon_{BB}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Modeling of scientific problem
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Modeling-of-scientific"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we assume that the two elements A and B have the same simple cubic
+ lattice.
+ We model the A-B alloy as a matrix in 2D with 
+\begin_inset Formula $nx$
+\end_inset
+
+ rows and 
+\begin_inset Formula $ny$
+\end_inset
+
+ columns and with periodic boundary conditions on its edges.
+ To simplify the problem, we introduce only one vacancy in the lattice (so
+ 1 vacancy for 
+\begin_inset Formula $nx\times ny$
+\end_inset
+
+ sites), initially located in the middle of the matrix.
+ As we only interest ourselves to the thermodynamic evolution of the system
+ (and not to its kinetic evolution), we assume that the alloy evolves with
+ normalized time steps of 1 until a maximum time 
+\begin_inset Formula $t_{max}$
+\end_inset
+
+.
+ At each time step, the vacancy exchanges its position with one of its neighbors.
+ 
+\end_layout
+
+\begin_layout Standard
+To simplify the energetic model we suppose that the sum of interaction energies
+ between the atom migrating and its neighbors at the saddle point 
+\begin_inset Formula ${\displaystyle \sum_{k}}\varepsilon_{Xk}^{SP}$
+\end_inset
+
+ is a constant equal to 
+\begin_inset Formula $3\,eV$
+\end_inset
+
+.
+ In addition, we suppose that 
+\begin_inset Formula $\varepsilon_{AA}=\varepsilon_{BB}=\varepsilon_{AV}=\varepsilon_{BV}=0\,eV$
+\end_inset
+
+.
+ The only interaction which can be different from zero is thus 
+\begin_inset Formula $\varepsilon_{AB}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The free enthalpy of the alloy is expressed by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta G_{mix}=\Omega X_{A}X_{B}-T\Delta S_{mix}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ the ordering energy of the alloy and 
+\begin_inset Formula $\Delta S_{mix}$
+\end_inset
+
+ the configurational entropy of mixing of the alloy given by :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta S_{mix}=-k_{B}\left[X_{A}\ln X_{A}+X_{B}\ln X_{B}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a symmetrical miscibility gap, the ordering energy is 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Omega=2k_{B}T_{C}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $T_{C}$
+\end_inset
+
+ is the critical temperature of the miscibility gap (
+\begin_inset Formula $T_{C}=1000\,K$
+\end_inset
+
+ in this study).
+ In broken bond models with only first nearest neighbors interactions we
+ have:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Omega=z\left(\epsilon_{AB}-\frac{1}{2}\left(\varepsilon_{AA}+\varepsilon_{BB}\right)\right)\label{eq:Omega}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $z$
+\end_inset
+
+ is the number of first nearest neighbors for a given site.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Algorithmic scheme : Translation of problem in algorithm
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Algorithm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this section we translate the problem described previously in an algorithm
+ scheme.
+ As we are modeling an evolution according to time, our code will contain
+ an initial state and an incremental loop on time which will start from
+ the initial time (
+\begin_inset Formula $t_{0}$
+\end_inset
+
+) and finish at a final time (
+\begin_inset Formula $t_{max}$
+\end_inset
+
+).
+ During the time loop (for example between time 
+\begin_inset Formula $t_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{n+1}$
+\end_inset
+
+), the code will repeat the same operations which will make the matrix go
+ from the configuration at 
+\begin_inset Formula $t_{n}$
+\end_inset
+
+ to the one at 
+\begin_inset Formula $t_{n+1}$
+\end_inset
+
+.
+ In this code we suggest that the system evolves with the following steps
+ in the time loop:
+\end_layout
+
+\begin_layout Enumerate
+Evolution of time from 
+\begin_inset Formula $t_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{n+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Computation of jump frequencies of all possible jumps 
+\begin_inset Formula $\varGamma_{\mu}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Drawing of a random number 
+\begin_inset Formula $r_{n}$
+\end_inset
+
+ and choice of a jump according to Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:choice"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Completion of chosen jump: exchange of position between vacancy and nearest
+ neighbor chosen.
+\end_layout
+
+\begin_layout Subsubsection
+Exercise
+\end_layout
+
+\begin_layout Standard
+Random walks
+\end_layout
+
+\begin_layout Standard
+In this first work, we model the evolution of the system if the equilibrium
+ configuration of the alloy is an homogenized state.
+ As we only interest ourselves to the thermodynamic evolution of the system
+ (and not to its kinetic evolution), we assume that the alloy evolves with
+ normalized time steps of 1 until a maximum time 
+\begin_inset Formula $t_{max}$
+\end_inset
+
+.
+ At each time step, the vacancy exchanges its position with one of its neighbors.
+ The vacancy can exchange its position with all its first nearest neighbors
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ (and only its first nearest neighbors).
+ The difference is that in this section we suppose that all exchanges have
+ the same jump frequency 
+\begin_inset Formula $\varGamma_{XV}$
+\end_inset
+
+.
+ This is called a
+\begin_inset Quotes eld
+\end_inset
+
+ random walk
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Preliminary work
+\end_layout
+
+\begin_layout Enumerate
+Consider a vacancy located on the lattice site 
+\begin_inset Formula $(xv,yv)$
+\end_inset
+
+ as in Figure (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Coordinates"
+
+\end_inset
+
+).
+
+\color red
+ 
+\color black
+In this figure, identify the first nearest neighbors of the vacancy by numbers
+ and give the coordinates of these neighbors according to 
+\color inherit
+
+\begin_inset Formula $(xv,yv)$
+\end_inset
+
+.
+
+\color black
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/coordinates.png
+	width 40text%
+
+\end_inset
+
+
+\color black
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Coordinates"
+
+\end_inset
+
+Identification of sites coordinates in the lattice and coordinates of a
+ vacancy (represented by a square)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that all exchanges of the vacancy with its first nearest neighbors
+ have the same jump frequency.
+ Using equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:proba-event"
+
+\end_inset
+
+), give the probability of a given jump 
+\begin_inset Formula $\varGamma_{\mu}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Simulation
+\end_layout
+
+\begin_layout Enumerate-Resume
+Create a folder for this MATLAB project.
+ Open a new script in Matlab and save it in your folder as 
+\begin_inset Quotes eld
+\end_inset
+
+part1.m
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+\noindent
+We first write the initial state of the system in the file part1.m.
+ Save the matrix given in the file called 'matini.mat' available from the
+ following link:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.dropbox.com/s/on914vwpq8hgtj1/matini.mat?dl=0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Load this matrix in part1.m as 
+\begin_inset Quotes eld
+\end_inset
+
+matrix
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Define 
+\begin_inset Formula $nx$
+\end_inset
+
+ and 
+\begin_inset Formula $ny$
+\end_inset
+
+ as the number of rows and column respectively of matrix.
+ In this matrix, elements A are identified by a number 1 and elements B
+ are identified by a number 2.
+ Place a vacancy (identified by a 0) in the middle of the matrix: 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+define in part1.m the coordinates 
+\begin_inset Formula $(xv,yv)$
+\end_inset
+
+ (where 
+\begin_inset Formula $xv$
+\end_inset
+
+ is the row and 
+\begin_inset Formula $yv$
+\end_inset
+
+ the column of the vacancy position) as the coordinates at the middle of
+ the matrix.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Place a 0 in the matrix at the coordinates 
+\begin_inset Formula $(xv,yv)$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Initialize time 
+\begin_inset Formula $t$
+\end_inset
+
+ to 0.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+If the matrix has the configuration of figure X, what does the matrix in
+ Matlab look like (with the numbers)?
+\end_layout
+
+\begin_layout Enumerate-Resume
+Create a loop on time 
+\begin_inset Formula $t$
+\end_inset
+
+ where time evolves by steps of 1 as long as 
+\begin_inset Formula $t$
+\end_inset
+
+ remains lower than 
+\begin_inset Formula $t_{max}$
+\end_inset
+
+.
+ Place 
+\begin_inset Formula $t_{max}=10$
+\end_inset
+
+.
+ We now have the part 1 in the algorithm (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Algorithm"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+We now have to create the part 2 of the algorithm: the computation of the
+ jump frequency of all possible jumps.
+ (Remark: in this random walk program, this part could be placed outside
+ of the time loop since all jumps have the same frequency.
+ However, we include it in the time loop to prepare the second part of the
+ problem where we will have to compute the 
+\begin_inset Formula $\varGamma_{XV}$
+\end_inset
+
+ according to the environment).
+ In the program, we call 
+\begin_inset Formula $\mathrm{Gamma}$
+\end_inset
+
+ the vector such that 
+\begin_inset Formula $\mathrm{Gamma}(i)$
+\end_inset
+
+ is the jump frequency of the exchange 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Use a 
+\begin_inset Quotes eld
+\end_inset
+
+for
+\begin_inset Quotes erd
+\end_inset
+
+ loop to compute the values of the different 
+\begin_inset Formula $\mathrm{Gamma}(i)$
+\end_inset
+
+ components.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+We now have to choose a jump amount the different possibilities.
+ For this, we suggest the MATLAB code shown below:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "choice.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this code, we draw a random number 
+\begin_inset Formula $rn$
+\end_inset
+
+ and translate the equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:choice"
+
+\end_inset
+
+) in a Matlab program which uses the vector 
+\begin_inset Formula $\mathrm{cumgam}$
+\end_inset
+
+ where 
+\begin_inset Formula $\mathrm{cumgam(k)={\displaystyle \sum_{i=1}^{k}}}\mathrm{Gamma}(i)$
+\end_inset
+
+.
+ According to this algorithm, if 
+\begin_inset Formula $rn=0.3$
+\end_inset
+
+, what is the number of the jump chosen? What is 'njump' in this code? This
+ part of the code corresponds to the part 3 of the algorithm.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+For the chosen jump, identify in your code by 
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+ the coordinates of the corresponding nearest neighbor according to 
+\begin_inset Formula $(xv,yv)$
+\end_inset
+
+.
+ 
+\color black
+For this, we suggest you to define a matrix (
+\begin_inset Formula $2\times z$
+\end_inset
+
+) of the different possible evolutions (for example 
+\begin_inset Formula $\left(\begin{array}{c}
++1\\
+0
+\end{array}\right)$
+\end_inset
+
+ or 
+\begin_inset Formula $\left(\begin{array}{c}
+0\\
+-1
+\end{array}\right)$
+\end_inset
+
+ ) and to write 
+\color inherit
+
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+ according to 
+\begin_inset Formula $(xv,yv)$
+\end_inset
+
+ and the column of the matrix corresponding to the jump.
+\end_layout
+
+\begin_layout Enumerate-Resume
+We use periodic boundary conditions in this model (see part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Atomistic-model"
+
+\end_inset
+
+).
+ For a site 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+, verify that the following function enables to apply boundary conditions
+ presented in figure (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Lattice-with-periodic"
+
+\end_inset
+
+) 
+\begin_inset Formula 
+\[
+\begin{array}{c}
+x=\mathrm{mod}(x-1,\,nx)+1\\
+y=\mathrm{mod}(y-1,\,ny)+1
+\end{array}
+\]
+
+\end_inset
+
+For this, respond to the following questions: what is the 
+\begin_inset Formula $x$
+\end_inset
+
+ returned by this function if the 
+\begin_inset Formula $x$
+\end_inset
+
+ in input is between 1 and 
+\begin_inset Formula $nx$
+\end_inset
+
+ ? equal to 0? equal to 
+\begin_inset Formula $nx+1$
+\end_inset
+
+? Apply this function to 
+\begin_inset Formula $xn$
+\end_inset
+
+ and 
+\begin_inset Formula $yn$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Exchange types of elements corresponding to the vacancy an the neighbor
+ migrating in the matrix.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Update the vacancy coordinates to its new site.
+ We now have coded part 4 of the algorithm.
+\end_layout
+
+\begin_layout Enumerate-Resume
+In this random walk model, what is the equilibrium state of the system?
+ (Help: the fact that all the 
+\begin_inset Formula $\mathrm{Gamma}(i)$
+\end_inset
+
+ are equal induces that the migration barriers for all possible jumps 
+\begin_inset Formula $\Delta E_{\mu}$
+\end_inset
+
+ are equal.
+ From equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Emigeps"
+
+\end_inset
+
+) it induces that all saddle point interations 
+\begin_inset Formula $\varepsilon_{Ak}^{SP}$
+\end_inset
+
+ and 
+\begin_inset Formula $\varepsilon_{Bk}^{SP}$
+\end_inset
+
+ are equal, all atom-atom interations are equal and 
+\begin_inset Formula $\varepsilon_{AV}=\varepsilon_{BV}$
+\end_inset
+
+.
+ What is thus the value of the ordering energy 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ in equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Omega"
+
+\end_inset
+
+)? And the value of 
+\begin_inset Formula $T_{C}$
+\end_inset
+
+ ? So at any temperature, what is the equilibrium state of the system?)
+\end_layout
+
+\begin_layout Enumerate-Resume
+Test: Replace the initial matrix by a matrix of same size with all A atoms
+ on the half left side and all B elements on the half right side.
+ Print an image of this initial matrix.
+ Make the code run until 
+\begin_inset Formula $t_{max}=10^{6}$
+\end_inset
+
+.
+ What do you observe? Print an image of the final matrix.
+\end_layout
+
+\begin_layout Paragraph
+Introduction of alloy thermodynamic properties
+\end_layout
+
+\begin_layout Standard
+We now have to introduce the alloy thermodynamic properties in the code.
+ We thus have to compute the jump frequency of possible exchanges between
+ the vacancy and its neighbors according to the alloy thermodynamic properties.
+ We will therefore only work here on part 2 of the algorithm (see section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Algorithm"
+
+\end_inset
+
+).
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+To start on a good base, you can use the following code:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "part1.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can download this version of the part1.m file from the following link:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.dropbox.com/s/pbvgwyxigo49h6f/part1.m?dl=0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+We recall here that 
+\begin_inset Formula $\varepsilon_{AA}=\varepsilon_{BB}=0\,eV$
+\end_inset
+
+.
+ Express 
+\begin_inset Formula $\varepsilon_{AB}$
+\end_inset
+
+ according to the ordering energy 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ and then to the critical temperature 
+\begin_inset Formula $T_{C}$
+\end_inset
+
+.
+ Give a numerical value of 
+\begin_inset Formula $\varepsilon_{AB}$
+\end_inset
+
+ in eV if 
+\begin_inset Formula $T_{C}=1000\,K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate-Resume
+We analyze the migration barrier of an exchange between a vacancy V and
+ one of its nearest neighbor 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ We note 
+\begin_inset Formula $NA$
+\end_inset
+
+ the number of 
+\begin_inset Formula $X$
+\end_inset
+
+ first nearest neighbors of type A and 
+\begin_inset Formula $NB$
+\end_inset
+
+ the number of 
+\begin_inset Formula $X$
+\end_inset
+
+ first nearest neighbors of type B.
+ How many first nearest neighbors does X have (we do not compt the vacancy)?
+ Express equation (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Emigeps"
+
+\end_inset
+
+) according to 
+\begin_inset Formula $NA$
+\end_inset
+
+, 
+\begin_inset Formula $NB$
+\end_inset
+
+ and 
+\begin_inset Formula $\varepsilon_{XA}$
+\end_inset
+
+and 
+\begin_inset Formula $\varepsilon_{XB}$
+\end_inset
+
+ (look at the example given in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:Energetic-model"
+
+\end_inset
+
+ for help).
+ Using that 
+\begin_inset Formula ${\displaystyle \sum_{k}}\varepsilon_{Xk}^{SP}=3\,eV$
+\end_inset
+
+ and that 
+\begin_inset Formula $\varepsilon_{AA}=\varepsilon_{BB}=\varepsilon_{AV}=\varepsilon_{BV}=0\,eV$
+\end_inset
+
+, simplify the equation obtained if X is an element A.
+ Same question if X is an element B.
+ We observe from these calculations that, to compute the migration barrier
+ of a jump, we need to know the type of the element of the exchange (so
+ the type of 
+\begin_inset Formula $X$
+\end_inset
+
+) and the type of all 
+\begin_inset Formula $X$
+\end_inset
+
+ first nearest neighbors (to compute 
+\begin_inset Formula $NA$
+\end_inset
+
+ and 
+\begin_inset Formula $NB$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate-Resume
+For a given vacancy position, we want to compute the jump frequency of the
+ jump 
+\begin_inset Formula $i$
+\end_inset
+
+ (so 
+\begin_inset Formula $\mathrm{Gamma}(i)$
+\end_inset
+
+).
+ We note 
+\begin_inset Formula $X$
+\end_inset
+
+ the vacancy neighbor corresponding to this jump.
+ We start by computing 
+\begin_inset Formula $NA$
+\end_inset
+
+ and 
+\begin_inset Formula $NB$
+\end_inset
+
+ (the number of 
+\begin_inset Formula $X$
+\end_inset
+
+ first nearest neighbors of type A and B).
+ We note 
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+ the position of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $(xnk,ynk)$
+\end_inset
+
+ the coordinates of 
+\begin_inset Formula $X$
+\end_inset
+
+ first nearest neighbor 
+\begin_inset Formula $k$
+\end_inset
+
+ (
+\begin_inset Formula $k$
+\end_inset
+
+ goes from 1 to 3, the vacancy position is excluded from these nearest neighbors
+).
+ We write 
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+xnk\\
+ynk
+\end{array}\right)=\left(\begin{array}{c}
+xn\\
+yn
+\end{array}\right)+\mathrm{nveci}(k)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathrm{nveci}(k)$
+\end_inset
+
+ is the column 
+\begin_inset Formula $k$
+\end_inset
+
+ of the 
+\begin_inset Formula $2\times3$
+\end_inset
+
+ matrix of relative position of 
+\begin_inset Formula $(xnk,ynk)$
+\end_inset
+
+ compared to 
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+.
+ Graph 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Position-of-X"
+
+\end_inset
+
+ gives the position of neighbors 
+\begin_inset Formula $X$
+\end_inset
+
+ compared to the vacancy.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/neighborX.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Position-of-X"
+
+\end_inset
+
+Position of X corresponding to the different possible jumps
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ For each of these jumps, associate the matrix 
+\begin_inset Formula $\mathrm{nveci}$
+\end_inset
+
+ of the relative position of 
+\begin_inset Formula $X$
+\end_inset
+
+ first nearest neighbors.
+ 
+\begin_inset Formula 
+\[
+\begin{array}{cc}
+(a)\;\mathrm{nveci}=\left(\begin{array}{ccc}
+0 & 0 & -1\\
++1 & -1 & 0
+\end{array}\right) & (b)\;\mathrm{nveci}=\left(\begin{array}{ccc}
+1 & -1 & 0\\
+0 & 0 & 1
+\end{array}\right)\\
+\\
+\end{array}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(c)\;\mathrm{nveci}=\left(\begin{array}{ccc}
+1 & -1 & 0\\
+0 & 0 & -1
+\end{array}\right)(d)\;\mathrm{nveci}=\left(\begin{array}{ccc}
+0 & 0 & +1\\
++1 & -1 & 0
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Inside the loop to compute 
+\begin_inset Formula $\mathrm{Gamma}(i)$
+\end_inset
+
+ coefficients write the following steps:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+define by 
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+ the vacancy neighbor corresponding to 
+\begin_inset Formula $i$
+\end_inset
+
+ (use the 
+\begin_inset Formula $\mathrm{nvec}$
+\end_inset
+
+ matrix).
+ Apply periodic conditions to 
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Initialize 
+\begin_inset Formula $NA$
+\end_inset
+
+ and 
+\begin_inset Formula $NB$
+\end_inset
+
+ to zero.
+ Compute 
+\begin_inset Formula $NA$
+\end_inset
+
+ and 
+\begin_inset Formula $NB$
+\end_inset
+
+ of the exchange by analyzing the type of element on all 
+\begin_inset Formula $(xnk,ynk)$
+\end_inset
+
+ sites.
+ To define the 
+\begin_inset Formula $\mathrm{nveci}$
+\end_inset
+
+ matrix corresponding to the jump, you can distinguish the different cases
+ with if-statements or you can use a structure with all the 
+\begin_inset Formula $\mathrm{nveci}$
+\end_inset
+
+ matrices and load the one corresponding to the jump.
+ Don't forget to apply boundary conditions to 
+\begin_inset Formula $(xnk,ynk)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Express the migration barrier of each jump depending on the type of the
+ neighbor 
+\begin_inset Formula $X$
+\end_inset
+
+ (located on 
+\begin_inset Formula $(xn,yn)$
+\end_inset
+
+) and 
+\begin_inset Formula $NA$
+\end_inset
+
+ and 
+\begin_inset Formula $NB$
+\end_inset
+
+.
+ Compute the jump frequency associated to this migration barrier (place
+ the temperature to an arbitrary value-don't forget to define 
+\begin_inset Formula $\varepsilon_{AB}$
+\end_inset
+
+ in your code).
+\end_layout
+
+\begin_layout Enumerate-Resume
+Normalize the 
+\begin_inset Formula $\mathrm{Gamma}$
+\end_inset
+
+ vector to 1 so that the sum of 
+\begin_inset Formula $\mathrm{Gamma}(i)$
+\end_inset
+
+ is equal to 1.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Analytic calculation: Suppose that for a given position, the vacancy can
+ exchange it's position with either of 2 different A atoms.
+ One on them is in a local configuration with NB=0 (the jump frequency of
+ this exchange is noted 
+\begin_inset Formula $\varGamma_{NB=0}$
+\end_inset
+
+) and the other one is in a local configuration with NB=3 (the jump frequency
+ of this exchange is noted 
+\begin_inset Formula $\varGamma_{NB=3}$
+\end_inset
+
+).
+ Compute 
+\begin_inset Formula $\varGamma_{NB=3}/\varGamma_{NB=0}$
+\end_inset
+
+ for T=100K and for T=2000K.
+ Explain why these ratios are consistent with the alloy phase diagram.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Place the temperature to 100K.
+ Run the simulation until 
+\begin_inset Formula $t_{max}=10^{6}$
+\end_inset
+
+.
+ What do you observe? 
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Title:       Third-order Magic Hexagon
+Description: Third-order normal magic hexagon in standard form. Numbers 
+             from 1 to 19 are placed on a hexagonal grid so that each row, 
+             in all three directions, add to 38.
+Author:      English Wikipedia/Wikimedia Commons User atropos235
+Licensing:   GNU Free Documentation License 1.2 (GFDL 1.2)
+             http://www.gnu.org/copyleft/fdl.html		
+                 -or-
+             Creative Commons Attribution-ShareAlike 2.5 Licence (CC-by-sa 2.5)
+             http://creativecommons.org/licenses/by-sa/2.5/
+Source:      Wikimedia Commons graphic: MagicHexagon-Order3.svg
+
+Created with Inkscape (http://www.inkscape.org/), heavily source-modified to optimize
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="283.1756"
+   height="261.73297"
+   id="magichex3"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="hexagonal array.svg">
+  <metadata
+     id="metadata86">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="492"
+     id="namedview84"
+     showgrid="false"
+     inkscape:zoom="0.90168235"
+     inkscape:cx="141.5878"
+     inkscape:cy="130.86649"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="magichex3" />
+  <defs
+     id="defs3">
+    <path
+       d=" M 193.08086,237.16908     L 176.84755,265.286     L 144.38093,265.286     L 128.14762,237.16908     L 144.38093,209.05216     L 176.84755,209.05216     L 193.08086,237.16908     z "
+       style="fill:none;stroke:#000000;stroke-width:2"
+       id="HexGrid" />
+  </defs>
+  <g
+     id="g-hexgrid">
+    <use
+       transform="matrix(0,1,-1,0,350.64317,-78.447688)"
+       xlink:href="#HexGrid"
+       id="use46" />
+    <use
+       transform="matrix(0,1,-1,0,406.87701,-78.447688)"
+       xlink:href="#HexGrid"
+       id="use48" />
+    <use
+       transform="matrix(0,1,-1,0,294.40933,-78.447688)"
+       xlink:href="#HexGrid"
+       id="use50" />
+    <use
+       transform="matrix(0,1,-1,0,463.11084,-78.447688)"
+       xlink:href="#HexGrid"
+       id="use52" />
+    <use
+       transform="matrix(0,1,-1,0,322.51984,-127.14762)"
+       xlink:href="#HexGrid"
+       id="use54" />
+    <use
+       transform="matrix(0,1,-1,0,378.76009,-127.14762)"
+       xlink:href="#HexGrid"
+       id="use56" />
+    <use
+       transform="matrix(0,1,-1,0,434.99393,-127.14762)"
+       xlink:href="#HexGrid"
+       id="use58" />
+    <use
+       transform="matrix(0,1,-1,0,350.64317,18.952172)"
+       xlink:href="#HexGrid"
+       id="use60" />
+    <use
+       transform="matrix(0,1,-1,0,406.87701,18.952172)"
+       xlink:href="#HexGrid"
+       id="use62" />
+    <use
+       transform="matrix(0,1,-1,0,294.40933,18.952172)"
+       xlink:href="#HexGrid"
+       id="use64" />
+    <use
+       transform="matrix(0,1,-1,0,463.11084,18.952172)"
+       xlink:href="#HexGrid"
+       id="use66" />
+    <use
+       transform="matrix(0,1,-1,0,322.51984,-29.747758)"
+       xlink:href="#HexGrid"
+       id="use68" />
+    <use
+       transform="matrix(0,1,-1,0,378.76009,-29.747758)"
+       xlink:href="#HexGrid"
+       id="use70" />
+    <use
+       transform="matrix(0,1,-1,0,434.99393,-29.747758)"
+       xlink:href="#HexGrid"
+       id="use72" />
+    <use
+       transform="matrix(0,1,-1,0,322.51984,67.652102)"
+       xlink:href="#HexGrid"
+       id="use74" />
+    <use
+       transform="matrix(0,1,-1,0,378.76009,67.652102)"
+       xlink:href="#HexGrid"
+       id="use76" />
+    <use
+       transform="matrix(0,1,-1,0,434.99393,67.652102)"
+       xlink:href="#HexGrid"
+       id="use78" />
+    <use
+       transform="matrix(0,1,-1,0,491.22776,-29.747758)"
+       xlink:href="#HexGrid"
+       id="use80" />
+    <use
+       transform="matrix(0,1,-1,0,266.286,-29.747758)"
+       xlink:href="#HexGrid"
+       id="use82" />
+  </g>
+</svg>

@@ -1,0 +1,999 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "316-1 Labs"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue, linkcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch labonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -1
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+316-1 Laboratories
+\end_layout
+
+\begin_layout Subsection
+Laboratory 1: Diffusion in Substitutional Cu-Ni Alloys
+\end_layout
+
+\begin_layout Subsubsection
+Objectives
+\end_layout
+
+\begin_layout Itemize
+To observe diffusion in a Cu-Ni diffusion couple.
+ 
+\end_layout
+
+\begin_layout Itemize
+To determine if these observations are consistent with a composition-dependent
+ interdiffusion coefficient, expected for diffusion in substitutional alloys.
+ 
+\end_layout
+
+\begin_layout Itemize
+To begin to model the diffusion process using MATLAB.
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+In the case of pack-carburization, we were able to make the assumption that
+ diffusivity of carbon in iron was independent of composition.
+ For substitutional alloys, this is not the case.
+ The interdiffusion coefficient in this case is composition dependent and
+ related to the intrinsic diffusion coefficients as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tilde{D}=X_{a}D_{b}+X_{b}D_{a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In addition, in situations where 
+\begin_inset Formula $D_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{b}$
+\end_inset
+
+ differ from one another, there will be a net vacancy flux in the material,
+ giving rise to the motion of an inert set of markers that can be observed
+ experimentally.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Samples
+\end_layout
+
+\begin_layout Standard
+Samples have been prepared using two techniques:
+\end_layout
+
+\begin_layout Enumerate
+electroplating of nickel layers onto copper, and 
+\end_layout
+
+\begin_layout Enumerate
+welding Ni-Cu sandwich layers.
+ 
+\end_layout
+
+\begin_layout Standard
+In both cases, Mo wires were placed at the interface, to mark the position
+ of the original interface; however in the case of the electroplated samples,
+ these wires sometimes shifted away from the surface during plating.
+ After electroplating/ welding, the samples were sealed in evacuated quartz
+ tubes to prevent oxidation, and annealed at 1000°C for 4, 16, and 72 hours.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+The diffusion profile may be determined using the chemical analysis capability
+ of the SEM.
+ When the electron beam of the microscope is rastered over a sample it penetrate
+s to a depth of about a micron, depending on the beam voltage.
+ Three events occur in this region of the sample:
+\end_layout
+
+\begin_layout Enumerate
+Backscattered electrons bounce off the surface with little energy loss.
+\end_layout
+
+\begin_layout Enumerate
+Secondary, low-energy electrons emerge from the sample surface.
+ 
+\end_layout
+
+\begin_layout Enumerate
+X-rays are generated if the beam has enough energy.
+\end_layout
+
+\begin_layout Plain Layout
+Secondary electrons are sensitive to surface roughness, and are used to
+ image surfaces which are rough, fractured, corroded, etc.
+ Backscattered electrons are sensitive to composition variations and can
+ be used to examine phases in a two phase structure.
+ Analysis of the x-ray spectrum allows identification of the elements present
+ at a given spot on the sample.
+ This analysis may be done quantitatively using a three-step ZAF correction:
+ Z is the symbol for atomic number, A is absorption and F is fluorescence.
+ Thus the intensity of the characteristic radiation is first corrected for
+ the atomic number of the radiating atom.
+ The x-rays originate below the sample surface, and must travel through
+ some thickness of the sample to emerge, so there is a correction for the
+ degree of absorption, which depends both on the wavelength (energy) of
+ the x-rays and the composition through which they travel.
+ Finally there is a correction for the amount of fluorescence (unwanted
+ signal) from a given species.
+ After these corrections, the intensities of the radiation peaks are taken
+ to be proportional to the atomic concentrations present.
+ Using a calibration standard can improve the accuracy of the compositional
+ determination beyond that of the ZAF correction.
+ In this case, the copper-nickel alloy composition prior to annealing may
+ provide that standard.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Laboratory Procedure
+\end_layout
+
+\begin_layout Standard
+Refer to the class notes in addition to the paper describing the background
+ and history of the Kirkendall effect 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nakajima_discovery_1997"
+
+\end_inset
+
+.
+ Look at the Cu-Ni samples (annealed at 4, 16 and 72 hours at 1000 °C) under
+ the optical microscope.
+ Note that there are two types of sample: 1) copper strips wound with Mo
+ wire which were nickel-electroplated and 2) a welded "sandwich" of nickel
+ with outer copper layers and rolled molybdenum "marker wires" at the interface.
+ Note that in (1) the Mo was not secured to the copper strip well-enough
+ to mark the original interface (this will be obvious in your observations).
+ In (2) you will find enough pairs of wires that are nearly across from
+ each other to measure the distance between markers as a function of time
+ at elevated temperature.
+ (Unfortunately, the weld broke on the unannealed (time = 0) samples; but
+ you should be able to assess the three remaining samples quantitatively
+ or at least semi-quantitatively.
+ Include these measurements with your other observations, as well as a discussio
+n of what you expected.
+ Discuss whether or not your observations and measurements are consistent
+ with the Kirkendall effect.
+ In future exercises we will be comparing these diffusion profiles to what
+ we would expect from published values of the relevant diffusion coefficients.
+ For now document your in-class observations, including well labeled sketches
+ and micrographs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 2: Recovery, Recrystallization and Grain Growth in Cold Worked
+ 70/30 Brass 
+\end_layout
+
+\begin_layout Subsubsection
+Objectives
+\end_layout
+
+\begin_layout Standard
+To observe the phenomena of recovery, recrystallization and grain growth.
+ To understand the effect of processing on microstructure, specifically
+ the effect of amount of cold-work on recrystallization and final grain
+ size.
+ To understand the time dependence of grain growth.
+ To understand the predictions of the Hall-Petch relationship.
+\end_layout
+
+\begin_layout Subsubsection
+General Procedure: Week 1
+\end_layout
+
+\begin_layout Standard
+You will be provided with brass (70%Cu, 30% Zn) that has been heated to
+ 700° C for six hours, from the as-received state and then rolled to reductions
+ of ~ 15% and ~ 30%, as well as some brass that has not yet been rolled.
+ Your groups will cold-roll samples to similar reductions for the next group.
+ The specified amount of cold-work will be introduced using the rolling
+ mill.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure the thickness and the Rockwell hardness of your as-received and
+ rolled samples.
+ Choose an appropriate Rockwell scale over which you can anticipate measuring
+ your sample after it is rolled – then subsequently annealed.
+ Always check to make sure the load and indenter size correspond to the
+ correct scale.
+ Use a standard to check the tester.
+ 
+\end_layout
+
+\begin_layout Enumerate
+As a group, roll two samples, using the rolling mill, one to a reduction
+ of ~ 30-40%, a second to a lesser reduction, e.g.
+ 15-20%.
+ Anticipate the target thickness before you begin rolling.
+ Calculate target thicknesses for each reduction, assuming width does not
+ change with rolling.
+ Percent reduction (or percent coldwork) is defined as: 
+\begin_inset Formula 
+\begin{equation}
+%\%CW=\frac{A_{0}-A_{d}}{A_{d}}\times100
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+which may be re-written for this lab:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+%\%CW=\frac{t_{0}-t_{d}}{t_{d}}\times100
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ is the starting thickness and 
+\begin_inset Formula $t_{d}$
+\end_inset
+
+ is the final thickness.
+ Set aside for the next group.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Re-measure hardness after rolling.
+ (Make sure to measure a flat region.
+ The sample should not deflect when the indenter is applied.)
+\end_layout
+
+\begin_layout Enumerate
+Section the rolled samples into about 8 pieces (~ 1cm long).
+ Note that we will be interested in observing the transverse sections, defined
+ in the figure below.
+ Set aside a time = 0 sample; each of the other 1 cm long “coupons” will
+ be annealed at a specified time at the temperature assigned to your group
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/lab2 schematic.svg
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Record the temperature assigned to your group.
+ T=__________________degrees C.
+\end_layout
+
+\begin_layout Enumerate
+Create a sample sheet that will help you “store” samples that have been
+ annealed from 2 minutes, 8 minutes, 32 minutes….up to a week.
+ You will be measuring and recording Rockwell hardness on each of these
+ samples, then mounting them for polishing and etching.
+\end_layout
+
+\begin_layout Enumerate
+After reserving the time = 0 sample, place the remaining samples in the
+ furnace assigned to your lab group.
+ (All samples of both reductions, except t=0, should be annealed at the
+ SAME TEMPERATURE
+\end_layout
+
+\begin_layout Standard
+***Suggest (the entire group’s) annealing conditions by reviewing information
+ available in the Metals Handbook, and by discussion with your lab mates
+ & instructor.
+ You want to achieve conditions under which you will observe partial to
+ total recrystallization.
+ Consider how you will need to vary the conditions to test the Johnson-Avrami-Me
+hl equation.
+ 
+\end_layout
+
+\begin_layout Paragraph
+General Procedure: Week 2
+\end_layout
+
+\begin_layout Enumerate
+Make sure you have measured the Rockwell hardness of each annealed sample.
+ Note that you should try to take all your hardness readings on the same
+ scale.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Mount transverse cross-sections of each of the annealed samples, along with
+ an unannealed piece in an acrylic mount for polishing.
+ Follow the instructions for the auto-polisher.
+ Wash your sample carefully and ultrasonic between each step to avoid contaminat
+ing the wheels.
+ (These are soft samples; it will be difficult to remove the scratches that
+ are introduced by such contamination!) 
+\end_layout
+
+\begin_layout Enumerate
+Etch to reveal grains.
+ (Be careful; the different reductions and different temperatures of annealing
+ may result in different etch rates.) Record a photomicrograph of each sample
+ at an appropriate magnification.
+ 
+\end_layout
+
+\begin_layout Enumerate
+From your micrographs, calculate the volume fraction of recrystallized material,
+ and the grain size of samples that are completely recrystallized.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Measure the Vickers hardness of each sample (three indents, minimum, on
+ each sample.)
+\end_layout
+
+\begin_layout Subsubsection
+In-Lab Questions DUE at the Beginning of Week 2:
+\end_layout
+
+\begin_layout Standard
+Rolling, hardness testing and cutting will take some time.
+ If you are waiting you may use time in lab to answer the following.
+ Make sure you define all terms and cite sources:
+\end_layout
+
+\begin_layout Enumerate
+What equation describes the rate of grain growth?
+\end_layout
+
+\begin_layout Enumerate
+Refer to Chapter 3 of Shewmon and summarize the “Engineering Laws of Recrystalli
+zation” relevant to this experiment.
+ (You may summarize all – then determine which you might be able to test
+ vs.
+ not able to test.)
+\end_layout
+
+\begin_layout Enumerate
+What equation describes the volume fraction of material recrystallized with
+ time? 
+\end_layout
+
+\begin_layout Enumerate
+How can the rate of recrystallization at a given temperature be determined?
+\end_layout
+
+\begin_layout Enumerate
+What is the Hall-Petch equation? Discuss the equation and any limitations.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Final Deliverable - Group PowerPoint Presentation
+\end_layout
+
+\begin_layout Standard
+Your presentation will be judged on content, delivery (presentation style),
+ neatness, completeness.
+ You must submit a hardcopy of your presentation slides.
+ Imagine you are presenting this to Prof.
+ Voorhees and other MSE students who were not in lab; they are familiar
+ with terms like grain size and hardness, but do not know the details of
+ your sample preparation and what you are testing (i.e.
+ which of the Engineering laws of Recrystallization you were able to test.)
+ Length: 12 minutes.
+ Each group member must participate.
+ 
+\end_layout
+
+\begin_layout Standard
+Due: one week after completing in-class measurements.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Refer to Chapter 3 of Shewmon; discuss whether or not the class data substantiat
+es the “Engineering Laws of Recrystallization,” i.e.
+ how do hardness, grain size, volume fraction of recrystallized material
+ vary with the amount of cold-rolling, and time of anneal? Plot hardness
+ (Rockwell is OK, here) as a function of annealing time for both reductions,
+ including time = 0 values.
+ Explain changes in hardness by comparison with micrographs.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Estimate the recrystallization rate for your group’s annealing temperature:
+ Rate = 1/(time for volume fraction transformed = 0.5).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Note: We will try to use the information from different groups to compare
+ recrystallization as a function of temperature.
+ If you have enough points (this is unlikely), you may be able to fit the
+ Avrami (JMAK) equation: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y\,\mathrm{(fraction\,recrystallized)}=1-\exp(-kt^{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Make sure you use actual -- not target reductions -- when discussing your
+ results.
+ Double-check that the reduction is, for example, 40%, not 70%.
+\end_layout
+
+\begin_layout Enumerate
+For samples in which complete recrystallization was observed -- does the
+ Hall-Petch relationship hold? Assume that hardness is proportional to yield
+ strength (see next page).
+ The Hall Petch equation states that the yield stress, 
+\begin_inset Formula $\sigma_{y}$
+\end_inset
+
+, is increases linearly with 
+\begin_inset Formula $d^{-1/2}$
+\end_inset
+
+, where 
+\begin_inset Formula $d$
+\end_inset
+
+ is the average grain size:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sigma_{y}=\sigma_{0}+\frac{k_{y}}{d^{1/2}}\label{eq:Hall Petch}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\begin_inset Formula $\sigma_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $k_{y}$
+\end_inset
+
+ are constants for a given material.
+ Note that you do not have to confine comparisons to a single recrystallization;
+ use all the samples available that have recrystallized.
+ (It tends not to be valid for very large or very small grains.)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For completely recrystallized samples, is normal grain growth observed?
+ Measure grain sizes for recrystallized material at a given reduction and
+ determine the exponent for grain growth as a function of annealing time
+ at a given temperature: 
+\begin_inset Formula 
+\begin{equation}
+d^{n}-d_{0}^{n}=Kt
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Solve to see if 
+\begin_inset Formula $n$
+\end_inset
+
+ is greater than or equal to 2, as expected.
+ Note that at the start of recrystallization, the grain size is infinitesimally
+ small.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Heyn Procedure for counting lineal intercept length:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "e04_committee_test_2013"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Estimate the average grain size by counting, on a micrograph, screen or
+ the specimen itself, the number of grains intercepted by one or more straight
+ lines sufficiently long to yield at least 50 intercepts.
+ Select the magnification such that this can be done in a single field.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Make counts on 3-5 blindly selected, widely separated fields.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Use a factor of 1.5 to determine the average grain size from the lineal intercept
+ length.
+\end_layout
+
+\begin_layout Paragraph
+Hall–Petch determination:
+\end_layout
+
+\begin_layout Enumerate
+Measure Vickers hardness.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Use hardness and grain size to determine if the Hall-Petch relationship
+ holds true for your data.
+ (Plot HV vs.
+ 
+\begin_inset Formula $1/\sqrt{d}$
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+You can use Vickers hardness to calculate the Yield strength of brass.
+ Assume 1/3 of the applied load in a Vickers Hardness test plastically deforms
+ the sample and use the appropriate conversion factor (
+\begin_inset Formula $CF$
+\end_inset
+
+) to convert to MPa: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma_{y}=\frac{HV\,\mathrm{(kg/mm^{3})}}{3}\times CF
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Q -- Are your values of yield strength within a reasonable range? Compare
+ to typical values (Metals Handbook)
+\end_layout
+
+\begin_layout Paragraph
+Empirical relationship between Rockwell B and Vickers hardness (kg/mm
+\begin_inset Formula $^{2}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Note that it is best to measure the Vickers hardness directly.
+ The following relationship between the Vickers hardness (
+\begin_inset Formula $HV)$
+\end_inset
+
+ and Rockwell B hardness (
+\begin_inset Formula $R_{b}$
+\end_inset
+
+) is obtained from ASTM Standard E140 (table 4, Conversion data for Cartridge
+ brass), Annual Book of ASTM Standards, volume 3.01, 1989:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+HV=0.002R_{b}^{3}-0.0092R_{b}^{2}+0.8163R_{b}+52.865
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 3: Crystallization in Isotactic Polypropylene 
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+The Johnson-Mehl-Avrami-Kolmogorov (JMAK) equation, sometimes to simply
+ as the Avrami equation, describes the transformation kinetics associated
+ with crystallization or recrystallization as a function of time, t:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f=1-\exp(-ktn)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $f$
+\end_inset
+
+ is the volume fraction transformed, 
+\begin_inset Formula $k$
+\end_inset
+
+ is dependent on nucleation and growth rates, and hence is temperature-dependent.
+ The exponent 
+\begin_inset Formula $n$
+\end_inset
+
+ is independent of temperature and can vary between 1-4, depending on the
+ system.
+\end_layout
+
+\begin_layout Subsubsection
+Isotactic Polypropylene
+\end_layout
+
+\begin_layout Standard
+Since the number of annealing times examined for the brass samples is small,
+ there are not enough points to fit the above expression.
+ However, we can observe crystallization of isotactic polypropylene from
+ the melt, and gather enough data to fit a smooth curve.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Melt the polypropylene sample using the hot stage (~ 170° C) 
+\end_layout
+
+\begin_layout Enumerate
+Cool the stage.
+ Observe and record crystallization at two or three temperatures between
+ ~ 122-130° C, using the video system.
+ Make sure time and temperature are recorded.
+ (Take time = 0 to be the time when the isothermal target temperature was
+ reached).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Determine the volume fraction crystallized as a function of time, using
+ point-counting.
+\end_layout
+
+\begin_layout Enumerate
+Determine the growth rate of the spherulites.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Determine the number of nuclei (per unit area) at each temperature.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Solve each data set for n and k (figure out what to plot to get a linear
+ fit).
+ Is n constant? Does k vary with temperature?
+\end_layout
+
+\begin_layout Enumerate
+Note that the idealized derivation of the JMAK equation, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{\pi}{3}Ṅ_{v}v^{3}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ where 
+\begin_inset Formula $\dot{N}_{v}$
+\end_inset
+
+ is the nucleation rate and 
+\begin_inset Formula $v$
+\end_inset
+
+ is the spherulite growth rate.
+ The notes also descirbe two specific cases of nucleation: the first is
+ when site saturation occurs rapidly, so the number of nuclei is constant
+ and the transformation depends only on the growth rate, 
+\begin_inset Formula $v$
+\end_inset
+
+; the second is when nuclei form at a constant growth rate during the transforma
+tion.
+ Which is observed here? 
+\end_layout
+
+\begin_layout Enumerate
+Celli, Zanotto and Avramov also observed nucleation and growth in isotactic
+ polypropylene 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "celli_primary_2003"
+
+\end_inset
+
+.
+ According to their study, 
+\begin_inset Formula $k=\pi vnN_{s}$
+\end_inset
+
+, where 
+\begin_inset Formula $v$
+\end_inset
+
+ is the spherulite growth rate (radius/ time) and 
+\begin_inset Formula $N_{s}$
+\end_inset
+
+ is the number of spherulites per area and 
+\emph on
+n = 2
+\emph default
+.
+ How well does this fit your data?
+\end_layout
+
+\begin_layout Enumerate
+What limits the range of temperatures measured? 
+\end_layout
+
+\begin_layout Enumerate
+Plot the fraction crystallized (or normalized fraction crystallized, with
+ highest fraction crystallized = 1.0, as 100% is not possible) vs.
+ time on a logarithmic scale, for all temperatures measured.
+ (Plot data as points and your fit to each set of data as a line – all data
+ on the same plot.
+ Do not “connect the dots.”) Label the temperature for each curve.
+ Explain the observed temperature – dependence of the rate.
+ What dependence would you expect for recrystallization in brass? (See Callister
+, Ch.10 and Ch 16, 5th ed./ Ch 15, 6th ed.)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Do we still need this last question?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Write Up 
+\end_layout
+
+\begin_layout Standard
+Informal, individual write-up.
+ Briefly describe the experiment and equipment used.
+ (A single short paragraph.) Make a table of your results.
+ Show all work related to solutions for 6-10 above, include the appropriate
+ plots (more than one!) and answer the questions.
+ Due week of June 3, electronically, by labtime.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch labonly
+status collapsed
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "3161refs"
+options "bibtotoc,331style"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

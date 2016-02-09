@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><svg height="16.67531mm" version="1.0" viewBox="0 0 232 63" width="61.40750mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-194,-121)">
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="202.00" x2="234.00" y1="150.00" y2="150.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26682408501">
+      <line x1="394.00" x2="417.56" y1="150.00" y2="150.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26682408501">
+      <line x1="282.00" x2="299.00" y1="150.00" y2="150.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26682408501">
+      <line x1="347.00" x2="367.00" y1="150.00" y2="150.00"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="235.30" y="157.00">CH<tspan baseline-shift="sub" font-size="75%">2</tspan></text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="300.30" y="157.00">CH<tspan baseline-shift="sub" font-size="75%">2</tspan></text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="368.30" y="157.00">O</text>
+    <polyline fill="none" points="227.54,129.00 218.00,129.00 218.00,176.00 227.54,176.00 " stroke="#000000" stroke-width="2.26682408501"/>
+    <polyline fill="none" points="393.46,129.00 403.00,129.00 403.00,176.00 393.46,176.00 " stroke="#000000" stroke-width="2.26682408501"/>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="Arial" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule59854" name="">
+      <atom id="atom17248" name="C" valency="4">
+        <point x="5.347cm" y="3.970cm"/>
+      </atom>
+      <atom id="atom67073" name="C" valency="4">
+        <point x="11.052cm" y="3.970cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom17494" name="C" pos="center-first" show="yes" valency="4">
+        <point x="6.535cm" y="3.970cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom75947" name="C" pos="center-first" show="yes" valency="4">
+        <point x="8.252cm" y="3.970cm"/>
+      </atom>
+      <atom id="atom76135" name="O" pos="center-first" valency="2">
+        <point x="10.076cm" y="3.970cm"/>
+      </atom>
+      <bond double_ratio="0.85" end="atom17494" id="bond59265" line_width="2.26682408501" start="atom17248" type="n1"/>
+      <bond double_ratio="0.85" end="atom67073" id="bond83274" line_width="2.26682408501" start="atom76135" type="n1"/>
+      <bond double_ratio="0.85" end="atom75947" id="bond14371" line_width="2.26682408501" start="atom17494" type="n1"/>
+      <bond double_ratio="0.85" end="atom76135" id="bond78107" line_width="2.26682408501" start="atom75947" type="n1"/>
+    </molecule>
+    <polyline line_color="#000" width="2.26682408501">
+      <point x="6.023cm" y="3.414cm"/>
+      <point x="5.770cm" y="3.414cm"/>
+      <point x="5.770cm" y="4.659cm"/>
+      <point x="6.023cm" y="4.659cm"/>
+    </polyline>
+    <polyline line_color="#000" width="2.26682408501">
+      <point x="10.414cm" y="3.414cm"/>
+      <point x="10.667cm" y="3.414cm"/>
+      <point x="10.667cm" y="4.659cm"/>
+      <point x="10.414cm" y="4.659cm"/>
+    </polyline>
+  </cdml>
+</svg>

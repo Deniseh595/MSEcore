@@ -1,0 +1,1279 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{pgfplots,tikz}
+\usepackage{comment}
+\setenumerate[0]{leftmargin=0pt,itemindent=0pt,labelwidth=0pt}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{comment}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "331 Problems"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 4
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\notefontcolor #ff0000
+\branch unused
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 0
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+361 Problems
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Homework Policy:
+\series default
+ You may consult with other class members when preparing your homework answers;
+ indicate clearly on your paper the names of the students with whom you
+ worked.
+ The solutions you submit should, nevertheless, be your own and in your
+ own hand.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reading Assignments:
+\series default
+ See the Syllabus, which is published on the NU Blackboard for this course.
+\end_layout
+
+\begin_layout Enumerate
+By operating on a "7" in the plane of the paper, show that an inversion
+ center is equivalent to a 2-fold rotation axis (perpendicular to the plane
+ of the paper) in two dimensions.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Show that the inversion center and 2-fold rotation axis are not equivalent
+ in three dimensions by doing the same type of operation on a 3D asymmetrical
+ unit 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/hw1.JPG
+	width 2em
+
+\end_inset
+
+.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Below are sketched a 2-fold axis parallel to a mirror and two perpendicular
+ mirrors.
+ Operate on the "7" with the indicated symmetry elements and show that a
+ third symmetry element is present in each case and that the two cases are
+ equivalent.
+ Which point group does this pattern of 7's belong to ?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/numbertwo2.JPG
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For the following 2D primitive rectangular unit cell:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Fill in the pattern of 7's based on the indicated unit cell and symmetry
+ elements.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Draw in the additional symmetry elements that are present.
+\end_layout
+
+\begin_layout Enumerate
+Indicate which 2D space group this pattern belongs to.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/number3.JPG
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+From Azaroff 1-7
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Examine the crystal on page 22 of Week 1 notes (Azaroff Fig.
+ 1-29) and list all the symmetry elements that you find present.
+ Determine the correct crystal class and system.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+From Azaroff 1-8
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Consider the tetragonal crystal shown on page 21 of Week 1 notes (Azaroff
+ Fig.
+ 1-24).
+ Using the axis labeled a1, a2, and c in that figure, what are the indices
+ of the four faces visible? What is the form?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+C&S Prob.
+ 2-6
+\end_layout
+
+\begin_layout Enumerate
+Hammond Prob.
+ 2-3
+\end_layout
+
+\begin_layout Enumerate
+C&S Prob.
+ 2-10
+\end_layout
+
+\begin_layout Enumerate
+C&S Problem 2-13 (Use tracing paper on top of a Wulff net for this problem,
+ in addition to the following two).
+\end_layout
+
+\begin_layout Enumerate
+C&S Problem 2-14 
+\end_layout
+
+\begin_layout Enumerate
+C&S Problem 2-15 
+\end_layout
+
+\begin_layout Enumerate
+Prepare a drawing of the 
+\begin_inset Formula $hk0$
+\end_inset
+
+ layer in the reciprocal lattice of a monoclinic crystal for which a = 2.5
+ Å, b = 3.0 Å, c = 5.12 Å, and γ=120°.
+ Note that γ* = 180° - γ = 60°.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Using the figure from lecture notes Week 2 slide 11, draw two lines that
+ represent the edge-on view of the (010), (110) and (210) hkl planes.
+ Draw the corresponding reciprocal lattice vectors, noting that they are
+ perpendicular to the hkl planes.
+ This is already done below for the (210) plane.
+ Using a ruler, measure the interplanar spacing, 
+\begin_inset Formula $d_{hkl}$
+\end_inset
+
+, and the length of the reciprocal lattice vector 
+\begin_inset Formula $r_{hkl}^{*}$
+\end_inset
+
+ .
+ Verify that the product 
+\begin_inset Formula $d_{hkl}•r_{hkl}^{*}$
+\end_inset
+
+ is the same for each set of planes, thus demonstrating that reciprocal
+ lattice vector lengths are inversely proportional to d-spacings in direct
+ space.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/hw2.JPG
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Using the general definition of the reciprocal lattice vector (see Week
+ 2 Lecture Notes), derive the relation for 
+\begin_inset Formula $d_{hkl}$
+\end_inset
+
+ for the tetragonal, orthorhombic, and monoclinic systems in terms of the
+ unit cell parameters a, b, c, 
+\begin_inset Formula $\alpha,\beta,\gamma$
+\end_inset
+
+ and the Miller indices h, k, l.
+ Check answer with C&S A3-1.
+ 
+\end_layout
+
+\begin_layout Enumerate
+(a) Determine the lattice constant "a" in terms of R for a BCC (body centered
+ cubic) structure with spheres of radius R at each lattice point packed
+ as closely as possible.
+ (b) repeat part (a) for an FCC lattice.
+\end_layout
+
+\begin_layout Enumerate
+GaAs is a zinc blende structure, which has Ga atoms at FCC positions and
+ As atoms at FCC + (1/4, 1/4, 1/4) positions.
+ Write out the 4 coordinates for Ga and the 4 coordinates for As for a unit
+ cell.
+ Make a sketch of this unit cell with the 8 atoms or use Crystal Maker.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Hammond Prob.
+ 5.6.
+ Plus use MatLab to perform the matrix transformations between cubic-I (HKL)
+ and rhombohedral (hkl) for HKL = {100, 111, 110} and hkl = {100, 111, 110}.
+\end_layout
+
+\begin_layout Enumerate
+C&S Problem 2-7
+\end_layout
+
+\begin_layout Enumerate
+C&S Problem 2-8
+\end_layout
+
+\begin_layout Enumerate
+Hammond Exercise 5.2
+\end_layout
+
+\begin_layout Enumerate
+One formula weight of NiO equals 74.69 amu, and the density of a NiO crystal
+ is 6.67 
+\begin_inset Formula $g/cm^{3}$
+\end_inset
+
+.
+ (a) Calculate the length of the unit cell edge, a.
+ (b) Using 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ = 1.54 Å prepare a list of the first 6 allowed reflections (hkl) and the
+ corresponding Bragg angles, 
+\begin_inset Formula $\theta_{hkl}$
+\end_inset
+
+.
+ Refer to CS Appendix 9 which lists the allowed reflections for various
+ Bravais direct-space lattices.
+\end_layout
+
+\begin_layout Enumerate
+Prepare a 3-d drawing of the reciprocal lattice for a body-centered-cubic
+ direct space lattice.
+ Show and label all reciprocal lattice points for 0 
+\begin_inset Formula $\leq$
+\end_inset
+
+ h,k,l 
+\begin_inset Formula $\leq$
+\end_inset
+
+ 2.
+ Show and label the reciprocal space axes, 
+\series bold
+a
+\series default
+*, 
+\series bold
+b
+\series default
+*, and 
+\series bold
+c
+\series default
+*.
+ Identify the Bravais lattice type for this reciprocal space lattice.
+\end_layout
+
+\begin_layout Enumerate
+a) What are the (hkl) Rhombohedral unit cell Miller indices for the three
+ nonparallel faces of the Rhombohedral unit cell? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+b) Read Hammond Section 5.9, make sure you understand how the transformation
+ matrices were generated for trigonal crystals with rhombohedral lattices.
+ Using the transformation matrix derived in Sec.
+ 5.9, what are the (HKL) Hexagonal unit cell Miller indices for the three
+ nonparallel faces of the Rhombohedral unit cell? 
+\end_layout
+
+\begin_layout Standard
+c) Now list these as (hkil) Miller- Bravais indices.
+\end_layout
+
+\begin_layout Standard
+d) What is the [uvw] direction in the Rhombohedral unit cell for the hexagonal
+ c-axis direction [001]? 
+\end_layout
+
+\begin_layout Standard
+EXTRA CREDIT: Hematite 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-Fe2O3 has a rhombohedral crystal structure with a=5.43Å and 
+\begin_inset Formula $\alpha=55.3\textdegree$
+\end_inset
+
+.
+ What is the angle between the hexagonal c-axis and the rhombohedral c-axis?
+ What is the angle between the hexagonal c-face and the rhombohedral c-face?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find Azaroff Chapters 6 and 8 on BlackBoard, Read Azaroff Ch 6.
+ pp 86-113, an Azaroff Ch.
+ 8 pp.
+ 155-165
+\end_layout
+
+\begin_layout Enumerate
+[Azaroff 6-1]
+\end_layout
+
+\begin_layout Enumerate
+Refer to Azaroff Fig.
+ 6-2 on page 88.
+ This experiment is with continuous radiation.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The x ray beam from the x-ray tube is traveling along y.
+ Is this x ray beam:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+preferentially polarized along x ?
+\end_layout
+
+\begin_layout Enumerate
+preferentially polarized along y ? 
+\end_layout
+
+\begin_layout Enumerate
+preferentially polarized along z ? 
+\end_layout
+
+\begin_layout Enumerate
+not preferentially polarized ? Explain your answer.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Is radiation scattered by the block stronger in detector 1 (along x) or
+ in detector 2 (along z)? Again explain your answer.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+[Azaroff 6-2] 
+\end_layout
+
+\begin_layout Enumerate
+[Azaroff 6-3] 
+\end_layout
+
+\begin_layout Enumerate
+[Azaroff 8-1] 
+\series bold
+Hint
+\series default
+ : According to the Bohr model, the radius rn of the nth orbit is proportional
+ to 
+\begin_inset Formula $n^{2}/Z$
+\end_inset
+
+, where Z is the atomic number.
+ Plot the scattering-factor curves 
+\begin_inset Formula $f_{K}$
+\end_inset
+
+,
+\begin_inset Formula $f_{L}$
+\end_inset
+
+ and 
+\begin_inset Formula $f$
+\end_inset
+
+as functions of 
+\begin_inset Formula $kr_{K}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f=2\frac{sinkr_{K}}{kr_{K}}+8\frac{sinkr_{L}}{kr_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that there is a typo in the text book.
+ “a missing factor of 8”.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+[Azaroff 8-2] (see Cullity & Stock Appendix 10)
+\end_layout
+
+\begin_layout Enumerate
+[Azaroff 8-9] 
+\end_layout
+
+\begin_layout Enumerate
+The one dimensional interference function is:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{sin^{2}\pi Q\cdot aM}{sin^{2}\pi Q\cdot a}=\frac{sin^{2}\beta M}{sin^{2}\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathbf{Q}=(\mathbf{S}-\mathbf{S}_{o})/\lambda$
+\end_inset
+
+ is the scattering vector.
+ 
+\begin_inset Formula $\mathbf{S}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{S}_{o}$
+\end_inset
+
+are unit vectors in the scattered and incident directions where 
+\begin_inset Formula $\beta=\pi Q\cdot a$
+\end_inset
+
+ is one-half the phase angle difference (in radians) for rays scattered
+ by planes separated by a.
+ The crystal contains M planes separated by 
+\series bold
+a
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Use a computer with a suitable program or spreadsheet and plotting program
+ (MSE Ugrads must use MatLab) to plot this function over the domain 0 ≤
+ β ≤ π .
+ Note that this is a periodic function repeated every π radians.
+ Make separate plots of the function for the cases of M = 2, 4, and 16.
+ You will have to appropriately adjust the evaluation interval Δβ to accommodate
+ the sharpness of the function that varies with M.
+ 
+\end_layout
+
+\begin_layout Enumerate
+For each M above, tabulate the height of the primary maxima, the height
+ of the first subsidiary maxima, and the ratio of the height of the first
+ subsidiary maxima to the height of the primary maxima.
+ This demonstrates how the subsidiary maxima become less significant as
+ M increases.
+ 
+\end_layout
+
+\begin_layout Enumerate
+By numerical integration determine the area under the β = 0 primary diffraction
+ peak between the first intensity minima (nulls) for each M above.
+ How does this vary with M? 
+\end_layout
+
+\begin_layout Enumerate
+The integral breadth of a peak is the quotient of the area over the height.
+ This represents the full width of a rectangle that has the same height
+ and area as the peak in question.
+ Calculate the integral breadth of the primary maximum for the three cases,
+ and consider its relation to M.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider powder diffraction from CsCl (a = 4.11 Å) with Cu Kα radiation (λ
+ = 1.542 Å).
+ This is a simple cubic structure with 
+\begin_inset Formula $Cs^{+}$
+\end_inset
+
+ at 0,0,0 and 
+\begin_inset Formula $Cl^{-}$
+\end_inset
+
+at 1/2,1/2,1/2.
+ (Note: CsCl is not BCC.) 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What are the 
+\begin_inset Formula $hkl$
+\end_inset
+
+ indices for the first 7 observed reflections from CsCl? 
+\end_layout
+
+\begin_layout Enumerate
+For the first four of these calculate and tabulate sinθ/λ ,
+\begin_inset Formula $f_{Cs^{+}}$
+\end_inset
+
+, 
+\begin_inset Formula $f_{Cl^{-}}$
+\end_inset
+
+, 
+\begin_inset Formula $F_{hkl},$
+\end_inset
+
+ 2θ, and LP.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Look up multiplicities 
+\begin_inset Formula $m_{hkl}$
+\end_inset
+
+ (Cullity & Stock Appendix 11).
+ Combine these with your results from part B to calculate the 
+\bar under
+relative
+\bar default
+ intensities of the four peaks in question.
+ Assign the value of 100 to the most intense peak.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The relation of multiplicity factors 
+\begin_inset Formula $m_{hkl}$
+\end_inset
+
+ to powder diffraction intensities can be appreciated with the reciprocal
+ lattice.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Sketch the hk0 plane of the reciprocal lattice for an HCP crystal, using
+ solid dots (•) to indicate nonzero 
+\begin_inset Formula $|F_{hkl}|^{2}.$
+\end_inset
+
+ Cover the range from -2a* to +2a* and -2b* to +2b*.
+\end_layout
+
+\begin_layout Enumerate
+Show that there are 6 reciprocal lattice vectors of the same length 
+\begin_inset Formula $r_{hkl}*=a*=b*$
+\end_inset
+
+.
+ Give the 
+\begin_inset Formula $hkl$
+\end_inset
+
+ indices for these six vectors.
+ In a powder sample, these will all diffract at the same value of (scalar)
+ Q (or in the same 
+\begin_inset Formula $2\theta$
+\end_inset
+
+ direction).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The six planes responsible for this diffraction are of the form {100}, though
+ this is seen more clearly in the 4 axis Bravais-Miller system hkil , where
+ i = -(h+k).
+ Write the indices hkil for these six planes.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Write the structure factor for a crystal with two atoms of the same type
+ per unit cell at
+\begin_inset Formula $x,y,z$
+\end_inset
+
+ and 
+\begin_inset Formula $x+1/2,y+1/2,z+1/2$
+\end_inset
+
+ .
+ This conforms to a body centered (I) unit cell with an arbitrarily displaced
+ origin at x,y,z.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Now evaluate the product 
+\begin_inset Formula $FF*$
+\end_inset
+
+ for all possible values of h, k, and l.
+ You should see that the result is independent of x,y,z.
+ Therefore, the intensity (FF*) depends only on the separation between atoms;
+ absolute positions are not relevant.
+ 
+\end_layout
+
+\begin_layout Standard
+Make a perspective sketch of the reciprocal lattice for an orthorhombic
+ I crystal, a = 3Å, b = 4 Å and c = 5 Å.
+ Include 8 reciprocal lattice unit cells ( from origin to 2a*, 2b*, 2c*).
+ Indicate nonzero values of FF* by dots (•).
+\end_layout
+
+\begin_layout Standard
+You should notice two things: the "missing" reciprocal lattice points result
+ from the choice of the nonprimitive unit cell; the pattern of nonzero points
+ forms a face centered (F) array in reciprocal space.
+ The same is true for cubic I and tetragonal I Bravais lattices, the reciprocal
+ lattices of which are face centered.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(Cullity & Stock Prob.
+ 4-4) Derive simplified expressions for F and 
+\begin_inset Formula $F^{2}$
+\end_inset
+
+ for diamond, including the rules governing observed reflections.
+ This crystal is FCC and contains 8 atoms per unit cell located at: FCC
+ and FCC + 1/4 1/4 1/4 .
+ Note, silicon and germanium are diamond structure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Construct a diagram that illustrates the 
+\begin_inset Formula $hkl$
+\end_inset
+
+ Bragg condition, showing 
+\begin_inset Formula $\mathbf{S}/\lambda$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbf{S}_{o}/\lambda$
+\end_inset
+
+ and an (hkl) reflecting plane such that the two unit vectors originate
+ from the same point as shown below.
+ Continue the diagram and show that the vector 
+\begin_inset Formula $\mathbf{Q}=(\mathbf{S}_{o}/\lambda-\mathbf{S}/\lambda)$
+\end_inset
+
+ must be perpendicular to the hkl plane.
+ From the construction derive Braggs’ Law recalling that 
+\series bold
+Q
+\series default
+ must be the same as a reciprocal lattice vector.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hw5.JPG
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathbf{S}/\lambda$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{S_{o}/\lambda}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Figure P2 is a c-axis-rotation photograph of an orthorhombic crystal which
+ has 
+\series bold
+a
+\series default
+* = 0.25 
+\begin_inset Formula $Å^{-1}$
+\end_inset
+
+, 
+\series bold
+b
+\series default
+* = 0.15 
+\begin_inset Formula $Å^{-1}$
+\end_inset
+
+ and 
+\series bold
+c
+\series default
+* = 0.36 
+\begin_inset Formula $Å^{-1}$
+\end_inset
+
+.
+ The radius of the cylindrical camera used for taking this photograph is
+ 50 mm and the x-ray wavelength is 1.542 
+\begin_inset Formula $Å$
+\end_inset
+
+.
+ Construct the appropriate reciprocal lattice nets (l=0 and l=1) to index
+ all the reflections shown.
+ What is the lattice type of this crystal? 
+\end_layout
+
+\begin_layout Enumerate
+Use the Scherrer equation 
+\begin_inset Formula $(\delta(2\theta)=2\varepsilon_{1/2}=0.94\lambda/Dcos\theta)$
+\end_inset
+
+ to evaluate the FWHM peak width 
+\begin_inset Formula $\delta(2\theta)$
+\end_inset
+
+ (in degrees) for crystallite sizes D = 25, 75, 125, 450, and 900 Å.
+ Assume that 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ = 1.542 Å and that the peak in this 
+\begin_inset Formula $\theta-2\theta$
+\end_inset
+
+ scan whose width we are considering occurs at 
+\begin_inset Formula $2\theta=80\textdegree$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The ability to measure small peak widths is hampered by instrumental broadening.
+ Even if the incident and diffracted beams were perfectly collimated, the
+ peaks would still be broadened by the
+\begin_inset Formula $K_{\alpha1}-K_{\alpha2}$
+\end_inset
+
+ splitting.
+ Differentiate Braggs law to obtain an expression for 
+\begin_inset Formula $d\theta$
+\end_inset
+
+ as a function of 
+\begin_inset Formula $\theta$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, and d
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ Using this expression, calculate d
+\begin_inset Formula $\theta$
+\end_inset
+
+ for the 
+\begin_inset Formula $K_{\alpha1}-K_{\alpha2}$
+\end_inset
+
+ splitting of Cu radiation at 
+\begin_inset Formula $2\theta=90\textdegree$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda(K_{\alpha1})=1.5405$
+\end_inset
+
+
+\begin_inset Formula $Å$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda(K_{\alpha2})=1.5433Å$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From this you should appreciate that it is difficult to measure D values
+ greater than about 500 
+\begin_inset Formula $Å$
+\end_inset
+
+.
+ when using the Cu 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ doublet as a radiation source.
+ Note that the wavelength resolution 
+\begin_inset Formula $\lambda/d\lambda$
+\end_inset
+
+ can be improved by an order of magnitude by using a single crystal monochromato
+r to select out the Cu 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+, whose width is approximately 2 eV in comparison to the 20 eV energy separation
+ between the 
+\begin_inset Formula $K_{\alpha1}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{\alpha2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Identical powder diffraction scans are made of a diamond powder sample and
+ a germanium powder sample with Cu 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ radiation.
+ Each has "diamond cubic" crystal structure with 8 atoms per unit cell.
+ Other pertinent information for this problem is as follows:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sample
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Z
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a[Å]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu/ρ$
+\end_inset
+
+ [
+\begin_inset Formula $cm^{2}/g$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ρ [g/
+\begin_inset Formula $cm^{3}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carbon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.5671
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.51
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Germanium
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.6577
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+67.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.91
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The scans were done in symmetric reflection.
+ One might think that the ratio of observed intensities would be given by
+ the ratio of the quantities
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{x}=\frac{|F_{hkl}|^{2}m_{hkl}LP}{V_{C^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where x is C or Ge.
+ However, the observed intensity of diamond, relative to that of germanium,
+ was 25 times larger than that calculated from the ratio 
+\begin_inset Formula $K_{C}/K_{Ge}$
+\end_inset
+
+.
+ Explain where this factor of 25 comes from.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/lasthwp.JPG
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

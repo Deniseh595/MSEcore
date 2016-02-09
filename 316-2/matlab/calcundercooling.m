@@ -1,0 +1,9 @@
+gamma=0.255; 
+kb=1.38e-23;
+tm=1452+273;
+vm=6.6e-6;
+dels=66.27-56.07;
+wrstar=@(t) 16*pi*gamma^3*vm^2/(3*dels^2*(t-tm)^2);
+tguess=tm-100;  % use an undercooling of 100K for a first guess
+functiontosolve=@(t) wrstar(t)/(57*kb*t)-1;
+tsolution=fsolve(functiontosolve,tguess)-273

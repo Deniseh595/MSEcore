@@ -1,0 +1,144 @@
+<?xml version="1.0" ?><svg height="56.12564mm" version="1.0" viewBox="0 0 842 212" width="222.91410mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-163,-194)">
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="193.00" x2="221.00" y1="274.98" y2="274.98"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="243.74" x2="252.97" y1="257.00" y2="241.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="240.30" x2="249.53" y1="287.00" y2="303.00"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="169.30" y="281.98">R<tspan baseline-shift="super" font-size="75%">1</tspan></text>
+    <text fill="#ff0000" font-family="Arial" font-size="24pt" x="222.30" y="281.98">N</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="248.30" y="236.16">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="248.30" y="327.80">H</text>
+    <text fill="#000000" font-family="Arial" font-size="14pt" x="302.00" y="281.00">+</text>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="417.00" x2="407.00" y1="278.00" y2="278.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="442.00" x2="470.00" y1="278.00" y2="278.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="426.52" x2="426.52" y1="260.00" y2="237.00"/>
+      <line x1="432.52" x2="432.52" y1="260.00" y2="237.00"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="471.30" y="285.00">R<tspan baseline-shift="super" font-size="75%">2</tspan></text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="417.30" y="232.12">O</text>
+    <text fill="#ff0000" font-family="Arial" font-size="24pt" x="418.30" y="285.00">C</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="376.30" y="285.00">Cl</text>
+    <polyline fill="none" points="547.52,273.01 599.95,273.01" stroke="#000000" stroke-width="2.26634382567"/>
+    <polygon fill="#000000" fill-rule="evenodd" points="607.95,273.01 597.95,270.01 599.95,273.01 597.95,276.01" stroke="#000000" stroke-width="1"/>
+    <g stroke="#ff0000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="723.00" x2="740.00" y1="269.85" y2="269.65"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="765.00" x2="793.00" y1="269.50" y2="269.50"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="710.88" x2="710.88" y1="282.00" y2="305.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="749.51" x2="749.51" y1="252.00" y2="229.00"/>
+      <line x1="755.51" x2="755.51" y1="252.00" y2="229.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="671.00" x2="698.00" y1="269.99" y2="269.99"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="794.30" y="276.50">R<tspan baseline-shift="super" font-size="75%">2</tspan></text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="647.30" y="276.99">R<tspan baseline-shift="super" font-size="75%">1</tspan></text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="740.30" y="223.62">O</text>
+    <text fill="#ff0000" font-family="Arial" font-size="24pt" x="741.30" y="276.50">C</text>
+    <text fill="#ff0000" font-family="Arial" font-size="24pt" x="699.30" y="276.99">N</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="699.30" y="329.87">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" textLength="184" x="355.00" y="391.99">Acid chloride</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" textLength="91" x="711.00" y="388.99">Amide</text>
+    <text fill="#000000" font-family="Arial" font-size="14pt" x="897.00" y="277.00">+</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" textLength="53.7" x="946.30" y="276.01">HCl</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="Arial" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="1"/>
+    </standard>
+    <molecule id="molecule47678" name="">
+      <text id="atom14076" pos="center-last"><ftext>R<sup>1</sup></ftext><point x="4.778cm" y="7.280cm"/></text>
+      <atom hydrogens="on" id="atom60482" name="N" pos="center-last" valency="3">
+        <font color="#ff0000" family="Arial" size="24"/>
+        <point x="6.178cm" y="7.280cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom30494" name="H" pos="center-first" valency="1">
+        <point x="6.878cm" y="6.067cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom75690" name="H" pos="center-first" valency="1">
+        <point x="6.878cm" y="8.493cm"/>
+      </atom>
+      <bond double_ratio="0.85" end="atom60482" id="bond8310" line_width="2.26634382567" start="atom14076" type="n1"/>
+      <bond double_ratio="0.85" end="atom30494" id="bond49023" line_width="2.26634382567" start="atom60482" type="n1"/>
+      <bond double_ratio="0.85" end="atom75690" id="bond77713" line_width="2.26634382567" start="atom60482" type="n1"/>
+    </molecule>
+    <plus background-color="" font_size="14" id="plus64297">
+      <point x="8.167cm" y="7.307cm"/>
+    </plus>
+    <molecule id="molecule97400" name="">
+      <text id="atom93400" pos="center-first"><ftext>R<sup>2</sup></ftext><point x="12.771cm" y="7.360cm"/></text>
+      <atom hydrogens="on" id="atom62509" name="O" pos="center-first" valency="2">
+        <point x="11.371cm" y="5.960cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom74741" name="C" pos="center-first" show="yes" valency="4">
+        <font color="#ff0000" family="Arial" size="24"/>
+        <point x="11.371cm" y="7.360cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom45866" name="Cl" pos="center-last" valency="1">
+        <point x="10.659cm" y="7.360cm"/>
+      </atom>
+      <bond double_ratio="0.85" end="atom45866" id="bond44124" line_width="2.26634382567" start="atom74741" type="n1"/>
+      <bond double_ratio="0.85" end="atom93400" id="bond80595" line_width="2.26634382567" start="atom74741" type="n1"/>
+      <bond bond_width="7.93220338983" center="yes" double_ratio="0.85" end="atom62509" id="bond60923" line_width="2.26634382567" start="atom74741" type="n2"/>
+    </molecule>
+    <arrow color="#000" end="yes" id="arrow68431" shape="(8, 10, 3)" spline="no" start="no" type="normal" width="2.26634382567">
+      <point x="14.495cm" y="7.228cm"/>
+      <point x="16.095cm" y="7.228cm"/>
+    </arrow>
+    <molecule id="molecule79995" name="">
+      <text id="atom53763" pos="center-first"><ftext>R<sup>2</sup></ftext><point x="21.322cm" y="7.135cm"/></text>
+      <text id="atom91899" pos="center-last"><ftext>R<sup>1</sup></ftext><point x="17.420cm" y="7.148cm"/></text>
+      <atom hydrogens="on" id="atom65837" name="O" pos="center-first" valency="2">
+        <point x="19.922cm" y="5.735cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom14325" name="C" pos="center-first" show="yes" valency="4">
+        <font color="#ff0000" family="Arial" size="24"/>
+        <point x="19.922cm" y="7.135cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom24943" name="N" pos="center-first" valency="3">
+        <font color="#ff0000" family="Arial" size="24"/>
+        <point x="18.820cm" y="7.148cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom4241" name="H" pos="center-first" valency="1">
+        <point x="18.820cm" y="8.548cm"/>
+      </atom>
+      <bond color="#ff0000" double_ratio="0.85" end="atom14325" id="bond33877" line_width="2.26634382567" start="atom24943" type="n1"/>
+      <bond double_ratio="0.85" end="atom53763" id="bond48250" line_width="2.26634382567" start="atom14325" type="n1"/>
+      <bond double_ratio="0.85" end="atom4241" id="bond52337" line_width="2.26634382567" start="atom24943" type="n1"/>
+      <bond bond_width="7.93220338983" center="yes" double_ratio="0.85" end="atom65837" id="bond25724" line_width="2.26634382567" start="atom14325" type="n2"/>
+      <bond double_ratio="0.85" end="atom24943" id="bond61288" line_width="2.26634382567" start="atom91899" type="n1"/>
+    </molecule>
+    <text id="text60874"><point x="9.650cm" y="10.139cm"/><ftext>Acid chloride</ftext></text>
+    <text id="text16644"><point x="19.075cm" y="10.060cm"/><ftext>Amide</ftext></text>
+    <plus background-color="" font_size="14" id="plus45547">
+      <point x="23.919cm" y="7.201cm"/>
+    </plus>
+    <molecule id="molecule5455" name="">
+      <atom hydrogens="on" id="atom37175" name="Cl" pos="center-last" valency="1">
+        <point x="26.355cm" y="7.122cm"/>
+      </atom>
+    </molecule>
+  </cdml>
+</svg>

@@ -1,0 +1,7787 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{pgfplots,tikz}
+\setenumerate[0]{leftmargin=0pt,itemindent=0pt,labelwidth=0pt}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{comment}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+% \def\nompreamble{\addcontentsline{toc}{section} %{\nomname}\markboth{\nomname}{\nomname}}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl}
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+language=Matlab,%
+float=hbp,%
+basicstyle=\footnotesize\ttfamily,%
+identifierstyle=\color{colIdentifier},%
+keywordstyle=\color{colKeys},%
+stringstyle=\color{colString},%
+commentstyle=\itshape\color{colComments},%
+columns=fixed,
+tabsize=4,%
+frame=single,%
+framerule=1pt,
+extendedchars=true,%
+upquote=true, % avoids smart quotes
+showspaces=false,%
+showstringspaces=false,%
+numbers=left,%
+numberstyle=\tiny\ttfamily,%
+numbersep=1em,%
+breaklines=true,%
+breakindent=10pt,%
+backgroundcolor=\color{hellgelb},%
+breakautoindent=true,%
+captionpos=t,%
+xleftmargin=1em,%
+xrightmargin=\fboxsep%
+}
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "332 Problems"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 4
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\notefontcolor #ff0000
+\branch unused
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch exam
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+332 Problems
+\end_layout
+
+\begin_layout Standard
+Updated 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Notes: 
+\end_layout
+
+\begin_layout Itemize
+If you use MATLAB to solve any of these problems, please turn in a printout
+ of the code that you used.
+ 
+\end_layout
+
+\begin_layout Itemize
+Please write down the name of any other students you worked with as you
+ sorted out how to do these problems.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Course Organization
+\end_layout
+
+\begin_layout Enumerate
+If you are interested in the 3-d printing option of the laboratory, send
+ an email to Boran:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(
+\begin_inset CommandInset href
+LatexCommand href
+target "BoranMa2014@u.northwestern.edu"
+type "mailto:"
+
+\end_inset
+
+).
+ Identify any specific people you would like to work with and have them
+ send an email too.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+The Stress Tensor
+\end_layout
+
+\begin_layout Enumerate-Resume
+Consider the following stress tensor:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma_{ij}=\left[\begin{array}{ccc}
+4 & 3 & 0\\
+3 & 1 & 2\\
+0 & 2 & 6
+\end{array}\right]x10^{6}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calculate the stress tensor for coordinate axes rotated by 30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ about the z axis (the 3 axis).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Here's the code I used:
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "MATLAB/HW1_1a.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+and here's the resulting stress tensor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma_{ij}=\left[\begin{array}{ccc}
+0.65 & 2.8 & -1\\
+2.8 & 4.3 & 1.7\\
+-1 & 1.7 & 6
+\end{array}\right]x10^{6}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+for a rotation around the 
+\series bold
+z-axis
+\series default
+ with the 
+\begin_inset Formula $\theta$
+\end_inset
+
+ matrix being:
+\begin_inset Formula 
+\[
+\theta=\left[\begin{array}{ccc}
+\theta & 90+\theta & 90\\
+90-\theta & \theta & 90\\
+90 & 90 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+or
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\cos\theta=\left[\begin{array}{ccc}
+\cos\theta & -\sin\theta & 0\\
+\sin\theta & \cos\theta & 0\\
+0 & 0 & 1
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Repeat the calculation for a 30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ rotation around the x axis (the 1 axis).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\noindent
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+In this case this code was used:
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "MATLAB/HW1_1b.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+Here's the resulting stress tensor
+\end_layout
+
+\begin_layout Plain Layout
+ 
+\begin_inset Formula 
+\[
+\sigma_{ij}=\left[\begin{array}{ccc}
+4 & 2.6 & 1.5\\
+2.6 & 0.52 & -1.2\\
+1.5 & -1.2 & 6.5
+\end{array}\right]x10^{6}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+for a rotation around the 
+\series bold
+x-axis
+\series default
+ with the 
+\begin_inset Formula $\theta$
+\end_inset
+
+ matrix being:
+\begin_inset Formula 
+\[
+\theta=\left[\begin{array}{ccc}
+0 & 90 & 90\\
+90 & \theta & 90+\theta\\
+90 & 90-\theta & \theta
+\end{array}\right]x10^{6}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+ or
+\begin_inset Formula 
+\[
+\cos\theta=\left[\begin{array}{ccc}
+1 & 0 & 0\\
+0 & \cos\theta & -\sin\theta\\
+0 & \sin\theta & cos\theta
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the three principal stresses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Here's the code I used for this:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "MATLAB/HW1_1c.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The resulting stress tensor is diagonalized, with the three components correspon
+ding to the three principal stresses:
+\begin_inset Formula 
+\[
+\sigma_{ij}=\left[\begin{array}{ccc}
+-1.3 & 0 & 0\\
+0 & 5.1 & 0\\
+0 & 0 & 7.2
+\end{array}\right]x10^{6}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the maximum shear stress in the sample.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The maximum shear stress is the maximum difference between the principal
+ stresses in the system:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\tau_{max}=\frac{\sigma_{1}-\sigma_{3}}{2}=\frac{7.2x10^{6}--1.3x10^{6}}{2}=4.2\,\mathrm{MPa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the following stress tensor:
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Mohr circle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $\sigma_{ij}=\left[\begin{array}{ccc}
+-2 & 1.4 & 0\\
+1.4 & 6 & 0\\
+0 & 0 & 2
+\end{array}\right]x10^{6}$
+\end_inset
+
+ Pa
+\end_layout
+
+\begin_layout Enumerate
+Draw a Mohr circle representation of the stress contributions in the xy
+ plane
+\end_layout
+
+\begin_layout Enumerate
+What are the three principal stresses?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Enumerate
+Circle with a center at: (2,0), radius of 4.2
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\sigma_{ij}=\left[\begin{array}{ccc}
+6.2 & 0 & 0\\
+0 & -2.2 & 0\\
+0 & 0 & 2
+\end{array}\right]x10^{6}$
+\end_inset
+
+Pa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Strains
+\end_layout
+
+\begin_layout Enumerate-Resume
+An engineering shear strain of 1 (100%) is applied to a rubber cube with
+ dimensions of 1cm
+\begin_inset Formula $\times$
+\end_inset
+
+1cm
+\begin_inset Formula $\times$
+\end_inset
+
+1cm.
+ Young's modulus for the rubber sample is 10
+\begin_inset Formula $^{6}$
+\end_inset
+
+ Pa, and you can assume it is incompressible.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Sketch the shape of the object after the strain is applied, indicating the
+ dimensions quantitatively.
+\end_layout
+
+\begin_layout Enumerate-Resume
+On your sketch, indicate the magnitude and directions of the forces that
+ are applied to the object in order to reach the desired strain.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the 3 principal extension ratios characterizing the final strain
+ state?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Enumerate
+Parallelpiped with height 1, base is a 1 cm
+\begin_inset Formula $\times$
+\end_inset
+
+ 1 cm square.
+ Diagonal sides have a length of 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+cm.
+ Its cross-section should look like this:
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/shear strain of one.svg
+	width 20text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Rubber has a Poisson's ratio very close to 0.5, so the shear modulus is equal
+ to 
+\begin_inset Formula $E/3$
+\end_inset
+
+, or 3.3x10
+\begin_inset Formula $^{5}$
+\end_inset
+
+ Pa in this case.
+ At an applied shear strain of 1 the shear stress is also 3.3x10
+\begin_inset Formula $^{5}$
+\end_inset
+
+ Pa.
+ The force is obtained by multiplying by the cross sectional area of 
+\begin_inset Formula $10^{-4}$
+\end_inset
+
+ m
+\begin_inset Formula $^{2}$
+\end_inset
+
+, giving a force of 33N.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The extension ratios must multiply to 1 because elastomers are incompressible.
+ One of the extension ratios is one (I'll call it 
+\begin_inset Formula $\lambda_{3}$
+\end_inset
+
+), because simple shear is a two-dimensional strain state.
+ The Mohr's circle construction does not work for very large strains, so
+ we need to be a bit more creative in how we do this.
+ The following general relationship relates the shear strain, 
+\begin_inset Formula $e_{12}$
+\end_inset
+
+ to 
+\begin_inset Formula $\lambda_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $e_{12}=e_{1}^{p}-e_{2}^{p}=\lambda_{1}-\lambda_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The incompressibility condition requires that 
+\begin_inset Formula $\lambda_{2}=1/\lambda_{1}$
+\end_inset
+
+, so we obtain the extension ratios by solving the following equation:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+e_{12}=1=\lambda_{1}-\frac{1}{\lambda_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Solving this equation gives 
+\begin_inset Formula $\lambda_{1}=0.5+\sqrt{5}/2=1.62.$
+\end_inset
+
+ (The negative solution for 
+\begin_inset Formula $\lambda_{1}$
+\end_inset
+
+ is not physically meaningful, since you can't have a negative extension
+ ratio).
+ Our final solution for the set of extension ratios in this case is:
+\end_layout
+
+\end_deeper
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\lambda_{1}=1.62\\
+\lambda_{2}=1/1.62=0.62\\
+\lambda_{3}=1
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Branch unused
+status open
+
+\begin_layout Standard
+(I may eventually develop this further - this question is actually a lot
+ trickier than I thought when I assigned it.) Note that the Mohr's circle
+ construction only works for small strains.
+ For state of pure shear, the Mohr's circle is centered at zero on the horizonta
+l axis.
+ The circle looks like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Mohr circle pure shear strain.svg
+	width 25text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The principal strains are the positive and negative of the radius of the
+ circle, which is just half the applied engineering shear strain.
+ So 
+\begin_inset Formula $e_{1}^{p}=0.5$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{2}^{p}=-0.5$
+\end_inset
+
+.
+ We add one to the principals strains to get the principal extension ratios,
+ so we have:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Matrix Representation of Stress and Strains
+\end_layout
+
+\begin_layout Enumerate-Resume
+For an isotropic system there are only two independent elastic constants,
+ 
+\begin_inset Formula $s_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $s_{11}$
+\end_inset
+
+.
+ This is because if properties are anisotropic in the 1-2 plane, the compliance
+ coefficient describing shear in this plane, 
+\begin_inset Formula $s_{44}$
+\end_inset
+
+, is equal to 
+\begin_inset Formula $2\left(s_{11}-s_{12}\right)$
+\end_inset
+
+.
+ We can use the Mohr's circle construction to figure out why this equality
+ must exist.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Start with the following pure shear stress and strain states:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sigma=\left[\begin{array}{ccc}
+0 & \sigma_{12} & 0\\
+\sigma_{12} & 0 & 0\\
+0 & 0 & 0
+\end{array}\right];\,\,\,e=\left[\begin{array}{ccc}
+0 & e_{12} & 0\\
+e_{12} & 0 & 0\\
+0 & 0 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Use the matrix formulation to obtain a relationship between 
+\begin_inset Formula $\sigma_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{12}$
+\end_inset
+
+ in this coordinate system.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+In our definition of the matrix coefficients we have the following:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\left[\begin{array}{c}
+e_{1}\\
+e_{2}\\
+e_{3}\\
+e_{4}\\
+e_{5}\\
+e_{6}
+\end{array}\right]=\left[\begin{array}{cccccc}
+s_{11} & s_{12} & s_{13} & 0 & 0 & 0\\
+s_{12} & s_{11} & s_{23} & 0 & 0 & 0\\
+s_{13} & s_{23} & s_{11} & 0 & 0 & 0\\
+0 & 0 & 0 & s_{44} & 0 & 0\\
+0 & 0 & 0 & 0 & s_{44} & 0\\
+0 & 0 & 0 & 0 & 0 & s_{44}
+\end{array}\right]\left[\begin{array}{c}
+\sigma_{1}\\
+\sigma_{2}\\
+\sigma_{3}\\
+\sigma_{4}\\
+\sigma_{5}\\
+\sigma_{6}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+We have 
+\begin_inset Formula $e_{12}=e_{6}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{12}=\sigma_{6}$
+\end_inset
+
+, so we just have 
+\begin_inset Formula $e_{12}=s_{44}\sigma_{12}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Rotate the coordinate system by 45
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ so that the stress state looks like this:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma=\left[\begin{array}{ccc}
+\sigma_{1}^{p} & 0 & 0\\
+0 & \sigma_{2}^{p} & 0\\
+0 & 0 & 0
+\end{array}\right];\,\,\,e=\left[\begin{array}{ccc}
+e_{1}^{p} & 0 & 0\\
+0 & e_{2}^{p} & 0\\
+0 & 0 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Use the Mohr's circle construction to write these principal stresses and
+ strains in terms of 
+\begin_inset Formula $\sigma_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{12}$
+\end_inset
+
+.
+ Then use the matrix formulation to obtain an expression between 
+\begin_inset Formula $\sigma_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{12}$
+\end_inset
+
+ in this rotated coordinate system.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+In the Mohr's circle formulation, the radius of the circle is the tensor
+ stress or strain: equal to the shear stress for stress circle and the tensor
+ shear strain (half the engineering shear strain) for the strain circle.
+ So we know that 
+\begin_inset Formula $\sigma_{1}^{p}=\sigma_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2}^{p}=-\sigma_{12}$
+\end_inset
+
+.
+ We put this into the matrix expression and we get the following:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+e_{1}^{p}=s_{11}\sigma_{12}-s_{12}\sigma_{12}\\
+e_{2}^{p}=s_{12}\sigma_{12}-s_{11}\sigma_{12}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+We know that these values of 
+\begin_inset Formula $e_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+ are principal strains because 
+\begin_inset Formula $e_{4}=e_{5}=e_{6}=0$
+\end_inset
+
+.
+ Now that we use the strain Mohr circle that we know has a radius of 
+\begin_inset Formula $e_{12}/2$
+\end_inset
+
+ to convert obtain the shear stress in the rotated coordinate system.
+ Wet get:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+e_{12}=e_{1}^{p}-e_{2}^{p}=2\left(s_{11}-s_{12}\right)\sigma_{12}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+For an isotropic system, the relationship between 
+\begin_inset Formula $\sigma_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{12}$
+\end_inset
+
+ should not depend on the orientation of the coordinate axes.
+ Show that the only to reconcile the results from parts a and b is for 
+\begin_inset Formula $s_{44}$
+\end_inset
+
+to be equal to 
+\begin_inset Formula $2\left(s_{11}-s_{12}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+We just need to compare the expressions that we got for 
+\begin_inset Formula $e_{12}$
+\end_inset
+
+ from parts a and b.
+ Equating these two expressions gives the following:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+s_{44}=2\left(s_{11}-s_{12}\right)\sigma_{12}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Typical Moduli
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the sound velocities for shear and longitudinal waves traveling
+ through the materials listed in Table 4.1 of the course notes (332text.pdf).
+\end_layout
+
+\begin_layout Subsection
+Yield Criteria
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg, prob.
+ 2.33: 
+\end_layout
+
+\end_inset
+
+A cube of material is loaded triaxially resulting in the following principal
+ stresses at the point
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+of plastic yielding: 
+\begin_inset Formula $\sigma_{1}^{p}=$
+\end_inset
+
+140 MPa, 
+\begin_inset Formula $\sigma_{2}^{p}=$
+\end_inset
+
+20 MPa, and 
+\begin_inset Formula $\sigma_{3}^{p}=$
+\end_inset
+
+35 MPa.
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is the shear strength of the material according to the Tresca yield
+ criterion?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+This is given by the maximum shear stress in the system, which is half the
+ difference between the largest and smallest principal stresses, or 60 MPa
+ in this case.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+If the the value of 
+\begin_inset Formula $\sigma_{3}^{p}$
+\end_inset
+
+ were increased to 70 MPa, how does this change your result? Explain.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The maximum and minimum principal stresses remain unchanged, so the maximum
+ shear stress is the same as well.
+ Our answer is still 60 MPa.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg, prob.
+ 2.35: 
+\end_layout
+
+\end_inset
+
+From the work of D.
+ C.
+ Jillson, Trans.
+ AIME 188, 1129 (1950), the following data were taken relating to the deformatio
+n of zinc single crystals:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Applied tensile force for slip of single crystal Zn.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P$
+\end_inset
+
+ (N)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+83.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+203.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+51.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+62.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+54.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+109.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+318.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this table 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is the angle between the loading axis and the normal to the slip plane,
+ 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the angle between the loading axis and the slip direction and 
+\begin_inset Formula $P$
+\end_inset
+
+ is the force acting on the crystal when yielding begins.
+ The crystals have a cross-sectional area, 
+\begin_inset Formula $A_{0}$
+\end_inset
+
+, of 122x10
+\begin_inset Formula $^{-6}$
+\end_inset
+
+m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is the slip system for this material.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+For a hexagonal system the slip system is the close-packed basal plane (the
+ {0001} plane).
+ The slip direction is the direction in which the atoms touch one another,
+ which is the 
+\begin_inset Formula $\left\langle 11\bar{2}0\right\rangle $
+\end_inset
+
+ direction.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+For each combination of 
+\begin_inset Formula $P$
+\end_inset
+
+, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, calculate the resolved shear stress, 
+\begin_inset Formula $\tau_{RSS}$
+\end_inset
+
+ and normal stress, 
+\begin_inset Formula $\sigma_{N}$
+\end_inset
+
+ acting on the slip plane when yielding begins.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Values of 
+\begin_inset Formula $\tau_{RSS}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{N}$
+\end_inset
+
+ are obtained from the following equations:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\tau_{RSS}=\frac{P}{A_{0}}\cos\phi\cos\lambda;\,\,\,\,\sigma_{N}=\frac{P}{A_{0}}\cos^{2}\phi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+These values are shown in the table below, along with values of the Schmid
+ factor (
+\begin_inset Formula $\cos\lambda\cos\phi$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P$
+\end_inset
+
+ (N)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Schmid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau_{RSS}$
+\end_inset
+
+ (kPa)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{N}$
+\end_inset
+
+ (kPa)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+83.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+203.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.108
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+179.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.292
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+184.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+51.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.431
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+182.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+105.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.492
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+182.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+152.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+62.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+54.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.404
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+181.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+344.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+109.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.203
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+181.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+848.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+318.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.070
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+181.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2598.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+From your calculations, does 
+\begin_inset Formula $\tau_{RSS}$
+\end_inset
+
+ or 
+\begin_inset Formula $\sigma_{N}$
+\end_inset
+
+ control yielding?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Since 
+\begin_inset Formula $\tau_{RSS}$
+\end_inset
+
+ is nearly the same at the yield point for each of the samples, this must
+ be the controlling parameter.
+ This value for 
+\begin_inset Formula $\tau_{RSS}$
+\end_inset
+
+ is the critical resolved shear stress, 
+\begin_inset Formula $\tau_{CRSS}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Plot the Schmid factor versus the normal stress, 
+\begin_inset Formula $P/A_{0}$
+\end_inset
+
+, acting on the rod.
+ At what Schmid factor value are these experimentally-measured yield loads
+ at a minimum? Does this make sense?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Here's the plot:
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/schmid_plot.eps
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The minimum applied stress for yielding corresponds to the larges Schmid
+ factor, which is very close to 0.5.
+ This makes sense, because the largest possible Schmidt factor is 0.5, where
+ 
+\begin_inset Formula $\phi$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ are both 45
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+What is the effect of the resolved normal stress on the yield behavior of
+ crystalline metals and ceramics? What about polymers? Describe any differences
+ between the two cases.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+For metals and ceramics, all that really matters is the shear stress - the
+ normal stress doesn't matter.
+ This is because typical normal stresses are not enough to substantially
+ change the way the atoms interact with each other or to affect dislocation
+ motion.
+ The situation is different for polymers.
+ These always have an amorphous fraction that is somewhat compressible.
+ 'Squeezing' out the extra volume in this amorphous fraction increases the
+ shear stress required for yield to occur.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+A sample of pure iron has a uniaxial tensile yield strength of 100 MPa.
+ Assume that the yield behavior is described by the Von Mises yield criterion.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What do you expect for the yield strength of the material in a state of
+ uniaxial compression?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Since all that matters is the maximum shear stress for the Tresca yield
+ criterion, the yield stress in compression will be the same as the yield
+ stress in tension, so the compressive yield strength will also be 100 MPa.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+What will the yield strength be under a stress state of shear hydrostatic
+ pressure?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+In a hydrostatic state of stress, the principal stresses are all equal to
+ one another and there is no shear stress, so the material will never yield.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is the shear yield strength of the material.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The shear yield strength prediction, according to the Von Mises criterion,
+ is 
+\begin_inset Formula $\sigma_{y}/\sqrt{3}=58\,\mathrm{MPa}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Strengthening Mechanisms
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg, prob.
+ 3.11: 
+\end_layout
+
+\end_inset
+
+Explain which has a larger effect on solid solution strengthening — symmetrical
+ or asymmetrical point defects — and identify which specific defects lead
+ to symmetrical or asymmetrical stress fields.
+ List at least one example of an engineering material in which this factor
+ comes into play.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Asymmetrical point defects provide the greater strengthening because they
+ generate both hydrostatic and shear strains in the surrounding lattice.
+ Edge dislocations can interact with either type of lattice strain, but
+ screw dislocations are only affected by shear distortions.
+ Asymmetrical point defects therefore can interact with a larger fraction
+ of dislocations present than symmetrical defects that generate only hydrostatic
+ strains in the surrounding lattice.
+ Asymmetrical point defects play a major role in the success of steel (C
+ in Fe) as a structural material.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg, prob.
+ 3.28: 
+\end_layout
+
+\end_inset
+
+The lower yield point for a certain plain carbon steel bar is found to be
+ 135 MPa, while a second bar of the same composition yields at 260 MPa.
+ Metallographic analysis shows that the average grain diameter is 50 μm
+ in the first bar and 8 μm in the second bar.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Predict the grain diameter needed to cause a lower yield point of 205 MPa.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Dislocation motion in the lower yield point plateau is not affected by significa
+nt work hardening, so the change in yield strength can safely be attributed
+ to just the difference in grain size.
+ The Hall-Petch relation can therefore be used to determine the relationship
+ between grain size and yield strength:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\sigma_{y}=\sigma_{i}+k_{y}d^{-1/2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+We just need to use the data provided to determine 
+\begin_inset Formula $k_{y}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+.
+ We can get 
+\begin_inset Formula $k_{y}$
+\end_inset
+
+ by subtracting the yield strengths for the two materials:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+135\,\mathrm{MPa}-260\,\mathrm{MPa}=k_{y}\left[\left(50\mbox{\mu m}\right)^{-1/2}-\left(8\mbox{\mu m}\right)^{-1/2}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+From this we get 
+\begin_inset Formula $k_{y}=589\mathrm{MPa\sqrt{\mu m}}$
+\end_inset
+
+.
+ Now we can use either of the hardness values to get the intrinsic strength,
+ 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+.
+ It turns out to be 51.7 MPa.
+ Now that we know 
+\begin_inset Formula $k_{y}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ we can use the Hall-Petch relationship to solve for the value of 
+\begin_inset Formula $d$
+\end_inset
+
+ that gives a yield strength of 205 MPa.
+ First, we invert the Hall-Petch relationship to get an expression for 
+\begin_inset Formula $d$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+d=\left(\frac{k_{y}}{\sigma_{y}-\sigma_{i}}\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+For 
+\begin_inset Formula $\sigma_{y}=$
+\end_inset
+
+205 MPa we get 
+\begin_inset Formula $d=14.8\,\mu$
+\end_inset
+
+m.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+If the steel could be fabricated to form a stable grain structure of 500
+ nm grains, what strength would be predicted? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Using 
+\begin_inset Formula $d=0.5\,\mu$
+\end_inset
+
+m with the values of 
+\begin_inset Formula $k_{y}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ determined previously gives 
+\begin_inset Formula $\sigma_{y}=884$
+\end_inset
+
+ MPa, which is a very high strength.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Why might you expect the upper yield point to be more alike in the first
+ two bars than the lower yield point? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The upper yield point is determined by the stress needed to break dislocations
+ away from their solute atmospheres, so the grain size should not have a
+ strong effect (unless the dislocation density is so high and/or the grains
+ are so small that a back stress influences the breakaway stress).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg, prob.
+ 3.31: 
+\end_layout
+
+\end_inset
+
+The lattice parameters of Ni and Ni
+\begin_inset Formula $_{3}$
+\end_inset
+
+Al are 3.52×10
+\begin_inset Formula $^{-10}$
+\end_inset
+
+ m and 3.567 × 10
+\begin_inset Formula $^{-10}$
+\end_inset
+
+ m, respectively.
+ The addition of 50 at% Cr to a Ni-Ni
+\begin_inset Formula $_{3}$
+\end_inset
+
+Al superalloy increases the lattice parameter of the Ni matrix to 3.525 ×
+ 10-10 m.
+ Calculate the fractional change in alloy strength associated with the Cr
+ addition, all other things being equal.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Misfit hardening is proportional to 
+\begin_inset Formula $G\epsilon^{3/2}r^{1/2}f^{1/2}$
+\end_inset
+
+, where 
+\begin_inset Formula $G$
+\end_inset
+
+ is the shear modulus of the material, 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ is the misfit strain between the precipitate and the matrix, 
+\begin_inset Formula $r$
+\end_inset
+
+ is the precipitate radius and 
+\begin_inset Formula $f$
+\end_inset
+
+ is the precipitate volume fraction.
+ The assumption in this problem is that the Cr addition is only affecting
+ 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+, which is determined by the lattice parameter mismatch of the precipitate
+ and the matrix.
+ The Ni
+\begin_inset Formula $_{3}$
+\end_inset
+
+Al lattice parameter (the precipitate lattice parameter) is 3.567
+\begin_inset Formula $\textrm{Å}$
+\end_inset
+
+ for both alloys.
+ For the Ni alloy without Cr, the lattice parameter is 3.52
+\begin_inset Formula $\textrm{Å}$
+\end_inset
+
+, giving 
+\begin_inset Formula $\epsilon=\left(3.567-3.52\right)/3.567=0.0132$
+\end_inset
+
+.
+ Addition of Cr raises the lattice parameter of the matrix to 3.525
+\begin_inset Formula $\textrm{Å}$
+\end_inset
+
+, giving 
+\begin_inset Formula $\epsilon=\left(3.567-3.525\right)/3.567=0.0118$
+\end_inset
+
+.
+ The shear strength scales as 
+\begin_inset Formula $\epsilon^{3/2}$
+\end_inset
+
+, so the ratio of shear strengths for the two samples is:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{\tau_{Cr}}{\tau_{no\,Cr}}=\left(\frac{0.0118}{0.0132}\right)^{3/2}=0.85
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+So the misfit strengthening is decreased by about 15% by the addition of
+ the Cr.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Viscoelasticity
+\end_layout
+
+\begin_layout Enumerate-Resume
+Consider a cylindrical metal bar with a density of 7.6 g/cm
+\begin_inset Formula $^{3},$
+\end_inset
+
+ a diameter of 1 cm and a length of 10 cm.
+ It is suspended from a polymer fiber with a length, 
+\begin_inset Formula $\ell$
+\end_inset
+
+, 30 cm and a diameter of 1 mm.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/MI of a thin rod.svg
+	lyxscale 300
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Suppose the fiber is perfectly elastic, with a shear modulus 10
+\begin_inset Formula $^{9}$
+\end_inset
+
+ Pa.
+ Calculate the natural frequency of the system if the bar is rotating back
+ and forth, causing the fiber to twist.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Remember to stick with SI units throughout (lengths in m, forces in N, density
+ in kg/m
+\begin_inset Formula $^{3}$
+\end_inset
+
+, etc).
+ Here we use the subscript f to indicate properties of the fiber under torsion,
+ and the subscript b to indicate properties of the bar that is suspended
+ from it.
+ We have 
+\begin_inset Formula 
+\[
+K_{t}=\frac{\pi G_{f}d_{f}^{4}}{32\ell_{f}}=3.3x10^{-4}\,\mathrm{N\cdot m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+and
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+I=\frac{m_{b}\ell_{b}^{2}}{12}=\frac{\pi d_{b}^{2}\ell_{b}^{3}\rho}{48}=4.9x10^{-5}\,\mathrm{kg\cdot m^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+so that 
+\begin_inset Formula 
+\[
+\omega_{n}=\sqrt{\frac{K_{t}}{I}}=2.6\,\mathrm{s^{-1}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Note: 
+\begin_inset Formula $\mathrm{1N=1kg\cdot m/s^{2}}$
+\end_inset
+
+ (force = mass
+\begin_inset Formula $\cdot$
+\end_inset
+
+acceleration), so the units work out correctly).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Suppose the fiber is viscoelastic, with 
+\begin_inset Formula $G^{\prime}$
+\end_inset
+
+ at the frequency calculated from part a equal to 10
+\begin_inset Formula $^{9}$
+\end_inset
+
+ Pa, and with 
+\begin_inset Formula $G^{\prime\prime}=10^{7}$
+\end_inset
+
+ Pa.
+ How many periods of the oscillation will take place before the magnitude
+ of the oscillation decays by a factor of 
+\begin_inset Formula $e$
+\end_inset
+
+ (2.72)? Note: the rotational moment of inertia for the suspended metal bar
+ in this geometry is 
+\begin_inset Formula $m\ell^{2}/12$
+\end_inset
+
+, where 
+\begin_inset Formula $m$
+\end_inset
+
+ is the total mass of the bar and 
+\begin_inset Formula $\ell$
+\end_inset
+
+ is its length.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+In this case, 
+\begin_inset Formula $G$
+\end_inset
+
+ should be replaced with 
+\begin_inset Formula $G^{*}$
+\end_inset
+
+, with 
+\begin_inset Formula $G^{*}=\left|G^{*}\right|\exp\left(i\phi\right)$
+\end_inset
+
+.
+ We have 
+\begin_inset Formula $\left|G^{*}\right|=\sqrt{\left(G^{\prime}\right)^{2}+\left(G^{\prime\prime}\right)^{2}}\approx1\times10^{9}\mathrm{Pa}$
+\end_inset
+
+, so all we are really doing is multiplying the answer from part a by 
+\begin_inset Formula $\sqrt{\exp\left(i\phi\right)}=\exp\left(i\phi/2\right)$
+\end_inset
+
+.
+ Using the Euler expression we have 
+\begin_inset Formula $\exp\left(i\phi/2\right)=\cos\left(\phi/2\right)+i\sin\left(\phi/2\right)$
+\end_inset
+
+, so we have: 
+\begin_inset Formula 
+\[
+\omega_{n}^{*}=\omega_{n}^{'}+i\omega_{n}^{"}=2.6\cos\left(\frac{\phi}{2}\right)\mathrm{s^{-1}}+i2.6\sin\left(\frac{\phi}{2}\right)\mathrm{s^{-1}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The phase angle, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is given by:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\phi=\arctan\left(\frac{G^{\prime\prime}}{G^{\prime}}\right)=0.57^{\circ}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This gives the following for 
+\begin_inset Formula $\omega_{n}^{\prime}$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega_{n}^{\prime\prime}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\omega_{n}^{\prime}=2.6\cos\left(\frac{\phi}{2}\right)\mathrm{s^{-1}}=2.6\mathrm{s^{-1}}\\
+\omega_{n}^{\prime\prime}=2.6\sin\left(\frac{\phi}{2}\right)\mathrm{s^{-1}}=1.3x10^{-2}\,\mathrm{s^{-1}}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The angular deflection of the fiber can be written in the following way:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\theta\left(t\right)=\theta_{0}\cos\left(\omega_{n}^{\prime}t\right)\exp\left(-\omega^{\prime\prime}t\right)=\theta_{0}\cos\left(\omega_{n}^{\prime}t\right)\exp\left(-t/\tau\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+with 
+\begin_inset Formula $\tau$
+\end_inset
+
+ (the time it takes for the amplitude to decay be a factor of 2.72), given
+ by 
+\begin_inset Formula $1/\omega^{\prime\prime}$
+\end_inset
+
+.
+ (Note that 
+\begin_inset Formula $\Re(x)$
+\end_inset
+
+ corresponds to the real part of x.) The time corresponding to one oscillation
+ is 
+\begin_inset Formula $2\pi/\omega^{\prime}$
+\end_inset
+
+, so, 
+\begin_inset Formula $N$
+\end_inset
+
+, the number of oscillations that take place in the time 
+\begin_inset Formula $\tau$
+\end_inset
+
+ is given as:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+N=\frac{\tau}{2\pi/\omega^{\prime}}=\frac{\omega^{\prime}}{2\pi\omega^{\prime\prime}}=32
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+As mentioned in class, the Maxwell model, with a viscous element and an
+ elastic element in series with one another, is the simplest possible model
+ for a material that transitions from solid-like behavior at short times,
+ to liquid-like behavior at long times.
+ For a shear geometry we refer to the elastic element as 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ and the viscous element as 
+\begin_inset Formula $\eta$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For what angular frequency are the storage and loss moduli equal to one
+ another for a material that conforms to the Maxwell model? Express you
+ answer in terms of the relaxation time, 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The values of 
+\begin_inset Formula $G'$
+\end_inset
+
+ and 
+\begin_inset Formula $G"$
+\end_inset
+
+ for the Maxwell model are given by the following expressions:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+G'\left(\omega\right)=\frac{G_{0}\left(\omega\tau\right)^{2}}{1+\left(\omega\tau\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+G"\left(\omega\right)=\frac{G_{0}\omega\tau}{1+\left(\omega\tau\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+where 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ is the instantaneous modulus (modulus for 
+\begin_inset Formula $\omega\rightarrow\infty$
+\end_inset
+
+).
+ These are equal to one other for 
+\begin_inset Formula $\omega=1/\tau$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose the material is oscillated at a frequency that is ten times the
+ frequency you calculated from part a.
+ Does the material act more like a liquid or a solid at this frequency?
+ Describe your reasoning.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+At frequencies much faster than 1/
+\begin_inset Formula $\tau$
+\end_inset
+
+ stresses do not have a time to relax during one cycle of the applied oscillatio
+n, so the material is going to be have more like a solid than a liquid.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate the values of 
+\begin_inset Formula $G^{\prime}$
+\end_inset
+
+ and 
+\begin_inset Formula $G^{\prime\prime}$
+\end_inset
+
+ at the frequency from part b, and calculate the phase angle, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ describing the phase lag between stress and strain in an oscillatory experiment.
+ Not that the following expression relates 
+\begin_inset Formula $\phi$
+\end_inset
+
+,
+\begin_inset Formula $G^{\prime}$
+\end_inset
+
+ and 
+\begin_inset Formula $G^{\prime\prime}$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\phi=\frac{G^{\prime\prime}}{G^{\prime}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Does this phase angle make sense, given your answer to part b? Compare your
+ value of 
+\begin_inset Formula $\phi$
+\end_inset
+
+ to the values you expect for a perfectly elastic solid and a perfect liquid.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+For 
+\begin_inset Formula $\omega\tau=10$
+\end_inset
+
+ we have 
+\begin_inset Formula $G^{\prime}=0.99G_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $G^{\prime\prime}=0.099G_{0}$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $G^{\prime}\gg G^{\prime\prime}$
+\end_inset
+
+, as we expect for a material with a response that is mostly elastic.
+ The phase angle, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is 5.7
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+, which is much closer to the ideal solid value of 0 than it is to the liquid
+ value of 90
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The following stress and strain response are observed for a material during
+ the initial stages of a creep experiment.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/maxwell creep.svg
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Draw a spring/dashpot model that describes this behavior.
+ Label moduli and viscosities as quantitatively as possible.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This is the response of a single Maxwell element:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/maxwell model.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The modulus is given by the applied shear stress (4 kPa) divided by the
+ instantaneous strain (0.02), from which we get 
+\begin_inset Formula $E$
+\end_inset
+
+=200 kPa.
+ The strain rate is obtained from the slope of the curve is 0.04/35s =1.1x10
+\begin_inset Formula $^{-3}\mathrm{s^{-1}}.$
+\end_inset
+
+ The viscosity is the stress over this strain rate, so we have 
+\begin_inset Formula $\eta=3.6\times10^{6}\,\mathrm{Pa-s}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A stress relaxation test (strain shown below) is performed on the same material.
+ On the stress axis below, draw the stress response that you expect for
+ the model you have drawn from part a.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/maxwell stress relaxation.svg
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The stress increases originally to a value of 
+\begin_inset Formula $eE$
+\end_inset
+
+, with 
+\begin_inset Formula $E$
+\end_inset
+
+calculated from part a and 
+\begin_inset Formula $e$
+\end_inset
+
+=0.03.
+ This gives An initial stress of 6KPa.
+ It decays to zero with a time constant of 
+\begin_inset Formula $\eta/E=18$
+\end_inset
+
+s, so the plot looks like the one shown below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/maxwell stress relaxation solution.svg
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The following stress tensor describes the state of stress of a material
+ at its yield point:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+\sigma=\left[\begin{array}{ccc}
+0 & 3 & 0\\
+3 & 0 & 0\\
+0 & 0 & -5
+\end{array}\right]\mathrm{MPa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose the same material is subjected to stress state of simple shear.
+ At what value of the applied shear stress do you expect yielding to occur,
+ assuming that the material obeys a Tresca yield criterion.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We need to find the principal stresses in the 1-2 plane.
+ Mohr's circle in this plane looks like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Mohr circle for midterm.svg
+	width 20text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is a pretty easy Mohr's circle to deal with.
+ We have 
+\begin_inset Formula $\sigma_{1}^{p}=3$
+\end_inset
+
+MPa and 
+\begin_inset Formula $\sigma_{2}^{p}=-3$
+\end_inset
+
+MPa.
+ For the Tresca yield condition, all that matters is the largest shear stress
+ in the system, which is half the difference between the largest principal
+ stress (3MPa) and the smallest one (-5MPa).
+ In this case this maximum shear stress is 4 MPa, so this is the shear stress
+ where the material will yield if it is the only stress applied to the system
+ (as is the case in simple shear).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider a material with elastic constants given by the following compliance
+ matrix:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s_{ij}=\left[\begin{array}{cccccc}
+14.5 & -4.78 & -0.019 & 0 & 0 & 0\\
+-4.78 & 11.7 & -0.062 & 0 & 0 & 0\\
+-0.019 & -0.062 & 0.317 & 0 & 0 & 0\\
+0 & 0 & 0 & 31.4 & 0 & 0\\
+0 & 0 & 0 & 0 & 61.7 & 0\\
+0 & 0 & 0 & 0 & 0 & 27.6
+\end{array}\right]\mathrm{GPa^{-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Describe the symmetry of this material, and explain your reasoning.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This material has orthorhombic symmetry, since there are 9 independent
+ elastic constants with the 1,2 and 3 directions all being distinct.
+ Normal stresses do not produce shear stresses, and their are no cross terms
+ relating shear stresses in one direction to shear strains in another direction.
+ This is all what you would expect for an orthorhombic material (symmetry
+ axes orthogonal to one another, but with different properties in these
+ three directions).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the highest value for Young's modulus that you would expect for
+ this material? What direction does it correspond to?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ It's the largest of 
+\begin_inset Formula $1/s_{11}$
+\end_inset
+
+, 
+\begin_inset Formula $1/s_{22}$
+\end_inset
+
+ and 
+\begin_inset Formula $1/s_{33}$
+\end_inset
+
+.
+ In this case the largest modulus is in the three direction, and is 
+\begin_inset Formula $1/s_{33}=3.15$
+\end_inset
+
+GPa.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate the value of Poisson's ratio obtained from an experiment where
+ the materials is pulled in the 3 direction and change in sample width in
+ the 2 direction is measured.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The applied stress in matrix notation is 
+\begin_inset Formula $\sigma_{3}$
+\end_inset
+
+, which results in strains of 
+\begin_inset Formula $e_{2}=s_{23}\sigma_{3}$
+\end_inset
+
+ and 
+\begin_inset Formula $e_{3}=s_{33}\sigma_{3}$
+\end_inset
+
+.
+ Poisson's ratio in this case is defined as 
+\begin_inset Formula $-e_{2}/e_{3}$
+\end_inset
+
+, so we have 
+\begin_inset Formula $\nu=-s_{23}/s_{33}=0.062/0.317=0.20$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The following plot shows values of the yield strength of copper samples
+ as a function of the grain size of these samples.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/hallpetch.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Describe why the yield stress decreases with increasing grain size.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ There are a variety of ways to word this, but it all comes down to the
+ fact that grain boundaries act as barriers to dislocation motion.
+ Smaller grains mean there are more grain boundaries, and hence a harder
+ material.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Describe the procedure you would use to determine the limiting value of
+ the yield strength in the absence of grain boundaries.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We need to make some assumption about the relationship between the grain
+ size and the hardness.
+ The most logical place to start is to use the Hall-Petch relationship:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma_{y}=\sigma_{0}+\frac{K_{y}}{d^{1/2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here 
+\begin_inset Formula $\sigma_{0}$
+\end_inset
+
+ is the limiting value for 
+\begin_inset Formula $d\rightarrow\infty$
+\end_inset
+
+ (no grain boundaries), which is what we are looking for.
+ We obtain this value by plotting 
+\begin_inset Formula $\sigma_{y}$
+\end_inset
+
+ as a function of 
+\begin_inset Formula $1/\sqrt{d}$
+\end_inset
+
+ and extrapolating to the y axis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The figure below shows the yield strength of a precipitation hardened aluminum
+ alloy as a function of aging time at different temperatures.
+ Note that the yield strength initially goes through maximum and then decreases
+ with time.
+ Explain why this happens in as much detail as possible.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/ppt aging alloy.png
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ At the earliest times the precipitates are just forming, so the hardness
+ increases as the number of precipitates increases.
+ Later on, however, the total volume fraction of the precipitates remains
+ constant, but they coarsen and become more widely separated.
+ At these larger separations the stress required for the dislocations to
+ loop around the precipitates decreases, and the yield strength of the material
+ decreases as a result.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the following two stress-strain curves obtained from a glassy polymer
+ material.
+ In these plots 
+\begin_inset Formula $\sigma_{t}$
+\end_inset
+
+ is the true stress and 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the extension ratio (1+
+\begin_inset Formula $e$
+\end_inset
+
+, where 
+\begin_inset Formula $e$
+\end_inset
+
+ is the tensile strain).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(a)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/unstable neck unlabeled.svg
+	lyxscale 50
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(b)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/stable neck unlabeled.svg
+	lyxscale 50
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the axes below, sketch the behavior of the engineering stress (measured
+ tensile force vs.
+ undeformed cross sectional area) vs extension ratio that you expect for
+ each of these samples.
+ Be as quantitative as possible with regard to the x axis.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(a)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/necking blank axes.svg
+	lyxscale 50
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(b)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/necking blank axes.svg
+	lyxscale 50
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Briefly describe why you drew the curves the way you did.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+The considére construction for both plots is shown below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(a)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/unstable neck unlabeled solution.svg
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(b)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/stable neck unlabeled solution.svg
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For part a, an unstable neck forms at point A, and the sample deforms at
+ this point.
+ The macroscopic extension of the sample cannot be increased beyond this
+ point, which occurs for 
+\begin_inset Formula $\lambda\approx1.8.$
+\end_inset
+
+ In part b, a neck forms at point, but the neck stabilizes at the extension
+ ratio given at point B (
+\begin_inset Formula $\lambda\approx3.8)$
+\end_inset
+
+.
+ Because the engineering stress is given by the slope of the tangent lines,
+ the value of 
+\begin_inset Formula $\sigma_{eng}$
+\end_inset
+
+ required to propagate the neck is less than the value of 
+\begin_inset Formula $\sigma_{eng}$
+\end_inset
+
+ required to form it initially.
+ The engineering stress will remain fixed at this lower value until the
+ entire sample is deformed to 
+\begin_inset Formula $\lambda=3.8$
+\end_inset
+
+.
+ After this, the stress increases up to the fracture point.
+ The curves will look something like the ones shown below.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(a)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/necking blank axes solution.svg
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+(b)
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/necking blank axes solution2.svg
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Nonlinear Viscoelasticity and Creep
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+A step stress (0 for t<0, 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ for t>0) is applied to a solid which can be modeled by the following combinatio
+n of linear springs and dashpots:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/linear creep model.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+This model is useful because it includes a non-recoverable creep component,
+ a recoverable time dependent creep component, and an instantaneous, recoverable
+ strain.
+ Identify the element (or combination of elements) in the above model which
+ is associated with each of these three contributions to the strain.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Itemize
+Non recoverable creep: dashpot 
+\begin_inset Formula $\eta_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Recoverable creep: Kelvin element (
+\begin_inset Formula $E_{2}+\eta_{2}$
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+Instantaneouus, recoverable strain: spring 
+\begin_inset Formula $E_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch unused
+status collapsed
+
+\begin_layout Enumerate-Resume
+Write down the expression for the total strain, 
+\begin_inset Formula $e(t)$
+\end_inset
+
+, after the imposition of the step increase in stress.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+To get the total strain we simply add up the strains from the three different
+ components.
+ The only tricky one is the strain in the Kelvin element.
+ We can obtain this by equating the strains in the spring and dashpot.
+ If 
+\begin_inset Formula $\sigma_{s}$
+\end_inset
+
+ is the stess applied to the spring 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+, and 
+\begin_inset Formula $\sigma_{d}$
+\end_inset
+
+ is the stress applied to the dashpot, then we have (by equating the strains
+ across these two sub-elements, which we refer to here as 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{d}=\eta_{2}\frac{de_{2}}{dt}$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma_{s}=E_{2}e_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma=\sigma_{1}+\sigma_{2}=\eta_{2}\frac{de_{2}}{dt}+E_{2}e_{2}$
+\end_inset
+
+.
+ Solving this differential equation for 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+ gives:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+e_{2}\left(t\right)=\frac{\sigma}{E_{2}}\left[1-\exp\left(-\frac{E_{2}t}{\eta_{2}}\right)\right]
+\]
+
+\end_inset
+
+We get the total strain by adding the elastic strain, 
+\begin_inset Formula $e_{1}=\frac{\sigma}{E_{1}}$
+\end_inset
+
+ and the viscous strain 
+\begin_inset Formula $e_{3}=\eta_{3}\sigma t$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+e\left(t\right)=\frac{\sigma}{E_{1}}+\frac{\sigma}{E_{2}}\left[1-\exp\left(-\frac{E_{2}t}{\eta_{2}}\right)\right]+\eta_{3}\sigma t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose the stress is applied for a long time, so that the strain is increasing
+ linearly with time.
+ At some time 
+\begin_inset Formula $t'$
+\end_inset
+
+, the stress is removed.
+ Derive an expression for the change in strain after the stress is removed.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Here we are only concerned about 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+, the strain in the Kelvin element, since the elastic strain, 
+\begin_inset Formula $e_{1}$
+\end_inset
+
+, relaxes instantaneously, and the viscous strain, 
+\begin_inset Formula $e_{3}$
+\end_inset
+
+ is zero once the stress has been removed.
+ We can use the stress/strain expression from part b, with 
+\begin_inset Formula $\sigma=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\eta_{2}\frac{de_{2}}{dt}+E_{2}e_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Since the strain rate is proportional to the strain itself, we known that
+ the solution must be an exponential with the following form:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+e_{2}=C_{1}\exp\left(-E_{2}\left(t-t'\right)/\eta_{2}\right)+C_{2}
+\]
+
+\end_inset
+
+Here 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ are constants that we need to determine from the boundary conditions.
+ At 
+\begin_inset Formula $t=\infty,$
+\end_inset
+
+ the spring forces 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+ to zero, so 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ must be equal to zero.
+ At a time just after 
+\begin_inset Formula $t'$
+\end_inset
+
+, we assume that 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+ has been fully extended by the previous deformation history, so that 
+\begin_inset Formula $C_{1}=\sigma/E_{2}$
+\end_inset
+
+.
+ The full solution must look like the following (valid only for 
+\begin_inset Formula $t>t'$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+e_{2}\left(t\right)=\frac{\sigma}{E_{2}}\exp\left(-E_{2}\left(t-t'\right)/\eta_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+This model has been applied to creep data for oriented polyethylene at room
+ temperature.
+ Model predictions were compared to data obtained from samples of high molecular
+ weight (High M) and low molecular weight (Low M).
+ Both samples were drawn to the same draw ratio.
+ The following values of 
+\begin_inset Formula $E_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\eta_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\eta_{3}$
+\end_inset
+
+ were obtained from experimental data:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sample
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma$
+\end_inset
+
+ (GPa)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{1}$
+\end_inset
+
+ (GPa)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{2}$
+\end_inset
+
+ (GPa)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\eta_{3}$
+\end_inset
+
+ (GPa-s)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\eta_{2}$
+\end_inset
+
+ (GPa-s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.025
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.8x10
+\begin_inset Formula $^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4300
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.3x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.1x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2200
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.6x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2300
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.2x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.1x10
+\begin_inset Formula $^{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.7x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.7x10
+\begin_inset Formula $^{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.3x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.7x10
+\begin_inset Formula $^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.8x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2800
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.5x10
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From the values of 
+\begin_inset Formula $\eta_{3}$
+\end_inset
+
+ given in this table, determine the stress dependence of the steady state
+ creep rate.
+ From this stress dependence, calculate the activation volume for non-recoverabl
+e creep in the high and low molecular weight samples, and compare these
+ values to one another.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+For relatively high values of 
+\begin_inset Formula $\sigma$
+\end_inset
+
+, the Eyring expression for the strain rate can be written as follows:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{de}{dt}=f\left(T\right)\exp\left(\frac{v\sigma}{2k_{b}T}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The steady strate creep rate is given by 
+\begin_inset Formula $\sigma/\eta_{3}$
+\end_inset
+
+ in our model, so we if we plot 
+\begin_inset Formula $\ln\left(\sigma/\eta_{3}\right)$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $\sigma$
+\end_inset
+
+, we should get straight lines with a slope of 
+\begin_inset Formula $v/2k_{b}T$
+\end_inset
+
+ (if the Eyring theory makes any sense).
+ A plot showing this data for the two different polymers is shown below,
+ where the circles correspond to the high molecular weight polymer and the
+ triangles correspond to the low molecular weight polymer.
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/eyringfit.eps
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The slopes of 
+\begin_inset Formula $2.5x10^{-8}$
+\end_inset
+
+m
+\begin_inset Formula $^{3}$
+\end_inset
+
+/Joule and 
+\begin_inset Formula $1.8x10^{-8}$
+\end_inset
+
+m
+\begin_inset Formula $^{3}$
+\end_inset
+
+/Joule correspond to activation volumes of 400 Å
+\begin_inset Formula $^{3}$
+\end_inset
+
+ and 280Å
+\begin_inset Formula $^{3}$
+\end_inset
+
+, respectively.
+ The high molecular weight polymer has a slightly lower activation volume,
+ indicating a somewhat more localized process being responsible for creep.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Here's the MATLAB script that was used to generate the plot and determine
+ the activation volumes:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "MATLAB/eyringfit.m"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+In class we briefly talked about the possibility that you could see flow
+ of a glass window over very long periods of time.
+ Can creep of a glass by viscous flow give measurable changes in sample
+ dimensions over a very long period of time? To sort this out, do the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Estimate the stress at the bottom of a very tall pane of window glass, due
+ to the weight of the window itself.
+ Look up the density of silica glass, and a height of the window that makes
+ sense (choose a big one).
+\end_layout
+
+\begin_layout Enumerate
+Estimate the viscosity that would be needed to give a measurable change
+ in sample dimensions after 400 years.
+\end_layout
+
+\begin_layout Enumerate
+Using the data below, does it make sense to you that observable flow could
+ noticeably change the dimensions of the window? (You'll need to make some
+ assumptions about how the viscosity will extrapolate to room temperature.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Glassviscosityexamples.png
+	lyxscale 30
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Creep in metals at low stresses occurs by a vacancy diffusion mechanism,
+ which means that the activation volume for these creep mechanisms corresponds
+ to the atomic volume.
+ Show using the data below for silver that we can safely replace 
+\begin_inset Formula $\sinh\left(\sigma v/2k_{B}T\right)$
+\end_inset
+
+ with 
+\begin_inset Formula $\sigma v/2k_{B}T$
+\end_inset
+
+, so that the creep rates are linear in stress at all relevant temperatures
+ and stresses where the dominant creep mechanisms involve vacancy diffusion.
+ (You'll need to luck up data you can use to calculate the atomic volume
+ of silver).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/creep plot for silver.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+We need the atomic mass of silver (107.9 g/mol) and its density (10.5 ,
+\begin_inset Formula $\mathrm{g/cm^{3}}$
+\end_inset
+
+) to calculate its atomic volume:
+\begin_inset Formula 
+\[
+\left(\frac{107.9\,\mathrm{g}}{\mathrm{mol}}\right)\left(\frac{\mathrm{cm^{3}}}{10.5\,\mathrm{g}}\right)\left(\mathrm{\frac{1\,\mathrm{m^{3}}}{10^{6}\,\mathrm{cm^{3}}}}\right)\left(\frac{1\,\mathrm{mol}}{6.02\mathrm{x}10^{23}\,\mathrm{atoms}}\right)=1.71\mathrm{x}10^{-29}\,\mathrm{m^{3}}
+\]
+
+\end_inset
+
+so
+\begin_inset Formula 
+\[
+2k_{b}T/v_{0}=\frac{2\left(1.38x10^{-23}\,\mathrm{J/mol\cdot K}\right)\left(1000\,\mathrm{K}\right)}{1.71\mathrm{x}10^{-29}\,\mathrm{m^{3}}}=1.62\mathrm{x10^{9}\,\mathrm{Pa}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tensile stresses of 
+\begin_inset Formula $\sim1\mathrm{x}10^{6}\,\mathrm{Pa}$
+\end_inset
+
+ is relatively small compared to 
+\begin_inset Formula $\sim1\mathrm{x}10^{9}\,\mathrm{Pa}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Fracture Mechanics
+\end_layout
+
+\begin_layout Enumerate-Resume
+The stress fields in the vicinity of a crack tip in a material are determined
+ by the distance, 
+\begin_inset Formula $d$
+\end_inset
+
+, from the crack, and the polar angle 
+\begin_inset Formula $\theta$
+\end_inset
+
+, defined in the following diagram.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/crack_geometry.svg
+	width 25text%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+For a fixed value of 
+\begin_inset Formula $d$
+\end_inset
+
+, plot the behavior of 
+\begin_inset Formula $\sigma_{xx}$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma_{yy}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{xy}$
+\end_inset
+
+ for a mode I crack as a function of 
+\begin_inset Formula $\theta.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+What happens to the stresses for 
+\begin_inset Formula $\theta=180^{\circ}$
+\end_inset
+
+? Why does this make sense?
+\end_layout
+
+\begin_layout Enumerate-Resume
+A mode I crack will travel in the direction for which the normal stress
+ acting across the crack surfaces is maximized.
+ What direction is this?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+We need to use the stresses plotted in part a and determine the normal stresses
+ from that.
+ The following MATLAB program is used to do this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "MATLAB/tensilecrack.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here are the plots that emerge:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/crackstresses.svg
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Look up the fracture toughness (
+\begin_inset Formula $K_{IC}$
+\end_inset
+
+) and Young's modulus 
+\begin_inset Formula $(E)$
+\end_inset
+
+ for window glass.
+ Assuming that the maximum local stress is 
+\begin_inset Formula $\approx E/10$
+\end_inset
+
+, estimate the crack tip radius of curvature for a crack propagating through
+ window glass.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The approximate values for glass are 
+\begin_inset Formula $K_{IC}\sim0.7\,\mathrm{MPa}\sqrt{\mathrm{m}}$
+\end_inset
+
+, 
+\begin_inset Formula $E\sim70\,\mathrm{GPa}$
+\end_inset
+
+.
+ Recall that 
+\begin_inset Formula $K_{IC}\approx\sigma_{max}^{f}\frac{\sqrt{\pi}}{2}\sqrt{\rho_{c}}$
+\end_inset
+
+.
+ Rearranging for 
+\begin_inset Formula $\rho_{c}$
+\end_inset
+
+ gives:
+\begin_inset Formula 
+\[
+\rho_{c}\approx\frac{4K_{IC}^{2}}{\pi\left(\sigma_{max}^{f}\right)^{2}}\approx\frac{4\times\left(0.7\times10^{6}\,\mathrm{Pa}\sqrt{\mathrm{m}}\right)^{2}}{\pi\left(\frac{70\times10^{9}\,\mathrm{Pa}}{10}\right)^{2}}\approx1.3\times10^{-8}\,\mathrm{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+As a crack advances, what happens to the stiffness of the cracked body?
+ What happens to the compliance?
+\end_layout
+
+\begin_layout Enumerate-Resume
+A set of double cantilever beam adhesion test specimens was fabricated from
+ a set of aluminum alloy samples.
+ The geometry as as shown below:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/DCB schematic.svg
+	width 40text%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Suppose each of the two beams has a thickness (
+\begin_inset Formula $t$
+\end_inset
+
+) of 10 mm, a width 
+\begin_inset Formula $(w$
+\end_inset
+
+) of 20 mm and a length of 80 mm.
+ The double cantilever beam sample was produced by using an adhesive to
+ glue the two beams together.
+ Assume the precrack with a length, 
+\begin_inset Formula $a$
+\end_inset
+
+, of 10 mm.
+ The critical energy release rate for the adhesive is 65 
+\begin_inset Formula $\mathrm{J/m^{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the values of the tensile load, 
+\begin_inset Formula $P$
+\end_inset
+
+, and the displacement, 
+\begin_inset Formula $\Delta$
+\end_inset
+
+, where the crack starts to propagate.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Recall that the energy release rate has this relationship for the double
+ cantilever beam:
+\begin_inset Formula 
+\[
+\mathcal{G}=\frac{12a_{c}^{2}P_{t}^{2}}{Ew^{2}t^{3}}=\frac{3\delta_{t}^{2}t^{3}E}{16a_{c}^{4}}.
+\]
+
+\end_inset
+
+Assuming that 
+\begin_inset Formula $E_{Al\,alloy}\approx70\,\mathrm{GPa}$
+\end_inset
+
+, 
+\begin_inset Formula $P_{t}\approx1.2\times10^{3}\,\mathrm{N}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta_{t}\approx7.0\times10^{-6}\,\mathrm{m}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+In a load-controlled experiment, 
+\begin_inset Formula $P$
+\end_inset
+
+ is held constant once the crack starts to propagate, and in a displacement
+ controlled test 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ is held constant once the crack starts to propagate.
+ From the relationship between 
+\begin_inset Formula $\mathcal{G}$
+\end_inset
+
+ and 
+\begin_inset Formula $P,$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ and 
+\begin_inset Formula $a$
+\end_inset
+
+, describe why the load controlled experiment results in unstable crack
+ growth, but the displacement controlled experiment results in stable crack
+ growth.
+\end_layout
+
+\begin_layout Enumerate-Resume
+From your answer to part b, describe how you would design an experiment
+ where you measured the energy release rate required to propagate the crack
+ at a specified velocity.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The following data was obtained for the fracture stress of a series of silica
+ glass fibers used for optical communications:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/glass fiber fracture.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The graph shows the distribution of failure probabilities as a function
+ of the applied tensile stress.
+ None of the samples had fractured at a stress of 4.5 GPa, but they had all
+ fractured at a stress of 6 GPa.
+ From these data, and from fracture toughnesses given for inorganic glass
+ in class (and in the course notes), estimate the intrinsic flaw sizes that
+ are present at the surface of the glass fibers.
+ Comment on these sizes, and if you think the fracture mechanics analysis
+ makes sense to use in this case.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+From the notes, we have 
+\begin_inset Formula $K_{IC}=\sigma_{f}\sqrt{\pi a}=7x10^{5}\,\mathrm{Pa\sqrt{m}}$
+\end_inset
+
+.
+ Rearranging and solving for 
+\begin_inset Formula $a$
+\end_inset
+
+ gives:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{equation}
+a=\frac{K_{Ic}^{2}}{\pi\sigma_{f}^{2}}\label{eq:flaw size}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+There is a distribution of flaw sizes in the sample, which is why there
+ is a distribution of failure stresses, 
+\begin_inset Formula $\sigma_{f}$
+\end_inset
+
+.
+ We'll take 5 GPa as a typical value for the 
+\begin_inset Formula $\sigma_{f}$
+\end_inset
+
+, which from Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flaw size"
+
+\end_inset
+
+ gives 
+\begin_inset Formula $a=$
+\end_inset
+
+6.2 nm.
+ This is a remarkably small flaw size, and one begins to wonder at this
+ level if our fracture mechanics analysis of this problem can be applied
+ here.
+ Indeed, the fracture stresses are about a tenth of the elastic modulus,
+ which is very high for a rigid material and is close to the theoretical
+ limit.
+ What all this means is that glass fibers can be made to very strong, but
+ even the smallest defect (substantially larger than the 6.2 nm value we
+ calculate here) will substantially degrade the fiber strength.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Silicones containing resin fillers are used as an encapsulant materials
+ in light emitting diodes (LEDs) in order to protect the electronics from
+ harsh environments and to aid in heat dissipation.
+ Near the surface of the electronic components, temperatures can go as high
+ as 
+\begin_inset Formula $200\,^{\circ}\mathrm{C}$
+\end_inset
+
+ for extended time periods.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/dynamic_contrast.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+High dynamic mechanical contrast is important 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Given that a high dynamic mechanical contrast is desirable in creating a
+ soft material with high fracture toughness, what would you suggest as a
+ design criteria in order to maintain high dynamic mechanical contrast at
+ high temperatures? (Hint: think about the role of the Tg of the matrix
+ and filler content.)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The operatinng temperature of the device (
+\begin_inset Formula $\approx200\,\mathrm{^{\circ}C}$
+\end_inset
+
+) should be in between the matrix and filler Tg (above matrix Tg, but below
+ the filler Tg).This will ensure that the matrix remains soft while the filler
+ remains hard, which maximizes mechanical contrast.
+ The Tg of the filler should also be substantially higher than the operating
+ temperature.
+ A filler Tg that is only slightly higher than the operating temperature
+ will result in a lower mechanical contrast, since the filler particles
+ are beginning to softening.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Thermal mismatch at the interface between the encapsulant and electronic
+ can lead to residual stresses that promote crack propagation.
+ In assessing the performance of the encapsulant at the interface, should
+ a failure stress or a failure strain criteria be used? Why?
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+In the case of thermal mismatch, the performance of the encapsulant should
+ be assessed with a strain failure criteria.
+ A compliant material will reduce thermal stress build-up at the interfaces
+ of the material.
+ If a stiff material is used, thermal stresses will increase, leading to
+ the formation and propagation of cracks.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+From a thermal management and mechanics perspective, why do you think a
+ soft encapsulant (e.g.
+ silicone) will be more preferable over a hard encapsulant (e.g.
+ glass)?
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A soft encapsulant material is more compliant than a hard material.
+ This is desireable, as explained in part b, since a strain failure criteria
+ is important.
+ Also, a softer material is much more moldable and easier to process (generally
+ speaking) than hard brittle materials.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Contact Mechanics
+\end_layout
+
+\begin_layout Enumerate-Resume
+Consider the contact of a flat rigid punch with a thin elastic layer, as
+ shown schematically below:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/flat punch geometry.svg
+	lyxscale 50
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose the compliant layer is incompressible gel (
+\begin_inset Formula $\nu=0.5),$
+\end_inset
+
+ with a Young's modulus, 
+\begin_inset Formula $E$
+\end_inset
+
+, of 10
+\begin_inset Formula $^{4}$
+\end_inset
+
+ Pa.
+ The critical energy release rate for failure at the gel/punch interface
+ is 0.1 J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ The punch radius, 
+\begin_inset Formula $a$
+\end_inset
+
+, is 3 mm.
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is the tensile force required to separate the punch from the layer
+ if the layer is infinitely thick?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The energy release rate is related to the tensile load through the following
+ expression:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\mathcal{G}=\frac{P_{t}^{2}}{8\pi E^{*}a^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Here 
+\begin_inset Formula $E^{*}$
+\end_inset
+
+ is the reduced modulus:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+E*=\frac{E}{1-v^{2}}=\frac{10^{4}}{1-0.5^{2}}\mathrm{Pa=13.3\,kPa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Solving for 
+\begin_inset Formula $P_{t}$
+\end_inset
+
+ we get:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+P_{t}=(0.1\,\mathrm{J/m^{2}}\times8\pi\times13.3\,\mathrm{kPa}\times.003^{3}\,\mathrm{m}^{3})^{.5}=0.03\,\mathrm{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What is the stress intensity factor, 
+\begin_inset Formula $K_{I}$
+\end_inset
+
+, just prior to detachment of the punch from the surface?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+At the detachment point, 
+\begin_inset Formula $\mathcal{G}=\mathcal{G}_{c}$
+\end_inset
+
+, and we solve by using the relationship between 
+\begin_inset Formula $\mathcal{G}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{I}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+G=\frac{K_{I}^{2}}{2E^{*}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Rearranging and subsituting in the appropriate numbers gives:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+K_{I}=(.1\,\mathrm{J/m^{2}}\times2\times13.3\,\mathrm{kPa})^{.5}=51.6\,\mathrm{Pa-m^{1/2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+How close to the punch edge to you need to be for the tensile stress at
+ the punch/layer interface to be equal to the modulus of the layer?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The punch/layer interface at the punch edge is considered a crack.
+ Using the Irwin Model, we know that:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{yy}=\frac{K_{I}}{\sqrt{(2\pi}r)}f(\theta)$
+\end_inset
+
+, where 
+\begin_inset Formula $f(\theta)=1$
+\end_inset
+
+.
+ We need to find 
+\emph on
+r
+\emph default
+, the distance from the crack.
+ 
+\begin_inset Formula $\sigma_{yy}$
+\end_inset
+
+ is a tensile stress.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $r=\frac{(51.6Pa\sqrt{m})^{2}}{2\pi(10^{4})^{2}Pa^{2}}=4.2\mu m$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Describe in qualitative terms what happens to the following quantities as
+ the thickness, 
+\begin_inset Formula $h$
+\end_inset
+
+, of the compliant layer decreases:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+The overall compliance of the system.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The compliance goes down (the system becomes stiffer).
+ This is because the strains are confined to a smaller region.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The load required to detach the indenter from the substrate.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+When the compliance goes down, the energy release rate for a given applied
+ load also goes down.
+ The load that must be applied to get the energy release rate to exceed
+ the critical value therefore goes up as well.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The displacement at which the indenter detaches from the substrate.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+This displacement actually goes down (given by 
+\begin_inset Formula $f_{Gd}$
+\end_inset
+
+ in the class notes).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The shape of the tensile stress distribution at the punch/substrate interface.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+For a thick layer the stress is maximized at the edge because of the stress
+ concentration there.
+ For thin layers the opposite is true, and the tensile stress is larger
+ at the center.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Nanoindentation
+\end_layout
+
+\begin_layout Enumerate-Resume
+Commercial nanoindenters are generally not suitable for the characterization
+ of soft materials.
+ To understand why this is the case, consider the following indentation
+ data from the Hysitron web site (this is for the same instrument that Northwest
+ern has in the NUANCE facility) 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_ti_????"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/hysitron.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If the data in this figure are obtained with a spherical indenter of radius
+ 
+\begin_inset Formula $R$
+\end_inset
+
+, use the data from this figure to estimate the value of 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ Assume that the material is being indented elastically and that adhesion
+ can be neglected.
+ (You'll need to look up mechanical property data for silicon).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+Here we use the Hertzian (non-adhesive) solution for the load-displacement
+ relationship for a sphere of radius 
+\begin_inset Formula $R$
+\end_inset
+
+ in contact with a flat surface:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{equation}
+P=(4/3)E^{*}R^{1/2}\delta^{3/2}\label{eq:Hertz load-displacement}
+\end{equation}
+
+\end_inset
+
+We need to look up the modulus of Si.
+ Single crystal Si has anisotropic material properties, but the point of
+ this exercise is to estimate 
+\begin_inset Formula $R$
+\end_inset
+
+, so some appropriate average modulus for the Si will do.
+ For our purposes, I'll use 
+\begin_inset Formula $E^{*}\approx170$
+\end_inset
+
+ GPa
+\begin_inset CommandInset citation
+LatexCommand cite
+key "grillo_nanoindentation_2003"
+
+\end_inset
+
+, which is good enough for our purposes.
+ From the data in the figure, a force of 3 
+\begin_inset Formula $\mu$
+\end_inset
+
+N gives a displacement of 2 nm.
+ Rearranging Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Hertz load-displacement"
+
+\end_inset
+
+ we get:
+\begin_inset Formula 
+\begin{equation}
+R=\frac{9P^{2}}{16\delta^{3}\left(E^{*}\right)^{2}}\label{eq:Hertz R expression}
+\end{equation}
+
+\end_inset
+
+Substituting 
+\begin_inset Formula $P=3x10^{-6}$
+\end_inset
+
+ N and 
+\begin_inset Formula $\delta=2x10^{-9}$
+\end_inset
+
+ m gives 
+\begin_inset Formula $R=22$
+\end_inset
+
+ nm.
+ Your exact answer may differ, depending on the specific value chosen for
+ the modulus, and the details of the way you extracted information from
+ the load/displacement curve.
+ Your answer shouldn't be too far from this though.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that the material is replaced by an elastomer with a modulus of
+ 
+\begin_inset Formula $10^{6}$
+\end_inset
+
+ Pa.
+ What value of 
+\begin_inset Formula $R$
+\end_inset
+
+ would need to be used to obtain the same Force displacement curve for this
+ much softer material? (Assume that the effects of adhesion can eliminated
+ by performing the indentation in a suitable liquid.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+According to Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Hertz R expression"
+
+\end_inset
+
+, for a fixed relationship between load and displacement, 
+\begin_inset Formula $R$
+\end_inset
+
+ scales inversely with the square of the modulus.
+ If the modulus decreases from 
+\begin_inset Formula $\approx10^{11}$
+\end_inset
+
+ Pa to 
+\begin_inset Formula $\approx10^{6}$
+\end_inset
+
+ Pa, the radius must increase by a factor of 
+\begin_inset Formula $10^{10}$
+\end_inset
+
+ to compensate.
+ This would give a radius of curvature of about 200 m to give the same sample
+ stiffness as observed for the nanoindentation of Si, which is obviously
+ no longer remotely 'nano'.
+ A better comparison is the contact radius, 
+\begin_inset Formula $a$
+\end_inset
+
+, given by 
+\begin_inset Formula $a=\sqrt{\delta R}$
+\end_inset
+
+.
+ This contact radius increases by a factor of 
+\begin_inset Formula $10^{5}$
+\end_inset
+
+, from 
+\begin_inset Formula $\approx$
+\end_inset
+
+7 nm for the silicon to 0.7 mm for the elastomer.
+ The general issue with the use of commercial nanoindenters to study low-modulus
+ materials is that the measurement ranges for the loads and displacements
+ are not consistent with what is needed.
+ If one uses the available load range, the required scales (displacements
+ and/or sample sizes) are too large to be used with the instrument.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose an elastomeric sphere with a radius of 1 mm and a reduced modulus,
+ 
+\begin_inset Formula $E^{*}$
+\end_inset
+
+, of 10
+\begin_inset Formula $^{6}$
+\end_inset
+
+ Pa is placed on a flat, rigid substrate.
+ Suppose also that the adhesion between the sphere and the substrate is
+ characterized by a critical energy release rate of 0.05 J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+, independent of the crack velocity or direction of crack motion.
+ Calculate the radius of the circular contact area that develops between
+ the elastomer and the surface, assuming that there is no external load
+ applied to the sphere (apart from it's weight).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+This is an application of the expression for the energy release rate for
+ a sphere of radius 
+\begin_inset Formula $R$
+\end_inset
+
+ in contact with a flat surface:
+\begin_inset Formula 
+\[
+\mathcal{G}=\frac{\left(P_{t}+P_{h}\right)^{2}}{8\pi E^{*}a^{3}}
+\]
+
+\end_inset
+
+In our case we have 
+\begin_inset Formula $P_{t}=0$
+\end_inset
+
+, and we use the Hertzian expression for 
+\begin_inset Formula $P_{h}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+P_{h}=\frac{4E^{*}a^{3}}{3R}
+\]
+
+\end_inset
+
+From this we obtain the following expression for the contact radius, 
+\begin_inset Formula $a$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+a=\left(\frac{9\pi\mathcal{G}R^{2}}{2E^{*}}\right)^{1/3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+With 
+\begin_inset Formula $G=0.05\,\mathrm{J/m^{2}}$
+\end_inset
+
+, 
+\begin_inset Formula $R=10^{-3}$
+\end_inset
+
+ m and 
+\begin_inset Formula $E^{*}=10^{6}$
+\end_inset
+
+ Pa, we get 
+\begin_inset Formula $a=89\,\mu$
+\end_inset
+
+m.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Weibull Statistics
+\end_layout
+
+\begin_layout Enumerate-Resume
+A set of glass rods with a Weibull modulus of 30 are fractured in a uniaxial
+ tensile test.
+ If the stress at which 73%
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+this should be 63% in or der for 
+\begin_inset Formula $P_{s}=\frac{1}{e}\approx0.37$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ of the samples fracture is 100 MPa, what stress should you apply to make
+ sure that less than 1% of the rods fail? What is the maximums stress if
+ you want to make sure that less than one in 
+\begin_inset Formula $10^{6}$
+\end_inset
+
+ rods fail? (Note that 1/e is 0.37).
+ What does the stress need to be to get less than 1 failure in 
+\begin_inset Formula $10^{6}$
+\end_inset
+
+ if the Weibull modulus is 10 instead of 30?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+The Weibull distribution in this case looks like this:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+P_{s}=\exp\left[-\left(\frac{\sigma}{\sigma_{avg}}\right)^{M}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+When 
+\begin_inset Formula $\sigma=\sigma_{avg}$
+\end_inset
+
+, 
+\begin_inset Formula $P_{s}=\exp\left(-1\right)=0.37$
+\end_inset
+
+, which is the situation for an applied stress of 100 MPa, so 
+\begin_inset Formula $\sigma_{avg}$
+\end_inset
+
+ in our example is 100 MPa.
+ So we just need to solve the equation for 
+\begin_inset Formula $P_{s}$
+\end_inset
+
+ for the three conditions given.
+ We can rearrange the equation for 
+\begin_inset Formula $P_{s}$
+\end_inset
+
+ to obtain the following expression for 
+\begin_inset Formula $\sigma$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\sigma=-\sigma_{avg}\left(\ln P_{s}\right)^{1/M}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+We can just substitute into this equation and solve for 
+\begin_inset Formula $\sigma$
+\end_inset
+
+, but we can make life a little easier on ourselves by realizing that 
+\begin_inset Formula $\ln\left(1-x\right)\approx-x$
+\end_inset
+
+ for small x.
+ The failure probability, 
+\begin_inset Formula $P_{f}$
+\end_inset
+
+, is equal to 
+\begin_inset Formula $1-P_{s}$
+\end_inset
+
+, so we have:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\sigma=\sigma_{avg}P_{f}^{1/M}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The maximum stress values for each of the three cases are as follows:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M=30$
+\end_inset
+
+, 
+\begin_inset Formula $P_{s}=0.99$
+\end_inset
+
+: 
+\begin_inset Formula $P_{f}-0.01$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma=86$
+\end_inset
+
+ MPa.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M=30,$
+\end_inset
+
+ 
+\begin_inset Formula $P_{s}=0.999999:$
+\end_inset
+
+ 
+\begin_inset Formula $P_{f}=10^{-6}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma=63$
+\end_inset
+
+ MPa
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M=10,$
+\end_inset
+
+ 
+\begin_inset Formula $P_{s}=0.999999:$
+\end_inset
+
+ 
+\begin_inset Formula $P_{f}=10^{-6}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma=25$
+\end_inset
+
+ MPa 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What determines the value of the Weibull modulus in a brittle material?
+\end_layout
+
+\begin_layout Subsection
+Fracture Toughness
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg 7.5 
+\end_layout
+
+\end_inset
+
+What is crack tip shielding?
+\end_layout
+
+\begin_layout Enumerate-Resume
+Describe the difference between a crack and a craze? How is the maximum
+ width of a craze related to 
+\begin_inset Formula $\mathcal{G}_{c}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{IC}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate-Resume
+Describe how transformation toughening works to increase the toughness of
+ a ceramic material like 
+\begin_inset Formula $\mathrm{ZrO_{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is a Charpy impact test conducted, and what does it measure?
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hertzberg 7.26 
+\end_layout
+
+\end_inset
+
+What the difference between the side windows of your car and the windshield?
+ Include the role of tempering, thermal annealing and composite layering,
+ and describe how the desired properties are obtained for the two different
+ applications of glass.
+\end_layout
+
+\begin_layout Subsection
+General Knowledge
+\end_layout
+
+\begin_layout Enumerate-Resume
+How are 
+\begin_inset Formula $G$
+\end_inset
+
+, 
+\begin_inset Formula $\nu$
+\end_inset
+
+ and 
+\begin_inset Formula $K$
+\end_inset
+
+ related to one another for an isotropic material?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+E=2K_{b}\left(1+\nu\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\nu=\frac{3-2G/K_{b}}{6+2G/K_{b}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What are typical values of 
+\begin_inset Formula $G$
+\end_inset
+
+ and 
+\begin_inset Formula $K$
+\end_inset
+
+ for metals, ceramics and polymers?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Subsection
+Other relevant practice problems: from Hertzberg
+\end_layout
+
+\begin_layout Plain Layout
+3.1, 3.3, 3.5, 3.9, 3.11, 3.14, 3.15, 3.16, 4.28, 4.29, 6.7, 6.8, 6.9
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

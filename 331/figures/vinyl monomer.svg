@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><svg height="36.53462mm" version="1.0" viewBox="0 0 141 138" width="37.32885mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-250,-144)">
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="357.27" x2="366.51" y1="195.00" y2="179.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="307.00" x2="334.00" y1="210.00" y2="210.00"/>
+      <line x1="307.00" x2="334.00" y1="216.00" y2="216.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="353.81" x2="363.04" y1="225.00" y2="241.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="287.07" x2="277.84" y1="225.00" y2="241.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="283.61" x2="274.37" y1="195.00" y2="179.00"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="283.30" y="220.00">C</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="335.30" y="220.00">C</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="256.30" y="174.20">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="256.30" y="265.80">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="362.30" y="174.20">H</text>
+    <text fill="#ff0000" font-family="Arial" font-size="24pt" x="362.30" y="265.80">R</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="Arial" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule80032" name="">
+      <atom id="atom38219" name="C" pos="center-last" show="yes" valency="4">
+        <point x="7.783cm" y="5.639cm"/>
+      </atom>
+      <atom id="atom86535" name="C" pos="center-first" show="yes" valency="4">
+        <point x="9.183cm" y="5.639cm"/>
+      </atom>
+      <atom id="atom75036" name="H" pos="center-first" valency="1">
+        <point x="7.083cm" y="4.427cm"/>
+      </atom>
+      <atom id="atom32235" name="H" pos="center-first" valency="1">
+        <point x="7.083cm" y="6.852cm"/>
+      </atom>
+      <atom id="atom89531" name="H" pos="center-first" valency="1">
+        <point x="9.883cm" y="4.427cm"/>
+      </atom>
+      <query id="atom14985" name="R" pos="center-first">
+        <font color="#ff0000" family="Arial" size="24"/>
+        <point x="9.883cm" y="6.852cm"/>
+      </query>
+      <bond double_ratio="0.85" end="atom89531" id="bond7454" line_width="2.26634382567" start="atom86535" type="n1"/>
+      <bond bond_width="7.93220338983" center="yes" double_ratio="0.85" end="atom86535" id="bond91197" line_width="2.26634382567" start="atom38219" type="n2"/>
+      <bond double_ratio="0.85" end="atom14985" id="bond3953" line_width="2.26634382567" start="atom86535" type="n1"/>
+      <bond double_ratio="0.85" end="atom32235" id="bond47918" line_width="2.26634382567" start="atom38219" type="n1"/>
+      <bond double_ratio="0.85" end="atom75036" id="bond74014" line_width="2.26634382567" start="atom38219" type="n1"/>
+    </molecule>
+  </cdml>
+</svg>

@@ -1,0 +1,5516 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+% \def\nompreamble{\addcontentsline{toc}{section} %{\nomname}\markboth{\nomname}{\nomname}}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl} 
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+
+
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "316-1 Problems"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue, linkcolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\notefontcolor #ff0000
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #ffffff
+\end_branch
+\branch thisdoconly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -1
+\tocdepth 2
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Branch thisdoconly
+status collapsed
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+316-1 Problems
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Enumerate
+Send an email to Prof.
+ Shull (
+\begin_inset CommandInset href
+LatexCommand href
+target "k-shull@northwestern.edu"
+type "mailto:"
+
+\end_inset
+
+) and Ashley (
+\begin_inset CommandInset href
+LatexCommand href
+target "ashleyepyp@gmail.com"
+type "mailto:"
+
+\end_inset
+
+) with the following information:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anything about yourself (why you are interested in MSE, previous work experience
+, etc., outside interests apart from MSE) that will help me get to know you
+ a bit (feel free to be brief - any info here is fine).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Your level of experience and comfort level with MATLAB.
+ Be honest about your assessment (love it, hate it, don't understand it,
+ etc.).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Diffusion
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+PES problem 2.7.
+\end_layout
+
+\end_inset
+
+A diffusion couple including inert wires was made by plating pure copper
+ on to a block of 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-brass with 
+\begin_inset Formula $X_{Zn}=0.3$
+\end_inset
+
+, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Kirkendall geometry"
+
+\end_inset
+
+.
+ After 56 days at 785 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C the marker velocity was 2.6x10
+\begin_inset Formula $^{-8}$
+\end_inset
+
+ mm/s, with a composition at the markers of 
+\begin_inset Formula $X_{Zn}=0.22$
+\end_inset
+
+, and a composition gradient, 
+\begin_inset Formula $\partial X_{Zn}/\partial x$
+\end_inset
+
+ of 0.089 mm
+\begin_inset Formula $^{-1}$
+\end_inset
+
+.
+ A detailed analysis of the data gives 
+\begin_inset Formula $\tilde{D}=4.5x10^{-13}\,\mathrm{m^{2}/s}$
+\end_inset
+
+ for 
+\begin_inset Formula $X_{Zn}=0.22$
+\end_inset
+
+.
+ Use these data to calculate 
+\begin_inset Formula $D_{Zn}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{Cu}$
+\end_inset
+
+ for 
+\begin_inset Formula $X_{Zn}=0.22$
+\end_inset
+
+.
+ How would you expect 
+\begin_inset Formula $D_{Zn}$
+\end_inset
+
+, 
+\begin_inset Formula $D_{Cu}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{D}$
+\end_inset
+
+ to vary as a function of composition?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/kirkendall.svg
+	lyxscale 50
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Experimental Geometry for the Kirkendall experiment.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Kirkendall geometry"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The equation for the velocity of the markers is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\tilde{D} & =\left[X_{Cu}D_{Zn}+X_{Zn}D_{Cu}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the equation for the velocity of the markers is: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v_{\ell}=\left(D_{Zn}-D_{Cu}\right)\frac{\partial X_{Zn}}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We know that for 
+\begin_inset Formula $X_{Zn}=$
+\end_inset
+
+0.22 (
+\begin_inset Formula $X_{Cu}=0.78)$
+\end_inset
+
+, 
+\begin_inset Formula $\partial X_{Zn}/\partial x=89\,\mathrm{m^{-1}}$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{D}=4.5x10^{-13}\,\mathrm{m^{2}/s}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{\ell}=2.6x10^{-11}$
+\end_inset
+
+m/s.
+ So we have two equations to solve for the two unknowns, 
+\begin_inset Formula $D_{Zn}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{Cu}$
+\end_inset
+
+.
+ We can start be rewriting the equation for 
+\begin_inset Formula $v_{\ell}$
+\end_inset
+
+ to get 
+\begin_inset Formula $D_{Zn}$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $D_{Cu}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{Zn}=D_{Cu}+\frac{v_{\ell}}{\partial X_{Zn}/\partial x}=D_{Cu}+\frac{2.6x10^{-11}\,\mathrm{m/s}}{89\,\mathrm{m^{-1}}}=D_{Cu}+2.9x10^{-13}\,\mathrm{m^{2}/s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now we substitute this expression for 
+\begin_inset Formula $D_{Zn}$
+\end_inset
+
+ into the equation for 
+\begin_inset Formula $\tilde{D}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\tilde{D} & =\left[X_{Cu}\left(D_{Cu}+2.9x10^{-13}\,\mathrm{m/s}\right)+X_{Zn}D_{Cu}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This gives the following for 
+\begin_inset Formula $D_{Cu}$
+\end_inset
+
+ (using the fact that 
+\begin_inset Formula $X_{Cu}+X_{Zn}=1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+D_{Cu}=\tilde{D} & -X_{Cu}2.9x10^{-13}\,\mathrm{m^{2}/s}=\tilde{D}=4.5x10^{-13}\,\mathrm{m^{2}/s}-0.78\times2.9x10^{-13}\mathrm{m^{2}/s}=2.2x10^{-13}\,\mathrm{m^{2}/s}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now we use the expression for 
+\begin_inset Formula $D_{Zn}$
+\end_inset
+
+ to obtain:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{Zn}=D_{Cu}+2.9x10^{-13}\,\mathrm{m^{2}/s}=5.1x10^{-13}\,\mathrm{m^{2}/s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A useful rule of thumb is that any given temperature, the material with
+ the lowest melting point will have the highest diffusion coefficient.
+ Cu has a melting temperature of 1357K and Zn has a melting point of 693K,
+ so we expect that the diffusion coefficient for pure Zn will be larger
+ than the diffusion coefficient for pure Cu.
+ In general, copper atoms slow things down, so we expect all three diffusion
+ coefficients, 
+\begin_inset Formula $D_{Zn},\,D_{Cu}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{D}$
+\end_inset
+
+, to decrease with increasing Cu conent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+In class we developed an expressions for 
+\begin_inset Formula $J_{a}^{\prime}$
+\end_inset
+
+.
+ Show that 
+\begin_inset Formula $J_{a}^{\prime}=-J_{b}^{\prime}$
+\end_inset
+
+.
+ (Recall that these primed fluxes correspond to fluxes in the laboratory
+ frame of reference).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ There are a bunch of ways to do this.
+ Perhaps the easiest thing to do is recognize that we can just interchange
+ all the a and b subscripts to convert our expression for 
+\begin_inset Formula $J_{a}^{\prime}$
+\end_inset
+
+ into an expression for 
+\begin_inset Formula $J_{b}^{\prime}$
+\end_inset
+
+.
+ We have the following for 
+\begin_inset Formula $J_{a}^{\prime}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+J_{a}^{'}=-\left[D_{a}X_{b}+X_{a}D_{b}\right]\frac{\partial C_{a}}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This function gets transformed into the following for 
+\begin_inset Formula $J_{b}^{\prime}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+J_{b}^{'}=-\left[D_{b}X_{a}+X_{b}D_{a}\right]\frac{\partial C_{b}}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $\partial C_{b}/\partial x=-\partial C_{a}/\partial x$
+\end_inset
+
+ we have 
+\begin_inset Formula $J_{b}^{\prime}=-J_{a}^{\prime}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider two binary alloys with compositions 
+\begin_inset Formula $X_{b}=X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{b}=X_{2}$
+\end_inset
+
+, shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:alloy Free-energy-curves"
+
+\end_inset
+
+ along with the free energy curves for 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phases formed by this alloy.
+ Draw the composition profile across the interface shortly after the two
+ alloys are brought into contact with one another, assuming that the interface
+ is in “local equilibrium”, i.e.
+ the interface compositions are given by the equilibrium phase diagram.
+ Describe the direction in which you expect the B atoms to diffuse on each
+ side of the interface.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/alpha beta G curves soln.svg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Free energy curves for a model A/B alloy.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:alloy Free-energy-curves"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The equilibrium phase compositions, 
+\begin_inset Formula $X_{eq}^{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{eq}^{\beta}$
+\end_inset
+
+ are obtained from the common tangent construction, and are labeled as 
+\begin_inset Formula $X_{eq}^{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{eq}^{\beta}$
+\end_inset
+
+ in the following diagram:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/alpha beta G curves soln.svg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These are the compositions that are established on either side of the interface
+ immediately after the samples are welded together.
+ Far away from the interface the compositions are the starting compositions,
+ 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+, so the overall composition profile must look something like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/alpha beta composition profile.svg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The flux of B atoms is to the left on each side of the interface.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The following MATLAB script runs the vacancy simulation shown in class.
+ It saves the data into a 'structure' called output, which can be loaded
+ into MATLAB later.
+ The file can be downloaded from this link:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://msecore.northwestern.edu/316-1/matlab/vacancydiffusion.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/vacancydiffusion.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+run the vacancydiffusion script, and include in your homework the .jpg files
+ generated for time steps of 1e4, 2e4, 4e4 and 1e5.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Here are the plots that I ended up with:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $10^{4}$
+\end_inset
+
+ time steps
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename matlab/vacdiff10000.eps
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $2x10^{4}$
+\end_inset
+
+ time steps
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename matlab/vacdiff20000.eps
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $5x10^{4}$
+\end_inset
+
+ time steps
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename matlab/vacdiff50000.eps
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $10^{5}$
+\end_inset
+
+ time steps
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename matlab/vacdiff100000.eps
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+For the longest time step, develop a plot of average composition along the
+ horizontal direction.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Here is the MATLAB script that I used to do this (available at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://msecore.northwestern.edu/316-1/matlab/vacancyplot.m
+\end_layout
+
+\end_inset
+
+):
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+MATLAB ! loading and plotting data from .mat file
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/vacancyplot.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that 'figformat' is NOT a matlab command.
+ This line calls another file called names figformat.m that includes a few
+ commands to standardize plots that I am making for this class.
+ Here's what it looks like:
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+MATLAB ! setting plotting defaults
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/figformat.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The plot that I get looks like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename matlab/vacancyplot.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+In the previous problem set we obtained concentration profiles from the
+ MATLAB.
+ Now we'll take these concentration profiles and see if they are consistent
+ with the solution to the diffusion equation.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+For each of the 4 time points used in the simulation, plot the concentration
+ profile and fit it to the error function to the diffusion equation, using
+ the interfacial width, 
+\begin_inset Formula $w$
+\end_inset
+
+, (
+\begin_inset Formula $w=2\sqrt{Dt}$
+\end_inset
+
+) as a fitting parameter:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C\left(x,t\right)=\frac{C_{1}+C_{2}}{2}-\frac{C_{1}-C_{2}}{2}\mathrm{erf}\left(\frac{x}{w}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note: This problem is a curve fitting exercise in MATLAB.
+ The most frustrating part is getting all the syntax right, but once you
+ know the proper format for the MATLAB code, it's pretty straightforward.
+ Take a look at the section entitled 'Fitting a Function to a Data Set'
+ in the MSE MATLAB help file (
+\begin_inset CommandInset href
+LatexCommand href
+name "http://msecore.northwestern.edu/matlab/matlab.pdf"
+target "http://msecore.northwestern.edu/matlab/matlab.pdf"
+
+\end_inset
+
+).
+ This section includes a MATLAB script that you can download and modify
+ as needed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Here's the code I used for parts a and b:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/vacancyfit.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The fits to the error function solution are shown in the plot below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename matlab/vacancyfit.eps
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Plot 
+\begin_inset Formula $w^{2}$
+\end_inset
+
+ as a function of the time (expressed here as the number of time steps in
+ the simulation).
+ Obtain the slope of a line drawn through the origin that best fits the
+ data.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The fits to the error function solution are shown in the plot below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename matlab/vacancydcalc.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+When diffusion occurs by a vacancy hopping mechanism in a 2-dimensional
+ system like the one used in our simulation, the diffusion coefficient is
+ given by the following expression:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=KX_{v}\Gamma a^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here is the average hop frequency for any given vacancy and 
+\begin_inset Formula $a$
+\end_inset
+
+ is the hopping distance.
+ From the the slope of the curve of 
+\begin_inset Formula $w$
+\end_inset
+
+ vs.
+ the total number of jumps, extract an estimated value for 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula $w^{2}=4Dt$
+\end_inset
+
+, so a plot of 
+\begin_inset Formula $w^{2}$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $t$
+\end_inset
+
+ should have a slope, 
+\begin_inset Formula $S$
+\end_inset
+
+, of 
+\begin_inset Formula $4D$
+\end_inset
+
+.
+ With 
+\begin_inset Formula $S=4.2x10^{-4}$
+\end_inset
+
+ from part b, we end up with 
+\begin_inset Formula $D=1.1x10^{-4}$
+\end_inset
+
+.
+ The diffusion coefficient has units of length squared divided by time.
+ In our case the length is the distance between lattice sites 
+\begin_inset Formula $(a)$
+\end_inset
+
+, and the time unit is the time between 'jumps' in the simulation.
+ In our case the x axis for our plot is in units of 
+\begin_inset Formula $a$
+\end_inset
+
+, so we can take e 
+\begin_inset Formula $a=1.$
+\end_inset
+
+ We also have 
+\begin_inset Formula $\Gamma=1$
+\end_inset
+
+, Finally, the vacancy fraction is 
+\begin_inset Formula $X_{v}=1/n^{2}=1.1x10^{-3}$
+\end_inset
+
+ (where 
+\begin_inset Formula $n=30$
+\end_inset
+
+ in our simulation).
+ We obtain 
+\begin_inset Formula $X_{v}\Gamma a^{2}=1.1x10^{-3}$
+\end_inset
+
+ in our simulation.
+ Comparing this to the value of 
+\begin_inset Formula $1.1x10^{-4}$
+\end_inset
+
+ for 
+\begin_inset Formula $D$
+\end_inset
+
+ that we obtained from the simulation, we get 
+\begin_inset Formula $K=0.1.$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+A region of material with a different composition is created in an infinitely
+ long bar.
+ The following plot shows the mole fraction of component A as a function
+ of position.
+ Assume that the intrinsic diffusion coefficient of the A atoms is twice
+ as large as the intrinsic diffusion coefficient for the B atoms.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/thinfilmprofiles.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Plot the flux of A and the flux of B relative to the lattice as a function
+ of position in the graph above.
+ Justify your answer in the space below.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We know that the plot must have the following features:
+\end_layout
+
+\begin_layout Itemize
+The fluxes go to zero at the right and left edges and at the midpoint, since
+ the concentration gradients are zero there.
+ 
+\end_layout
+
+\begin_layout Itemize
+The A fluxes must be positive in the right half of the bar, and negative
+ in the left half.
+\end_layout
+
+\begin_layout Itemize
+The B fluxes have half the magnitude of the A fluxes (because 
+\begin_inset Formula $D_{b}=D_{a}/2$
+\end_inset
+
+), and have the opposite sign (because 
+\begin_inset Formula $dC_{a}/dx=-dC_{b}/dx$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+So the graph of the fluxes must look something like this.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/thinfilmfluxes.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To answer the remaining questions we need to know something about the vacancy
+ flux, 
+\begin_inset Formula $J_{v}=-J_{a}-J_{b}$
+\end_inset
+
+.
+ With our assumption that 
+\begin_inset Formula $D_{a}=2D_{b}$
+\end_inset
+
+ the vacancy flux is identical to 
+\begin_inset Formula $J_{b}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/vacancyflux.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Plot the vacancy creation rate as a function of position in the graph above.
+ Justify your answer in the space below.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{a}\left(x\right)\exp\left(-x^{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{b}\left(x\right)1-\exp\left(-x^{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{dC_{a}}{dx}=-2x\exp\left(-x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+J_{a}=2D_{a}x\exp\left(-x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{dC_{b}}{dx}=2x\exp\left(-x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+J_{b}=-2D_{b}x\exp\left(-x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+J_{v}=-J_{a}-J_{b}=2D_{b}x\exp\left(-x^{2}\right)-2D_{a}x\exp\left(-x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+J_{v}=2\left(D_{b}-D_{a}\right)x\exp\left(-x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{dJ_{v}}{dx}=2\left(D_{b}-D_{a}\right)\exp\left(-x^{2}\right)\left(1-2x^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The plot of 
+\begin_inset Formula $J_{v}$
+\end_inset
+
+ shows that a positive vacancy flux exists at the left hand part of the
+ sample and a negative vacancy flux exists at the right part of the sample.
+ A positive vacancy flux is defined as pointing to the right (in the positive
+ x direction), so this means that fluxes are moving toward the center of
+ the sample.
+ In order to maintain an equilibrium vacancy concentration, vacancies must
+ be created at the edges and destroyed at the center.
+ In more quantitative terms, the vacancy creating rate, 
+\begin_inset Formula $dC_{v}/dt$
+\end_inset
+
+ is given by 
+\begin_inset Formula $dJ_{v}/dx$
+\end_inset
+
+.
+ This is plotted in the figure below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/vacancycreationrate.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Plot the flux of A and B in the lab frame as a function of position in the
+ graph above.
+ Justify your answer in the space below.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The fluxes in the lab frame, which we refer to as 
+\begin_inset Formula $J_{a}^{\prime}$
+\end_inset
+
+ and 
+\begin_inset Formula $J_{b}^{\prime}$
+\end_inset
+
+ must be equal in magnitude and opposite in direction, so the plots look
+ like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/thinfilmfluxesprime.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Plot the lattice velocity as a function of position in the graph below.
+ What are the physical implications of this plot?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The lattice plane velocity is proportional to 
+\begin_inset Formula $J_{v}$
+\end_inset
+
+, so the velocity looks like what is shown below.
+ Planes in the left half of the sample are moving to the right, and planes
+ on the right half are moving to the left.
+ Physically, this means that intert markers placed on either side of the
+ center of the sample are moving closer to one another.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/latticeplanevelocity.eps
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Dislocations
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Problem 1-1 in P.
+ G.
+ Shewmon, “Transformations in Metals”
+\end_layout
+
+\end_inset
+
+A right handed screw dislocation initially located in the middle of the
+ front face of the sample shown below moves toward the back of the sample
+ in response to an applied shear stress on the sample.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/screw disloc motion prob.svg
+	width 35text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Sketch the shape of the sample after the dislocation has propagated halfway
+ through the sample, and again when it has propagated all the way through
+ the sample.
+ Use arrows to specify the shear force that is being applied.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The situations before the dislocation has moved, when it has moved halfway
+ through the sample, and when it has propagated all the way through th sample,
+ are shown in the sequence of drawings below.
+ If we align are right thumb pointed to the left along the dislocation line
+ in the middle picture, our fingers trace the atomic planes around a path
+ that moves in the direction our thumb is pointed.
+ So we know that this one is a right handed screw dislocation.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_1RH.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Repeat part a for a left-handed screw dislocation.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+This is the mirror image of part a.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_1LH.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Problem 1-2 in P.
+ G.
+ Shewmon, “Transformations in Metals”
+\end_layout
+
+\end_inset
+
+Draw an edge dislocation and on the same figure dot in the positions of
+ the atoms after the dislocation has shifted by 
+\begin_inset Formula $\vec{b}.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+See the drawing below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_2.svg
+	width 25text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Problem 1-3 in P.
+ G.
+ Shewmon, “Transformations in Metals”
+\end_layout
+
+\end_inset
+
+How can two edge dislocations with opposite Burgers vectors meet to form
+ a row of vacancies? A row of interstitials.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\align left
+
+\series bold
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+
+\series bold
+\begin_inset Branch thisdoconly
+status open
+
+\begin_layout Standard
+\noindent
+\align left
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_3.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Problem 1-5 in P.
+ G.
+ Shewmon, “Transformations in Metals”
+\end_layout
+
+\end_inset
+
+Given a crystal containing a dislocation loop as shown in the following
+ figure:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation loop for problem.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let the loop be moved (at constant radius) toward a corner until three-fourths
+ of the loop runs out of the crystal.
+ This leaves a loop segment that goes in one face and comes out the orthogonal
+ face.
+ Sketch the resultant shape of the crystal, both above and below the slip
+ plane.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ When the dislocation emerges from the edge of the sample, it shifts the
+ two surface by an amount given by 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+.
+ In this case we just need to figure out which direction the slip is in.
+ In this example, the edge dislocation at the right side of the loop has
+ the extra half plane above the loop (this is the direction of 
+\begin_inset Formula $\vec{b}\times\vec{s}$
+\end_inset
+
+), so this extra halfplane emerges from the top half of the figure, leaving
+ the top portion slipped with respect to the bottom portion by an amount
+ equal to 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_4.svg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Given a loop with a Burger’s vector that is perpendicular everywhere to
+ the dislocation line, determine the resulting surface morphology after
+ the loop propagates out of the crystal.
+ Assume that the loop moves only by glide.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+This situation occurs either to an extra plane or missing plane of atoms
+ within the loop, as shown below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_5.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Show that it is impossible to make a dislocation loop all of whose segments
+ are pure screw dislocations, but that it is possible with edge dislocations.
+ For the case of the pure edge dislocation loop, describe the orientation
+ of the extra half plane with respect to the dislocation loop.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The definition of a screw dislocation is that 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+ is parallel to the dislocation line.
+ For a loop, this means 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+ is tangent to the loop at all points.
+ However, a dislocation can only have one 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+, so it is not possible to make a screw dislocation loop.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation_solution_6.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Answer the following questions.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+If edge dislocations with opposite signs of the Burger’s vectors meet, does
+ the energy of the crystal increase or decrease? Defend your answer.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+A nanowire is grown such that it is free of dislocations.
+ Why would the stress required to deform the nanowire be larger than a bulk
+ material? Defend your answer.
+\end_layout
+
+\begin_layout Enumerate-Resume
+If anisotropic alloy system has a nearly zero dislocation line tension,
+ would you expect the precipitate spacing to have a large effect on the
+ yield stress of the alloy? Defend your answer.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Draw the compressive and tensile regions surrounding an edge dislocation.
+ Defend your answer.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Consider the case of a pure material with a solid spherical particle in
+ a liquid.
+ Is it still possible to use a graphical construction that involves the
+ molar Gibbs free energies as a function of temperature to determine the
+ equilibrium temperature if the molar volume is a function of pressure?
+ Defend your
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Problem 1-8 in P.
+ G.
+ Shewmon, “Transformations in Metals”
+\end_layout
+
+\end_inset
+
+ Given an edge dislocation in a crystal, whose top two-thirds is under a
+ compressive stress 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ acting along the glide plane (see figure below):
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/dislocation climb problem.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If diffusion occurs, which way will thee dislocation move? Explain why and
+ tell where the atoms go that leave the dislocation.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The dislocation will climb up.
+ The compressive stress reduces the equilibrium vacancy concentration, which
+ creates a supersaturation of vacancies in the material.
+ These extra vacancies diffuse to the dislocation, resulting in climb.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+might be good to generate a picture of this
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Derive an equation relating the stress, 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ to 
+\begin_inset Formula $b$
+\end_inset
+
+ and the force tending to make the dislocation move in the vertical plane.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/solution to climb problem.svg
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+If the edge dislocation is replaced by a screw dislocation, which which
+ way will the dislocation tend to move?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The screw dislocation will not move.
+ Screw dislocations have isotropic stress fields, so they are not sources
+ and sinks for vacancies and interstitials.
+ As a result, screw dislocations do not climb.
+ The dislocation does not slip either, because there is not component of
+ the applied stress field that gives a component of the shear stress acting
+ along the direction of the Burgers vector for the dislocation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Problem 1-11 in P.
+ G.
+ Shewmon, “Transformations in Metals”
+\end_layout
+
+\end_inset
+
+Construct a plot of the interaction energy vs.
+ dislocation separation distance for two identical parallel edge dislocations
+ that continue to lie one above the other as climb occurs.
+ Justify your plot qualitatively by explaining how the strain energy changes
+ with vertical separation.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+For parallel edge dislocations there will exist a stable configuration where
+ the two dislocations are near enough for the compressive and tensile forces
+ to cancel each other out.
+ When they are brought directly on top of each other however, the stress
+ fields overlap and two dislocations with a Burgers vector of magnitude
+ 
+\begin_inset Formula $b$
+\end_inset
+
+ become a single dislocation of magnitude 
+\begin_inset Formula $2b$
+\end_inset
+
+.
+ Because the dislocation energy scales as 
+\begin_inset Formula $b^{2}$
+\end_inset
+
+ , the overall energy of this new dislocation is twice as large as the total
+ energy of the two, well-separated dislocations.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/solution dislocation interactions 1.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Repeat the previous problem for edge dislocations of opposite sign.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+For dislocations of opposite sign, we now that when they overlap they will
+ annihilate each other, so the dislocation energy must go to zero as 
+\begin_inset Formula $D$
+\end_inset
+
+ goes to zero.
+ However, because they are approaching each other from directly above/below
+ one another, there will be some repulsion at intermediate separations because
+ of the overlap of the compressive portions of the strain fields.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/solutioni dislocation interactions 2.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Interfacial Thermodynamics
+\end_layout
+
+\begin_layout Enumerate-Resume
+Starting with the expression we derived in class, show that the melting
+ point of a pure solid spherical particle in a liquid can be expressed as
+ follows:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T=T_{m}-\frac{2T_{m}V_{m}\sigma}{\Delta H_{m}r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\Delta H_{m}$
+\end_inset
+
+ is the molar latent heat of fusion, defined as 
+\begin_inset Formula $H_{m}^{\ell}-H_{m}^{s}$
+\end_inset
+
+, where 
+\begin_inset Formula $H_{m}$
+\end_inset
+
+is the molar enthalpy of the liquid or solid.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+We have 
+\begin_inset Formula $\Delta G_{m}=\Delta H_{m}-T\Delta S_{m}$
+\end_inset
+
+.
+ At 
+\begin_inset Formula $T=T_{m}$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta G_{m}=0$
+\end_inset
+
+, so 
+\begin_inset Formula $\Delta S_{m}=\Delta H_{m}/T_{m}$
+\end_inset
+
+.
+ Starting with the expression for the undercooling:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T=T_{m}-\frac{2V_{m}\sigma}{\Delta S_{m}r}
+\]
+
+\end_inset
+
+ we substitute for 
+\begin_inset Formula $\Delta S_{m}$
+\end_inset
+
+ to get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T=T_{m}-\frac{2T_{m}V_{m}\sigma}{\Delta H_{m}r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Is the molar latent heat positive or negative? Is the melting temperature
+\begin_inset Formula $,$
+\end_inset
+
+ 
+\begin_inset Formula $T$
+\end_inset
+
+ , greater than or less than 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The molar latent heat is positive, meaning that the liquid has excess enthalpy
+ relative to the solid.
+ The melting temperature is thus less than 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+ because all the other terms in the equation are positive.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the case of a pure liquid spherical droplet embedded in a pure
+ solid.
+ Using the graphical construction discussed in class, determine if the melting
+ point above or below the bulk melting temperature?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The graph is shown below.
+ In this case the pressure inside the liquid droplet is higher than the
+ pressure in the surrounding solid, so we need to shift the liquid curve
+ up instead of shifting the solid curve up.
+ The melting point for a droplet of finite size will be larger than the
+ equilibrium melting temperature.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/gm liquid and solids backward.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the Co-Cu phase diagram shown below:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Co-Cu_phase_diagram.jpg
+	lyxscale 60
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Plot the equilibrium activity of Cobalt as a function of composition across
+ the entire phase diagram at 900ºC.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+To be consistent with the notation use in class, we'll call the copper-rich
+ matrix phase the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase and the cobalt-rich precipitate the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ atoms: copper, 
+\begin_inset Formula $B$
+\end_inset
+
+ atoms: cobalt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X_{e}$
+\end_inset
+
+= equilibrium mole fraction of cobalt in 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase at 900ºC = 0.03
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X_{\beta}$
+\end_inset
+
+= equilibrium mole fraction of cobalt in 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase 900ºC = 0.96
+\end_layout
+
+\begin_layout Standard
+Both phases are relatively pure, so we can assume that Henry's Law applies
+ for the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase, and Rault's Law applies in the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Co-Cu activity.svg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+From the phase diagram, estimate the solubility limit of Co in Cu at 900
+ 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ Suppose the interfacial free energy for the Cu/Co interface is 
+\begin_inset Formula $300\,\mathrm{mJ/m^{2}}$
+\end_inset
+
+.
+ For what radius of a Co precipitate will this solubility limit be increased
+ by 10%?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+We have:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X_{b}^{\alpha}\left(r\right)=X_{b}^{\alpha}\left(\infty\right)\left[1+\frac{2\sigma V_{m}^{\beta}}{RTr}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What we are looking for is 
+\begin_inset Formula $2\sigma V_{m}^{\beta}/RTr$
+\end_inset
+
+ = 0.1.
+ We are given 
+\begin_inset Formula $\sigma=0.3$
+\end_inset
+
+ J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+, so all we need is 
+\begin_inset Formula $V_{m}^{\beta}$
+\end_inset
+
+.
+ The 
+\begin_inset Formula $\beta$
+\end_inset
+
+ precipitates are Co, so we get 
+\begin_inset Formula $V_{m}^{\beta}$
+\end_inset
+
+ from the molecular weight and density of cobalt.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{m}=\frac{59\,\mathrm{g}}{\mathrm{mol}}\frac{\mathrm{cm^{3}}}{8.9\,\mathrm{g}}=6.63\,\mathrm{cm^{3}}=6.63x10^{-6}\,\mathrm{m}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0.1=\frac{2\sigma V_{m}^{\beta}}{RTr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r=\frac{20\sigma V_{m}^{\beta}}{RT}=\mathrm{\frac{20\left(0.3J/m^{2}\right)\left(6.63x10^{-6}\,m^{3}/mole\right)}{\left(8.314\,J/mole\cdot K\right)\left(1173\,K\right)}=4.1\,nm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Surface and Interface Structure
+\end_layout
+
+\begin_layout Enumerate-Resume
+Determine the equilibrium shape of a crystal.
+ This should be done using a computer and your favorite program or language
+ (most likely MATLAB).
+ The equation of a straight line in polar coordinates drawn from the origin
+ of the polar coordinate system is 
+\begin_inset Formula $r\cos\left(\theta-\alpha\right)=d$
+\end_inset
+
+, where 
+\begin_inset Formula $\left(r,\,\theta\right)$
+\end_inset
+
+ locate the points on the line, 
+\begin_inset Formula $d$
+\end_inset
+
+ is the perpendicular distance from the origin to the line and 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ is the angle between the perpendicular to the line and the x-axis (see
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:polarline"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/polarlines.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Representation of a line drawn a distance 
+\begin_inset Formula $d$
+\end_inset
+
+ from the origin.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:polarline"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Determine the equilibrium shape of a crystal where the surface energy is
+ given by 
+\begin_inset Formula $\gamma=1$
+\end_inset
+
+ J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ (independent of 
+\begin_inset Formula $\alpha$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Determine the equilibrium shape of a crystal where the surface energy is
+ given by 
+\begin_inset Formula $\gamma=1+0.05\cos\left(4\alpha\right)$
+\end_inset
+
+ J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ (
+\begin_inset Formula $\alpha$
+\end_inset
+
+ in radians).
+ Are there any corners on the equilibrium shape?
+\end_layout
+
+\begin_layout Enumerate
+Determine the equilibrium shape of a crystal where the surface energy is
+ given by 
+\begin_inset Formula $\gamma=1+0.07\cos\left(4\alpha\right)$
+\end_inset
+
+ J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ Are there any corners on the equilibrium shape?
+\end_layout
+
+\begin_layout Enumerate
+Determine the equilibrium shape of a crystal where the surface energy is
+ given by 
+\begin_inset Formula $\gamma=1+0.6\cos\left(4\alpha\right)$
+\end_inset
+
+ J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ Are there any corners on the equilibrium shape? How is the shape shown
+ in (c) different from that in (d), and why (argue on the basis of the physics
+ of the problem)?
+\end_layout
+
+\begin_layout Standard
+As a headstart on this problem, here's a MATLAB script that generates polar
+ plots of the 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ as defined in the problem:
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+MATLAB ! polar plot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/wulff_energy_plot.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This generates the following polar plots for the four different functions
+ that are given (with 
+\begin_inset Formula $A$
+\end_inset
+
+ defined so that 
+\begin_inset Formula $\gamma=1+A\cos\left(4\alpha\right)$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/matlabwulffenergy.eps
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+Here are the plots that I ended up with:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/matlabwulffplots.eps
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And here's the MATLAB plot used to generate it:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/wulff_construction.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first three shapes (with 
+\begin_inset Formula $A$
+\end_inset
+
+=0, 0.05 and 0.07 do not have corners, although it looks like the one with
+ 
+\begin_inset Formula $A$
+\end_inset
+
+=0.07 is getting close.
+ The one with 
+\begin_inset Formula $A$
+\end_inset
+
+=0.6 definitely has corners.
+ This is because the cusp ine the angular dependence of the free energy
+ is very sharp.
+ Surfaces with normals close to the four diagonals of the plot have a much
+ lower energy than the other surfaces, and are preferred.
+ We end up with a crystal with these 4 surfaces, even though this isn't
+ the shape that minimizes the surface to volume ratio.
+ In class, this is what we ended up with for a simple cubic crystal, since
+ this shape minimizes the number of extra step edges.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the an oil droplet that forms on the surface of water, as shown
+ schematically in the following Figure:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/oil droplet schematic.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Determine 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ if the air/water interfacial free energy is 72 mJ/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+, the air/oil interfacial free energy is 30 mJ/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ and the oil/water interfacial free energy is 50 mJ/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The two equations we need to solve come from horizontal and vertical force
+ balances at the contact line, based on the surface forces illustrated below:
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/oil droplet force .svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The vertical force balance gives:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{oa}\sin\theta_{1}=\gamma_{ow}\sin\theta_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the horizontal force balance gives:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{wa}=\gamma_{oa}\cos\theta_{1}+\gamma_{ow}\cos\theta_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here's a MATLAB script that solves these for 
+\begin_inset Formula $\gamma_{wa}=72$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma_{oa}=30$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{ow}=50$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "matlab/oil_water_solve.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The values that we end up with are 
+\begin_inset Formula $\theta_{1}=33.9^{\circ}$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}=19.6^{\circ}$
+\end_inset
+
+.
+ These values are returned by the program as thetavals(1) and thetavals(2).
+ Note that it is sometimes necessary to adjust the initial guess for the
+ solution in order to get the solver to work.
+ For example, when I tried thetaguess=[0,0} fsolve was not able to find
+ a solution, but choosing [10,10] as the initial guess worked fine.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+The surface energy of the interface between nickel and its vapor is 1.580
+ J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ at 1100K.
+ The average dihedral angle measured for grain boundaries intersecting the
+ free surface is 168
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+ Thoria dispersed nickel alloys are made by dispersing fine particles of
+ ThO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ in nickel powder and consolidating the aggregate.
+ The particles are left at the grain boundaries in the nickel matrix.
+ Prolonged heating at elevated temperatures gives the particles their equilibriu
+m shape.
+ The average dihedral angle measured inside the particle is 145
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+ Estimate the interfacial energy of the thoria-nickel interface.
+ Assume the interfacial energies are isotropic.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The first two sentences of this problem provide the information needed
+ to obtain the grain boundary energy.
+ The relevant force balance is as illustrated below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/grain energy balance.svg
+	lyxscale 50
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The force balance in the vertical direction in this case gives:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{gb}=2\gamma_{sv}\cos\left(\theta/2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In our case we have 
+\begin_inset Formula $\theta=168^{\circ}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{sv}=1.580\mathrm{\,J/m^{2}}$
+\end_inset
+
+, from which we obtain a grain boundary energy, 
+\begin_inset Formula $\gamma_{gb},$
+\end_inset
+
+ of 0.33 
+\begin_inset Formula $\mathrm{J/m^{2}}$
+\end_inset
+
+.
+ Now we need to draw the force balance for a 
+\begin_inset Formula $\mathrm{ThO_{2}}$
+\end_inset
+
+ particles at a grain boundary.
+ The picture looks like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/thoria at grain bounary.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The force balance in this case is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{gb}=2\gamma_{\mathrm{Ni/ThO_{2}}}\cos\left(\theta/2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+so with 
+\begin_inset Formula $\theta=148^{\circ}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{gb}=\mathrm{0.33\,J/m^{2}}$
+\end_inset
+
+ we get 
+\begin_inset Formula $\gamma_{\mathrm{Ni/ThO_{2}}}=0.60\,\mathrm{J/m^{2}}.$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider a gold line deposited on a silicon substrate.
+ The film is 0.1 micron thick and all the grain boundaries are perpendicular
+ to the gold-vapor interface.
+ The grain boundaries run laterally completely across the line, giving a
+ “bamboo” structure.
+ The grain boundary energy of gold at 600K is 0.42 J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ and the surface energy is 1.44 J/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ Assume all the interfacial energies are isotropic.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Compute the dihedral angle where a grain boundary meets the external surface.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+Here's a schematic representation of what is going on:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/bamboo grain boundary.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The dihedral angle, 
+\begin_inset Formula $\theta$
+\end_inset
+
+, is calculated the force balance at the three-phase contact line:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{gb}=2\gamma_{Au}\cos\left(\theta/2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With 
+\begin_inset Formula $\gamma_{gb}=0.42\,\mathrm{J/m^{2}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{Au}=\mathrm{1.44}\,\mathrm{J/m^{2}}$
+\end_inset
+
+ we obtain 
+\begin_inset Formula $\theta=163$
+\end_inset
+
+
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Find the critical grain boundary spacing 
+\begin_inset Formula $\ell_{c}$
+\end_inset
+
+ for which the equilibrium grain shape produces a hole in the film.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The radius of curvature of the grains is constant, with the shape given
+ by a circle that is intersected by a horizontal line.
+ We are interested in the case where the base of the circle just reaches
+ the substrate, 
+\emph on
+i.e.
+\emph default
+, where 
+\begin_inset Formula $h$
+\end_inset
+
+ and 
+\begin_inset Formula $\ell_{c}$
+\end_inset
+
+ are related to one another as illustrated in the figure above.
+ In this case the angle 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is given as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\phi=90^{\circ}-\theta/2=8.5^{\circ}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now we just need to do the geometry to relate 
+\begin_inset Formula $h$
+\end_inset
+
+ to 
+\begin_inset Formula $\phi$
+\end_inset
+
+ and 
+\begin_inset Formula $\ell_{c}$
+\end_inset
+
+.
+ For a circular cap these quantities are related to one another by the following
+ expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\left(\phi/2\right)=2h/\ell_{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So for 
+\begin_inset Formula $\phi=8.5^{\circ}$
+\end_inset
+
+ and 
+\begin_inset Formula $h=0.1\,\mu\mathrm{m}$
+\end_inset
+
+ we have 
+\begin_inset Formula $\ell_{c}=2.7\,\mu\mathrm{m.}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The equilibrium shape you calculated in the last homework looks similar
+ to the shape of a few of the particles on the attached simulations of misfittin
+g particles in an elastically anisotropic system.
+ The left column is the entire system, whereas the right column is a magnificati
+on of a small region of the figure in the left column.
+ These are snapshots taken as function of time while the particles are growing.
+ Are these cuboidal shapes are due to elastic stress and or anisotropic
+ interfacial energy? Explain your answer.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/strained precipitate sim.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Problem 3.10 Porter and Easterling
+\end_layout
+
+\end_inset
+
+Explain the structure and energies of coherent, semicoherent and incoherent
+ interfaces, paying particular attention to the role of orientation relationship
+s and misfit.
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Problem 3.13 Porter and Easterling
+\end_layout
+
+\end_inset
+
+Explain why fully coherent precipitates tend to lose coherency as they grow.
+\end_layout
+
+\begin_layout Enumerate-Resume
+The values for the intrinsic diffusion coefficients for Cu and Ni in a binary
+ Cu/Ni alloy are shown below on the left (note that Cu and Ni are completely
+ miscible in the solid state).
+ A diffusion couple is made with the geometry shown below on the right.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace 0cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/Cu_Ni_diffusion_plot.svg
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/inert markers.svg
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+What is the value of the interdiffusion coefficient 
+\begin_inset Formula $\tilde{D}$
+\end_inset
+
+, for an alloy consisting of nearly pure Nickel?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The expression for the interdiffusion coefficient is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\tilde{D} & =X_{Ni}D_{Cu}+X_{Cu}D_{Ni}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+so for pure Nickel (
+\begin_inset Formula $X_{Ni}=1,$
+\end_inset
+
+ 
+\begin_inset Formula $X_{Cu}=0$
+\end_inset
+
+) we have 
+\begin_inset Formula $\tilde{D}=D_{Cu}$
+\end_inset
+
+.
+ From the graph, we see that 
+\begin_inset Formula $D_{Cu}$
+\end_inset
+
+ 
+\begin_inset Formula $X_{Cu}=0$
+\end_inset
+
+ is 15x10
+\begin_inset Formula $^{11}$
+\end_inset
+
+ cm
+\begin_inset Formula $^{2}$
+\end_inset
+
+/s.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Will the markers placed initially at the Cu/Ni interface move toward the
+ copper end of the sample, the nickel end of the sample, or stay at exactly
+ the same location during the diffusion experiment.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Copper diffuses to the right more quickly than Nickel diffuses to the left,
+ so there is a net flux of material from the left side of the markers to
+ the right side of the markers.
+ This moves the markers to the 
+\series bold
+left
+\series default
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The copper concentration across the sample is sketched below after diffusion
+ has occurred for some time.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/kirkendall problem.svg
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sketch the fluxes of Copper, Nickel and vacancies, defining positive fluxes
+ as those moving to the right.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Copper is diffusing down its concentration gradient, from the left to the
+ right.
+ Nickel is diffusing in the opposite direction, but the magnitude of the
+ Ni flux is lower because it has a lower diffusion coefficient.
+ The sum of all three fluxes (including the vacancy flux) must be zero so
+ the plot of the fluxes must look something like this (the relative magnitudes
+ of the Ni and Vacancy fluxes is not necessarily accurate here):
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Cu_Ni_examfluxes.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Now sketch the rate at which vacancies are created or destroyed within the
+ sample in order to maintain a constant overall vacancy concentration throughout.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Vacancies are diffusing from the right to the left, so we know they must
+ be created on the right side of the couple and destroyed at the left side
+ of the diffusion couple.
+ The plot looks something like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Cu_Ni_vaccreationrate.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+On the following sketch of a dislocation, indicate the direction that it
+ must move in order for vacancies to be created.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/edge dislocation.svg
+	width 20text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Vacancies are created when atoms are added to the extra half plane, leaving
+ vacant sites behind and moving the dislocation down on this figure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the two edge dislocations shown below.
+ Suppose dislocation 1 remains fixed in place, but that dislocation 2 is
+ able to move on its glide plane.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Assume that the sense vector, 
+\begin_inset Formula $\vec{s}$
+\end_inset
+
+, for each dislocation is defined so that 
+\begin_inset Formula $\vec{s}$
+\end_inset
+
+ points into the page.
+ Indicate the direction of 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+ for each of the to dislocations.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/edge dislocation interaction problem.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We know that 
+\begin_inset Formula $\vec{b}\times\vec{s}$
+\end_inset
+
+ points to the extra half plane.
+ This means that 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+ for dislocation 1 points to the right and 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+ for dislocation 2 points to the left.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Indicate the glide plane for dislocation 2 with a dotted line.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Indicate with an X the location of dislocation 2 at the position within
+ its glide plane that minimizes the total strain energy of the system.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The glide plane is the plane containing both 
+\begin_inset Formula $\vec{b}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{s}$
+\end_inset
+
+, which in our case is the horizontal plane drawn in figure below.
+ The shear stress field from dislocation 1 moves dislocation 2 to the right
+ until the shear stress within the glide plane vanishes.
+ This occurs along a line making roughly a 45
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ angle with respect to the horizontal, causing the dislocation to rest the
+ position indicated below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/edge dislocation interaction solution.svg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Now suppose that dislocation 1 is a fixed, left-handed screw dislocation
+ and dislocation 2 is a mobile right-handed screw dislocation.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+Use a dotted line to indicate the plane on which you expect dislocation
+ 2 to move in order to minimize the overall strain energy of the system.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Screw dislocations are not constrained to a single glide plane so they
+ are free to move directly toward each other on the plane in which they
+ both reside:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/screw dislocation interaction solution.svg
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Plot the overall strain energy of the system as a function of the distance
+ between the two screw dislocations.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ At a separation of zero the dislocations annihilate each other and the
+ energy goes to zero.
+ When the dislocations are widely separated, the total energy is just the
+ sum of the individual dislocation energies.
+ For screw dislocations the energy increases monotonically between these
+ two extremes, so the plot must look something like this: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/screw dislocation int energy plot.svg
+	width 35text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider an isolated right-handed screw dislocation, identical to dislocation
+ 2 from the previous problem.
+ Suppose a shear force is applied parallel to the dislocation line, as illustrat
+ed below.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/screw dislocation under shear.svg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+What is the direction of the force, 
+\begin_inset Formula $F_{s}^{\tau}$
+\end_inset
+
+, that is applied to the dislocation as a result of the applied stress.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The force on the dislocation is directed to the left.
+ One way to realize this is that for a right handed dislocation the planes
+ are organized so that on the right of the dislocation, the plane above
+ the dashed line in the figure below are shifted back (in the direction
+ of the applied stress), compared to the atoms below the dashed line.
+ The applied stress wants to increase the displacement in this direction,
+ so we get the proper displacement applied to more of the sample by moving
+ the dislocation to the left.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/pinned dislocation under shear solution.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose the screw dislocation is replaced by a dislocation loop with the
+ same Burgers vector as the dislocation from part a, as shown below.
+ Use arrows to indicate the direction 
+\begin_inset Formula $F_{s}^{\tau}$
+\end_inset
+
+ at different points along the dislocation loop.
+ (The direction of 
+\begin_inset Formula $F_{s}^{\tau}$
+\end_inset
+
+has already been indicated at the right edge of the dislocation).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/disloc loop under shear.svg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The force is always perpendicular to the dislocation line.
+ In this case it will be directed radially outward, everywhere along the
+ loop.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Describe how the magnitude of 
+\begin_inset Formula $F_{s}^{\tau}$
+\end_inset
+
+ changes (if at all) for different locations along the dislocation loop.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The magnitude of the force is given by the resolved shear stress times
+ the Burgers vector, independent of the orientation of the dislocation.
+ The force to expand the loop is the same everywhere.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What to you expect to happen to the dislocation loop if you remove the external
+ applied stress (will the loop grow, shrink or stay the same size)?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The line energy of the dislocation will cause the loop to shrink.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose the straight screw dislocation from part b is pinned by obstacles
+ that are separated by a distance 
+\begin_inset Formula $d$
+\end_inset
+
+, as illustrated in the following figure.
+ Sketch the shape of the dislocation for an applied shear stress that is
+ just large enough for dislocation to pass around the obstacles.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/pinned dislocation under shear.svg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This corresponds to the point where the dislocation is bent to its maximum
+ curvature.
+ The situation will look something like this:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What do you expect to happen to the critical resolved shear stress of the
+ material if 
+\begin_inset Formula $d$
+\end_inset
+
+ is decreased by a factor of 2.
+ (Will the critical resolved shear stress increase, decrease or stay the
+ same).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The critical resolved shear stress will go up, since it needs to bend the
+ dislocation to a smaller radius of curvature in order to pass around the
+ obstacles.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The relationship between the the interfacial energy between 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phases and the pressure difference across a curved interface is obtained
+ from the following expression:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-P^{\alpha}\delta V^{\alpha}-P^{\beta}\delta V^{\beta}+\gamma_{\alpha\beta}\delta A^{\Sigma}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Use this expression to obtain the pressure difference between a cylinder
+ of 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase with a radius 
+\begin_inset Formula $r$
+\end_inset
+
+ and a surrounding 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The volume of a cylinder of length 
+\begin_inset Formula $\ell$
+\end_inset
+
+ and radius 
+\begin_inset Formula $r$
+\end_inset
+
+ is 
+\begin_inset Formula $\pi r^{2}\ell$
+\end_inset
+
+ and its surface area is 
+\begin_inset Formula $2\pi r\ell$
+\end_inset
+
+.
+ So have 
+\begin_inset Formula $\delta V^{\beta}=2\pi r\ell\delta r$
+\end_inset
+
+, 
+\begin_inset Formula $\delta V^{\alpha}=-\delta V^{\beta}=-2\pi r\ell\delta r$
+\end_inset
+
+, and 
+\begin_inset Formula $\delta A^{\Sigma}=2\pi\ell dr$
+\end_inset
+
+.
+ Substituting all of these expression into the expression given in the problem
+ results in:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{\beta}-P^{\alpha}=\frac{\gamma_{\alpha\beta}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Repeat the calculation for a cube where the length of each side is 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Assume that the surface energy of each of the cube faces is the same.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The volume of the cube is 
+\begin_inset Formula $a^{3}$
+\end_inset
+
+ and its surface area is 
+\begin_inset Formula $6a^{2}$
+\end_inset
+
+.
+ In this case we have have 
+\begin_inset Formula $\delta V^{\beta}=3a^{2}\delta a$
+\end_inset
+
+, 
+\begin_inset Formula $\delta V^{\alpha}=-\delta V^{\beta}=-3a^{2}\delta ar$
+\end_inset
+
+, and 
+\begin_inset Formula $\delta A^{\Sigma}=12a\delta a$
+\end_inset
+
+.
+ Substituting all of these expression into the expression given in the problem
+ results in:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{\beta}-P^{\alpha}=\frac{4\gamma_{\alpha\beta}}{a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Now suppose a, hemispherical liquid Au droplet with a radius of curvature
+ of 
+\begin_inset Formula $r$
+\end_inset
+
+ is in contact with solid Si cylinder with the same radius as shown below.
+ Derive a relationship between the three interfacial energies that must
+ be valid in order for the equilibrium shape of the Au/Si interface to be
+ flat, as drawn in the picture.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/nanowire schematic.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The interface is flat when the pressure in the gold droplet is the same
+ as the pressure in the silicon nanowire.
+ This leads to the following expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{2\gamma_{\ell v}^{Au}}{r}=\frac{\gamma_{sv}^{Si}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+or more simply, 
+\begin_inset Formula $2\gamma_{\ell v}^{Au}=\gamma_{sv}^{Si}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+
+\size large
+Why does the velocity of a grain boundary depend on temperature? Assume
+ that the driving force for grain boundary motion is independent of temperature.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Grain boundary motion is a thermally activated process, which means that
+ enough thermal energy must be provided so that atoms can achieve an energy
+ corresponding to the transition state (or saddle point).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\noindent
+
+\size large
+Assume a simple cubic crystal structure with nearest neighbor interactions.
+ Why does a solid surface with a {100} orientation have the lowest surface
+ energy? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This is the orientation that will result in the fewest number of broken
+ bonds per unit area.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\noindent
+
+\size large
+Why do very small precipitates tend to have coherent interfaces? Defend
+ your answer.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Coherent interfaces have lower energies than incoherent interfaces, and
+ the surface energy is more important than the elastic strain energy for
+ very small precipitates.
+ This is because the elastic strain energy scales as the volume of the precipita
+te.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\noindent
+
+\size large
+A thin film of Zn with a HCP crystal structure is deposited on a Ni FCC
+ substrate with a {111} orientation.
+ Which plane of the HCP crystal would you expect to contact the {111} Ni
+ surface.
+ Defend your answer.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The close-packed planes of the Zn structure will line up with the close
+ packed {111} planes of the Ni substrate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+
+\size large
+Does the time to 50% transformed increase or decrease with an increase in
+ nucleation rate? Defend your answer without using any equations.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ An increased nucleation rate increases the rate of the transformation,
+ so the time to reach 50% transformation will decrease.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\size large
+\begin_inset Branch unused
+status open
+
+\begin_layout Enumerate-Resume
+
+\size large
+The grain size of a material is measured as a function of time in a strain-free
+ material at constant temperature.
+ The grain size increases for some time and then stops increasing at a certain
+ size.
+ Why? Defend your answer.
+\end_layout
+
+\begin_layout Enumerate-Resume
+
+\size large
+Draw the shape of a grain undergoing abnormal grain growth.
+ Defend your answer.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+
+\size large
+Give an example of an interface between two crystals that displays a very
+ large change in energy with a change in the orientation of the interface.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ A bunch of possibilities exist, including twin boundaries, and precipitates
+ that are coherent only for specific orientations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Enumerate-Resume
+The molar enthalpy of a phase varies with temperature as
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+H_{m}\left(T\right)-H_{m}\left(T_{0}\right)+{\displaystyle \int_{T_{0}}^{T}}C_{p}\left(T\right)dT
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $C_{p}$
+\end_inset
+
+ is the molar heat capacity.
+ Given this, at what temperature is the latent heat appearing in expression
+ for the melting point reduction evaluated?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider a diffusion couple, as given in Porter and Easterling, with composition
+ 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ as 
+\begin_inset Formula $x\rightarrow-\infty$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ as 
+\begin_inset Formula $x\rightarrow\infty$
+\end_inset
+
+.
+ They claim that a solution to the diffusion equation is:
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+C\left(x,t\right)=\frac{C_{1}+C_{2}}{2}-\frac{C_{1}-C_{2}}{2}\mathrm{erf}\left(\frac{x}{2\sqrt{Dt}}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathrm{erf}\left(y\right)=\frac{2}{\pi}\int_{0}^{y}e^{-t^{2}}dt$
+\end_inset
+
+.
+ Note that in the definition of the error function t is a dummy variable
+ of integration, thus the error function is a function of y.
+ Also, erf(0)=0, and erf(
+\begin_inset Formula $\infty$
+\end_inset
+
+)=1.
+ You will determine if these boundary conditions are correct.
+\end_layout
+
+\begin_layout Enumerate
+Show that the boundary conditions at 
+\begin_inset Formula $x=\pm\infty$
+\end_inset
+
+ are satisfied by the solution.
+\end_layout
+
+\begin_layout Enumerate
+Does the composition at 
+\begin_inset Formula $x=0$
+\end_inset
+
+ vary with time? If not, what is its value? Why do you think this is the
+ case? 
+\end_layout
+
+\begin_layout Enumerate
+Write the solution in terms of 
+\begin_inset Formula $\eta=x/t^{1/2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Show that the solution in terms of satisfies the diffusion equation that
+ we derived in class that was written in terms of 
+\begin_inset Formula $\eta$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+D\frac{d^{2}C}{d\eta^{2}}+\frac{\eta}{2}\frac{dC}{d\eta}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+You will needed to take a derivative of the error function.
+ Leibniz’s formula for the differentiation of integrals will be helpful:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{d}{dx}\int_{h\left(x\right)}^{g\left(x\right)}f\left(t\right)dt=\frac{dg\left(x\right)}{dx}f\left(g\left(x\right)\right)-\frac{dh\left(x\right)}{dx}f\left(h\left(x\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "316-1computation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

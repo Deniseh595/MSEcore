@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><svg height="40.24103mm" version="1.0" viewBox="0 0 140 152" width="37.06410mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-166,-60)">
+    <g stroke="#ffffff" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="236.00" x2="236.00" y1="118.00" y2="95.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="236.00" x2="236.00" y1="148.00" y2="171.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="249.00" x2="276.00" y1="136.00" y2="136.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="2.26634382567">
+      <line x1="224.00" x2="196.00" y1="136.00" y2="136.00"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="225.30" y="143.00">C</text>
+    <g>
+      <ellipse cx="240.749136602" cy="133.768161848" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+      <ellipse cx="235.550863398" cy="130.771838152" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+    </g>
+    <g>
+      <ellipse cx="233.768161848" cy="131.250863398" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+      <ellipse cx="230.771838152" cy="136.449136602" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+    </g>
+    <g>
+      <ellipse cx="230.771838152" cy="135.550863398" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+      <ellipse cx="233.768161848" cy="140.749136602" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+    </g>
+    <g>
+      <ellipse cx="235.550863398" cy="141.228161848" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+      <ellipse cx="240.749136602" cy="138.231838152" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+    </g>
+    <g>
+      <ellipse cx="241.228161848" cy="136.449136602" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+      <ellipse cx="238.231838152" cy="131.250863398" fill="#000" rx="2.0" ry="2.0" stroke="#000" stroke-width="1"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="225.30" y="90.12">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="277.30" y="143.00">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="225.30" y="195.88">H</text>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="172.30" y="143.00">H</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="Arial" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule27477" name="">
+      <atom id="atom70765" name="C" pos="center-last" show="yes" valency="4">
+        <point x="6.248cm" y="3.601cm"/>
+        <mark auto="1" size="4" type="dotted_electronpair" x="6.305cm" y="3.502cm"/>
+        <mark auto="1" size="4" type="dotted_electronpair" x="6.149cm" y="3.544cm"/>
+        <mark auto="1" size="4" type="dotted_electronpair" x="6.149cm" y="3.657cm"/>
+        <mark auto="1" size="4" type="dotted_electronpair" x="6.305cm" y="3.699cm"/>
+        <mark auto="1" size="4" type="dotted_electronpair" x="6.347cm" y="3.544cm"/>
+      </atom>
+      <atom id="atom8183" name="H" pos="center-first" valency="1">
+        <point x="6.248cm" y="2.201cm"/>
+      </atom>
+      <atom id="atom49181" name="H" pos="center-first" valency="1">
+        <point x="7.648cm" y="3.601cm"/>
+      </atom>
+      <atom id="atom95982" name="H" pos="center-first" valency="1">
+        <point x="6.248cm" y="5.000cm"/>
+      </atom>
+      <atom id="atom49348" name="H" pos="center-first" valency="1">
+        <point x="4.848cm" y="3.601cm"/>
+      </atom>
+      <bond color="#ffffff" double_ratio="0.85" end="atom8183" id="bond324" line_width="2.26634382567" start="atom70765" type="n1"/>
+      <bond double_ratio="0.85" end="atom95982" id="bond16972" line_width="2.26634382567" start="atom70765" type="n1"/>
+      <bond double_ratio="0.85" end="atom49181" id="bond43710" line_width="2.26634382567" start="atom70765" type="n1"/>
+      <bond double_ratio="0.85" end="atom49348" id="bond63448" line_width="2.26634382567" start="atom70765" type="n1"/>
+    </molecule>
+  </cdml>
+</svg>

@@ -1,0 +1,1788 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap} 
+\newcommand{\subsectionbreak}{\clearpage}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "315 Labs"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue, linkcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\branch labonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth -1
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+315 Laboratories
+\end_layout
+
+\begin_layout Subsection
+Laboratory 1: Phase diagram generation from free energy curves in Thermocalc
+\end_layout
+
+\begin_layout Subsubsection
+Laboratory Notebook
+\end_layout
+
+\begin_layout Standard
+You should purchase a lab notebook, which can be used for 315, 316-1, 316-2
+ and 351-2 labs.
+ A spiral notebook will do; it does not need to be the type containing carbon
+ pages, or graph paper.
+ I also recommend a notebook (three-ring or a folder) in which you can keep
+ lab handouts.
+ You will need to refer to these notes when writing your lab reports.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Part 1: Use of Thermocalc to Obtain Calculated Bi-Sn Phase Diagram
+\end_layout
+
+\begin_layout Standard
+Thermocalc (TCW2) is found on the computers in Bodeen (Tech C115).
+ To generate free energy plots to obtain the Bi-Sn phase diagram, follow
+ these procedures:
+\end_layout
+
+\begin_layout Itemize
+Open Thermo-Calc for Windows (TCW5)
+\end_layout
+
+\begin_layout Itemize
+Click on the icon for a binary phase diagram (center of the top tab) – this
+ opens the 'TCW Binary Phase Diagram' window.
+\end_layout
+
+\begin_layout Itemize
+Within the new window, select Bi and Sn
+\end_layout
+
+\begin_layout Itemize
+Choose Phase Diagram.
+ This will display the binary phase diagram – note that you may redefine
+ the axes.
+ Choose weight percent Bi to be consistent with the experimental plot you
+ will generate.
+\end_layout
+
+\begin_layout Standard
+NOW – the question is – how was was this phase diagram generated, and how
+ does it relate to the free energy curves? To understand this, follow the
+ following steps:
+\end_layout
+
+\begin_layout Itemize
+Click on G-curves
+\end_layout
+
+\begin_layout Itemize
+Enter a temperature (in Kelvin); begin at a temperature above 573K
+\end_layout
+
+\begin_layout Itemize
+Click on Apply.
+ This will generate a series of free energy curves at that temperature.
+ Note: you can normalize to 1 mole or 1 gram; to find wt% choose the latter.
+\end_layout
+
+\begin_layout Standard
+Generate enough free energy curves to map out the BiSn phase diagram on
+ the blank sheet.
+ You are also provided with some hardcopies.
+ Show your work on these - draw in how your determined compositions correspondin
+g to transitions at any given temperature.
+\end_layout
+
+\begin_layout Paragraph
+Write-up:
+\end_layout
+
+\begin_layout Standard
+Include in your report the phase diagram generated from Thermocalc and free
+ energy curves, marked and labeled appropriately to show how you used the
+ free energy curves to determine the phase diagram.
+\end_layout
+
+\begin_layout Subsubsection
+Part 2: Experimental Determination of Bi-Sn Phase Diagram from Cooling Curves
+\end_layout
+
+\begin_layout Paragraph
+Calibration:
+\end_layout
+
+\begin_layout Standard
+We will be using type K thermocouples and data-logging devices to measure
+ temperature as a function of time for Bi, Sn and a series of binary alloys
+ of BiSn.
+ The change in the rate of change in temperature as a function of time indicates
+ changes in phases, as described by the Gibbs Phase Rule (also see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.doitpoms.ac.uk/tlplib/phase-diagrams/cooling.php
+\end_layout
+
+\end_inset
+
+) How accurate and precise is your measurement device? Think about how you
+ might check this and anticipate that you will discuss this in your report.
+\end_layout
+
+\begin_layout Paragraph
+Pure Components: 
+\end_layout
+
+\begin_layout Standard
+Start by measuring a cooling curve of either Bi or Sn.
+ Plan to pool group data.
+ 
+\end_layout
+
+\begin_layout Itemize
+Heat the crucible on a hotplate until the endpoint metal has melted.
+ (This might not be obvious if there is an oxide on the surface.
+ You can remove surface oxides by skimming the melt with a stirring rod.)
+ 
+\end_layout
+
+\begin_layout Itemize
+Insert a (calibrated, but dry) thermocouple into the melt.
+ Make sure the thermocouple is not shorted anywhere along its length.
+ 
+\end_layout
+
+\begin_layout Itemize
+Turn off the power to the hotplate, and record temperature every 15 seconds
+ as the melt cools and solidifies, down to 100°C or lower.
+ Re-heat your sample, again measuring temperature vs.
+ time to remove your thermocouple.
+\end_layout
+
+\begin_layout Itemize
+Plot your data using Excel.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+MATLAB??
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Determine the solidification temperature and record this on the pooled data
+ sheet.
+\end_layout
+
+\begin_layout Itemize
+Save your Excel files with a logically formatted name as follows: metal_daytime_
+initials, i.e.
+ Sn_Mon9_KS or 40Bi_Tues10_KS
+\end_layout
+
+\begin_layout Paragraph
+Alloys:
+\end_layout
+
+\begin_layout Standard
+Repeat the procedure, above, for an alloy.
+ These are designated by wt% Bi.
+ Determine the inflection points or changes in slope that correspond to
+ phase transitions.
+ Record these on the pooled data sheets.
+\end_layout
+
+\begin_layout Paragraph
+Write-up:
+\end_layout
+
+\begin_layout Standard
+1) Write a short paragraph describing the theory behind cooling curve measuremen
+ts.
+\end_layout
+
+\begin_layout Standard
+2) Write a second short paragraph describing what was measured and how and
+ include some mention of measurement uncertainty.
+ 
+\end_layout
+
+\begin_layout Standard
+3) Using a plotting program (Excel or Matlab…or other) plot your endpoint
+ (Bi or Sn) and alloy cooling curves.
+ Indicate what phases are present in what temperature ranges by labeling
+ the two curves with phase and temperature information.
+\end_layout
+
+\begin_layout Standard
+4) Use the tabulated data, as well as the posted raw data, to determine
+ all phase transition temperatures that can be determined for alloys in
+ the Bi-Sn system.
+ Again, using a plotting program, plot these transition temperatures as
+ a function of wt% Bismuth, to determine the phase diagram.
+ You will need to decide which points form a set corresponding to the same
+ phase transition, i.e.
+ a given liquidus line, for instance.
+ Add appropriate fit(s), label phases, label axes, etc.....in order to generate
+ a neat, complete, self-explanatory phase diagram.
+\end_layout
+
+\begin_layout Standard
+5) Write a paragraph discussing the results.
+ Also discuss what assumptions were made and how your plot does/doesn't
+ agree with theory and other experimentally-determined Bi-Sn phase diagrams.
+ (Be especially aware of what assumptions you make in compositional ranges
+ where no measurements were made.) You will find a calculated Bi-Sn plot
+ at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.metallurgy.nist.gov/phase/solder/bisn.html
+\end_layout
+
+\end_inset
+
+.
+ Note that the temperature and composition that correspond to the invariant
+ reaction (that is the eutectic temperature and composition) are listed
+ in a table below this figure.
+\end_layout
+
+\begin_layout Paragraph
+Notes on graphing:
+\end_layout
+
+\begin_layout Standard
+Please keep the following points in mind as you prepare your report:
+\end_layout
+
+\begin_layout Enumerate
+You are gathering discrete data points, hence plot the data as such.
+ (In Excel, choose a scatter-plot, without additional lines.) When you fit
+ the data (i.e.
+ by adding a trendline) use a line.
+ Always consider your options: which points should you include or not include
+ when fitting a given line? Should you let the program find the best regressive
+ fit? Or should you fix the slope? Is the fit linear? Non-linear? Can you
+ use data to determine all the liquidus, solidus and solvus lines in the
+ system? Are there any you cannot determine? (You could indicate an approximatio
+n as dashed lines.) The details should be discussed in paragraph II of your
+ text.
+\end_layout
+
+\begin_layout Enumerate
+Represent data with the appropriate number of significant figures.
+ If you are averaging 321 °C, 323 °C, 324 °C the average value is 323 °C.
+ (Do not add false significance when computing an average value.) If there
+ is uncertainty in determination of a transition temperature, it is OK to
+ indicate this as a range.
+ Likewise, if you have several data points for a single value, i.e.
+ the melting temperatures of the endpoints, then you could plot all the
+ points, or plot the average but indicate the range which was measured.
+ Assuming a normal (Gaussian) distribution of these values, you can find
+ the uncertainty of the mean to within a 95% confidence level by determining
+ 2X the standard error of the mean: 2x the standard deviation (STDEV in
+ Exel) divided by the square root of the number of points measured.
+ Indicate these values on your plots by adding error bars: left click the
+ data set and choose Format data series > Y error bars.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Label axes appropriately AND label all phases present in different regimes.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Appendix: Metlab Safety Guidelines
+\end_layout
+
+\begin_layout Paragraph
+THINK FIRST! 
+\end_layout
+
+\begin_layout Standard
+Be alert.
+ Act cautiously.
+ Don’t rush.
+ Ask.
+\end_layout
+
+\begin_layout Paragraph
+Use Proper Equipment
+\end_layout
+
+\begin_layout Itemize
+Safety glasses or goggles are mandatory.
+\end_layout
+
+\begin_layout Itemize
+Hoods should be used when handling chemicals.
+ Use them properly.
+ Use the sash for shielding; keep the sash open only the minimal amount.
+ 
+\end_layout
+
+\begin_layout Itemize
+Gloves must be used when handling chemicals.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Latex– OK for sample preparation, light etching (nital, methanol or ethanol).
+ NOT OK for strong acids or anything containing HF.
+\end_layout
+
+\begin_layout Itemize
+Nitrile gloves – more chemically resistant than latex.
+ But thin gloves offer limited protection.
+ 
+\end_layout
+
+\begin_layout Itemize
+Silver Shield gloves – recommended for HF.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Heat resistant gloves should be used when handling hot samples or working
+ with furnaces (room 2028).
+ 
+\end_layout
+
+\begin_layout Itemize
+Tools – Use the right one for the job.
+ 
+\end_layout
+
+\begin_layout Itemize
+Clothing – open-toed shoes and shorts do not provide adequate protection
+ against spills.
+ Dress appropriately (pants, closed-toe shoes) for lab.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Use Common Sense 
+\end_layout
+
+\begin_layout Itemize
+Do not eat in the laboratory.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use caution: hot items might not look hot; be careful what you touch; use
+ PPE.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use proper techniques: properly mounted samples, wheels and pads will avoid
+ finger/ hand injuries during grinding or polishing.
+ 
+\end_layout
+
+\begin_layout Itemize
+Sharp blades should be moved in a direction away from body parts.
+\end_layout
+
+\begin_layout Itemize
+Ask - check with the lab instructor or manager if you have questions.
+\end_layout
+
+\begin_layout Paragraph
+Be Considerate 
+\end_layout
+
+\begin_layout Itemize
+Clean up incidental spills immediately to avoid further contamination.
+ Dispose of cleaning materials properly – not in the general waste.
+ 
+\end_layout
+
+\begin_layout Itemize
+Notify lab manager (or Research Safety) immediately about large spills.
+\end_layout
+
+\begin_layout Itemize
+Dispose of chemicals properly.
+ There are separate solvent, acid, base waste containers.
+ There are also separate waste containers for HF based solns.
+ & nital.
+ 
+\end_layout
+
+\begin_layout Itemize
+Dispose of sharps properly.
+ There are separate containers provided for broken glass and metal sharps.
+ 
+\end_layout
+
+\begin_layout Itemize
+Do NOT dispose of chemicals down the drain.
+\end_layout
+
+\begin_layout Itemize
+Do NOT leave unlabelled chemicals in the hood or elsewhere in the lab.
+ Label containers with chemical names, quantities, date, your name.
+\end_layout
+
+\begin_layout Itemize
+Do NOT track chemicals from etching hood to microscope (or elsewhere).
+ Remove gloves before using scopes or other equipment outside the etching
+ area.
+\end_layout
+
+\begin_layout Itemize
+Do NOT add other solvents to the nital container (see below).
+\end_layout
+
+\begin_layout Paragraph
+Metlab particulars
+\end_layout
+
+\begin_layout Itemize
+Consult MSDS sheets, available on the reference table in 2008.
+\end_layout
+
+\begin_layout Itemize
+DO NOT bring chemicals into the lab without discussing particulars with
+ lab manager.
+ You must provide an MSDS sheet with your proposed use.
+\end_layout
+
+\begin_layout Itemize
+Nitric acid.
+ Strong oxidizer.
+ Do NOT mix with organics or solvents.
+ The only exception to this is nital: 2% nitric acid in methanol.
+ Do not exceed this concentration.
+ Do not use another solvent.
+ Dispose of separately from acid or solvent waste.
+\end_layout
+
+\begin_layout Itemize
+HF consult lab manager prior to use.
+ Latex gloves are not sufficient.
+ Do not store in glass.
+ Make sure calcium gluconate is available before use.
+ 
+\end_layout
+
+\begin_layout Itemize
+Please notify the lab manager of any accidents, spills, equipment malfunctions.
+ 
+\end_layout
+
+\begin_layout Standard
+Be aware of the following hazards, and use appropriate equipment and steps
+ to avoid problems:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="15text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="33text%">
+<column alignment="center" valignment="top" width="33text%">
+<row endfirsthead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Activity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Location
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Safety issues
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Safety equipment provided
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Heat treatment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2028
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Burns (carelessness).
+ Dust from refractory materials.
+ Proper use of gas tanks on tube furnaces (see below).
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Heat-resistant gloves, tongs, refractory bricks.
+ Face shields.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gas Cylinders (with furnaces)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2028
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High pressure venting.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dual stage regulators to be used on each tank when in use.
+ Tank caps must in place for any transport.
+ Tank belts must be used to secure tanks in lab.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Swaging
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2028
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Noise
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ear muffs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sawing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2086
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Disposal of residual scarf and cutting fluids/ coolants.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+All saws in the lab are enclosed.
+ Disposal containers are provided.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mounting
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2086
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Noxious smell, acrylic irritant.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Use of hood for acrylic or epoxy mounting
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grinding/ polishing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2086
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spinning wheels.
+ Clogged drains and overflow sometimes leads to wet floor.
+ Concern about materials in drain.
+ Eye protection for samples and debris off wheels.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Safety glasses.
+ Mop Proper sample/wheel/pad mounting.
+ Caution when using spinning/motorized equipment: keep hands free of wheels.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Polishing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2084
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Same as grinding
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Same as grinding
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chemical Etching
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2084
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Improper mixing of chemicals and solvents.
+\end_layout
+
+\begin_layout Plain Layout
+Spills.
+\end_layout
+
+\begin_layout Plain Layout
+Transport of chemicals outside of hood.
+ (Remove gloves before using other equipment (microscopes, etc.) and before
+ exiting lab.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Goggles and safety glasses, face shields.
+ Rubber aprons.
+ Gloves (rubber, latex, nitrile and silver shield).
+ Labeled waste containers are provided in hood.
+ Undergraduate students should ask for help mixing etchants.
+ Calcium gluconate is provided.
+ Cautions against mixing particular chemicals are highlighted.
+ Additional reference material is provided in 2008.
+ Spill trays are provided.
+ Spill kits are supplied in lab.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 2: Metallographic preparation and microstructural examination
+ of Bi-Sn Alloys
+\end_layout
+
+\begin_layout Standard
+Recall that we determined the phase diagram of Bi-Sn using cooling curves.
+ In this lab we will examine microstructures of the alloys.
+ Part of the learning objective is to become familiar with metallographic
+ preparation procedures and use of the optical microscope, as well as correlatin
+g microstructure to the phase diagram.
+ Read through all steps before starting.
+\end_layout
+
+\begin_layout Subsubsection
+Laboratory Procedure
+\end_layout
+
+\begin_layout Enumerate
+Put on safety glasses.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Choose a sectioned sample of Bi-Sn; make sure each group (every subgroup
+ of 2-3) in the lab section selects a different composition.
+ Record the composition.
+ Each of these samples contains saw-cut damage.
+ Your objective is to reveal the true microstructure of the sample by removing
+ this damage, as well as sequentially removing damage from the initial grinding
+ steps.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Gloves are located in the two drawers to the left of the hood in 2084.
+ Set the side of the sample to be examined face down in a Sampl Kup (blue)
+ mold.
+ Measure two parts acrylic powder into a small paper cup.
+ Add one part acrylic resin.
+ Mix (or more appropriately, “fold” – to avoid mixing in too many air bubbles)
+ the powder and liquid (it should have a consistency of honey or syrup),
+ then pour the mixture over the sample in a Sampl Kup.
+ Add a label to the back of your mount before the acrylic solidifies.
+ A small piece of paper stuck just under the surface will suffice.
+ Make sure you label your sample appropriately.
+ Include the wt% Bi and your initials for later identification.
+ The acrylic will harden in about 15 minutes.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Round the sharp edge of the sample by rotating the edge on a piece of grit
+ paper.
+ This helps keep the samples from “grabbing” the paper or cloths on the
+ autopolisher.
+ Use the autopolisher to sequentially grind with SiC grit (~ 1-2 minutes
+ for each size) , then polish diamond suspension.
+ (Note that this is slightly modified from the recommended “universal” autopolis
+hing sequence; the diamond suspensions tend to become embedded in the soft
+ metals you are polishing, and the surfaces become gummy and discolored
+ when using the normally-recommended 0.05 micron alumina final step.
+ Also you can use lower force – 4 or 5 lbs – and shorter times than are
+ recommended for harder materials.) It is critical that you wash and ultrasonical
+ly clean the samples between each polishing step (but not each grinding
+ step) to avoid contaminating the polishing pad with larger sized grit or
+ sample debris.
+\end_layout
+
+\begin_layout Enumerate
+Before looking at samples on the light microscope, make sure they are clean
+ and DRY.
+ Use ethanol as a final rinse, and then dry the samples under the hand dryer.
+ Please be careful.
+ Moisture or solvents will ruin the objective lenses.
+ Set the samples face down on a piece of paper to make sure water does not
+ seep from between the sample and mount.
+ Microscope instructions are attached.
+\end_layout
+
+\begin_layout Enumerate
+Since this is your first chance to polish, you should record images at each
+ step.
+ Be prepared to document this process in your report, and include representative
+ images.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Etch (using the assigned etchant) to reveal microstructure.
+ The etchant for this lab is 5% HCl in methanol, by volume – prepared by
+ your TA or lab instructor.
+ Make sure you are wearing your safety glasses and add gloves – rubber gloves
+ or latex gloves are OK – before working with the etchant.
+ The etchant should remain in the hood.
+ (You should remain entirely outside the hood.) You are etching until you
+ rinse the sample.
+ Use tongs to dip the sample in the etchant for ~ 5 seconds; rinse; examine
+ the surface by eye.
+ It will become slightly cloudy as etching occurs.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Record images that are representative of your sample, to be included in
+ your lab report.
+ Be sure to mark each micrograph with a micron bar.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Share images of all the final polished, etched samples between all members
+ of your lab group.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Analyze the volume fraction of the different phases present using a point
+ grid.
+ Note: you could measure the relative amount of each phase or the relative
+ amount of primary phase vs.
+ eutectic (remember, the eutectic is a two-phase micro-constituent).
+ Make a careful note of what you measured and why.
+\end_layout
+
+\begin_layout Paragraph
+Write-up:
+\end_layout
+
+\begin_layout Standard
+This (short memo-style) report will be a truncated version of a formal lab
+ report.  The intent is to document your sample preparation and relate the
+ final microstructures to the phase diagram.
+ Your report should include the following elements.
+\end_layout
+
+\begin_layout Enumerate
+Title, author
+\end_layout
+
+\begin_layout Enumerate
+Methods and Materials:  Describe your samples and how you prepared them. 
+ Include images that show the progression of grinding, polishing, etching
+ steps.
+ Include details about grit size, diamond suspension size, loads, etchant
+ and etching times.
+ Label images as figure 1, etc.
+ and include captions.  Note that figure captions are placed below a figure.
+ (The convention for tables is that the title is above the table.)
+\end_layout
+
+\begin_layout Enumerate
+Results & Discussion: (Begin this section with text.) Discuss the alloys
+ that were prepared by your group.  Show corresponding images.   Include figure
+ numbers and captions and label the phases present.
+  Include a discussion of the volume fraction analysis and conversion to
+ weight percent and how it agrees (or doesn’t) with the known composition
+ of your alloy. 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Appendix 1: Instructions for the Nikon Epiphot-TME Inverted Light Microscope
+\end_layout
+
+\begin_layout Enumerate
+Turning the microscope on and adjusting filters
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Light – the light is turned on using the thumbwheel knob marked On/Off on
+ the lower-left side of the scope.
+ Adjust the intensity so the light meter (on the lower right side of the
+ scope) reads in the green range (~9).
+ Check the lamp housing at the rear of the scope to make sure the light
+ is on.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Filters – The diffuser lever, just in front of the lamp housing, on the
+ left side of the scope, should be up (the “in” position).
+ If the incident light intensity is too bright, it may be decreased by rotating
+ a neutral density filter into place.
+ These are located on the first turnwheel in front of the lamp housing.
+ If there is reason to use a known source wavelength (468nm) the green filter
+ (GIF) on the second turnwheel may be rotated into place.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Diaphragms/ Apertures – There are two aperture controls located on the left
+ side of the scope.
+ The aperture diaphragm, located closer to the lamp housing, should be positione
+d between 10 and 11 o’clock.
+ If this diaphragm is too far closed, the light is coming through a pinhole,
+ and resolution of the image will be limited.
+ Conversely, if it is too open (lever at 6 o’clock) there will be too much
+ stray light, and sample contrast will be decreased.
+ The field diaphragm focuses on the sample surface, should be adjusted so
+ the outline of this aperture is just outside the field of view.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Polarizer and analyzer – These are located on the right hand side of the
+ scope, just below the nosepiece containing the objective lenses.
+ They may be pulled out, to the right, or in place the polarizer may be
+ rotated.
+ This will affect light intensity.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Beam-splitters – The knob just above the Analyzer should always be pushed
+ in (B for Brightfield); there is no dark-field attachment for this scope.
+ The beam-splitters below the polarizer should be out, so the image is also
+ focused on the digital camera.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Putting a sample in place and obtaining an image
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Rotate the objective nosepiece to start with the lowest power magnification.
+ This is the 5X objective.
+ (Note this is not the overall magnification.
+ For viewing from the eyepieces, the magnification would be (5 x 15) X,
+ etc.) 
+\end_layout
+
+\begin_layout Enumerate
+Place the sample face-down over the objective.
+ Use glass slides for support, if necessary.
+ You can check where the light is hitting the sample by looking up from
+ below.
+ Move the sample using the x-y controls on the stage.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Focus the image by rotating the concentric coarse and/or fine focus knobs,
+ either on the right or left of the scope.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Increase the magnification by rotating the objective nosepiece counter-clockwise
+:5x (red), 10X (yellow), 20X (green), 40X (blue), 100X (white).
+ Be careful to avoid bumping the sample.
+ Note that the working distance for the 40X and 100X objectives is less
+ that the thickness of a microscope slide (1mm) so any slides supporting
+ the sample must be farther apart than the width of these objective housings.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Capturing a digital image
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Turn on the camera power supply.
+ (Red button.)
+\end_layout
+
+\begin_layout Enumerate
+Open the Spot Advanced program on the computer (MSE profile; see the underside
+ of the keyboard for the password.) 
+\end_layout
+
+\begin_layout Enumerate
+Open LiveImage to see a “realtime” image (usually in grayscale) that can
+ be used for focusing.
+\end_layout
+
+\begin_layout Enumerate
+Click the camera icon on the right-hand menu bar to capture a digital image.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add a micron bar to the image using “Add calibration” from the Edit pulldown
+ menu.
+ Make sure the correct objective lens is selected in this window.
+ Click on the image to see the micron bar.
+ You may edit size, font, color, position, etc.
+ Stamp to write it into the image.
+ (Be careful here; this process will re-write the existing pixels.)
+\end_layout
+
+\begin_layout Enumerate
+You may create a temporary folder on the Nikon: (D:) users drive, and save
+ images there.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Appendix 2: Using Stereology to Measure Volume Fraction
+\end_layout
+
+\begin_layout Standard
+\align center
+(for more details, see ASTM E562-83)
+\end_layout
+
+\begin_layout Standard
+Often, when viewing cross-section of metallography (or ceramic, etc) samples
+ under a microscope, it is desirable to make quantitative measurements of
+ such values as the grain size and volume fractions, 
+\begin_inset Formula $\phi$
+\end_inset
+
+, of particular phases.
+ Volume fractions are easily obtained using point-counting techniques.
+ In this case, a test grid is superimposed upon the image of the sample
+ and the number of points, 
+\begin_inset Formula $P$
+\end_inset
+
+, falling within the microstructural constituent of interest is counted.
+ This, divided by the total number of points in the grid, 
+\begin_inset Formula $P_{t}$
+\end_inset
+
+, provide an estimate of the volume fraction of the constituent of interest.
+ The volume fraction of phase alpha is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\phi^{\alpha}=\frac{P^{\alpha}}{P_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Size of grid/ Number of Measurements:
+\end_layout
+
+\begin_layout Standard
+The size of the test grid is typically 4x4 or 5x5 points.
+ In order to lower the uncertainty in the measurements, one should count
+ approximately 100 points on the constituent of interest.
+ In other words, we want 
+\begin_inset Formula $P$
+\end_inset
+
+ to be at least 100.
+ This is achieved by overlaying the grid many times, on different areas
+ of the sample.
+ Often, an eyepiece reticle is used to facilitate this counting.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Magnification:
+\end_layout
+
+\begin_layout Standard
+The magnification should be high enough to avoid adjacent grid points falling
+ on the same microconstituent feature.
+ Choose a magnification giving an average constituent size of 
+\begin_inset Formula $\approx$
+\end_inset
+
+ half the grid spacing.
+\end_layout
+
+\begin_layout Paragraph
+Counting:
+\end_layout
+
+\begin_layout Standard
+Count and record the number of points on the microconstituent in each applicatio
+n of the grid.
+ Count points falling on a boundary between constituents as ½.
+\end_layout
+
+\begin_layout Paragraph
+Measurement Uncertainty:
+\end_layout
+
+\begin_layout Standard
+You can easily determine the standard deviation, standard error of the mean
+ and confidence levels by tabulating all the values measured.
+ In theory, the value of the coefficient of variation (the standard deviation
+ / mean) is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sigma\left(\phi^{\alpha}\right)}{\phi^{\alpha}}=\sqrt{\frac{1-\phi^{\alpha}}{P^{\alpha}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Comparison to mass fraction:
+\end_layout
+
+\begin_layout Standard
+Note that the volume fraction and mass fraction are not equivalent, but
+ one may convert from one to the other using the densities of the respective
+ phases (see Callister, chapter 9).
+ For a two phase system consisting of 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phases, the weight fraction of alpha (
+\begin_inset Formula $W^{\alpha}$
+\end_inset
+
+) is given related to the volume fractions (
+\begin_inset Formula $\phi^{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi^{\beta}$
+\end_inset
+
+) and densities (
+\begin_inset Formula $\rho^{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $\rho^{\beta}$
+\end_inset
+
+) by the following expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W^{\alpha}=\frac{\phi^{\alpha}\rho^{\alpha}}{\phi^{\alpha}\rho^{\alpha}+\phi^{\beta}\rho^{\beta}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Laboratory 3: Diffusion of Carbon in to 1018 Steel Using Pack-Carburization
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Samples of 1018 steel were packed in a mixture of 85wt% activated charcoal
+ and 15wt% calcium carbonate in steel bags.
+ Samples were subsequently pack-carburized for three times at three temperatures
+ (915°C, 940°C and 960°C).
+ Each lab group will examine three samples from a single carburization temperatu
+re.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Laboratory Procedure
+\end_layout
+
+\begin_layout Paragraph
+Part I:
+\end_layout
+
+\begin_layout Standard
+Mount the samples in thermo-setting resin and label.
+ Grind (320, 400, 600, 800 girt SiC) then polish with 3µ and 1µ diamond
+ suspension on a microcloth pad.
+ Briefly (1-3 seconds) etch with nital (2% nitric acid in methanol).
+ You might swab the etchant on the surface with a cotton-tipped swab.
+ Rinse with water, then with solvent; dry.
+ Examine the microstructure across the sample.
+ Gather images that you can relate to the change in composition from center-to-e
+dge of the samples.
+\end_layout
+
+\begin_layout Paragraph
+Part II:
+\end_layout
+
+\begin_layout Standard
+Measure a hardness profile from edge toward the center of the sample.
+ (Note that this might work best on an unetched sample.
+ If you have already etched, return to the 1 micron diamond wheel to remove
+ the etched layer from the surface.) Use the Struers semi-automated microhardness
+ tester to measure Vickers hardness from the carburized surface toward the
+ center of the specimen in increments of ~50-100 microns for the first ~2
+ mm, then ~200 microns until the values clearly plateau.
+ Use the 10X objective to focus; use the 40X objective to measure the indent.
+ Rotating between objectives and indenter is best done using the automated
+ program (Duramin5).
+ To avoid interference between indentations, spacing should be about 3x
+ the indent size -- but zig-zagging is allowed.
+ You want to obtain 10-20 points to define your hardness profile.
+ In addition, you should measure ~ 10 points near the center (undiffused
+ region of the sample) to determine what uncertainty is associated with
+ the measurement on these samples, independent of the change in hardness.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Write-Up
+\end_layout
+
+\begin_layout Standard
+Your results will include micrographs with appropriate captions that describe
+ the effect of carburization on the steel microstructure.
+ You will need images from both the center and the edge of your sample(s).
+ Label phases/ microconstituents, add micron bars, etc.
+ on these.
+ Estimate the carbon content at the surface, and explain your rationale.
+ 
+\end_layout
+
+\begin_layout Standard
+Your results will also include experimental hardness profiles along with
+ a fit from which you estimate the diffusivity of carbon in steel.
+ The experimental data should be represented as points; the fit should be
+ represented as a smooth curve.
+ (Note that this curve will NOT be a polynomial; you know the functionality
+ based on the solutions to planar diffusion -see in-lab handout from week
+ 1 of this lab.
+ USE THESE, NOT a polynomial, which will give a very poor fit.
+ ERF and ERFC functions are available in Excel and Matlab.
+\end_layout
+
+\begin_layout Standard
+Use the DICTRA solutions (in-lab handout week 2 of this lab) as a starting
+ point to determine D and also for comparison.
+ Also include values of D based on other sources (Porter & Easterling, Callister
+, etc.).
+ Show the comparison graphically.
+\end_layout
+
+\begin_layout Standard
+Include answers to these questions:
+\end_layout
+
+\begin_layout Enumerate
+What equations (solutions to the diffusion equations) describe diffusion
+ from a plane source, i.e.
+ carburization?
+\end_layout
+
+\begin_layout Enumerate
+Re-write these equations to describe the change in hardness.
+ What assumptions are made in our experiment? 
+\end_layout
+
+\begin_layout Enumerate
+Briefly describe the following hardness measurements:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Rockwell
+\end_layout
+
+\begin_layout Enumerate
+Vickers
+\end_layout
+
+\begin_layout Enumerate
+Knoop
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What are the units for Vickers and Knoop testing? Assuming a ductile material,
+ hardness 
+\begin_inset Formula $\approx$
+\end_inset
+
+3 x yield strength.
+ What units will you use for the comparison between hardness and yield strength?
+ Explain the conversion.
+\end_layout
+
+\begin_layout Enumerate
+In the lab write-up you will compare your experimental results (data POINTS)
+ to the Dictra prediction (FIT; represented by a line – but based on your
+ answers above, not a linear fit).
+ You should also compare to other sources from the literature – e.g.
+ see Porter and Easterling Chapter 2.
+ Here, write down comparisons.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Appendix: Instructions for the Microhardness Measurements
+\end_layout
+
+\begin_layout Enumerate
+Turn on microhardness tester (rear) and restart computer.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Insert specimen into holder.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+VERY IMPORTANT: THE SAMPLE MUST BE FLUSH WITH THE TOP OF THE HOLDER.
+ Note that the tip clearance is very small.
+ IF the sample is at all recessed, when you focus you will be below the
+ tip clearance level.
+ If the tip runs into the sample holder this is a VERY COSTLY and TIME-CONSUMING
+ repair.
+ (The equipment must be shipped back to Struers for repair.) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Inspect with 10X objective to focus and find the test area.
+ Also, focus the eyepeice.
+ Set the load to 300gm.
+ (Note on load selection -- you want a large enough indent to measure accurately
+; but use a load that does not cause excessive damage to your sample, such
+ as deformation or cracking at the indent tips.)
+\end_layout
+
+\begin_layout Enumerate
+Vickers is chosen, and the processor load is set to 300gm; objective to
+ 40X.
+\end_layout
+
+\begin_layout Enumerate
+Select “indent.” Do NOT move the indentor with the start button illuminated.
+ Note that for a Vickers test the indent should be an equiaxed pyramid.
+\end_layout
+
+\begin_layout Enumerate
+Change to the 40X objective.
+ 
+\end_layout
+
+\begin_layout Enumerate
+You may use (or over-ride as necessary) the Automeasure feature.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Make sure you record both hardness and distance from the edge of the sample.
+ 
+\end_layout
+
+\begin_layout Standard
+NOTE: Use the Struers semi-automated microhardness tester to measure Vickers
+ hardness from the carburized surface toward the center of the specimen
+ in increments of 
+\begin_inset Formula $\approx$
+\end_inset
+
+50-100 microns for the first 
+\begin_inset Formula $\approx$
+\end_inset
+
+2 mm, then 
+\begin_inset Formula $\approx$
+\end_inset
+
+200 microns until the values clearly plateau.
+ Use the 10X objective to focus; use the 40X objective to measure the indent.
+ Rotating between objectives and indenter is best done using the automated
+ program (Duramin5).
+ To avoid interference between indentations, spacing should be about 3x
+ the indent size -- but zig-zagging is allowed.
+ You want to obtain 10-20 points to define your hardness profile.
+ In addition, you should measure ~ 10 points near the center (undiffused
+ region of the sample) to determine what uncertainty is associated with
+ the measurement on these samples, independent of the change in hardness.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Appendix: Determining Diffusivities from DICTRA curves
+\end_layout
+
+\begin_layout Standard
+The DICTRA program has been used to generate three diffusion curves for
+ each of three temperatures, assuming a surface carbon concentration of
+ 1wt%C.
+ Your job is to back-calculate the diffusivity expression, D(T), used to
+ determine the diffusivity.
+ You will then be able to compare that to your experimental data.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Write the expression for the diffusion profile in this case – e.g.
+ 
+\begin_inset Formula $c\left(x\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Choose a 
+\begin_inset Formula $c(x$
+\end_inset
+
+) value at which you can (easily) solve the equation above.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Determine the x values for each time (in seconds) for that value of 
+\begin_inset Formula $c(x)$
+\end_inset
+
+.
+ You will have three sets of 
+\begin_inset Formula $x,\,t$
+\end_inset
+
+ values for each temperature.
+ Solve for 
+\begin_inset Formula $D$
+\end_inset
+
+ at that temperature, graphically.
+ (Figure out what to plot so you might fit a linear trendline to the appropriate
+ data in order to determine 
+\begin_inset Formula $D$
+\end_inset
+
+.)
+\end_layout
+
+\begin_layout Enumerate
+Now you have one value of 
+\begin_inset Formula $D$
+\end_inset
+
+ for each of three temperatures.
+ Solve graphically using an appropriate expression to obtain a general expressio
+n of 
+\begin_inset Formula $D(T)$
+\end_inset
+
+ at any temperature.
+ 
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><svg height="16.08398mm" version="1.0" viewBox="0 0 233 61" width="61.43555mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-107,-114)">
+    <g stroke="#000000" stroke-width="2.27555555556">
+      <line x1="115.00" x2="160.98" y1="149.00" y2="122.45"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.27555555556">
+      <line x1="252.94" x2="285.00" y1="122.45" y2="140.96"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.27555555556">
+      <line x1="206.96" x2="252.94" y1="149.00" y2="122.45"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.27555555556">
+      <line x1="160.98" x2="206.96" y1="122.45" y2="149.00"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="24pt" x="286.30" y="159.00">OH</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="5" crop_svg="1" orientation="portrait" replace_minus="0" type="Legal" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="helvetica" font_size="24" line_color="#000" line_width="0.06cm" paper_crop_margin="5" paper_crop_svg="1" paper_orientation="portrait" paper_type="Legal">
+      <bond double-ratio="0.85" length="1.4cm" wedge-width="0.18cm" width="0.21cm"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule91593" name="">
+      <atom id="atom69341" name="C" valency="4">
+        <point x="3.032cm" y="3.929cm"/>
+      </atom>
+      <atom id="atom51637" name="C" valency="4">
+        <point x="4.245cm" y="3.229cm"/>
+      </atom>
+      <atom id="atom71958" name="C" valency="4">
+        <point x="5.457cm" y="3.929cm"/>
+      </atom>
+      <atom id="atom20517" name="C" valency="4">
+        <point x="6.669cm" y="3.229cm"/>
+      </atom>
+      <atom hydrogens="on" id="atom71470" name="O" pos="center-first" valency="2">
+        <point x="7.882cm" y="3.929cm"/>
+      </atom>
+      <bond double_ratio="0.85" end="atom51637" id="bond27848" line_width="2.27555555556" start="atom69341" type="n1"/>
+      <bond double_ratio="0.85" end="atom71470" id="bond34108" line_width="2.27555555556" start="atom20517" type="n1"/>
+      <bond double_ratio="0.85" end="atom20517" id="bond38394" line_width="2.27555555556" start="atom71958" type="n1"/>
+      <bond double_ratio="0.85" end="atom71958" id="bond58728" line_width="2.27555555556" start="atom51637" type="n1"/>
+    </molecule>
+  </cdml>
+</svg>

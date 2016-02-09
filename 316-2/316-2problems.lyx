@@ -1,0 +1,8167 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+\usepackage{tocbibind} % adds index to table of contents
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+#\DeclareLyXModule{MSE Coursenotes}
+#DescriptionBegin
+#Various settings formatting for MSE course notes project
+#DescriptionEnd
+
+AddToPreamble
+\usepackage{animate}
+\usepackage{comment}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[all]{hypcap}  % links to top of figures
+\usepackage{tocbibind} % add index to table of contents
+\usepackage{tocloft}
+\usepackage{pgfplots,tikz}
+\usepackage{nomencl} 
+\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+
+\usepackage{listings}
+\usepackage{cite}
+\definecolor{hellgelb}{rgb}{1,1,0.85}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\lstset{%
+     language=Matlab,%
+     float=hbp,%
+     basicstyle=\footnotesize\ttfamily,%
+     identifierstyle=\color{colIdentifier},%
+     keywordstyle=\color{colKeys},%
+     stringstyle=\color{colString},%
+     commentstyle=\itshape\color{colComments},%
+     columns=fixed,
+     tabsize=4,%
+     frame=single,%
+     framerule=1pt,
+     extendedchars=true,%
+     upquote=true, % avoids smart quotes
+     showspaces=false,%
+     showstringspaces=false,%
+     numbers=left,%
+     numberstyle=\tiny\ttfamily,%
+     numbersep=1em,%
+     breaklines=true,%
+     breakindent=10pt,%
+     backgroundcolor=\color{hellgelb},%
+     breakautoindent=true,%
+     captionpos=t,%
+     xleftmargin=1em,%
+     xrightmargin=\fboxsep%
+}
+
+
+EndPreAmble
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\bibtex_command default
+\index_command makeindex
+\float_placement H
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_title "316-1 Text"
+\pdf_author "Voorhees and Shull"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 3
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref slide
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue, filecolor=blue, pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\notefontcolor #ff0000
+\branch solution
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch standalone
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch labonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch thisfileonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch catalogtitles
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch thisdoconly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch unused
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Section
+316-2 Problems
+\end_layout
+
+\begin_layout Subsection
+General
+\end_layout
+
+\begin_layout Enumerate
+\align left
+Write a paragraph discussing the relevance of phase transformations in your
+ daily life.
+\end_layout
+
+\begin_layout Subsection
+Laplace Pressure Derivation
+\end_layout
+
+\begin_layout Enumerate-Resume
+Derive the expression for the Laplace pressure inside a long cylinder of
+ radius 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula $PdV=\gamma dA$
+\end_inset
+
+.
+ The sign is correct because we are balancing the work done by the larger
+ pressure inside the drop goes into creating extra interface.
+ For a cylinder of Radius 
+\begin_inset Formula $R$
+\end_inset
+
+ and length 
+\begin_inset Formula $h$
+\end_inset
+
+; 
+\begin_inset Formula $A=2\pi Rh$
+\end_inset
+
+, 
+\begin_inset Formula $dA=2\pi hdR$
+\end_inset
+
+, 
+\begin_inset Formula $V=\pi R^{2}h$
+\end_inset
+
+, 
+\begin_inset Formula $dV=2\pi RhdR$
+\end_inset
+
+.
+ From this we get: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P=\gamma\frac{dA}{dV}=\gamma\frac{2\pi hdR}{2\pi RhdR}=\frac{\gamma}{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Homogeneous Nucleation
+\end_layout
+
+\begin_layout Enumerate-Resume
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Turnbull nickel problem"
+
+\end_inset
+
+Consider the following data for nickel:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Melting point
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1452 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Molar entropy of solid at 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56.07 J/K
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Molar entropy of liquid at 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+66.27 J/K
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solid density
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.9 
+\begin_inset Formula $\mathrm{g/cm^{3}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Molar mass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In their classic experiment Turnbull and Cech studied the undercooling of
+ small droplets for a number of different metals 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "turnbull_microscopic_1950"
+
+\end_inset
+
+.
+ Assuming that nucleation in the droplets occurs homogeneously and using
+ the data given below calculate the following at 1100 °C and 1200 °C:
+\end_layout
+
+\begin_layout Enumerate-Resume
+The molar volume of nickel.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{m}^{s}=\left(58.8\mathrm{\frac{g}{mol}}\right)\left(\mathrm{\frac{cm^{3}}{8.9g}}\right)=6.6\mathrm{\,cm^{3}/mol}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The work of nucleation (
+\begin_inset Formula $W_{R}^{*}).$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We start with the expression for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{16\pi\gamma^{3}(V_{m}^{s})^{2}}{3\left(\frac{T-T_{m}}{T_{m}}\left(H_{m}^{s}-H_{m}^{l}\right)\right)^{2}}=\frac{16\pi\gamma^{3}(V_{m}^{s})^{2}}{3(S_{m}^{s}-S_{m}^{l})^{2}}\frac{1}{\left(T-T_{m}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+now we substitute the relevant values:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{16\pi\left(0.255Jm^{-2}\right)^{3}(7x10^{-6}m^{3})^{2}}{3(56.07JK^{-1}-66.27JK^{-1})^{2}}\frac{1}{\left(T-T_{m}\right)^{2}}=\frac{1.3x10^{-13}JK^{2}}{(T-T_{m})^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1100 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C: 
+\begin_inset Formula $T-T_{m}=-352K$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{8.99x10^{-14}JK^{2}}{(-352K)^{2}}=1.06x10^{-18}J
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+1200 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C: 
+\begin_inset Formula $T-T_{m}=-252K$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{8.99x10^{-14}JK^{2}}{(-252K)^{2}}=2.06x10^{-18}J
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The dimensionless ratio, 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\end_layout
+
+\begin_layout Standard
+1100 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{W_{R}^{*}}{k_{B}T}=\frac{1.06x10^{-18}J}{\left(1.38x10^{-23}JK^{-1}\right)1373K}=56
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1200 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{W_{R}^{*}}{k_{B}T}=\frac{2.06x10^{-18}J}{\left(1.38x10^{-23}JK^{-1}\right)1473K}=101
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note: From this we know right away that homogeneous nucleation can occur
+ at 1100 
+\begin_inset Formula $^{\circ}C$
+\end_inset
+
+ but not at 1200 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The radius of the critical nucleus.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+Start with the expression for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R^{*}=\frac{2\gamma V_{m}^{s}T_{m}}{\left(T-T_{m}\right)(H_{m}^{s}-H_{m}^{l})}=\frac{2\gamma V_{m}^{s}}{\left(S_{m}^{s}-S_{m}^{l}\right)}\frac{1}{\left(T-T_{m}\right)}
+\]
+
+\end_inset
+
+Now substitute the correct values:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R^{*}=\frac{\left(2\right)\left(0.255\,\mathrm{Jm^{-2}}\right)\left(7x10^{-6\,}\mathrm{m}^{3}\right)}{\left(56.07\,\mathrm{JK^{-1}}-66.27\,\mathrm{JK^{-1}}\right)}\frac{1}{(T-T_{m})}=\frac{-3.5x10^{-7}\,\mathrm{mK}}{\left(T-T_{m}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1100 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T-T_{m}=-352\mathrm{K}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+R^{*}=\frac{-3.5x10^{-7}\mathrm{mK}}{-352\mathrm{K}}=9.9x10^{-10}\mathrm{m}=0.99\mathrm{nm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1200 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T-T_{m}=-252\,\mathrm{K}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+R^{*}=\frac{-3.5x10^{-7}\,\mathrm{mK}}{-252\,\mathrm{K}}=1.3x10^{-9}\,\mathrm{m}=1.38\,\mathrm{nm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The pressure of the critical nucleus in pascals (assume the surrounding
+ liquid is at atmospheric pressure).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{s}=2\gamma/R^{*}
+\]
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+1100 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{s}=\frac{(2)(0.255\,\mathrm{Jm^{-2}})}{9.9x10^{-10}\,\mathrm{m}}=5.1x10^{8}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1200 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P^{s}=\frac{(2)(0.255\,\mathrm{Jm^{-2}})}{1.3x10^{-9}\,\mathrm{m}}=3.7x10^{8}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+The molar enthalpy of melting at 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+
+\begin_inset Formula $\Delta H_{m}=T_{m}\Delta S_{m}=1725\,\mathrm{K}\left(66.27\mathrm{\,JK^{-1}}-56.07\,\mathrm{JK^{-1}}\right)=1.75x10^{4\,}\mathrm{J}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose a Ni droplet with a volume of about 100 
+\begin_inset Formula $\mu\mathrm{m}^{3}$
+\end_inset
+
+ is solidified.
+ Approximate the temperature to which the droplet must be cooled in order
+ for solidification to occur by homogeneous nucleation.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The nucleation rate is given by the following expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ_{v}\thickapprox10^{33}\exp\left(-\frac{W_{R}^{*}}{k_{B}T}\right)\,\mathrm{cm^{-3}s^{-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We want at least one nucleus in our volume, 
+\begin_inset Formula $V$
+\end_inset
+
+, of 
+\begin_inset Formula $100\mu\mathrm{m}^{3}\,\left(10^{-10}\mathrm{cm^{3}}\right)$
+\end_inset
+
+, so the overall rate of nucleation for an individual drop is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ\thickapprox V\,Ṅ_{v}\approx10^{23}exp\left(-\frac{W_{R}^{*}}{k_{B}T}\right)\mathrm{s}^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose we would like droplets to form within about 100 seconds, so we want
+ a nucleation rate of about 
+\begin_inset Formula $0.01s^{-1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0.01s^{-1}\approx10^{23}exp\left(-\frac{W_{R}^{*}}{k_{B}T}\right)\mathrm{s}^{-1}
+\]
+
+\end_inset
+
+ and 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $exp\left(-\frac{W_{R}^{*}}{k_{B}T}\right)\thickapprox10^{-25}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\frac{W_{R}^{*}}{k_{B}T}\right)\approx ln\left(10^{25}\right)\approx57
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note: This is a bit different from the 75 
+\begin_inset Formula $k_{B}T$
+\end_inset
+
+ rule for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, because the droplet is so small.
+ However, as we see below, it doesn't really have a huge impact on the problem.
+\end_layout
+
+\begin_layout Standard
+We know from the previous problem that the temperature will be somewhere
+ between 1100ºC and 1200ºC.
+ (I'll assume 1150ºC in order to get a reasonable approximation for 
+\begin_inset Formula $k_{B}T$
+\end_inset
+
+).
+ We can solve the equation for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+to get a more detailed answer:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{1.3x10^{-13\,}\mathrm{JK^{2}}}{\left(T_{m}-T\right)^{2}}\approx57k_{B}T\thickapprox57\left(1.38x10^{-23}\mathrm{JK^{-1}}\right)\left(1423\,\mathrm{K}\right)=1.12x10^{-18}\,\mathrm{J}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T_{m}-T\approx340\mathrm{\,K}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+T\approx1112\,\text{ºC }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a more precise solution, we can use MATLAB.
+ The following code gives us the answer for 
+\begin_inset Formula $W_{R}^{*}=57k_{B}T:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "Matlab/calcundercooling.m"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The code returns a temperature of 1127 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ If we change the molar volume to 7 
+\begin_inset Formula $\mathrm{cm^{3}/mol}$
+\end_inset
+
+ (consistent with the above solution) we get a temperature of 1104 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ If we assume that 
+\begin_inset Formula $W_{R}^{*}=75k_{B}T$
+\end_inset
+
+ instead of 
+\begin_inset Formula $57k_{B}T$
+\end_inset
+
+ we get an answer of 1154 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Import the file labeled ElementData.mat that includes the required data for
+ various elements on the periodic table into Matlab and:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\align left
+Derive the expressions for 
+\begin_inset Formula $\Delta P$
+\end_inset
+
+, 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, and 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+, 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta S_{f}$
+\end_inset
+
+, and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+See the expressions in question 3 and the Matlab code below.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Plot 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta S_{f}$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta P$
+\end_inset
+
+, 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, and 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+ using 
+\begin_inset Formula $\Delta T=100K$
+\end_inset
+
+ versus atomic number 
+\begin_inset Formula $(Z)$
+\end_inset
+
+ and label all axes including units and each data point with the chemical
+ symbol corresponding to the element.
+ Hint: You should only consider those elements for which the values of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ are included in the ElementData.mat file.
+ For both 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+ plot the y axis on a log scale.
+ Also, in order to label the data points with the chemical symbol you will
+ need to use the text(x, y, 'string') function.
+ You may want to use subplots.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align left
+The ElementData.mat file has the following format:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ElementData = 
+\end_layout
+
+\begin_layout Plain Layout
+
+Name: {118x1 cell}
+\end_layout
+
+\begin_layout Plain Layout
+
+Symbol: {118x1 cell} 
+\end_layout
+
+\begin_layout Plain Layout
+
+DeltaH0f: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Tm: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Z: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Aw: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+rho: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+gamma: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Vm: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+DeltaS0f: [118x1 double] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Structure: {118x1 cell} 
+\end_layout
+
+\begin_layout Plain Layout
+
+Units: {1x8 cell}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: (figures needed) HW1Matlab.pdf (or m file), HW1Fig1.png, HW1Fig2.png
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset External
+	template PDFPages
+	filename ../Derk Stuff/MSE 316-2 Fall 2014/Fall 2014 Assignments/Figures/HW1Matlab.pdf
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/HW1Fig1.png
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Derk Stuff/MSE 316-2 Fall 2014/Fall 2014 Assignments/Figures/HW1Fig2.png
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Discuss the plots from part (b) with respect to trends in the periodic table,
+ which variables are really important, outliers, and rules of thumb i.e.
+ typical range of values or average value.
+ Does homogeneous nucleation ever really happen?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+See ranges, trends, and outliers in plots.
+ Most of the values of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ range from 
+\begin_inset Formula $0.5-3.5\,\mathrm{J/m^{2}}$
+\end_inset
+
+ and vary as a function of atomic number with a maximum around the middle
+ of each period of the periodic table.
+ The peaks of each of the curves appear to be increasing as the period increases
+ also.
+ Most of the technologically important metals (e.g.
+ Al, Fe, Ti, Ni, etc.) are between 
+\begin_inset Formula $0.5-3.5\,\mathrm{J/m^{2}}$
+\end_inset
+
+.
+ The values for 
+\begin_inset Formula $\Delta S$
+\end_inset
+
+ range from about 
+\begin_inset Formula $5-15\,\mathrm{Jmol^{-1}K^{-1}}$
+\end_inset
+
+, but the value is nearly constant around 
+\begin_inset Formula $10\,\mathrm{Jmol^{-1}K^{-1}}$
+\end_inset
+
+.
+ The values for molar volume also follow a clear trend as a function of
+ atomic number, but have minimum near the center of the period and are all
+ the same order of magnitude.
+ The values for 
+\begin_inset Formula $\Delta P$
+\end_inset
+
+, 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, and 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+ are all calculated based on expressions in terms of 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta S_{f}$
+\end_inset
+
+, and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+ The trends observed in the plots for 
+\begin_inset Formula $\Delta P$
+\end_inset
+
+, 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, and 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+ are all most similar to those observed in the 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ plot.
+ Therefore, it seems to be the influential variable, which makes sense because
+ it varies most widely and is cubed in the expression for calculating work.
+ Most values for 
+\begin_inset Formula $\Delta P$
+\end_inset
+
+ range from 
+\begin_inset Formula $50-150\,\mathrm{MPa}$
+\end_inset
+
+ and most values for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ range from 
+\begin_inset Formula $5-30\,\mathrm{nm}$
+\end_inset
+
+.
+ Plutonium is the most obvious outlier, particularly on the critical radius
+ size plot, but it shows a negative 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+, which is clearly not physically realistic.
+ This is due to an error in the ElementData file which lists a negative
+ for 
+\begin_inset Formula $\Delta S$
+\end_inset
+
+ value for Pu, which does not make sense physically as the entropy should
+ increase from solid to liquid.
+ If Pu was removed the trend in 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ would be more obvious.
+ The values determined for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, and consequently 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+, indicate that homogeneous nucleation would not occur because the values
+ for 
+\begin_inset Formula $W_{R}^{*}/k_{B}T$
+\end_inset
+
+ are approximately three orders of magnitude higher than the 
+\begin_inset Formula $76k_{B}T$
+\end_inset
+
+ required for homogeneous nucleation.
+ The most obvious outlier present is plutonium.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Now replot the data for both 
+\begin_inset Formula $\Delta T=352K$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta T=252K$
+\end_inset
+
+ and compare the 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+ values obtained for Ni to those you calculated in question 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Turnbull nickel problem"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+Slightly different than values in question 3 due variation in input parameters.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Derive expressions for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+ for a cuboidal nucleus.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+For a cube with side length 
+\series bold
+
+\begin_inset Formula $R$
+\end_inset
+
+
+\series default
+: 
+\begin_inset Formula $A=6R^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $dA=12RdR$
+\end_inset
+
+, 
+\begin_inset Formula $V=R^{3}$
+\end_inset
+
+, 
+\begin_inset Formula $dV=3R^{2}dR$
+\end_inset
+
+.
+ From this we get: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}=-\Delta PV+\gamma A=-\Delta P\left(R^{3}\right)+\gamma\left(6R^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+To solve for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ we need set the first derivative of 
+\begin_inset Formula $W_{R}$
+\end_inset
+
+ equal to zero:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dW_{R}}{dR}=-\Delta P\frac{dV}{dR}+\gamma\frac{dA}{dR}=-\Delta P\left(3R^{2}\right)+\gamma\left(12R\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R^{*}=\frac{4\gamma}{\Delta P}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+To solve for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+ we then need to substitute the value obtained for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ into the expression for 
+\begin_inset Formula $W_{R}$
+\end_inset
+
+.
+ From this we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=-\Delta PV+\gamma A=-\Delta P\left(R^{*^{3}}\right)+\gamma\left(6R^{*^{2}}\right)=-\Delta P\left(\frac{4\gamma}{\Delta P}\right)^{3}+\gamma\left(6\left(\frac{4\gamma}{\Delta R}\right)^{2}\right)=\frac{-64\gamma^{3}}{\left(\Delta P\right)^{2}}+\frac{96\gamma^{3}}{\left(\Delta P\right)^{2}}=\frac{32\gamma^{3}}{\left(\Delta P\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+But we know that 
+\begin_inset Formula $\Delta P=\left(\Delta S_{f}^{o}\Delta T\right)/V_{m}$
+\end_inset
+
+, which gives us the critical side length:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R^{*}=\frac{4\gamma V_{m}}{\Delta S_{f}^{o}\Delta T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+and 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{32\gamma^{3}V_{m}^{2}}{\left(\Delta S_{f}^{o}\right)^{2}\left(\Delta T\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+In the derivations for nucleation in this course we assume that the nucleus
+ is incompressible.
+ Show that this is a valid assumption for solidification of Ni with 
+\begin_inset Formula $\gamma=2.38J/m^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $R^{*}=1nm$
+\end_inset
+
+.
+ Hint: Assume that the material is linearly elastic and isotropic.
+ Therefore, you can calculate the bulk modulus using a simple relationship
+ which is a function of Young's modulus and Poisson's ratio.
+ Please cite your source for the values of E and 
+\begin_inset Formula $\nu$
+\end_inset
+
+ that you use.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We are trying to show that incompressiblity 
+\begin_inset Formula $\left(\frac{dV}{dP}=0\right)$
+\end_inset
+
+ is a valid assumption.
+ By definition the bulk modulus of a material can be written as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+K=-V\frac{\Delta P}{\Delta V}\Rightarrow\Delta V=-\frac{V\Delta P}{K}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+Because we are assuming the material is linearly elastic and isotropic,
+ K can be expressed as
+\begin_inset Formula $K=E/3(1-2\nu)$
+\end_inset
+
+.
+ Assuming a spherical particle, the volume can be expressed in as 
+\begin_inset Formula $V=4\pi R^{*3}/3$
+\end_inset
+
+and the pressure difference as 
+\begin_inset Formula $\Delta P=2\gamma/R^{*}$
+\end_inset
+
+.
+ Substituting these we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta V=\frac{-\left(\frac{4\pi R^{*3}}{3}\right)\left(\frac{2\gamma}{R^{*}}\right)}{\left(\frac{E}{3\left(1-2\nu\right)}\right)}=\frac{-\left(\frac{4\pi(1\cdot10^{-9}\,\mathrm{m})^{3}}{3}\right)\left(\frac{2(2.38\,\mathrm{J/m^{2}})}{1\cdot10^{-9}\,\mathrm{m}}\right)}{\left(\frac{200\cdot10^{9}\,\mathrm{Pa}}{3\left(1-2(0.31)\right)}\right)}=-1.14\cdot10^{-28}\,\mathrm{m^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+To get an idea of how much of a change this is we can calculate the new
+ R with the change in volume.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V+\Delta V=\frac{4\pi(1\cdot10^{-9}\,\mathrm{m})^{3}}{3}-1.14\cdot10^{-28}\,\mathrm{m^{3}}=4.07\cdot10^{-27}\,\mathrm{m^{3}}\Rightarrow R=9.9\cdot10^{10}\,\mathrm{m}=0.99\,\mathrm{nm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+This is not very different from the original radius and thus incompressibility
+ is a valid assumption for this case.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Surface and Interface Effects
+\end_layout
+
+\begin_layout Enumerate-Resume
+The surface free energy of solid gold at its melting point (1063ºC) is 
+\begin_inset Formula $1.400J/m^{2}$
+\end_inset
+
+.
+ The surface energy of liquid gold at this temperature is 
+\begin_inset Formula $1.128J/m^{2}$
+\end_inset
+
+, and the interfacial energy for the gold solid/liquid interface is = 
+\begin_inset Formula $0.132J/m^{2}$
+\end_inset
+
+.
+ The latent heat of fusion for gold is 
+\begin_inset Formula $1.2x10^{9}J/m^{3}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the contact angle for liquid gold on a solid gold surface at 1063ºC
+ ? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This is a complete wetting situation, since the sum of the solid/liquid
+ and liquid/vapor interfacial energies 
+\begin_inset Formula $\left(\gamma_{sl}+\gamma_{lv}\right)$
+\end_inset
+
+ is less than the solid/ vapor interfacial energy 
+\begin_inset Formula $\left(\gamma_{sv}\right).$
+\end_inset
+
+ The contact angle is zero.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Is there thermodynamic barrier for the melting of a gold surface?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ No.
+ 
+\begin_inset Formula $S\left(\theta\right)=0$
+\end_inset
+
+ for 
+\begin_inset Formula $\theta=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose a thin liquid gold layer of thickness 
+\begin_inset Formula $\delta$
+\end_inset
+
+ exists at the surface of gold at 1058 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C (5 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ below the equilibrium melting point).
+ By comparing to the free energy of a gold surface that does not have this
+ liquid layer, estimate the maximum thickness of the liquid layer that will
+ be thermodynamically stable at this temperature.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We need to compare the total free energy per area of the pure solid, and
+ the pure solid that is covered by the liquid with a thickness, 
+\begin_inset Formula $t$
+\end_inset
+
+ .
+ The presence of the liquid layer changes the free energy per area by the
+ following amount:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{sl}-\gamma_{lv\text{ }}-\gamma_{sv}=0.132\,\mathrm{J/m^{2}}+1.128\,\mathrm{J/m^{2}}-1.400\,\mathrm{J/m^{2}}=-0.14\,\mathrm{J/m^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that this contribution is independent of thickness, and always favors
+ the formation of a liquid layer at the surface.
+ However, at temperatures below the bulk melting point of gold, there is
+ an extra free energy required to melt the gold.
+ This free energy per unit area is equal to the free energy per unit volume
+ 
+\begin_inset Formula $\left(\Delta G_{v}\right)$
+\end_inset
+
+ multiplied by the thickness of the film.
+ This free energy per unit volume is obtained by multiplying the enthalpy
+ of melting per unit volume by the ratio of the undercooling to the absolute
+ melting temperature: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta G_{m}}{A}=\Delta G_{v}t=\Delta H_{v}\left(\frac{\Delta T}{T_{m}}\right)t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In our case we have 
+\begin_inset Formula $\Delta T=5K$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta H_{v}\equiv\Delta H_{m}/V_{m}=1.2x10^{9}\,\mathrm{J/m^{3}}$
+\end_inset
+
+, giving:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta G_{m}}{A}=1.2x10^{9}\frac{5}{1336}t=4.5x10^{6}t\,\mathrm{J/m^{2}}
+\]
+
+\end_inset
+
+ (with 
+\begin_inset Formula $t$
+\end_inset
+
+ in meters)
+\end_layout
+
+\begin_layout Standard
+The overall free energy is then:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G=4.5x10^{6}t-0.14\,\mathrm{J/m^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is less than zero for 
+\begin_inset Formula $t<3.1x10^{-8}m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The free energy is therefore decreased as long as the thickness of the layer
+ is less than 30 nm.
+ In reality, the liquid layer will be much less than this, because the overall
+ free energy per area will be minimized at some lower value of the liquid
+ layer thickness.
+ This can be understood by plotting the thickness dependence of 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW3_Fig1.bmp
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In our simplistic picture, the free energy drops to its minimum value as
+ soon as a liquid layer of any thickness is formed.
+ The actual liquid layer thickness will be the value for which it is reasonable
+ to think of a real liquid layer at all.
+ This will probably correspond to a few molecular diameters, so we would
+ expect the liquid layer to be 1 or 2 nm thick.
+ For the purposes of this problem, however, it is sufficient to realize
+ that any liquid layer less than 30 nm in thickness is better than no liquid
+ layer at all.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Very small gold particles have melting points that differ from the melting
+ point of bulk gold.
+ From the analysis given above, do you expect the melting point of a particle
+ with a diameter of 2 nm to be higher or lower than the melting point of
+ bulk gold? Give a brief explanation for your answer.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The melting point will be lower, because of the importance of surfaces
+ for very small particles, and because of the lower surface energy of liquid
+ gold as opposed to solid gold.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose precipitates form at grain boundaries within the matrix phase, with
+ geometries that look like the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/drawing77.svg
+	lyxscale 60
+	width 55text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is the ratio of the grain boundary free energy to the interfacial energy
+ between the precipitate and the matrix phase? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ If 
+\begin_inset Formula $\gamma_{\alpha\alpha}$
+\end_inset
+
+ is the grain boundary energy and 
+\begin_inset Formula $\gamma_{\alpha\beta}$
+\end_inset
+
+ is the precipitate/matrix interfacial energy, then the relevant force balance
+ gives:
+\begin_inset Formula 
+\[
+\gamma_{\alpha\alpha}=2\gamma_{\alpha\beta}\cos70^{\circ}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\gamma_{\alpha\alpha}}{\gamma_{\alpha\beta}}=2\cos70^{\circ}=0.684
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Water beads up on a freshly waxed car to form droplets with a contract angle
+ of 80
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+ What is the interfacial free energy for the wax/water interface, if the
+ surface energy of the wax is 
+\begin_inset Formula $0.025\,\mathrm{J/m^{2}}$
+\end_inset
+
+? (Note: you'll need to look up the surface energy of water to do this problem).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The surface energy of water is 
+\begin_inset Formula $0.072\,\mathrm{J/m^{2}}$
+\end_inset
+
+ (CRC Handbook of Chemistry and Physics, or from a quick Google search).
+ We know the contact angle and two of the three surface or interfacial energies.
+ We can use the horizontal force balance to figure out the missing quantity:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW3_Fig5.bmp
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+25=\gamma_{\mathrm{wax/water}}+72\cos80
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{\mathrm{wax/water}}=25-72\cos80=12.5\,\mathrm{mJ/m^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+An oil droplet (
+\begin_inset Formula $\delta$
+\end_inset
+
+ phase) is placed on the water surface (phase 
+\begin_inset Formula $\beta$
+\end_inset
+
+) in contact with air (phase 
+\begin_inset Formula $\alpha$
+\end_inset
+
+).
+ The schematic of the cross section of the droplet is as describe in class
+ (and repeated below).
+ The surface free energy of water (against air) is 
+\begin_inset Formula $0.072$
+\end_inset
+
+ 
+\begin_inset Formula $J/m^{2}$
+\end_inset
+
+.
+ If the measured values of 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ in the figure below are 37
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ and 23
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+, respectively, what are the values of the oil surface energy and the oil/water
+ interfacial energy.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/drawing3.svg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This problem can be done algebraically, but it's a bit more interesting
+ to do this via MATLAB.
+ Here's the code I used to get 
+\begin_inset Formula $\gamma_{\alpha\delta}$
+\end_inset
+
+ (gad, the oil surface energy) = 0.0325 
+\begin_inset Formula $\mathrm{J/m^{2}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{\beta\delta}$
+\end_inset
+
+ (gbd, the oil/water interfacial energy) =0.05 
+\begin_inset Formula $\mathrm{J/m^{2}}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "Matlab/gammacalc.m"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Heterogeneous Nucleation
+\end_layout
+
+\begin_layout Enumerate-Resume
+\align left
+Derive the structure factor, 
+\begin_inset Formula $S(\theta)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+For a cube with side length 
+\series bold
+
+\begin_inset Formula $R$
+\end_inset
+
+
+\series default
+: 
+\begin_inset Formula $A=6R^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $dA=12RdR$
+\end_inset
+
+, 
+\begin_inset Formula $V=R^{3}$
+\end_inset
+
+, 
+\begin_inset Formula $dV=3R^{2}dR$
+\end_inset
+
+.
+ From this we get: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}=-\Delta PV+\gamma A=-\Delta P\left(R^{3}\right)+\gamma\left(6R^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+To solve for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ we need set the first derivative of 
+\begin_inset Formula $W_{R}$
+\end_inset
+
+ equal to zero:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dW_{R}}{dR}=-\Delta P\frac{dV}{dR}+\gamma\frac{dA}{dR}=-\Delta P\left(3R^{2}\right)+\gamma\left(12R\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R^{*}=\frac{4\gamma}{\Delta P}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+To solve for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+ we then need to substitute the value obtained for 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+ into the expression for 
+\begin_inset Formula $W_{R}$
+\end_inset
+
+.
+ From this we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=-\Delta PV+\gamma A=-\Delta P\left(R^{*^{3}}\right)+\gamma\left(6R^{*^{2}}\right)=-\Delta P\left(\frac{4\gamma}{\Delta P}\right)^{3}+\gamma\left(6\left(\frac{4\gamma}{\Delta R}\right)^{2}\right)=\frac{-64\gamma^{3}}{\left(\Delta P\right)^{2}}+\frac{96\gamma^{3}}{\left(\Delta P\right)^{2}}=\frac{32\gamma^{3}}{\left(\Delta P\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+But we know that 
+\begin_inset Formula $\Delta P=\left(\Delta S_{f}^{o}\Delta T\right)/V_{m}$
+\end_inset
+
+, which gives us the critical side length:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R^{*}=\frac{4\gamma V_{m}}{\Delta S_{f}^{o}\Delta T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+and 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{32\gamma^{3}V_{m}^{2}}{\left(\Delta S_{f}^{o}\right)^{2}\left(\Delta T\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose that nucleation of a solid, single component metal occurs heterogeneousl
+y at a wall.
+ Based on the values given for Ni in problem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Turnbull nickel problem"
+
+\end_inset
+
+, what contact angle for the critical nucleus must be obtained in order
+ to increase the minimum temperature required for solidification by 50°C?
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We want solidification to occur in 100 seconds or so at 1162ºC 
+\begin_inset Formula $(1423K)$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ\thickapprox0.01s^{-1}=v_{1}N_{1}exp\left(-\frac{W_{R}^{*}}{k_{B}\left(1435K\right)}\right)\mathrm{s}^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $v_{1}\approx10^{11}s^{-1}$
+\end_inset
+
+(same as for heterogeneous nucleation), and 
+\begin_inset Formula $N_{1}$
+\end_inset
+
+is the number of atoms in contact with the nucleating surface.
+ Note that this nucleation rate is not the nucleation rate per volume, but
+ is the total nucleation rate for the whole sample.
+ The number of atoms per unit area in an atomic monolayer is about 
+\begin_inset Formula $10^{15}\mathrm{cm^{-2}}$
+\end_inset
+
+.
+ We don't know this surface area in detail, because it depends on the exact
+ contact angle itself.
+ However, the exact form of the prefactor isn't going to matter too much
+ because 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+is such a strong function of the undercooling.
+ The following simple formula will give a good approximation to the surface
+ area: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A\approx V^{2/3}=\left(10^{-10}cm^{3}\right)^{2/3}=2x10^{-7}cm^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+so 
+\begin_inset Formula $N_{1}=2x10^{8}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0.01s^{-1}=10^{11}s^{-1}2x10^{8}exp\left(-\frac{W_{R}^{*}}{\left(1.38x10^{-23}J/K\right)\left(1435K\right)}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=-\left(1.38x10^{-23}J/K\right)\left(1435K\right)ln\frac{0.01s^{-1}}{\left(10^{11}s^{-1}\right)2x10^{8}}=1.0x10^{-18}J
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this case, the value or 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+at 
+\begin_inset Formula $1435K$
+\end_inset
+
+ should be equal to 
+\begin_inset Formula $1.0x10^{-18}J$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{1.3x10^{-13}JK^{2}}{\left(290K\right)^{2}}S\left(\theta\right)=1.0x10^{-18}J
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+S\left(\theta\right)=0.64
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Note that a 
+\begin_inset Formula $50K$
+\end_inset
+
+ change is a relatively small fractional change in the absolute temperature,
+ so the change in 
+\begin_inset Formula $k_{B}T$
+\end_inset
+
+ associated with the 
+\begin_inset Formula $50\mathrm{K}$
+\end_inset
+
+ temperature change can be neglected in this approximation).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S\left(\theta\right)=0.64=\left(2+cos\theta\right)\left(1-cos\theta\right)^{2}/4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The function 
+\begin_inset Formula $S\left(\theta\right)$
+\end_inset
+
+ is plotted below.
+ It equals 0.64 for 
+\begin_inset Formula $\theta\approx100\text{º. }$
+\end_inset
+
+Any contact angle less than this will be fine.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/stheta.eps
+	lyxscale 120
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Nucleation in a Binary System
+\end_layout
+
+\begin_layout Enumerate-Resume
+\align left
+3.
+ Consider the formation of a nucleus 
+\begin_inset Formula $\beta^{*}$
+\end_inset
+
+ with composition 
+\begin_inset Formula $X^{\beta*}$
+\end_inset
+
+ from metastable 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ with composition 
+\begin_inset Formula $X_{0}^{\alpha}$
+\end_inset
+
+.At temperature 
+\begin_inset Formula $T$
+\end_inset
+
+, the composition of stable 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ is 
+\begin_inset Formula $X_{eq}^{\alpha}$
+\end_inset
+
+, that of stable 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is 
+\begin_inset Formula $X_{eq}^{\beta}$
+\end_inset
+
+ (all 
+\begin_inset Formula $X$
+\end_inset
+
+ refer to 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+).
+ In class we derived an expression for the molar Gibbs free energy of formation
+ for the nucleus:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta G_{m}^{\alpha\rightarrow\beta*}=G_{m}^{\beta}(X^{\beta*})-G_{m}^{\alpha}(X_{0}^{\alpha})-\frac{\partial G^{\alpha}}{\partial X}\Biggr|_{X_{0}^{\alpha}}(X^{\beta*}-X_{0}^{\alpha})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+Show that for 
+\begin_inset Formula $X_{0}^{\alpha}-X_{eq}^{\alpha}\rightarrow0$
+\end_inset
+
+ and 
+\begin_inset Formula $X^{\beta*}-X_{eq}^{\beta}\rightarrow0$
+\end_inset
+
+, Eq.
+ (1) can be rewritten in the following form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G_{m}^{\alpha\rightarrow\beta*}=-\frac{\delta^{2}G^{\alpha}}{\delta X^{2}}\Biggr|_{X_{0}^{\alpha}}(X_{0}^{\alpha}-X_{eq}^{\alpha})(X_{eq}^{\beta}-X_{eq}^{\alpha})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Hint:
+\series default
+ Express 
+\begin_inset Formula $G_{m}^{\beta}(X^{\beta*})$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $G_{m}^{\alpha}$
+\end_inset
+
+.
+ Approximate all terms at non-equilibrium compositions as Taylor expansions
+ around suitable equilibrium values.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+In class we used the definition of the misfit parameter for a 
+\begin_inset Formula $\beta$
+\end_inset
+
+ nucleus in an 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ matrix as
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{3}\left(\frac{V_{m}^{\beta}-V_{m}^{\alpha}}{V_{m}^{\alpha}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+i.e.
+ one third of the volume strain.
+ Show that for cubic systems, the misfit parameter can be approximated as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon_{cubic}=\frac{a^{\beta}-a^{\alpha}}{a^{\alpha}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+where a is the lattice parameter.
+ Hint: Write 
+\begin_inset Formula $\Delta V$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $\varepsilon_{cubic}$
+\end_inset
+
+ and look at the behavior as
+\begin_inset Formula $\varepsilon_{cubic}\rightarrow0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+We know that 
+\begin_inset Formula $V_{m}^{\beta}=\left(a^{\beta}\right)^{3}$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{m}^{\alpha}=\left(a^{\alpha}\right)^{3}$
+\end_inset
+
+.
+ Substituting these into 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ we get
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{3}\left(\frac{\left(a^{\beta}\right)^{3}-\left(a^{\alpha}\right)^{3}}{\left(a^{\alpha}\right)^{3}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+But we also know that 
+\begin_inset Formula $\Delta a=a^{\beta}-a^{\alpha}\Rightarrow a^{\beta}=a^{\alpha}+\Delta a$
+\end_inset
+
+.
+ Substituting this we get 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{3}\left(\frac{\left(a^{\alpha}+\Delta a\right)^{3}-\left(a^{\alpha}\right)^{3}}{\left(a^{\alpha}\right)^{3}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{3}\left(\frac{\left(a^{\alpha}+\Delta a\right)\left(\left(a^{\alpha}\right)^{2}+2a^{\alpha}\Delta a+\left(\Delta a^{\alpha}\right)^{2}\right)-\left(a^{\alpha}\right)^{3}}{\left(a^{\alpha}\right)^{3}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{3}\left(\frac{\left(a^{\alpha}\right)^{3}+2\left(a^{\alpha}\right)^{2}\Delta a+a^{\alpha}\left(\Delta a^{\alpha}\right)^{2}+\left(a^{\alpha}\right)^{2}\Delta a+2a^{\alpha}\left(\Delta a^{\alpha}\right)^{2}+\left(\Delta a^{\alpha}\right)^{3}-\left(a^{\alpha}\right)^{3}}{\left(a^{\alpha}\right)^{3}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{3}\left(\frac{3\left(a^{\alpha}\right)^{2}\Delta a+3a^{\alpha}\left(\Delta a^{\alpha}\right)^{2}+\left(\Delta a^{\alpha}\right)^{3}}{\left(a^{\alpha}\right)^{3}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+But the hint says to look at the behavior as 
+\begin_inset Formula $\varepsilon_{cubic}\rightarrow0$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+ This tells us that 
+\begin_inset Formula $\Delta a\rightarrow0$
+\end_inset
+
+ so we can neglect terms containing 
+\begin_inset Formula $\left(\Delta a\right)^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\left(\Delta a\right)^{3}$
+\end_inset
+
+.
+ Using this hint we can rewrite the previous line as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon_{cubic}=\frac{1}{3}\left(\frac{3\left(a^{\alpha}\right)^{2}\Delta a}{\left(a^{\alpha}\right)^{3}}\right)=\frac{\Delta a}{a^{\alpha}}=\frac{a^{\beta}-a^{\alpha}}{a^{\alpha}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+A coherent precipitate nucleates much more easily than does an incoherent
+ particle of the same precipitate.
+ To illustrate this:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the ratio of 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+ for the two types of precipitate if 
+\begin_inset Formula $\gamma_{coherent}=30\,\mathrm{ergs/cm^{2}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{\mathrm{incoherent}}=300\,\mathrm{ergs/cm^{2}}$
+\end_inset
+
+? Assume that the precipitate is unstrained.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The expression for 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+, including the effects of strain, is as follows: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{16\pi\gamma^{3}}{3\left(\Delta G_{v}+\frac{W_{el}}{V^{\beta}}\right)^{2}}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\frac{W_{el}}{V^{\beta}}=\frac{18\varepsilon^{2}\mu^{\alpha}K^{\beta}}{3K^{\beta}+4\mu^{\alpha}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the unstrained case, 
+\begin_inset Formula $W_{el}=0$
+\end_inset
+
+ and the 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+increases with the third power of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+ The value of 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+for the unstrained coherent precipitate will therefore be a factor of 1000
+ less than the value of 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+for the incoherent precipitate in this case.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+If the chemical driving force 
+\begin_inset Formula $\left(\Delta G_{v}\right)$
+\end_inset
+
+ is given by
+\begin_inset Formula $-50\Delta T/T_{e}\,\mathrm{cal/cm^{3}}$
+\end_inset
+
+, 
+\begin_inset Formula $T_{e}=1000\,\mathrm{K}$
+\end_inset
+
+, the misfit strain is 0.001 for the coherent precipitate and zero for the
+ incoherent precipitate, at what 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+ are the 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+'s for the two equal? Assume a shear modulus of the matrix of 
+\begin_inset Formula $5.46x10^{10}\,\mathrm{Pa}$
+\end_inset
+
+ and bulk modulus of the precipitate of 
+\begin_inset Formula $15x10^{10}\,\mathrm{Pa}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ In Si units (1 cal = 4.18J), 
+\begin_inset Formula $\Delta G_{v}=-2.09x10^{5}\Delta T$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+ 
+\begin_inset Formula $\mathrm{J/m^{3}}$
+\end_inset
+
+ (with 
+\begin_inset Formula $T_{e}=1000\,\mathrm{K}$
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=0.001
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\mu^{\alpha}=5.46x10^{10}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+K^{\beta}=15x10^{10}\,\mathrm{Pa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the elastic term we have: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{W_{el}}{V^{\beta}}=\frac{18\left(0.001\right)^{2}\left(5.46x10^{10}\right)\left(15x10^{10}\right)}{3\left(15x10^{10}\right)+4\left(5.46x10^{10}\right)}=2.21x10^{5}\,\mathrm{J/m^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We need to calculate the temperature at which inclusion of the quantity
+ 
+\begin_inset Formula $W_{el}$
+\end_inset
+
+ decreases 
+\begin_inset Formula $\left(\Delta G_{v}+\frac{W_{el}}{V^{\beta}}\right)^{2}$
+\end_inset
+
+ by a factor of 1000, to account for the factor of 1000 decrease in 
+\begin_inset Formula $\gamma^{3}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\frac{\Delta G_{v}+\frac{W_{el}}{V^{\beta}}}{\Delta G_{v}}\right)^{2}=0.001\rightarrow\left(1+\frac{W_{el}}{V^{\beta}}/\Delta G_{v}\right)^{2}=0.001\rightarrow1+\frac{W_{el}}{V^{\beta}}/\frac{\Delta G_{m}}{V_{m}}=0.032\rightarrow\frac{W_{el}}{V^{\beta}}/\frac{\Delta G_{m}}{V_{m}}=-0.968$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the expressions for 
+\begin_inset Formula $\Delta G_{v}$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{el}$
+\end_inset
+
+ given above, we obtain:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-\frac{2.21x10^{5}}{2.09x10^{5}\Delta T}=-0.968
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\Delta T=1.1K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Repeat the previous calculation using a misfit strains of 0.01 and 0.1.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The strain energy scales with 
+\begin_inset Formula $\varepsilon^{2}$
+\end_inset
+
+, so the numerator in the equation above for 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+ increases by a factor of 100 for 
+\begin_inset Formula $\varepsilon=0.01$
+\end_inset
+
+ and by a factor of 10,000 for 
+\begin_inset Formula $\varepsilon=0.1$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=0.01\rightarrow\Delta T=110K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=0.1\rightarrow\Delta T=11,000K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that for 
+\begin_inset Formula $\varepsilon=0.1$
+\end_inset
+
+, coherent nuclei will never form, since an undercooling of 11,000K is impossibl
+e for 
+\begin_inset Formula $T_{e}=1000K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+If the number of nuclei formed per cubic centimeter per second is given
+ by 
+\begin_inset Formula $N=10^{27}\textbackslash{}exp(-W_{R}^{*}/kT)$
+\end_inset
+
+, what is the rate of coherent nucleation at 
+\begin_inset Formula $\Delta T=25K$
+\end_inset
+
+ and 
+\begin_inset Formula $250K$
+\end_inset
+
+ with a misfit of 0.01? What is it for incoherent nucleation at these same
+ values of 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Coherent nucleation: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma=30\,\mathrm{erg/cm^{2}}=0.03\,\mathrm{J/m^{2}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $\varepsilon=0.01$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\frac{W_{el}}{V^{\beta}}=2.21x10^{7}J/m^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $\Delta T=25K$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\Delta G_{v}=-2.09x10^{5}(25)=-5.23x10^{6}\,\mathrm{J/m^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Coherent nucleation cannot occur under these conditions, because 
+\begin_inset Formula $\Delta G_{v}+\frac{W_{el}}{V^{\beta}}>0$
+\end_inset
+
+ - The rate of coherent nucleation is zero in this case.
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $\Delta T=250K\,\left(T=750K\right)$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G_{v}=-2.09x10^{5}(25)=-5.23x10^{7}\,\mathrm{J/m^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{16\pi\left(0.03\right)^{3}}{3\left(-5.23x10^{7}+2.21x10^{7}\right)^{2}}=4.96x10^{-19\,}\mathrm{J}
+\]
+
+\end_inset
+
+ (everything is SI units)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ_{v}=10^{27}\,\mathrm{cm^{-3}s^{-1}}exp\left(-\frac{4.96x10^{-19}}{\left(1.38x10^{-23}\right)\left(750\right)}\right)=1.54x10^{6}\,\mathrm{cm^{-3}s^{-1}}
+\]
+
+\end_inset
+
+Nucleation happens very fast under these conditions.
+\end_layout
+
+\begin_layout Standard
+Incoherent nucleation: 
+\begin_inset Formula $W_{el}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma=300\,\mathrm{erg/cm^{2}}=0.3\,\mathrm{J/m^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $\Delta T=25K$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\Delta G_{v}=-5.23x10^{6}\,\mathrm{J/m^{3}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{16\pi\left(0.3\right)^{3}}{3\left(-5.23x10^{6}\right)^{2}}=1.65x10^{-14}\,\mathrm{J}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ_{v}=10^{27}\mathrm{cm^{-3}s^{-1}}exp\left(-\frac{1.65x10^{-14}}{\left(1.38x10^{-23}\right)\left(975\right)}\right)=10^{27}\mathrm{cm^{-3}s^{-1}}exp\left(-1.22x10^{6}\right)
+\]
+
+\end_inset
+
+This is the same as zero, since you're going to need to wait a length of
+ time exceeding the age of the universe to see a critical nucleus at this
+ rate.
+ 
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $\Delta T=250\,\mathrm{K}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+The magnitude of
+\begin_inset Formula $\Delta G_{v}$
+\end_inset
+
+ increases by a factor of 10, so 
+\begin_inset Formula $W_{R}^{*}$
+\end_inset
+
+decreases by a factor of 100 to 
+\begin_inset Formula $1.65x10^{-16\,}\mathrm{J}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ_{v}=10^{27}\mathrm{cm^{-3}s^{-1}e}xp\left(-\frac{1.65x10^{-16}}{\left(1.38x10^{-23}\right)\left(750\right)}\right)=10^{27}\mathrm{cm^{-3}s^{-1}}exp\left(-16000\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ṅ_{v}\approx10^{-7000}\mathrm{cm^{-3}s^{-1}}
+\]
+
+\end_inset
+
+The nucleation rate is still essentially zero, so we're still comfortably
+ over the age of the universe for the time required to get a single nucleus.
+ The only condition of the four that gave any nucleation at all was the
+ coherent nucleus at the larger undercooling.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the following Al-Cu phase diagram:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Al-Cu_phase_diagram.jpg
+	lyxscale 30
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose that a dispersion of roughly spherical 
+\begin_inset Formula $\theta$
+\end_inset
+
+ precipitates is formed at 300 °C.
+ Estimate the precipitate radius for which Cu solubility in the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase (the Al-rich phase) will be increased by 25% in comparison to a flat
+ 
+\begin_inset Formula $\alpha/\theta$
+\end_inset
+
+ interface.
+ Assume an interfacial free energy for the
+\begin_inset Formula $\alpha/\theta$
+\end_inset
+
+ interface of 0.3 
+\begin_inset Formula $\mathrm{J/m^{2}}$
+\end_inset
+
+ and a molar volume for the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phases of 7 
+\begin_inset Formula $\mathrm{cm^{3}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This problem is a straightforward application of the Gibbs Thomson equation:
+\begin_inset Formula 
+\[
+\frac{X_{r}}{X_{e}}=1+\frac{2\gamma V_{m}}{RTr}
+\]
+
+\end_inset
+
+We need the second term on the right side to be equal to 0.25, so we have:
+\begin_inset Formula 
+\[
+0.25=\frac{2\gamma V_{m}}{RTr},\,\,\,\,\,r=\frac{8\gamma V_{m}}{RT}
+\]
+
+\end_inset
+
+Substituting for all the variables, and keeping everything in SI units gives:
+\begin_inset Formula 
+\[
+r=\frac{8\left(0.3\,\mathrm{J/m^{2}}\right)\left(7x10^{-6}\,\mathrm{m}^{3}\right)}{\left(8.314\,\mathrm{J/mol-K}\right)\left(573\,\mathrm{K}\right)}=3.52x10^{-9}\,\mathrm{m}=3.52\,\mathrm{nm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the Co-Cu phase diagram shown below:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Co-Cu_phase_diagram.jpg
+	lyxscale 60
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Plot the equilibrium activity of Cobalt as a function of composition across
+ the entire phase diagram at 900ºC.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ To be consistent with the notation use in class, we'll call the copper-rich
+ matrix phase the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase and the cobalt-rich precipitate the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ atoms: copper, 
+\begin_inset Formula $B$
+\end_inset
+
+ atoms: cobalt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X_{e}$
+\end_inset
+
+= equilibrium mole fraction of cobalt in 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase at 900ºC = 0.03
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X_{\beta}$
+\end_inset
+
+= equilibrium mole fraction of cobalt in 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase 900ºC = 0.96
+\end_layout
+
+\begin_layout Standard
+Both phases are relatively pure, so we can assume that Henry's Law applies
+ for the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ phase, and Rault's Law applies in the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ phase:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Lect6_Fig4n.bmp
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/HW6_Fig2.jpg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose the interfacial free energy for the Cu/Co interface is 
+\begin_inset Formula $300\,\mathrm{mJ/m^{2}}$
+\end_inset
+
+.
+ Develop an expression for 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+, the critical radius for a cobalt precipitate, as function of the atomic
+ % cobalt in the alloy.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We start with the expression for 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+from the earlier part of the course:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{*}=\frac{-2\gamma}{\left\{ \frac{\Delta G_{m}}{V_{m}}+\frac{W_{el}}{V^{\beta}}\right\} }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We'll assume that the precipitate is incoherent so that 
+\begin_inset Formula $W_{el}=0$
+\end_inset
+
+.
+ We need a value for 
+\begin_inset Formula $\Delta G_{m},$
+\end_inset
+
+ which we can get from the following expression:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G_{m}\left(X_{0}\right)=-\Delta\mu_{ab}\left(X_{0}\right)\left(X_{\beta}-X_{e}\right)=\frac{\partial\mu_{ab}}{\partial X_{b}}\Biggr|_{X_{e}}\left(X_{0}-X_{e}\right)\left(X_{\beta}-X_{e}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a solution obeying Henry's law: 
+\begin_inset Formula $\frac{\partial\mu_{ab}}{\partial X_{b}}=\frac{RT}{X_{b}}$
+\end_inset
+
+, so 
+\begin_inset Formula $\Delta G_{m}\left(X_{0}\right)=-\frac{RT}{X_{e}}\left(X_{0}-X_{e}\right)\left(X_{\beta}-X_{e}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have 
+\begin_inset Formula $X_{e}=0.03$
+\end_inset
+
+, 
+\begin_inset Formula $X_{\beta}=0.96$
+\end_inset
+
+, 
+\begin_inset Formula $R=8.314\,J/mol-K$
+\end_inset
+
+, so at 900 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C (1173 K) we have:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G_{m}\left(X_{0}\right)=-\frac{RT}{X_{e}}\left(X_{0}-X_{e}\right)\left(X_{\beta}-X_{e}\right)=302\left(X_{0}-X_{e}\right)\,\mathrm{kJ/mol}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The precipitates are nearly pure cobalt, so we can use the molar volume
+ of cobalt as a very good estimate for 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+.
+ This quantity can be obtained from the molecular weight and density of
+ cobalt.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{m}=\frac{59\,\mathrm{g}}{\mathrm{mol}}\frac{\mathrm{cm^{3}}}{8.9\,\mathrm{g}}=6.63\,\mathrm{cm^{3}}=6.63x10^{-6}\,\mathrm{m}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So we have:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta G_{m}}{V_{m}}=4.5x10^{10}\left(X_{0}-0.03\right)\,J/m^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This gives the following for 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{*}=\frac{2\left(0.3\,\mathrm{J/m^{2}}\right)}{4.5x10^{10}\left(X_{0}-0.03\right)\,\mathrm{J/m^{3}}}=\frac{1.33x10^{-11}\,\mathrm{m}}{X_{0}-0.03}=\frac{0.133}{X_{0}-0.03}\,Å
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $W_{r}^{*}$
+\end_inset
+
+for a Copper rich alloy at 900ºC with a cobalt composition that exceeds
+ the equilibrium composition by a factor of 1.15.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X_{0}=1.15\left(0.03\right)=0.0345
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta G_{m}}{V_{m}}=-4.5x10^{10}\left(0.0345-0.03\right)\,J/m^{3}=-2.03x10^{8}\,J/m^{3}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{R}^{*}=\frac{16\pi\gamma^{3}}{3\left(\frac{\Delta G_{m}}{V_{m}}\right)^{2}}=\frac{16\pi\left(0.3J/m^{2}\right)^{3}}{3\left(-2.03x10^{8}\,J/m^{3}\right)^{2}}=1.1x10^{-17}J
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note: The detailed answers to these questions will differ somewhat, depending
+ on the value of 
+\begin_inset Formula $X_{e}$
+\end_inset
+
+ that you read off the phase diagram.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Spinodal Decomposition
+\end_layout
+
+\begin_layout Enumerate-Resume
+\align left
+A and B form a regular solution with a positive heat of mixing so that the
+ A-B phase diagram contains a miscibility gap.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\align left
+Starting from 
+\begin_inset Formula $G=X_{A}G_{A}+X_{B}G_{B}+\varOmega X_{A}X_{B}+RT\left(X_{A}lnX_{A}+X_{B}lnX_{B}\right)$
+\end_inset
+
+, derive an equation for 
+\begin_inset Formula $d^{2}G/dX_{B}^{2}$
+\end_inset
+
+, assuming 
+\begin_inset Formula $G_{\mathrm{A}}=G_{B}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution
+\series default
+: See solution for problem 5.10(a) in Porter and Easterling.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Use the above equation to calculate the temperature at the top of the miscibilit
+y gap 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $\varOmega$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution
+\series default
+: See solution for problem 5.10(b) in Porter and Easterling.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Using MATLAB plot the miscibility gap for this system.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution
+\series default
+: See solution for problem 5.10(c) in Porter and Easterling.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+On the same diagram plot the chemical spinodal.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+See solution for problem 5.10(c) in Porter and Easterling.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+For a homogeneous alloy of composition 
+\begin_inset Formula $X_{0}$
+\end_inset
+
+ decomposes into two parts, one with composition 
+\begin_inset Formula $X_{0}+\Delta X$
+\end_inset
+
+ and the other with composition 
+\begin_inset Formula $X_{0}-\Delta X$
+\end_inset
+
+, show that the total chemical free energy will change by an amount 
+\begin_inset Formula $\Delta G_{c}$
+\end_inset
+
+ given by
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G_{c}=\frac{1}{2}\frac{d^{2}G}{dX^{2}}(\Delta X)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+Hint: Express 
+\begin_inset Formula $G(X_{0}+\Delta X)$
+\end_inset
+
+ and 
+\begin_inset Formula $G(X_{0}-\Delta X)$
+\end_inset
+
+ as Taylor series.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+See solution for problem 5.11 in Porter and Easterling.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Describe the effect of each of the following, and briefly explain your answer.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The effect of coherent strains on the characteristic wavelength of the two-phase
+ structure formed by spinodal decomposition.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ One way to answer this question is to look at the expression that was developed
+ for the critical spinodal wavelength, 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\lambda_{c}=\frac{2\pi}{\left(-\frac{1}{2\kappa}\frac{\partial^{2}G}{\partial\phi^{2}}-\frac{6\mu\eta^{2}}{\kappa}\right)^{1/2}}
+\]
+
+\end_inset
+
+Strain energy effects are accounted for in the second term in the denominator,
+ where 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is the shear modulus of the materials and 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is a parameter that accounts for the lattice mismatch.
+ It is defined in terms of the compositional dependence of the lattice parameter
+ 
+\begin_inset Formula $a$
+\end_inset
+
+ in the following way:
+\begin_inset Formula 
+\[
+\eta\equiv\frac{1}{a}\frac{\partial\phi}{\partial a}
+\]
+
+\end_inset
+
+This analysis only make sense in the spinodal regime, where 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{\partial^{2}G}{\partial^{2}\phi}<0.$
+\end_inset
+
+ Strain energy effects therefore decrease the magnitude of denominator in
+ the expression for 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+, resulting in an increase in the characteristic wavelength.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The effect of a reduction of the surface free energy on the nucleation rate.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ This question relates back to the early parts of the course.
+ The expression for activation energy to form a critical nucleus is: 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The effect of a decrease in the contact angle of a precipitate on its heterogene
+ous nucleation rate.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ As the cooling rate increases, the pearlite microstructure becomes finer
+ and finer (smaller 
+\begin_inset Formula $\lambda$
+\end_inset
+
+) because the carbon does not have as much time to diffuse during the transforma
+tion process.
+ Hardness generally increases as the phase size decreases because of the
+ increased barrier to dislocation motion associated with the increased number
+ of hard, 
+\begin_inset Formula $\mathrm{Fe_{3}C}$
+\end_inset
+
+ regions.
+ Eventually the cooling rate becomes so fast so that martensite is formed.
+ Martensite is a non-equilibrium phase that does not require any carbon
+ diffusion.
+ It is hardest form of steel because of the limited number of slip systems
+ in the tetragonal crystal structure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Can a diffusion coefficient ever be negative? If so, when is this the case?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Yes.
+ In the spinodal region the diffusion coefficient is negative.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Constitutional Undercooling and the 'Mushy Zone'
+\end_layout
+
+\begin_layout Enumerate-Resume
+In our classroom discussion of interface stability, we considered the case
+ where impurities decrease the melting point.
+ Suppose that the impurities increase the melting point, so that the phase
+ diagram looks like this:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/drawing85.svg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose sample with the composition indicated by the arrow is solidified,
+ so that the front moves forward with a certain velocity.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sketch the behavior of the impurity concentration in the liquid phase just
+ ahead of the solidification front.
+ Reference any specific compositions to the corresponding compositions on
+ the phase diagram.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The concentration of 
+\begin_inset Formula $B$
+\end_inset
+
+ in the solid, and in liquid far from the solid/liquid interface, is equal
+ to 
+\begin_inset Formula $C_{0}$
+\end_inset
+
+.
+ At the solid/liquid interface, the concentration is equal to 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+, so the overall concentration profile must look something like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW3_Fig3.bmp
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+On a separate figure, sketch the liquidus temperature in the liquid phase
+ just ahead of the solidification front.
+ Reference any specific temperatures to the corresponding temperatures on
+ the phase diagram.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW3_Fig4.bmp
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that the liquidus temperature increases into the liquid phase, just
+ as it did in the case where the impurities decreased the melting point.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Comment on the types of temperature profiles that can lead to the formation
+ of a dendritic microstructure for this type of phase diagram.
+ Is the criterion for interface stability qualitatively different from the
+ criterion discussed in class? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Because the liquidus temperature has the same sort of behavior for this
+ phase diagram that it does for the type of phase diagram discussed in class,
+ the criteria for interface stability are identical to those discussed in
+ class.
+ Stable and unstable temperature profiles are shown on the plot above.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Consider the Al/Si phase diagram shown below, along with the following thermodyn
+amic and kinetic data:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Heat of fusion for Al: 
+\begin_inset Formula $10.790\,\mathrm{kJ/mol}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diffusion coefficient for impurities in liquid Al: 
+\begin_inset Formula $\thicksim5x10^{-9}\mathrm{\,m^{2}/s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW3_Fig6.bmp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose an alloy with 0.8 wt.
+ % Si is solidified at a rate of 
+\begin_inset Formula $5\mu m/s$
+\end_inset
+
+.
+ (This is the velocity at which the solid/liquid interface is moving.)
+\end_layout
+
+\begin_layout Enumerate
+What is the interface temperature in the steady state? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The interface temperature is the solidus temperature, which for this compositio
+n is 
+\begin_inset Formula $\sim620\text{ \ensuremath{^{\circ}}C}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What is the thickness of the diffusion layer (
+\emph on
+i.e.
+
+\emph default
+ the distance into the liquid phase, measured from the solid/liquid interface,
+ over which the liquid composition differs from the average bulk composition
+ far from the interface?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The characteristic thickness of the diffusion layer is 
+\begin_inset Formula 
+\[
+D/V=\frac{5x10^{-9}m^{2}/s}{5x10^{-6}m/s}=1mm
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Estimate the temperature gradient required to eliminate the appearance of
+ a 'mushy zone'.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The liquidus temperature in front of the interface varies between the equilibri
+um solidus and liquidus temperatures for the alloy concentration of 0.8 wt.
+ %.
+ From the phase diagram, we see that these temperatures differ by about
+ 40 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ The temperature gradient must be large enough so that this temperature
+ variation occurs across the diffusion layer, so the temperature gradient
+ must be larger than about 
+\begin_inset Formula $40\,^{\circ}\mathrm{C/mm}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Coarsening
+\end_layout
+
+\begin_layout Enumerate-Resume
+The size of Co clusters in Cu vs.
+ aging time at several temperatures was measured using a magnetic technique.
+ At 600 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C the data indicate the following: 10 minute aging, average particle radius
+ = 18 Å, 100 minutes, 35 Å, 1,000 minutes, 70 Å.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Assuming that the coarsening kinetics are consistent with Lifshitz-Slyozov-Wagne
+r theory that was discussed in class, estimate the size of particles at
+ 
+\begin_inset Formula $t=0$
+\end_inset
+
+, the end of the precipitation stage, where the cobalt supersaturation was
+ first in equilibrium with the average size of the cobalt clusters.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The essential result of the Lifshitz-Slyozov theory is that the average
+ particle size scales with time according to the following law:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{r}^{3}\left(t\right)=\overline{r}^{3}\left(0\right)+\frac{8\gamma V_{m}DC_{e}}{9RT\left(C_{\beta}-C_{e}\right)}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This equation suggests that we should plot 
+\begin_inset Formula $\overline{r}^{3}$
+\end_inset
+
+as a function of time:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW7_Fig1.bmp
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on this limited data set, the linear growth in the cube of the size
+ makes sense.
+ The least-squares fit for a straight line going through these data points
+ gives 
+\begin_inset Formula $\overline{r}^{3}=5622Å^{3}\left(R=18Å\right)$
+\end_inset
+
+, so the starting value of 
+\begin_inset Formula $\overline{r}$
+\end_inset
+
+ is not noticeably different from the value obtained at the lowest aging
+ time.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Note: 
+\series default
+This same approach can be used to estimate the average particle size that
+ you would expect at any other time, for example at much longer annealing
+ times.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Using the data for the Co/Cu system given in the previous homework, determine
+ the difference in the average mole fraction of Co in the Cu phase at aging
+ times of 100 minutes and 1,000 minutes.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ From the phase diagram, the equilibrium mole fraction (
+\begin_inset Formula $X_{e})$
+\end_inset
+
+of Co in Cu at 600 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C is about 0.01.
+ The actual concentration in equilibrium with particles of size 
+\begin_inset Formula $r$
+\end_inset
+
+ is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{X_{r}}{X_{e}}=1+\frac{2\gamma V_{m}}{RTr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+ is the molar volume of cobalt: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{m}=\frac{59g}{mol}\frac{cm^{3}}{8.9g}=6.63cm^{3}=6.63x10^{-6}\,m^{3}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is the interfacial energy for the Co/Cu interface: 
+\begin_inset Formula $\gamma=0.3J/m^{2}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+We are interested in the difference in 
+\begin_inset Formula $X_{r}$
+\end_inset
+
+ for two different values of 
+\begin_inset Formula $r$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $X_{r1}-X_{r2}=\frac{2X_{e}\gamma V_{m}}{RT}\left(\frac{1}{r_{1}}-\frac{1}{r_{2}}\right)=\frac{2\left(0.01\right)\left(0.3J/m^{2}\right)6.63x10^{-6}m^{3}}{\left(8.314J/mol-K\right)873K}\left(\frac{1}{3.5x10^{-9}m}\frac{1}{7x10^{-9}m}\right)=7.8x10^{-4}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+So the difference in the two concentrations is low, even for these very
+ small precipitates.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Use the data given to estimate the diffusion coefficient for Co in Cu at
+ 600 °C.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ According to L-S theory (see equation for part a), the slope of the plot
+ of 
+\begin_inset Formula $\overline{r}^{3}$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $t$
+\end_inset
+
+ is given by the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+slope=\frac{8\gamma V_{m}DC_{e}}{9RT\left(C_{\beta}-C_{e}\right)}=\frac{8\gamma V_{m}DX_{e}}{9RT\left(X_{\beta}-X_{e}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The slope from the graph in part a is 
+\begin_inset Formula $338\,\mathrm{Å}^{3}/min=5.63x10^{-30}\,\mathrm{m^{3}/s}$
+\end_inset
+
+.
+ We also have 
+\begin_inset Formula $X_{\beta}-X_{e}\thickapprox1$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{e}\thickapprox0.01$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+With these numbers we have for the slope equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathrm{slope}=5.63x10^{-30}\mathrm{\,m^{3}/s}=\frac{8\gamma V_{m}DX_{e}}{9RT}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $D=\frac{\left(9RT\right)5.63x10^{-30}m^{3}/s}{8\gamma V_{m}\left(0.01\right)}=\frac{9\left(8.314J/mol-K\right)873K\left(5.63x10^{-30}m^{3}/s\right)}{8\left(0.3J/m^{2}\right)6.63x10^{-6}m^{3}/mol\left(0.01\right)}=2.3x10^{-18}m^{2}/s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Assume the following "law" for the kinetics of precipitation:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X\left(t\right)=1-\exp\left[-\left(t/\tau\right)^{m}\right]
+\]
+
+\end_inset
+
+Consider the following experimental data for the formation of Gunier-Preston
+ zones in Al-2 wt.% Cu at 0˚C for 
+\begin_inset Formula $X(t)$
+\end_inset
+
+ less than 0.25.
+ .
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time in hours
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $X\left(t\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.08
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.17
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.23
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.28
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Determine the value of the exponent m in the above equation by plotting
+ this equation in an appropriate fashion.
+ (Hint: you need to rearrange the equation and take logarithms so that 
+\begin_inset Formula $m$
+\end_inset
+
+ is the slope of the plot).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We can rearrange the equation and take the log of both sides to get: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ln\left(1-X\left(t\right)\right)=-\left(t/\tau\right)^{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Taking the log of both sides a second time gives:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+1n\left(-1n\left(1-X\left(t\right)\right)\right)=m\left(1n\left(t\right)-1n\left(\tau\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The slope of this double logarithmic plot gives 0.5 as the value for 
+\begin_inset Formula $m$
+\end_inset
+
+, as illustrated in the figure below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW7_Fig2.bmp
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Plot the qualitative temperature dependence that you would expect for the
+ time constant, 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ Note that you cannot obtain this from the data provided – you need to make
+ some assumptions about what you expect this to look like) Comment on the
+ factors that cause 
+\begin_inset Formula $\tau$
+\end_inset
+
+ to become very large at high and low temperatures.
+ From Fig.
+ 5.25 in Porter and Easterling, what can you say about the behavior of 
+\begin_inset Formula $\tau$
+\end_inset
+
+ in the high temperature regime (i.e., at what temperature must 
+\begin_inset Formula $\tau$
+\end_inset
+
+ diverge to infinity)?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The thermodynamic driving force for the formation of GP zones disappears
+ when the temperature is increased to the GP solvus temperature corresponding
+ to 
+\begin_inset Formula $X_{cu}=0.02$
+\end_inset
+
+.
+ From Fig.
+ 5.25, we see that this temperature is about 130 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ The time constant, 
+\begin_inset Formula $\tau$
+\end_inset
+
+, will diverge to infinity at this temperature.
+ At sufficiently low temperatures, 
+\begin_inset Formula $\tau$
+\end_inset
+
+ will also become very large because diffusion within the alloy becomes
+ very slow.
+ The temperature dependence of 
+\begin_inset Formula $\tau$
+\end_inset
+
+ will look something like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/HW7 Fig3.bmp
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Eutectic Solidification
+\end_layout
+
+\begin_layout Enumerate-Resume
+Refer to the Al/Si phase diagram and thermodynamic data below to answer
+ the following questions.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Heat of fusion for Al: 395 J/g 
+\end_layout
+
+\begin_layout Standard
+Heat of fusion for Si: 1408 J/g 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/al_si_phase_diagram.jpg
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Obtain an estimate for the heat of fusion for the Al/Si eutectic (Joules
+ per cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+ of eutectic).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Assuming that the heat of fusion is not a function of temperature, and
+ that there is no enthalpy of mixing in the liquid phase (ideal mixing),
+ then the heat of fusion of the eutectic is the appropriate weighted average
+ of the heats of mixing of the pure components.
+ The eutectic has 13% Si and 87% Al (by weight).
+ Accounting for the density of each phase gives the overall enthalpy of
+ melting per volume of eutectic:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta H_{v}=0.87\left(395\,\mathrm{J/g}\right)\left(2.70\,\mathrm{g/cm^{3}}\right)+0.13\left(1408\,\mathrm{J/g}\right)\left(2.33\,\mathrm{g/cm^{3}}\right)=1354\,\mathrm{J/cm^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate the bulk free energy gain (ignoring the energy associated with
+ the Al/Si interfaces) associated with the solidification of 1 cm3 of eutectic
+ at 560 °C.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta G_{v}=\Delta H_{v}\frac{\Delta T}{T_{e}}=1354\,\mathrm{J/cm^{3}}\left(\frac{20\,\mathrm{K}}{853\,\mathrm{K}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate the width of the Al and Si phases in a lamellar eutectic for the
+ case where the total free energy change (including the energy associated
+ with the interfaces) on solidification at 560 °C is equal to zero.
+ Assume an interfacial free energy for the Al/Si interface of 350 mJ/m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda^{*}=\frac{2\gamma_{\alpha\beta}}{\Delta G_{v}}=\frac{2\left(0.35\,\mathrm{J/m^{2}}\right)}{32x10^{6}\mathrm{J/m^{3}}}=2.19x10^{-8}\,\mathrm{m}
+\]
+
+\end_inset
+
+The relative widths of each phase will be determined by the lever rule.
+ Since the densities are similar, the volume fraction of Al is also around
+ 0.87, so that this fraction of 
+\begin_inset Formula $\lambda^{*}$
+\end_inset
+
+ corresponds to the Al thickness, with the remainder corresponding to the
+ Si thickness.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Compare the phase widths from part c to the critical radii for the solidificatio
+n of pure Al and pure Si at an undercooling of 20 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ Assume that the solid liquid interfacial free energies are similar in magnitude
+ to the Al/Si (solid/solid) interfacial free energy.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ In this case the relevant equation is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{*}=\frac{2\gamma}{\Delta G_{v}}=\frac{2\gamma T_{m}}{\Delta H_{v}\Delta T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For Al: 
+\begin_inset Formula $T_{m}=933\,\mathrm{K}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta H_{v}=\left(395\,\mathrm{J/g}\right)\left(2.70\,\mathrm{g/cm^{3}}\right)=1067\,\mathrm{J/cm^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{\ensuremath{r^{*}=\frac{2\left(0.35\,\mathrm{J/m^{2}}\right)\left(933\,\mathrm{K}\right)}{\left(1067x10^{6}\,\mathrm{J/m^{3}}\right)\left(20\,\mathrm{K}\right)}=3.0x10^{-8}\,\mathrm{m}}}
+\]
+
+\end_inset
+
+For Al: 
+\begin_inset Formula $T_{m}=1683\,\mathrm{K}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta H_{v}=\left(1408\,\mathrm{J/g}\right)\left(2.33\,\mathrm{g/cm^{3}}\right)=3280\,\mathrm{J/cm^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{\ensuremath{r^{*}=\frac{2\left(0.35\,\mathrm{J/m^{2}}\right)\left(1683\,\mathrm{K}\right)}{\left(3280x10^{6}\,\mathrm{J/m^{3}}\right)\left(20\,\mathrm{K}\right)}=1.8x10^{-8}\,\mathrm{m}}}
+\]
+
+\end_inset
+
+As expected, the values for 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda^{*}$
+\end_inset
+
+ are all similar to one another.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How good is the assumption of ideal liquid mixing in this case? Plot the
+ liquidus lines for the Al-rich and Si-rich phases, using the equation that
+ was developed in class.
+ Compare the location of these lines with the location of the actual eutectic
+ point, and comment on the agreement that you observe.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+We use the equation for the liquidus lines on the Si and Al sides of the
+ phase diagram.
+\end_layout
+
+\begin_layout Standard
+Si side: 
+\begin_inset Formula 
+\[
+RT\ln X_{Si}=-\Delta H_{m}^{Si}\left(1-\frac{T}{T_{m}^{Si}}\right)
+\]
+
+\end_inset
+
+We can rearrange this expression to obtain:
+\begin_inset Formula 
+\[
+T=\frac{T_{m}^{Si}\Delta H_{m}^{Si}}{\Delta H_{m}^{Si}-RT_{m}^{Si}\ln X_{Si}}
+\]
+
+\end_inset
+
+Note that we need the enthalpy in units of J/mole:
+\begin_inset Formula 
+\[
+\Delta H_{m}^{Si}=\left(1408\,\mathrm{J/g}\right)\left(28\,\mathrm{g/mole}\right)=39,400\,\mathrm{J/mole}
+\]
+
+\end_inset
+
+Using this value for the enthalpy, with the appropriate value of the melting
+ temperature and the gas constant (R=8.314 J/mole-K), we can rewrite the
+ equation for the liquidus line as follows:
+\begin_inset Formula 
+\[
+T=\frac{6.63x10^{7}}{39400-13992\ln X_{Si}}=\frac{4740}{2.83-\ln X_{Si}}
+\]
+
+\end_inset
+
+On the Al side we have:
+\begin_inset Formula 
+\[
+\Delta H_{m}^{Al}=\left(395\,\mathrm{J/g}\right)\left(27\,\mathrm{g/mole}\right)=10,700\,\mathrm{J/mole}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+T=\frac{T_{m}^{Al}\Delta H_{m}^{Al}}{\Delta H_{m}^{Al}-RT_{m}^{Al}\ln X_{Al}}=\frac{1287}{1.38+\ln X_{Al}}=\frac{1287}{1.38+\ln\left(1-X_{Si}\right)}
+\]
+
+\end_inset
+
+Both liquidus lines are plotted as a function of 
+\begin_inset Formula $X_{Si}$
+\end_inset
+
+ on the graph below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Al-Si_calc_diagram.PNG
+	lyxscale 60
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Because the molecular weights of Al and Si are so similar, the plot will
+ look very similar if plotted in terms of the weight fraction Si.
+ The calculated eutectic temperature is about 600 °C, which is about 20
+ degrees too high, and the predicted Si composition at the eutectic is also
+ too low by almost a factor of two.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Eutectoid Transormations
+\end_layout
+
+\begin_layout Enumerate-Resume
+\align left
+Imagine the Fe-0.15 wt% C alloy in the figure below is austenitized above
+ 
+\begin_inset Formula $A_{3}$
+\end_inset
+
+, and then quenched to800
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C where ferrite nucleates and covers the austenite grain boundaries.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Derk Stuff/MSE 316-2 Fall 2014/Fall 2014 Assignments/Figures/PE5.45.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\align left
+Draw a composition profile normal to the 
+\begin_inset Formula $\alpha/\gamma$
+\end_inset
+
+ interface after partial transformation assuming
+\begin_inset space \enskip{}
+\end_inset
+
+diffusion-controlled growth.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ See solution for problem 5.6 a) in Porter and Easterling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Derive an approximate expression for the thickness of the ferrite slabs
+ as a function of time.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ See solution for problem 5.6 b) in Porter and Easterling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+The eutectoid temperature for the Fe/C phase diagram is 723 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ Pearlite formed at 713 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C has a lamellar period (
+\begin_inset Formula $\lambda)$
+\end_inset
+
+ of 1
+\begin_inset Formula $\mu\mathrm{m}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate the lamellar period for pearlite that you would expect if the
+ pearlite were formed at a temperature of 623 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution: 
+\series default
+The critical value of the lamellar period, which we refer to as 
+\begin_inset Formula $\lambda^{*}$
+\end_inset
+
+, is given by the following expression:
+\begin_inset Formula 
+\[
+\lambda^{*}=\frac{2\gamma_{\alpha\beta}T_{e}}{\Delta H_{v}^{eu}\Delta T}
+\]
+
+\end_inset
+
+This critical value for 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the smallest value that will actual result in a decrease in the free
+ energy during eutectic solidification.
+ The actual value, determined by a balance of thermodynamic and kinetic
+ factors, is about twice 
+\begin_inset Formula $\lambda^{*}$
+\end_inset
+
+.
+ The important thing here it is that the wavelength is inversely proportional
+ to the undercooling, 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+.
+ So if we have 
+\begin_inset Formula $\lambda=1\,\mu\mathrm{m}$
+\end_inset
+
+ for an undercooling of 10 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C (723 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C-713 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C), we expect to have 
+\begin_inset Formula $\lambda=0.1\,\mu\mathrm{m}$
+\end_inset
+
+ for an undercooling of 100 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C (723 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C-623 
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Pearlite forms initially at grain boundaries within the parent austenite
+ phase.
+ Briefly describe why this is so.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The initial stage in the formation of pearlite is the nucleation of 
+\begin_inset Formula $\mathrm{Fe_{3}C}$
+\end_inset
+
+ at the austenite grain boundaries.
+ It is an example of heterogeneous nucleation, driven by the fact to that
+ 
+\begin_inset Formula $\mathrm{Fe_{3}C}$
+\end_inset
+
+ can form low-energy interfaces with the one of the austenite grains.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Describe what happens to the microstructure of the steel and to the hardness
+ as increasingly large cooling rates are used.
+ Discuss the role of carbon diffusion, and the role of both equilibrium
+ and non-equilibrium phases.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution
+\series default
+: As the cooling rate increases, the pearlite microstructure becomes finer
+ and finer (smaller 
+\begin_inset Formula $\lambda$
+\end_inset
+
+) because the carbon does not have as much time to diffuse during the transforma
+tion process.
+ Hardness generally increases as the phase size decreases because of the
+ increased barrier to dislocation motion associated with the increased number
+ of hard, 
+\begin_inset Formula $\mathrm{Fe_{3}C}$
+\end_inset
+
+ regions.
+ Eventually the cooling rate becomes so fast so that martensite is formed.
+ Martensite is a non-equilibrium phase that does not require any carbon
+ diffusion.
+ It is hardest form of steel because of the limited number of slip systems
+ in the tetragonal crystal structure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+In the reading about the Wright Flyer Crankcase, the authors assert 
+\begin_inset Quotes eld
+\end_inset
+
+In an Al-Cu alloy with significant supersaturation, GP zones develop by
+ spinodal decomposition.
+ The spacing between zones (before coarsening) is determined by the fastest
+ growing wavelength during decomposition.
+ The favored wavelength is inversely related to the second derivative of
+ the free energy versus composition function,which is zero at the spinodal
+ line (located inside but near the GP zone solvus curve) and increases(negativel
+y) with an increase in Cu or a decrease in temperature.
+ Thus, the favored wavelength in the region with a large amount of Cu is
+ smaller than in the regions with small amounts of Cu, and the resulting
+ spacing between zones is smaller.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate-Resume
+\align left
+Support their argument using the equations derived in class for spinodal
+ decomposition.
+ A good way to approach this is to postulate a spinodal line and then consider
+ two cases, i.e.
+ 
+\begin_inset Formula $X_{o}=2.5$
+\end_inset
+
+ wt.% Cu and 
+\begin_inset Formula $X_{o}=4.5$
+\end_inset
+
+ wt.% Cu, in detail, based on this spinodal.
+ Be sure to also explain why the authors made the parenthetical statement
+ 
+\begin_inset Quotes eld
+\end_inset
+
+(before coarsening)
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\align left
+The text says that the spinodal line is located inside, but near the GP
+ zone solvus curve as represented in the schematic below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/ken/Dropbox/MSE_coursenotes/Derk Stuff/MSE 316-2 Fall 2014/Fall 2014 Assignments/Figures/AlCuPDwSpinodal.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+The critical wavelength 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+ is given by the following expression:
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Formula 
+\[
+\lambda_{c}=\pi\left(\frac{-8\kappa}{\frac{\partial^{2}G}{\partial C^{2}}\Biggr|_{C_{0}}+W_{V}^{el}}\right)^{\frac{1}{2}}
+\]
+
+\end_inset
+
+Assuming that we can neglect strain effects, it can be seen that as the
+ magnitude of the second derivative increases, 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+ decreases.
+ Since 
+\begin_inset Formula $\lambda_{max}=\sqrt{2}\lambda_{c}$
+\end_inset
+
+ corresponds to the fastest growing wavelength which will dominate the microstru
+cture and therefore define the spacing between GP zones.
+ According to the assertion made by the authors, the magnitude of the second
+ derivative must therefore increase as the amount of Cu increases, resulting
+ in a smaller spacing between GP zones.
+ This statements holds for low Cu concentrations within the spinodal range
+ at a given temperature because based on the free energy curves the second
+ derivative does indeed increase in magnitude as Cu concentration increases.
+ The authors make the parenthetical statement 
+\begin_inset Quotes eld
+\end_inset
+
+(before coarsening)
+\begin_inset Quotes erd
+\end_inset
+
+ because coarsening would change thevspacing between precipitates as larger
+ GP zones grow at the expense of the smaller ones.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+Is their argument entirely valid or do certain conditions need to be met?
+ If so, what qualifications should be made to make it more accurate?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\align left
+The paper seems to suggest that the magnitude of the second derivative continues
+ to increase with increasing supersaturation.
+ However, this is only true up to the Cu concentration which corresponds
+ to the local maximum in the free energy curve for a specific temperature.
+ Beyond that maximum point,any increase in Cu concentration will actually
+ correspond to a decrease in magnitude of the second derivative and hence
+ would lead to a larger 
+\begin_inset Formula $\lambda_{c}$
+\end_inset
+
+.
+ See schematic below, which is not drawn to scale.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/ken/Dropbox/MSE_coursenotes/Derk Stuff/MSE 316-2 Fall 2014/Fall 2014 Assignments/Figures/GXSchematic.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+\align left
+The authors claim that 
+\begin_inset Quotes eld
+\end_inset
+
+The growth of [GP] zones is ultimately limited by solute depletion in the
+ matrix.
+ Despite its high solute concentration, the region with a large amount of
+ Cu is depleted of solute by the time the zones have grown to about 10 nm.
+\begin_inset Quotes erd
+\end_inset
+
+ Let's assume with them the GP zones grow at 100
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C from a matrix with 4.5 wt.% Cu.
+ How do the authors arrive at this statement, what evidence did they likely
+ use, and what calculations did they perform to arrive at this statement?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+\align left
+A higher Cu concentration corresponds to a higher supersaturation and therefore
+ a larger driving force for precipitation.
+ This leads to a higher nucleation rate which corresponds to a higher precipitat
+e number density and smaller spacing between GP zones for an alloy with
+ higher Cu concentration.
+ This difference in GP zone size and number density is shown in the TEM
+ images in Figure 2 in the paper.
+ The authors could have done area or volume fraction calculations based
+ on these experimental micrographs and compared it with the predicted values
+ based on the phase diagram to confirm that the matrix would be depleted.
+ At this point no further growth would occur, but the GP zones would begin
+ to coarsen.
+ You can actually perform the calculation to confirm whether the value given
+ by the authors is correct.
+ This is a relatively straightforward calculation assuming the GP zones
+ are circular with a diameter of 10 nm because you should be able to calculate
+ the number of Cu atoms from the crystalstructure in the slides.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Transitional Phases
+\end_layout
+
+\begin_layout Enumerate-Resume
+Suppose an alloy containing 97 wt.
+ % aluminum and 3 wt.
+ % copper is poured into a mold and solidified by extracting heat from the
+ external surfaces of the mold.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/Al-Cu_phase_diagram.jpg
+	lyxscale 25
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+What phase (or phases) do you expect to be present in the solid immediately
+ after the solidification reaction?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ After solidification, when the sample is still hot, we are in the one phase
+ region, where only the 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ phase (as labeled on the phase diagram below) exists.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+What phase (or phases) will be present at equilibrium?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Once the sample has cooled, we will enter the two phase region where we
+ expect 
+\begin_inset Formula $\theta$
+\end_inset
+
+ (CuAl
+\begin_inset Formula $_{2}$
+\end_inset
+
+) precipitates in the 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ matrix.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+A variety of non-equilibrium phases are observed at intermediate stages
+ in the transformation process.
+ Why are these phases observed?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ These phases (
+\begin_inset Formula $\theta'$
+\end_inset
+
+, 
+\begin_inset Formula $\theta"$
+\end_inset
+
+ and GP Zones) form because they have lower values of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ with the parent Al phase as a result of greater interface coherence.
+ Their nucleation rates are therefore faster than the nucleation rate for
+ the equilibrium 
+\begin_inset Formula $\theta$
+\end_inset
+
+ phase.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Once the equilibrium phase is formed, its rate of growth is found to decrease
+ with time.
+ Why is this? What is the rate limiting step in the transformation? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ The driving force arising from the supersaturation of Cu in the parent
+ 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ phase decreases as the total amount of the 
+\begin_inset Formula $\theta$
+\end_inset
+
+ phase present approaches the equilibrium value given by the lever rule.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate-Resume
+Porter and Easterling, prob.
+ 5.6
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ See solution in Porter and Easterling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Suppose that in the system of interest, 
+\begin_inset Formula $\chi$
+\end_inset
+
+ is inversely proportional to the absolute temperature, and the critical
+ temperature for this system is 350 K.
+ Replot the phase diagram from part a with temperature on the vertical axis.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ All we need to do is map 
+\begin_inset Formula $\chi$
+\end_inset
+
+ from the previous problem onto the absolute temperature, 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ The fact that 
+\begin_inset Formula $T$
+\end_inset
+
+ is inversely proportional to the absolute temperature, with 
+\begin_inset Formula $T=T_{crit}$
+\end_inset
+
+ when 
+\begin_inset Formula $\chi=\chi_{crit}$
+\end_inset
+
+ gives:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T=T_{crit}\frac{\chi_{crit}}{\chi}
+\]
+
+\end_inset
+
+Using this relationship to transform the vertical scale on the phas diagram
+ gives the following plot:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename matlab/flory_t_diagram.svg
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+TTT diagrams
+\end_layout
+
+\begin_layout Enumerate-Resume
+Consider the following blowup of the low concentration region of a phase
+ diagram similar to the Co-Cu diagram shown above:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/drawing78.svg
+	width 47text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+At an average alloy composition 
+\begin_inset Formula $\phi_{0}$
+\end_inset
+
+ shown on this plot, it is determined that only 
+\begin_inset Formula $\beta$
+\end_inset
+
+ precipitates form (no 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is ever observed) at two temperatures, 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+ The time dependence of the appearance of 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is plotted at these two temperatures as shown below.
+ On the plot above, indicate locations of 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ that are consistent with these curves, and briefly describe your reasoning.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/drawing79.svg
+	width 55text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Draw TTT curves for the precipitation of both 
+\begin_inset Formula $\beta$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ for an alloy with the composition of 
+\begin_inset Formula $\phi_{0}$
+\end_inset
+
+, making connections to specific temperatures from the phase diagram where
+ possible.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $\beta$
+\end_inset
+
+ forms and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ does not, we must be above the temperature at which 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ can form.
+ 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ is close to the solubility limit for 
+\begin_inset Formula $\beta$
+\end_inset
+
+, giving a smaller driving force for precipitation and causing things to
+ take longer to happen.
+ We therefore have 
+\begin_inset Formula $T_{2}>T_{1}$
+\end_inset
+
+, with both temperatures being somewhere between 
+\begin_inset Formula $T_{\gamma}$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{\beta}$
+\end_inset
+
+ as defined on the plot below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/2010-midterm2sol_fig1.PNG
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Mineralization
+\end_layout
+
+\begin_layout Enumerate-Resume
+Calculate the 
+\begin_inset Formula $\mathrm{CO_{3}^{2-}}$
+\end_inset
+
+ concentration in equilibrium with seawater and with each of the following
+ three forms of calcium carbonate: calcite, aragonite, vaterite.
+ You'll need to use the solubility products provided in class, and look
+ up the calcium concentration in seawater.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status collapsed
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\series default
+ We need to use the solubility product, 
+\begin_inset Formula $K_{sp}$
+\end_inset
+
+, defined in the following way:
+\begin_inset Formula 
+\[
+K_{sp}=\left[\mathrm{Ca^{2+}}\right]\left[\mathrm{CO_{3}^{2-}}\right]
+\]
+
+\end_inset
+
+In the carbonate data sheet provided on blackboard, values of 
+\begin_inset Formula $pK_{sp}$
+\end_inset
+
+ are provided for the different calcium carbonate forms.
+ This quantity is defined as follows:
+\begin_inset Formula 
+\[
+pK_{sp}=-\log K_{sp}
+\]
+
+\end_inset
+
+We need to look up typical values of 
+\begin_inset Formula $\left[\mathrm{Ca^{2+}}\right]$
+\end_inset
+
+ in seawater.
+ From the Wikipedia site (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Seawater
+\end_layout
+
+\end_inset
+
+) I get a concentration of 0.0103 mol/kg.
+ We need to convert this to mol/l by multiplying by the density of seawater,
+ which is 1.025 kg/l (also from the Wikipedia site).
+ This gives 
+\begin_inset Formula $\mathrm{Ca^{2+}}=0.0106\,\mathrm{mol/l}$
+\end_inset
+
+, which we can use with the appropriate 
+\begin_inset Formula $K_{sp}$
+\end_inset
+
+ values to calculate 
+\begin_inset Formula $\mathrm{CO_{3}^{2-}}$
+\end_inset
+
+.
+ The results are tabulated below for the 
+\begin_inset Formula $pK_{sp}$
+\end_inset
+
+ values corresponding to 25 
+\begin_inset Formula $^{\circ}C$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $pK_{sp}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K_{sp}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathrm{CO_{3}^{2-}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calcite
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.31x10^{-9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.12x10^{-7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aragonite
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4.57x10^{-9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4.31x10^{-7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vaterite
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.91
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.23x10^{-8}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.16x10^{-6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Review Questions
+\end_layout
+
+\begin_layout Itemize
+What does the liquid composition look like in front of an advancing solid
+ phase? 
+\end_layout
+
+\begin_layout Itemize
+What controls length scale of the composition variation? 
+\end_layout
+
+\begin_layout Itemize
+What is the criteria for interface stability with respect to the formation
+ of dendrites? 
+\end_layout
+
+\begin_layout Itemize
+Under what conditions are dendrites formed during the solidification of
+ a pure material? 
+\end_layout
+
+\begin_layout Itemize
+What is the qualitative behavior of 
+\begin_inset Formula $S(\theta)$
+\end_inset
+
+ for nucleation at a flat interface, and at grain boundary surfaces, edges
+ and corners? 
+\end_layout
+
+\begin_layout Itemize
+How are equilibrium contact angles related to surface and interfacial free
+ energies? 
+\end_layout
+
+\begin_layout Itemize
+What is meant by complete wetting? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What is the effect on nucleation for the complete wetting case? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What are the characteristic frequencies and concentrations (
+\begin_inset Formula $C_{0},\,\nu_{0}$
+\end_inset
+
+) that determine the homogeneous and heterogeneous nucleation rates? 
+\end_layout
+
+\begin_layout Itemize
+Why is coherent nucleation generally the favored homogeneous nucleation
+ mechanism? 
+\end_layout
+
+\begin_layout Itemize
+How is the work to form the critical nucleus calculated? 
+\end_layout
+
+\begin_layout Itemize
+What is the 'incoherent solvus', and how does it relate to the expressions
+ listed above? 
+\end_layout
+
+\begin_layout Itemize
+Where does the Laplace pressure come from? 
+\end_layout
+
+\begin_layout Itemize
+How do you know that kinetic factors must be controlling complex morphologies
+ (dendrite formation, shapes of snowflakes, etc.)? 
+\end_layout
+
+\begin_layout Itemize
+What controls the size of the depletion zone in front of a flat or curved
+ precipitate that is growing? 
+\end_layout
+
+\begin_layout Itemize
+How does it evolve with time? 
+\end_layout
+
+\begin_layout Itemize
+What limits the growth velocity of a precipitate phase boundary at high
+ and low temperatures? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Which of these limits are connected to the phase diagram? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Why are flat, plate-like precipitates sometimes formed? 
+\end_layout
+
+\begin_layout Itemize
+How does the molar free energy depend on the radius of curvature of a precipitat
+e? 
+\end_layout
+
+\begin_layout Itemize
+How does curvature effect the equilibrium concentration of solute that is
+ in equilibrium with a precipitate? 
+\end_layout
+
+\begin_layout Itemize
+What does the concentration dependence look like for precipitates that are
+ larger than r*? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What if the precipitate is smaller than r*? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What are transition phases, and why do they form? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What is the mechanism by which transition phases shrink at the expense of
+ equilibrium phases? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How are TTT curves for transition phases related to the phase diagram? 
+\end_layout
+
+\begin_layout Itemize
+What are the basic physical assumptions of the Lifshitz/Slyosov coarsening
+ theory discussed in class?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What do the depletion zones look like? 
+\end_layout
+
+\begin_layout Itemize
+What determines the average solute concentration in the matrix phase?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What does the distribution of precipitates look like if coarsening occurs
+ by the Lifshitz/Slyosov mechanism? 
+\end_layout
+
+\begin_layout Itemize
+What do the binodal and spinodal curves look like for the regular solution
+ model? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What is the critical temperature? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What determines the size of the characteristic phase size when phase separation
+ occurs by spinodal decomposition?
+\end_layout
+
+\begin_layout Itemize
+What is meant by uphill diffusion? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When is it observed? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How is this phase size modified (in qualitative terms) by coherent strains?
+ 
+\end_layout
+
+\begin_layout Itemize
+How do these strains modify the phase diagram to give coherent spinodal
+ and binodal curves?
+\end_layout
+
+\begin_layout Itemize
+How can the liquidus lines be estimated for an ideal eutectic system? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are the assumptions made in the approximation? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What determines the size of the individual phases for eutectic solidification?
+ 
+\end_layout
+
+\begin_layout Itemize
+What determines the size of the individual phases for a eutectoid transformation
+? 
+\end_layout
+
+\begin_layout Itemize
+What is the physical significance of the squared gradient term in the free
+ energy expression? 
+\end_layout
+
+\begin_layout Itemize
+How can the shapes and sizes of metallic nanoparticles be controlled? 
+\end_layout
+
+\begin_layout Itemize
+What is the growth mechanism of Si nanowires catalyzed by Gold? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What is the importance of the Au/Si phase diagram.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How does the solubility of calcite compare to the solubility of aragonite
+ or vaterite, and why? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How is the concept of the solubility product used?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In the two-phase mixture of n-type and p-type materials used to form an
+ organic solar cell, what sort of phase morphology is desired, and why?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch unused
+status collapsed
+
+\begin_layout Section
+Equation Review
+\end_layout
+
+\begin_layout Standard
+(A helpful summary of some of the math of 316-2)
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset Formula $\Delta P=\frac{2\gamma}{R}=-\Delta T\Delta S_{v}=-\Delta H_{v}\frac{\Delta T}{T_{m}}=-\Delta G_{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta G=V^{\beta}\left\{ \Delta G_{v}+\frac{W_{el}}{V^{\beta}}\right\} +A^{\beta}\gamma-\Delta G_{def}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{W_{el}}{V^{\beta}}=\left[\frac{18\varepsilon^{2}\mu^{\alpha}K^{\beta}}{3K^{\beta}+4\mu^{\alpha}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W_{R}^{*}=\frac{16\pi\gamma^{3}}{3\left(\Delta G_{v}+W_{el}/V^{\beta}\right)^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Ṅ_{v}=\omega C_{0}\exp\left(\frac{-\Delta G_{d}}{k_{B}T}\right)\exp\left(\frac{-W_{R}^{*}}{k_{B}T}\right)\,\mathrm{or}\,\nu_{0}C_{0}\exp\left(\frac{-W_{R}^{*}}{k_{B}T}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C=C_{s}+\left(C_{\ell}-C_{s}\right)\exp\left(-Vx/D\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta G_{m}\left(X_{0}\right)=-\Delta\mu_{ab}\left(X_{0}\right)\left(X_{eq}^{\beta}-X_{e}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $V=\frac{D}{X_{\beta}-X_{e}}\frac{X_{0}-X_{e}}{L};\,\,\,\,\,L=\sqrt{DT}\,\,\mathrm{or}\,r$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta\mu_{ab}=\frac{RT}{X_{e}}\left(X_{0}-X_{e}\right);\,\,\,\,\frac{X_{r}}{X_{e}}=1+\frac{2\gamma V_{m}}{RTr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta X_{0}\left(1-\frac{r^{*}}{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $f\left(t\right)=1-\exp\left(-\frac{\pi}{3}\dot{N_{v}v^{3}t^{4}}\right)=1-\exp\left(-kt^{n}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{dr}{dt}=\frac{2\gamma V_{m}DC_{e}}{RTr^{2}(C_{\beta}-C_{e})}\left(\frac{r}{\overline{r}}-1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\overline{r}^{3}(t)=\overline{r}^{3}(0)+\frac{8\gamma V_{m}DC_{e}}{9RT(C_{\beta}-C_{e})}t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $RT1nX_{L}^{\beta}=-\Delta H_{B}\left(1-\frac{T}{T_{m}^{B}}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda^{*}=-\frac{2\gamma_{\alpha\beta}}{\Delta G_{v}^{eu}}=\frac{2\gamma_{\alpha\beta}T_{e}}{\Delta H_{v}^{eu}\Delta T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $V\propto\Delta X_{\lambda}\frac{D}{\lambda}=\Delta X_{0}\frac{D}{\lambda}\left(1-\frac{\lambda^{*}}{\lambda}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda\thickapprox2\lambda^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{V_{0}G_{v}}{RT}=\frac{\phi_{a}1n\phi_{a}}{N_{a}}+\frac{\phi_{b}1n\phi_{b}}{N_{b}}+\chi\phi_{a}\phi_{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\chi_{s}=\frac{1}{2\phi N_{b}}+\frac{1}{2(1-\phi)N_{a}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\phi_{crit}=\frac{\sqrt{N_{a}}}{\sqrt{N_{a}}+\sqrt{N_{b}}};\,\,\,\,\chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $N\chi_{b}=\frac{\ln\left(\frac{1-\phi}{\phi}\right)}{1-2\phi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda_{c}=\frac{2\pi}{\left(-\frac{1}{2\kappa}\frac{\partial^{2}G}{\partial\phi^{2}}-\frac{6\mu\eta^{2}}{\kappa}\right)^{1/2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda\thickapprox2\lambda_{c}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch thisfileonly
+status open
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "msecoursenotes"
+options "unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
