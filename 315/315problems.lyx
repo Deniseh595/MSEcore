@@ -6,6 +6,9 @@
 \use_default_options true
 \begin_modules
 enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
 \end_modules
 \maintain_unincluded_children false
 \begin_local_layout
@@ -132,6 +135,11 @@ EndPreAmble
 \filename_suffix 0
 \color #faf0e6
 \end_branch
+\branch problemsfile
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -159,6 +167,24 @@ EndPreAmble
 
 \begin_layout Section
 315 Problems 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch problemsfile
+status collapsed
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -1738,6 +1764,16 @@ Given the following oxygen ion diffusivities for calcia-stabilized zirconia
 , calculate a) the ionic conductivity at each temperature, and b) the enthalpy
  of motion.
  Assume oxygen vacancies are the dominant defect.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "315computation.lyx"
+
+\end_inset
+
+
 \end_layout
 
 \end_body

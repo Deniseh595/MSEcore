@@ -81,11 +81,12 @@ tabs-within-sections
 \pdf_bookmarksnumbered true
 \pdf_bookmarksopen true
 \pdf_bookmarksopenlevel 4
-\pdf_breaklinks true
+\pdf_breaklinks false
 \pdf_pdfborder true
 \pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
+\pdf_quoted_options "citecolor=blue, linkcolor=blue, urlcolor=blue"
 \papersize default
 \use_geometry true
 \use_package amsmath 1
@@ -133,6 +134,11 @@ tabs-within-sections
 \filename_suffix 0
 \color #faf0e6
 \end_branch
+\branch problemsfile
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -141,7 +147,7 @@ tabs-within-sections
 \topmargin 2cm
 \rightmargin 2cm
 \bottommargin 2cm
-\secnumdepth 0
+\secnumdepth 3
 \tocdepth 2
 \paragraph_separation skip
 \defskip medskip
@@ -159,7 +165,25 @@ tabs-within-sections
 \begin_body
 
 \begin_layout Section
-314 Problems 
+314 Problems
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch problemsfile
+status open
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -202,7 +226,7 @@ How would your answer to (a) change if you take into account equilibrium
 
 \begin_layout Standard
 \begin_inset Branch solution
-status open
+status collapsed
 
 \begin_layout Standard
 \begin_inset Note Greyedout

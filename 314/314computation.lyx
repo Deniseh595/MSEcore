@@ -154,32 +154,6 @@ EndPreAmble
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset Branch thisfileonly
-status open
-
-\begin_layout Title
-314 MATLAB Exercises
-\end_layout
-
-\begin_layout Author
-Matt Peters and Lincoln Lauhon
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 314 Computational Exercises
 \end_layout

@@ -111,6 +111,11 @@ enumitem
 \filename_suffix 0
 \color #faf0e6
 \end_branch
+\branch thisfileonly
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -135,6 +140,32 @@ enumitem
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset Branch thisfileonly
+status open
+
+\begin_layout Title
+301 Problems
+\end_layout
+
+\begin_layout Author
+MSE Faculty
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Section
 331 Problems
@@ -345,7 +376,6 @@ F
 \begin_layout Standard
 The repeat unit structures and the molecular weights are shown in the following
  table.
-
 \begin_inset Tabular
 <lyxtabular version="3" rows="20" columns="3">
 <features rotate="0" islongtable="true" longtabularalignment="center">
@@ -1572,7 +1602,6 @@ Solution:
 \begin_layout Standard
 (d) and (e) will form a polyurethane network.
  Urethanes do not have condensation products.
-
 \end_layout
 
 \end_inset
@@ -1678,7 +1707,7 @@ diacid ( HOOC-
 \size footnotesize
 \color black
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=\frac{w}{n}=\frac{n_{a}M_{a}+n_{b}M_{b}-2n_{a}M_{c}}{n_{a}-n_{b}}=\frac{(1.00mol)(160g/mol)+(1.01mol)(180g/mol)-2(1.00mol)(18g/mol)}{1.01-1.00mol}={\color{black}{\color{black}{\color{black}30580g}/mol}}
 \]
@@ -1753,7 +1782,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 {\color{black}2n_{b}M_{c}=2(1.00mol)(18g/mol)=36g}
 \]
@@ -1820,7 +1849,6 @@ Solution
 \series default
 : - These are the three that are formed from the simple reactions discussed
  in the text.
-
 \end_layout
 
 \begin_layout Standard
@@ -1842,7 +1870,6 @@ Solution
 \begin_layout Standard
 (2) Diisocyanate + (5) Dialcohol - These react to form a polyurethane.
  There is no condensation product.
-
 \end_layout
 
 \begin_layout Standard
@@ -2248,7 +2275,6 @@ Add
 
  moles of styrene monomer and let the proceed until all styrene monomer
  is exhausted.
-
 \end_layout
 
 \begin_layout Enumerate
@@ -2258,7 +2284,6 @@ Add
 
  moles of isoprene monomer and let the proceed until all styrene monomer
  is exhausted.
-
 \end_layout
 
 \begin_layout Enumerate
@@ -2277,7 +2302,6 @@ s to be characterized, although the polydispersities are higher than what
  reactions are not completely avoided).
  Cationic polymerization cannot be used with these monomers because the
  cationic functionality at the propagating chain end is not stable.
-
 \begin_inset VSpace medskip
 \end_inset
 
@@ -2336,7 +2360,6 @@ Nylon 6-10:
 In beaker 1 add an excess of the Diamine (A) molecules.
  This will create a Nylon 6-6 macromonomer with diamine termination on both
  ends.
-
 \end_layout
 
 \begin_layout Itemize
@@ -2351,7 +2374,7 @@ Step 2: Mix the contents from beaker 1 and beaker 2 together.
  Since the polymers produced in beaker 1 all have amine end groups and the
  polymers from beaker 2 all have Acid end groups, these polymers act as
  'macromonomers' in a subsequent step growth polymerization:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 A(BAB)_{N_{1}}A+C(ACA)_{N_{2}}C=\left(A(BAB)_{N_{1}}AC(ACA)_{N_{2}}C\right)_{N_{t}}
 \]
@@ -2371,7 +2394,6 @@ Here
 \end_inset
 
  is the number of nylon 6-6 and nylong 6-10 block in the overall copolymer.
-
 \end_layout
 
 \end_inset
@@ -2417,7 +2439,6 @@ Number of blocks within the polymer molecule
  typically only diblocks are created.
  Each of the polymer molecules will have a polystyrene block and a polyisoprene
  block.
-
 \end_layout
 
 \begin_layout Standard
@@ -2438,8 +2459,6 @@ Number of blocks within the polymer molecule
 
 \series bold
 Polydispersity of block lengths
-\bar under
-
 \end_layout
 
 \begin_layout Standard
@@ -2456,7 +2475,6 @@ Polydispersity of block lengths
  which will cause for branching and early termination.
  Also using radical polymerization, termination of two radicals can occur
  which will create a broader distribution of the molecule sizes.
-
 \end_layout
 
 \begin_layout Standard
@@ -2469,7 +2487,6 @@ Polydispersity of block lengths
  ~2.
  The distribution of chain lengths is much broader, because of the statistical
  nature of the process.
-
 \end_layout
 
 \end_inset
@@ -2548,7 +2565,7 @@ Given: Dicarboxylic Acid,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 p_{gel}=\frac{2}{f_{av}}
 \]
@@ -2564,7 +2581,7 @@ The generalization of the definition of
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 f_{av}=\frac{n_{a}f_{a}+n_{b}f_{b}+n_{c}f_{c}}{n_{a}+n_{b}+n_{c}}=\frac{(1.2\times2)+(0.4\times3)+(0.6\times2)}{1.2+0.4+0.6}=2.18
 \]
@@ -2583,7 +2600,7 @@ Use of this value of
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 p_{gel}=\frac{2}{2.18}=0.92
 \]
@@ -2697,7 +2714,6 @@ Living
 
  polymerizations are chain growth polymerizations that proceed without terminati
 on or chain transfer reactions.
-
 \end_layout
 
 \begin_deeper
@@ -2921,7 +2937,6 @@ Suppose that there are no chain transfer or termination events during the
 \end_inset
 
 ) of the polymer that is produced.
-
 \end_layout
 
 \begin_deeper
@@ -2951,7 +2966,7 @@ Solution:
 
 on one polymer chain can then be calculated as 100/0.1=1000.
  Therefore, Mn can be calculated as below:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=N_{n}M_{0}=1000\cdot104g/mol=104,000\:g/mol
 \]
@@ -3019,7 +3034,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=\frac{M_{0}}{2\left(1-p\right)}
 \]
@@ -3051,7 +3066,6 @@ So for p=0.999,
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -3134,7 +3148,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 n_{1}=\frac{0.5g}{500M_{0}}=0.001g/M_{0};\;\;n_{2}=\frac{0.5g}{5000M_{0}}=0.0001g/M_{0}
 \]
@@ -3151,7 +3165,7 @@ The number average molecular weight for the entire polymer is obtained from
 \end_inset
 
  total moles:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=\frac{1g}{\frac{0.0011g}{M_{0}}g}=909M_{0}
 \]
@@ -3180,7 +3194,7 @@ For the weight average molecular weight, we just use the definition for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{w1}=1,000M_{0},\:\:M_{w2}=10,000M_{0}
 \]
@@ -3188,7 +3202,7 @@ M_{w1}=1,000M_{0},\:\:M_{w2}=10,000M_{0}
 \end_inset
 
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{w}=0.5x1,000M_{0}+0.5x10,000M_{0}=5500
 \]
@@ -3701,7 +3715,6 @@ Solution:
 
 , the poly(vinyl chloride) will become rubbery and break soft because of
  the heat and weight of the coffee.
-
 \end_layout
 
 \end_inset
@@ -3751,7 +3764,6 @@ Solution:
 
 .
  Though the glass transition temperature of high density polyethylene is
-
 \begin_inset Formula $-100^{\circ}C$
 \end_inset
 
@@ -3766,7 +3778,6 @@ Solution:
 
  the high density polyethylene will have a large fraction of crystallinity
  due to the low concentration of branching in the polymer.
-
 \end_layout
 
 \end_inset
@@ -3791,7 +3802,6 @@ Draw the chemical structures of the two different monomers that were used
  to form this material.
  (Note that the R groups just represent connections to the rest of the material,
  they are not part of the structures you need to draw).
-
 \end_layout
 
 \begin_deeper
@@ -3906,7 +3916,6 @@ Solution:
 \end_inset
 
 ).
-
 \end_layout
 
 \end_inset
@@ -3962,7 +3971,6 @@ Solution:
 Assuming that the two monomers are added together in optimum proportions
  you mentioned in part d, what fraction of reactive groups need to react
  to form an insoluble gel.
-
 \end_layout
 
 \begin_deeper
@@ -3992,7 +4000,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 f_{av}=\frac{n_{a}f_{a}+n_{b}f_{b}}{n_{a}+n_{b}}
 \]
@@ -4023,7 +4031,7 @@ with
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 f_{av}=\frac{3\cdot2+2\cdot3}{2+3}=2.4
 \]
@@ -4123,7 +4131,7 @@ Given:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{V_{f}}{V}=(\alpha_{liq}-\alpha_{glassy})(T_{g}-T_{\infty})=0.025
 \]
@@ -4138,7 +4146,7 @@ Given:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 T_{g}=\frac{V_{f}}{V(\alpha_{liq}-\alpha_{glassy})}+T_{\infty}=\frac{0.025}{4.5\times10^{-4}-3\times10^{-4}}+50=217^{\circ}C
 \]
@@ -4188,7 +4196,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 T_{g}=\frac{V_{f}}{V(\alpha_{liq}-\alpha_{glassy})}+T_{\infty}=\frac{0.021}{4.5\times10^{-4}-3\times10^{-4}}+50=190^{\circ}C
 \]
@@ -4437,7 +4445,6 @@ The DSC curves below correspond to the 3 polymers listed below.
 \end_inset
 
 ) temperatures, and give your reasoning in each case.
-
 \end_layout
 
 \begin_deeper
@@ -4653,14 +4660,12 @@ Short, bulky side groups (like methyl of phenyl groups) increase the fractional
 \end_inset
 
  ) increase the available free volume.
-
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 Describe how each of these two types of groups is expected to affect the
  glass transition temperature.
-
 \end_layout
 
 \begin_deeper
@@ -4684,7 +4689,6 @@ These short, bulky groups increase
  because they increase the temperature that the sample must be heated to
  in order for their to be enough free volume for the molecules to move.
  For the long thin groups the argument is the inverse of this same argument.
-
 \begin_inset Formula $T_{g}$
 \end_inset
 
@@ -4736,7 +4740,6 @@ An inflexible polymer backbone increases
 \end_inset
 
  is much higher.
-
 \end_layout
 
 \end_inset
@@ -4824,7 +4827,7 @@ Given:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 N=M_{w}/M_{0}=(10^{5}g/mol)/(104g/mol)=961.5
 \]
@@ -4835,7 +4838,7 @@ N=M_{w}/M_{0}=(10^{5}g/mol)/(104g/mol)=961.5
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}=N^{0.5}a
 \]
@@ -4846,7 +4849,7 @@ R_{0}=N^{0.5}a
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 a=R_{0}/N^{0.5}=200Å/961.5^{0.5}=6.45Å
 \]
@@ -4857,7 +4860,7 @@ a=R_{0}/N^{0.5}=200Å/961.5^{0.5}=6.45Å
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}=N^{0.5}a=(250000/104)^{0.5}(6.45Å)=316Å
 \]
@@ -4883,7 +4886,7 @@ Alternative approach: We can get to the answer a bit more quickly by realizing
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}=200Å(\frac{250,000}{100,000})^{1/2}=200Å(2.5)^{1/2}=316Å
 \]
@@ -4928,7 +4931,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}^{2}=C_{\infty}N_{b}l^{2}
 \]
@@ -4967,7 +4970,7 @@ R_{0}^{2}=C_{\infty}N_{b}l^{2}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 C_{\infty}=\frac{R_{0}^{2}}{N_{b}l^{2}}=\frac{(200Å)^{2}}{(1923)(1.54Å)^{2}}=8.77
 \]
@@ -5011,7 +5014,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 N=M_{w}/M_{0}=(10^{5}g/mol)/(104g/mol)=961.5
 \]
@@ -5022,7 +5025,7 @@ N=M_{w}/M_{0}=(10^{5}g/mol)/(104g/mol)=961.5
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}=N^{0.5}a
 \]
@@ -5033,7 +5036,7 @@ R_{0}=N^{0.5}a
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 a=R_{0}/N^{0.5}=200Å/961.5^{0.5}=6.45Å
 \]
@@ -5097,7 +5100,7 @@ Volume actually occupied by a polystyrene molecule
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \bar{V}=\frac{\bar{m}}{\rho}=\frac{M_{w}}{\rho N_{A}}=\mathrm{\frac{(250,000\,g/mol)}{(1g/cm^{3})(6.022\times10^{23}/mol)}=4.15\times10^{-19}cm^{3}/molecule=4.15\times10^{5}Å^{3}/molecule}
 \]
@@ -5113,7 +5116,7 @@ Number of overlapping molecules
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{R_{0}^{3}}{\bar{V}}=\frac{3.16\times10^{7}Å^{3}}{4.15\times10^{5}Å^{3}/molecule}=76molecules
 \]
@@ -5170,7 +5173,7 @@ We use the following expression for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 C_{\infty}=\frac{\left(1+\cos\theta\right)}{\left(1-\cos\theta\right)}\frac{\left(1+\left\langle \cos\phi\right\rangle \right)}{\left(1-\left\langle \cos\phi\right\rangle \right)}
 \]
@@ -5193,7 +5196,7 @@ With
 
  anyway).
  From this we get:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{8.77}{2}=4.39=\frac{\left(1+\left\langle \cos\phi\right\rangle \right)}{\left(1-\left\langle \cos\phi\right\rangle \right)}
 \]
@@ -5201,9 +5204,9 @@ With
 \end_inset
 
 Which simplifies to
-\begin_inset Formula
+\begin_inset Formula 
 \[
-3.39=5.39\left\langle \cos\phi\right\rangle
+3.39=5.39\left\langle \cos\phi\right\rangle 
 \]
 
 \end_inset
@@ -5240,7 +5243,7 @@ or
 
 =-0.5.
  From this we get:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \left\langle \cos\phi\right\rangle =0.63=f-0.5\left(1-f\right)
 \]
@@ -5412,7 +5415,7 @@ Given
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 C_{\infty}=\left(\frac{1+\cos\theta}{1-\cos\theta}\right)\left(\frac{1+\left\langle \cos\phi\right\rangle }{1-\left\langle \cos\phi\right\rangle }\right)
 \]
@@ -5431,7 +5434,7 @@ This is simplified a bit by the fact that the first term is
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \left(\frac{1+\cos\theta}{1-\cos\theta}\right)\approx2
 \]
@@ -5442,7 +5445,7 @@ so we have:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \left(\frac{1+\left\langle \cos\phi\right\rangle }{1-\left\langle \cos\phi\right\rangle }\right)=C_{\infty}/2=8/2=4
 \]
@@ -5457,7 +5460,7 @@ Now we solve for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 1+\left\langle \cos\phi\right\rangle =4(1-\left\langle \cos\phi\right\rangle )\rightarrow\left\langle \cos\phi\right\rangle =0.6
 \]
@@ -5492,7 +5495,7 @@ Finally, we relate this to the fraction,
 \begin_layout Standard
 \noindent
 \align left
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \left\langle \cos\phi\right\rangle =0.6=f\cos\phi_{gauche}+(1-f)\cos\phi_{trans}
 \]
@@ -5503,7 +5506,7 @@ Finally, we relate this to the fraction,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 f\cos(120^{\circ})+(1-f)\cos(0^{\circ})=1-1.5f=0.6
 \]
@@ -5514,7 +5517,7 @@ f\cos(120^{\circ})+(1-f)\cos(0^{\circ})=1-1.5f=0.6
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Rightarrow f=0.27
 \]
@@ -5574,7 +5577,7 @@ We can rederive the relationship between
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}^{2}=C_{\infty}N_{b}\ell^{2}=Na^{2},
 \]
@@ -5603,7 +5606,7 @@ where
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 a=\ell\sqrt{2C_{\infty}}=1.54Å\times\sqrt{2\times8}=6.16Å.
 \]
@@ -5654,7 +5657,7 @@ We start with the expression for the distribution of end-to end distances.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 P(R_{0})=4.15\intop_{0}^{1}x^{2}exp(-1.5x^{2})dx
 \]
@@ -5673,7 +5676,7 @@ Probability that
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 P(R>R_{0})=1-4.15\intop_{0}^{1}x^{2}exp(-1.5x^{2})dx
 \]
@@ -5688,7 +5691,7 @@ Remainder of probabilities:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 P(R>R_{0})=1-0.61=0.39
 \]
@@ -5762,7 +5765,7 @@ Solution:
  the modulus drops from a value that is typically around 1 GPa to a much
  lower value (typically around 1 MPa or less) that is described by the theory
  of rubber elasticity:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G=\frac{\rho RT}{M_{s}}
 \]
@@ -5800,7 +5803,6 @@ Values of Young’s moduli (E) for elastomers are typically near
 \end_inset
 
  Pa (1 MPa).
-
 \end_layout
 
 \begin_deeper
@@ -5861,7 +5863,7 @@ for an incompressible material (where poisson’s ratio
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 E=\frac{3\rho RT}{M_{e}}\rightarrow M_{e}=\frac{3\rho RT}{E}=\mathrm{\frac{3(1000\,kg/m^{3})(8.314\,J/mole)(300\,K)}{10^{6}\,Pa}=7.483\,kg/mol}
 \]
@@ -5873,7 +5875,7 @@ E=\frac{3\rho RT}{M_{e}}\rightarrow M_{e}=\frac{3\rho RT}{E}=\mathrm{\frac{3(100
 
 \begin_layout Standard
 Fraction of repeat units with crosslinks =
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{M_{w}}{M_{e}}=\mathrm{\frac{68g/mol}{7483g/mol}}=9.1\times10^{-3}(0.91\%)
 \]
@@ -5897,7 +5899,6 @@ Fraction of repeat units with crosslinks =
 \begin_layout Enumerate-Resume
 Plot the predicted tensile stress/strain curve for this material for engineering
  strains from -0.5 to 2 (extension ratios from 0.5 to 3).
-
 \end_layout
 
 \begin_deeper
@@ -5919,7 +5920,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \sigma=G\left(\lambda-\frac{1}{\lambda^{2}}\right)
 \]
@@ -5930,7 +5931,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G=\frac{\rho RT}{M_{e}}=\frac{E}{3}
 \]
@@ -5963,7 +5964,7 @@ Note that we have assumed that the rubber was crosslinked in an equilibrium
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \sigma=\frac{E}{3}\left(\left(1+e\right)-\frac{1}{\left(1+e\right)^{2}}\right)]
 \]
@@ -6098,7 +6099,7 @@ Solution:
 \end_inset
 
  part is nonlinear:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \sigma=\frac{E}{3}\left(\left(1+e\right)-\frac{1}{\left(1+e\right)^{2}}\right)]
 \]
@@ -6167,7 +6168,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 E=\frac{3\rho\beta RT}{M_{s}}=\mathrm{\frac{3\left(1000\,kg/L\right)\left(8.314\,J/mole-K\right)\cdot300K}{\left(60\,mers/strand\right)\left(0.074\,kg/mole\right)}=1.7MPa}
 \]
@@ -6178,7 +6179,7 @@ E=\frac{3\rho\beta RT}{M_{s}}=\mathrm{\frac{3\left(1000\,kg/L\right)\left(8.314\
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G=\frac{E}{3}=570\,\mathrm{kPa}
 \]
@@ -6243,7 +6244,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \triangle f_{d}=\frac{G}{2}[\lambda^{2}+\frac{2}{\lambda}-3]
 \]
@@ -6384,7 +6385,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \triangle F=\frac{nk_{B}T}{2}[\lambda^{2}+\frac{2}{\lambda}-3]
 \]
@@ -6395,7 +6396,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{d\triangle F}{d\lambda}=\frac{nk_{B}T}{2}2(\lambda-\frac{1}{\lambda^{2}})=nk_{B}T(\lambda-\frac{1}{\lambda^{2}})
 \]
@@ -6406,7 +6407,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 (\lambda-\frac{1}{\lambda^{2}})=0:\,\,\,\lambda^{3}=1
 \]
@@ -6437,7 +6438,6 @@ Note: this makes sense, since the free energy minimum corresponds to the
 \end_inset
 
  = 1.
-
 \end_layout
 
 \end_inset
@@ -6492,7 +6492,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \lambda^{2}+\frac{2}{\lambda}-3=13.5
 \]
@@ -6503,7 +6503,7 @@ So we need to solve the following equation:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 [\lambda^{2}+\frac{2}{\lambda}-3]=13.5\rightarrow\lambda^{2}+\frac{2}{\lambda}=16.5\rightarrow\lambda^{3}-16.5\lambda+2=0
 \]
@@ -6522,7 +6522,6 @@ This may also be done graphically (see horizontal line on th figure from
 \end_inset
 
 .
-
 \end_layout
 
 \end_inset
@@ -6545,7 +6544,6 @@ Calculate the force required to fix the ends of a 1,4 polyisoprene molecule
 \end_inset
 
  = 8, and that the double and single bonds have equal lengths of 1.54 Å.
-
 \end_layout
 
 \begin_deeper
@@ -6615,7 +6613,7 @@ Nb = 4N
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 N=10^{5}/68=1470.5
 \]
@@ -6626,7 +6624,7 @@ N=10^{5}/68=1470.5
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \mathrm{Force}=\frac{3k_{B}TR_{x}}{R_{0}^{2}}
 \]
@@ -6637,7 +6635,7 @@ N=10^{5}/68=1470.5
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}^{2}=C_{\infty}N_{b}l^{2}
 \]
@@ -6648,7 +6646,7 @@ R_{0}^{2}=C_{\infty}N_{b}l^{2}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 Force=\frac{3k_{B}TR_{x}}{4C_{\infty}Nl^{2}}=\mathrm{\frac{3(138\times10^{-23}J/K)(300K)(1000)Å}{4(8)(1470.5)(1.54Å)^{2}}=1.11x10^{-12}N=1.11p}N
 \]
@@ -6821,7 +6819,7 @@ Solution:
 \end_inset
 
 :
-\begin_inset Formula
+\begin_inset Formula 
 \[
 T=\frac{2\pi\theta G^{*}}{h}\int_{0}^{R}r^{3}dr=\frac{\pi\theta G^{*}R^{4}}{2h}
 \]
@@ -6891,7 +6889,7 @@ Solution:
 
 .
  This gives
-\begin_inset Formula
+\begin_inset Formula 
 \[
 T=\mathrm{\frac{\pi\left(0.017\right)\left(10^{5}\:Pa\right)\left(0.0125m\right)^{4}}{2\left(10^{-3}\;m\right)}=0.065N\cdot m}
 \]
@@ -6924,7 +6922,7 @@ Consider a polymer with a density of 1
 
 \begin_deeper
 \begin_layout Quote
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G(t)=G_{1}\exp\left(\frac{-t}{\tau_{1}}\right)+G_{2}\exp\left(\frac{-t}{\tau_{2}}\right)
 \]
@@ -6986,7 +6984,7 @@ The viscosity is obtained by integrating the relaxation modulus over all
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta_{0}=\intop_{0}^{\infty}G(t)=\intop_{0}^{\infty}\left[G_{1}\exp\left(\frac{-t}{\tau_{1}}\right)+G_{2}\exp\left(\frac{-t}{\tau_{2}}\right)\right]dt
 \]
@@ -6997,7 +6995,7 @@ The viscosity is obtained by integrating the relaxation modulus over all
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta_{0}=G_{1}\tau_{1}+G_{2}\tau_{2}
 \]
@@ -7008,7 +7006,7 @@ The viscosity is obtained by integrating the relaxation modulus over all
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta_{0}=\mathrm{10^{9}\:Pa\cdot10^{-6}\:sec+3x10^{5}\:Pa\cdot1\:s,\,\tau_{1}=3x10^{5}\:Pa\cdot s}
 \]
@@ -7018,7 +7016,6 @@ The viscosity is obtained by integrating the relaxation modulus over all
 Note that the glassy, high modulus behavior at very short times does not
  contribute to the viscosity in this case because the corresponding relaxation
  time is so short.
-
 \end_layout
 
 \end_inset
@@ -7055,7 +7052,6 @@ No, because as t approaches infinity
 \end_inset
 
  approaches 0.
-
 \end_layout
 
 \end_inset
@@ -7097,7 +7093,6 @@ The plateau modulus,
 
  in this case.
  It is given by applying the theory of rubber elasticity, with a value of
-
 \begin_inset Formula $M_{e}$
 \end_inset
 
@@ -7105,7 +7100,7 @@ The plateau modulus,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G_{2}=\frac{\rho RT}{M_{e}}
 \]
@@ -7120,7 +7115,7 @@ We can invert this expression to get an expression for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{e}=\frac{\rho RT}{G_{2}}=\mathrm{\frac{1000\,kg/m^{3}\cdot8.314\,J/\left(mole\cdot K\right)\cdot300K}{3\cdot10^{5}Pa}=8.31\:kg/mol}
 \]
@@ -7184,7 +7179,6 @@ es.
 \end_inset
 
 .
-
 \end_layout
 
 \end_inset
@@ -7236,7 +7230,6 @@ Solution:
 \end_inset
 
 .
-
 \end_layout
 
 \end_inset
@@ -7292,7 +7285,6 @@ increases and
 
  describes relaxations associated with the glass transition.
  These are local motions that do not depend on the molecular weight, so
-
 \begin_inset Formula $\tau_{1}$
 \end_inset
 
@@ -7304,7 +7296,6 @@ increases and
  in this case) describes the time it takes for the molecules to 'untangle'
  from one another.
  This time increases as the molecular weight increases.
-
 \end_layout
 
 \end_inset
@@ -7334,7 +7325,6 @@ Consider a polymer with the behavior of the relaxation modulus (
 \end_inset
 
 .
-
 \end_layout
 
 \begin_deeper
@@ -7407,7 +7397,6 @@ Describe in qualitative terms what is going on at each of the two characteristic
 \end_inset
 
  decreases substantially.
-
 \end_layout
 
 \begin_deeper
@@ -7525,7 +7514,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G_{N}^{0}=\frac{\rho RT}{M_{e}}
 \]
@@ -7545,7 +7534,7 @@ The important thing here is to keep everything in appropriate units.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{e}=\frac{\rho RT}{G_{N}^{0}}=\mathrm{\frac{\left(1000\,kg/m^{3}\right)\left(8.314\,J/mole-K\right)\left(300\,K\right)}{3.2x10^{5}\,Pa}=7.8kg/mole}
 \]
@@ -7578,7 +7567,6 @@ Estimate the viscosity of this polymer that is obtained at very low shear
 \end_inset
 
 .
-
 \end_layout
 
 \begin_deeper
@@ -7604,11 +7592,10 @@ Solution:
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta={\displaystyle \int_{0}^{\infty}G(t)}
 \]
@@ -7627,7 +7614,7 @@ The form of
 \end_layout
 
 \begin_layout Quote
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G(t)=G_{1}\exp\left(\frac{-t}{\tau_{1}}\right)+G_{2}\exp\left(\frac{-t}{\tau_{2}}\right)
 \]
@@ -7655,7 +7642,6 @@ with
 \end_inset
 
  s.
-
 \end_layout
 
 \begin_layout Standard
@@ -7675,7 +7661,7 @@ The integral of
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta=G_{1}\tau_{1}+G_{2}\tau_{2}=3.1x10^{4}\,\mathrm{Pa\cdot s}
 \]
@@ -7691,7 +7677,6 @@ From the plot of
 \end_inset
 
  vs.
-
 \begin_inset Formula $T$
 \end_inset
 
@@ -7942,7 +7927,7 @@ C, where
 \begin_layout Standard
 \noindent
 We want to fit these data to the Vogel equation:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 log\left(a_{T}\right)=A+\frac{B}{T-T_{\infty}}
 \]
@@ -7967,7 +7952,6 @@ The shift factors are plotted below, along with the the best fit values
 \end_inset
 
 ).
-
 \end_layout
 
 \begin_layout Standard
@@ -8020,7 +8004,6 @@ Determine the zero shear viscosity of PtBA with M=350,000 g/mol at
 \end_inset
 
 .
-
 \end_layout
 
 \begin_deeper
@@ -8046,7 +8029,7 @@ Solution:
 \end_inset
 
  according to the following equation:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta_{0}=\underset{\omega\rightarrow0}{\lim}\frac{G"}{\omega}
 \]
@@ -8120,7 +8103,6 @@ At the lowest frequency,
 \end_inset
 
 .
-
 \end_layout
 
 \end_inset
@@ -8162,7 +8144,6 @@ status open
 Solution:
 \series default
  The entanglement molecular weight is determined from the plateau modulus,
-
 \begin_inset Formula $G_{N}^{0}$
 \end_inset
 
@@ -8208,7 +8189,7 @@ The plateau modulus is given by
 \end_inset
 
 :
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{e}=\frac{\rho RT}{G_{N}^{0}}=\frac{\left(1000\:kg/m^{3}\right)\left(8.314\:J/mol\cdot K\right)\left(300\:K\right)}{1.05x10^{5}\:Pa}=23.8\:kg/mol
 \]
@@ -8245,7 +8226,6 @@ C as the reference temperature (where
 
  C for the viscosity calculation.
  (Data included with the data tables at the end of the text).
-
 \end_layout
 
 \begin_deeper
@@ -8311,7 +8291,6 @@ The shift factors are plotted below, along with the the best fit values
 \end_inset
 
 ).
-
 \end_layout
 
 \begin_layout Standard
@@ -8375,7 +8354,7 @@ Following the logic described in the solution for the PTBA data, at the
 
 .
  We have:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta(130)=\eta(160)\frac{a_{T}(130)}{a_{T}(160)}=\mathrm{7.76x10^{3}\:Pa\cdot s\times100=7.76x10^{5}\:Pa\cdot}s
 \]
@@ -8436,7 +8415,7 @@ We haven't quite reached the inflection point in
 \end_inset
 
 :
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{e}=\frac{\rho RT}{G_{N}^{0}}=\frac{\left(1000\:kg/m^{3}\right)\left(8.314\:J/mol\cdot K\right)\left(300\:K\right)}{1.35x10^{5}\:Pa}=18.5\:kg/mol
 \]
@@ -8463,7 +8442,6 @@ An elastomer is made from a poly(n-butyl acrylate) precursor molecule with
  crosslinker.
  The chemical structure is shown at the left below, and a schematic representati
 on of the crosslinked structure is shown at the right.
-
 \end_layout
 
 \begin_deeper
@@ -8507,7 +8485,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G=\frac{\beta\rho RT}{M_{s}}
 \]
@@ -8525,7 +8503,6 @@ Here
 , which is equal to one for a material that is crosslinked when the chains
  are in their equilibrium, random walk (Gaussian) state.
  That's what we can assume here.
-
 \begin_inset Formula $M_{s}$
 \end_inset
 
@@ -8548,7 +8525,7 @@ g/mol=12.8 kg/mol.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G=\frac{1000\,\mathrm{kg/m^{3}}\cdot8.314\,\mathrm{J/mol}\cdot300\,\mathrm{K}}{12.8\,\mathrm{kg/mol}}=1.94x10^{5}\,\mathrm{Pa}
 \]
@@ -8640,8 +8617,6 @@ Solution:
 \end_inset
 
 
-\series default
-
 \end_layout
 
 \end_inset
@@ -8685,7 +8660,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 C_{\infty}=\frac{\left\langle R^{2}\right\rangle }{N_{b}\ell^{2}}=\frac{Na^{2}}{N_{b}\ell^{2}}
 \]
@@ -8759,7 +8734,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\Delta f_{d}}{G}=\frac{\gamma^{2}}{2}
 \]
@@ -8779,7 +8754,6 @@ so for
 \end_inset
 
 .
-
 \end_layout
 
 \end_inset
@@ -8822,7 +8796,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\Delta f_{d}}{G}=\frac{1}{2}\left(\lambda_{1}^{2}+\lambda_{2}^{2}+\lambda_{3}^{2}-3\right)
 \]
@@ -8846,7 +8820,7 @@ For an incompressible material,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\Delta f_{d}}{G}=\frac{1}{2}\left(\lambda_{1}^{2}+2/\lambda_{1}-3\right)
 \]
@@ -8866,7 +8840,6 @@ For
 \end_inset
 
 =1.
-
 \end_layout
 
 \end_inset
@@ -8903,7 +8876,6 @@ status open
 Solution:
 \series default
  We use the same expression that we had in the previous section, but with
-
 \begin_inset Formula $\lambda_{1}=0.5$
 \end_inset
 
@@ -8969,7 +8941,6 @@ quantity 2
 
 \begin_layout Plain Layout
 The thermal expansion coefficient of poly(n-butyl acrylate) at temperatures
-
 \series bold
 above
 \series default
@@ -8983,7 +8954,6 @@ above
 
 \begin_layout Plain Layout
 The thermal expansion coefficient of poly(n-butyl acrylate) at temperatures
-
 \series bold
 below
 \series default
@@ -9160,7 +9130,6 @@ quantity 2
 
 \begin_layout Plain Layout
 The thermal expansion coefficient of poly(n-butyl acrylate) at temperatures
-
 \series bold
 above
 \series default
@@ -9369,7 +9338,7 @@ Given: Polyethylene,
 \end_inset
 
 , is given as:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 l_{max}=2\left(1.25Å\right)\frac{M}{M_{0}}=\frac{\left(2\right)\left(1.25Å\right)\left(150,000\:g/mol\right)}{28\:g/mol}=13,390Å
 \]
@@ -9384,7 +9353,6 @@ l_{max}=2\left(1.25Å\right)\frac{M}{M_{0}}=\frac{\left(2\right)\left(1.25Å\rig
 \align left
 Since the crystal is 100 Å in thick, the molecules must be folded 13,380/100=134
  times.
-
 \end_layout
 
 \end_inset
@@ -9423,7 +9391,6 @@ All of the folds within the semicrystalline regions of the polymer provide
  Semicrystalline polymers can typically deform plastically to very large
  extensions for this region.
  Plastic strains of several hundred percent prior to failure are not uncommon.
-
 \end_layout
 
 \end_inset
@@ -9508,7 +9475,6 @@ Lamellae
 \align left
 The c axis of the unit cell is oriented along the thickness direction of
  the lamellar crystallite.
-
 \end_layout
 
 \begin_layout Standard
@@ -9533,7 +9499,6 @@ Spherulite
 \align left
 The lamellar crystallites radiate outward from the center of the spherulite,
  with the c axis oriented in the tangential direction.
-
 \end_layout
 
 \begin_layout Standard
@@ -9623,7 +9588,7 @@ To calculate the theoretical density of the perfectly crystalline polymer
 \end_inset
 
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 V=abc=\left(10.4Å\right)\left(5.3Å\right)\left(5.08Å\right)=280Å^{3}=280x10^{-24}cm^{3}
 \]
@@ -9635,7 +9600,7 @@ From the problem, the mass of material,
 \end_inset
 
 , in this unit cell is 2*125 g/mol, divided by Avogadro's number:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M=\frac{250\:g/mol}{6.02x20^{23}\:/mol}=4.15x10^{-22}\:g
 \]
@@ -9643,7 +9608,7 @@ M=\frac{250\:g/mol}{6.02x20^{23}\:/mol}=4.15x10^{-22}\:g
 \end_inset
 
 The density is obtained by dividing these two numbers:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \rho=\frac{4.15x10^{-22}\:g}{280x10^{-24}cm^{3}}=1.48g/cm^{3}
 \]
@@ -9655,7 +9620,6 @@ This is typical value for the density of a polymer (in the range of 1
 \end_inset
 
 ).
-
 \end_layout
 
 \end_inset
@@ -9692,7 +9656,7 @@ The density is assumed to extrapolate linearly between the density of the
  amorphous material to the density of the purely crystalline material as
  the percent crystallinity increases.
  The relevant expression from the text is:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \%\:crystallinity=100\left(\frac{\rho-\rho_{amorphous}}{\rho_{crystalline}-\rho_{amorphous}}\right)
 \]
@@ -9716,7 +9680,6 @@ With the % crystallinity = 60,
 \end_inset
 
 .
-
 \end_layout
 
 \end_inset
@@ -10113,7 +10076,6 @@ status open
 Solution:
 \series default
  At equilibrium there is no undercooling or superheating.
-
 \begin_inset Formula $\therefore T_{c}=T_{m}$
 \end_inset
 
@@ -10689,7 +10651,7 @@ The following expression relates the crystal thickness,
 
 \begin_layout Standard
 \align left
-\begin_inset Formula
+\begin_inset Formula 
 \[
 l\thickapprox\frac{2\gamma_{e}T_{m}^{0}}{\triangle h\triangle T}
 \]
@@ -10697,7 +10659,7 @@ l\thickapprox\frac{2\gamma_{e}T_{m}^{0}}{\triangle h\triangle T}
 \end_inset
 
 which we can rearrange to get:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \gamma_{e}\thickapprox\frac{\triangle h\triangle Tl}{2T_{m}^{0}}
 \]
@@ -11413,7 +11375,6 @@ C and 60
 \end_inset
 
 C.
-
 \end_layout
 
 \begin_deeper
@@ -11660,7 +11621,6 @@ Both defects have radial symmetry, so the angle
 Is it possible to obtain a completely black image from a sample that has
  good nematic order? If so, describe a situation where this would be the
  case.
-
 \end_layout
 
 \begin_deeper
@@ -11851,7 +11811,7 @@ Measured values of
 
 \begin_deeper
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \chi=\frac{0.326}{T}-2.3\times10^{-4}
 \]
@@ -11905,7 +11865,7 @@ The critical composition and critical value of
 \end_inset
 
 :
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}},\:\phi_{b,crit}=\frac{\sqrt{N_{a}}}{\sqrt{N_{a}}+\sqrt{N_{b}}}=0.01
 \]
@@ -11945,7 +11905,6 @@ For
 \end_inset
 
 ).
-
 \end_layout
 
 \end_inset
@@ -11988,7 +11947,6 @@ status open
 Solution:
 \series default
 Here are the curves created from the Toolbook page (in order of increasing
-
 \begin_inset Formula $\chi/\chi_{crit}$
 \end_inset
 
@@ -12226,7 +12184,7 @@ Solution:
 \series default
 It's very close to 0.5, which is really good enough for this question.
  Formally, we use the following expression:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}}
 \]
@@ -12286,7 +12244,7 @@ Solution:
 \end_inset
 
 ):
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \phi_{b,crit}=\frac{\sqrt{N_{a}}}{\sqrt{N_{a}}+\sqrt{N_{b}}}=0.01
 \]
@@ -12331,7 +12289,7 @@ status open
 Solution:
 \series default
 The solvent chemical potential is given by the following expression:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\mu_{s}}{k_{B}T}=ln\left(1-\phi_{p}\right)+\phi_{p}\left(1-\frac{1}{N_{p}}\right)+\chi\phi_{p}^{2}
 \]
@@ -12505,7 +12463,6 @@ Most liquids mix better at high temperatures than they do at low temperatures.
  However, polymeric liquids often mix better at low temperatures than high
  temperatures.
  Explain in as much detail as possible why this is the case.
-
 \end_layout
 
 \begin_deeper
@@ -12842,9 +12799,9 @@ The Flory-Huggins form for the osmotic pressure is written as follows:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
-\Pi=\frac{-k_{B}T}{v_{s}}\left\{ ln(1-\phi_{P})+\phi_{P}+\chi\phi_{P}^{2}\right\}
+\Pi=\frac{-k_{B}T}{v_{s}}\left\{ ln(1-\phi_{P})+\phi_{P}+\chi\phi_{P}^{2}\right\} 
 \]
 
 \end_inset
@@ -12853,10 +12810,6 @@ The best fit to the data gives
 \begin_inset Formula $\chi=0.384$
 \end_inset
 
-
-\series bold
-
-\series default
 .
 \end_layout
 
@@ -13007,7 +12960,7 @@ First we need to calculate the hydrostatic pressure of a 100 foot column
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 pressure=\rho gh=(1000kg/m^{2})(9.8m/s^{2})(100feet)\left(\frac{0.305m}{foot}\right)=0.30MPa
 \]
@@ -13036,7 +12989,6 @@ Close inspection of the graph above shows that this corresponds to a polymer
  volume fraction of 0.12 for a 100ft column and 0.2 for a 100m column.
  The point here is that osmotic stresses really are large enough to drive
  water to substantial heights (much more than capillary forces).
-
 \end_layout
 
 \end_inset
@@ -13080,7 +13032,7 @@ The correlation length is given by the following expression:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \xi=a_{0}\phi_{P}^{-3/4}
 \]
@@ -13151,7 +13103,7 @@ status open
 Solution:
 \series default
 The osmotic pressure is given by the following expression
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Pi=k_{B}Tc_{ions}
 \]
@@ -13178,7 +13130,7 @@ where
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Pi=\frac{(8.314J/mol-K)(300K)(50kg/m^{3})}{0.094\:kg/mole}=1.320MPa
 \]
@@ -13208,7 +13160,6 @@ This is a much higher osmotic pressure than we get from a similar concentration
 \begin_layout Enumerate-Resume
 The interfacial free energy characterizing the interface high molecular
  weight versions of polystyrene (PS) and poly(2-vinyl pyridine) (P2VP) is
-
 \begin_inset Formula $3x10^{-3}$
 \end_inset
 
@@ -13321,7 +13272,7 @@ The interfacial free energy is given by the following equation:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \gamma=\frac{a}{\nu_{0}}k_{B}T\sqrt{\chi/6}
 \]
@@ -13336,7 +13287,7 @@ which can be rearranged to give the following expression for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \chi=6\left(\frac{\gamma\nu_{0}}{ak_{B}T}\right)^{2}=6\left(\frac{(0.003J/m^{2})(165\times10^{-30}m^{3})}{(6.7\times10^{-10}m)(1.38\times10^{-23}J/K)(453K)}\right)^{2}=0.084
 \]
@@ -13410,7 +13361,6 @@ Suppose monodisperse PS and P2VP samples with degrees of polymerization
  another, the common tangent construction is satisfied at the point where
  the first derivative of the free energy of mixing with respect to volume
  fraction is equal to zero).
-
 \end_layout
 
 \begin_deeper
@@ -13436,7 +13386,7 @@ The expression for the binodal for a symmetric system (
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\triangle f_{mix}V_{0}}{RT}=\frac{\phi_{a}ln\phi_{a}}{N_{a}}+\frac{\phi_{b}ln\phi_{b}}{N_{b}}+\chi\phi_{a}\phi_{b}=\frac{\phi_{a}ln\phi_{a}}{Na}+\frac{(1-\phi_{a})ln(1-\phi_{a})}{N_{b}}+\chi\phi_{a}(1-\phi_{a})
 \]
@@ -13447,7 +13397,7 @@ The expression for the binodal for a symmetric system (
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\partial}{\partial\phi_{a}}\left(\frac{\triangle f_{mix}V_{0}}{RT}\right)=\frac{1}{N_{a}}+\frac{ln\phi_{a}}{N_{a}}-\frac{1}{N_{b}}-\frac{ln(1-\phi_{a})}{N_{b}}+\chi-2\chi\phi_{a}
 \]
@@ -13462,7 +13412,7 @@ Taking
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{ln\phi_{a}}{N}-\frac{ln(1-\phi_{a})}{N}+\chi-2\chi\phi_{a}=0
 \]
@@ -13477,7 +13427,7 @@ We can assume that the solubility is going to be very small (small
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{ln\phi_{a}}{N}+\chi=0,
 \]
@@ -13485,7 +13435,7 @@ We can assume that the solubility is going to be very small (small
 \end_inset
 
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \phi_{a}=exp(-\chi N)=exp(-(0.084)(1000))=3.3\times10^{-37}
 \]
@@ -13548,7 +13498,7 @@ Solution:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 L=1.10R_{0}(\chi N_{c})^{1/6}
 \]
@@ -13559,7 +13509,7 @@ L=1.10R_{0}(\chi N_{c})^{1/6}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}=aN_{c}^{1/2}=6.7Å\sqrt{1000}=212Å
 \]
@@ -13570,7 +13520,7 @@ R_{0}=aN_{c}^{1/2}=6.7Å\sqrt{1000}=212Å
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 L=1.10(212Å)\left((0.084)(1000)\right){}^{1/6}=488\:\AA
 \]
@@ -13642,7 +13592,6 @@ C, but the phase diagram with water has a two phase region for temperatures
 \end_inset
 
 C.
-
 \end_layout
 
 \begin_deeper
@@ -13716,7 +13665,6 @@ Solution:
 \end_inset
 
  is positive.
-
 \end_layout
 
 \end_inset
@@ -13789,7 +13737,7 @@ Solution:
 \end_inset
 
  is given by the following expression:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Pi=\frac{-k_{B}T}{v_{0}}\left[\ln\left(1-\phi_{p}\right)+\phi_{p}+\chi\phi_{p}^{2}\right]
 \]
@@ -13806,7 +13754,7 @@ Here
 
  is the solvent volume, which we get from the solvent molecular weight and
  density:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 v_{0}=\mathrm{\frac{18\,g/mole}{1\,g/cm^{3}}\frac{\left(1\,mole\right)}{6.02x10^{23}}=3.0x10^{-23}\,m^{3}=3.0x10^{-29}\,m^{3}}
 \]
@@ -13821,7 +13769,7 @@ So at room temperature, we obtain:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Pi=\frac{-\left(1.38x10^{-23}\,\mbox{J/K}\right)\left(300\,\mathrm{K}\right)}{3.0x10^{-29}\,\mathrm{m^{3}}}\left[\ln\left(0.2\right)+0.2+\chi\left(0.2\right)^{2}=1.9x10^{7}\,\mathrm{Pa}\right]
 \]
@@ -13922,7 +13870,7 @@ In this case the radius of curvature of the meniscus is equal to the capillary
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 r=\frac{2\gamma}{\rho gh}=\frac{2\left(0.072\:N/m\right)}{\left(1000\:kg/m^{3}\right)\left(9.8\:m/s^{2}\right)\left(0.1\:m\right)}=1.47x10^{-4}\:m=0.146\:mm
 \]
@@ -13995,7 +13943,6 @@ Solve the following problems:
 \begin_deeper
 \begin_layout Enumerate
 Calculate the force required to push a cylindrical fiber with a radius of
-
 \begin_inset Formula $1\:\mu m$
 \end_inset
 
@@ -14027,7 +13974,7 @@ Solution:
 \end_inset
 
 , acting in the vertical direction here is:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 P=2\pi r\cos\theta=2\pi\left(10^{-6}\:m\right)\left(0.072\:N/m\right)\cos\left(130^{\circ}\right)=-2.91x10^{-7}\:N
 \]
@@ -14068,7 +14015,6 @@ What stress can be supported if you create an array of these fibers on a
 
 ? (Assume the density of the fibers is equal to the density of water, so
  you don't need to worry about forces due to buoyancy).
-
 \end_layout
 
 \begin_deeper
@@ -14087,7 +14033,7 @@ Solution:
 \series default
  We just need to multiply the force from part a by the number of fibers
  per area, or equivalently, divide by the area per fiber:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \sigma=\frac{2.91x10^{-7}\:N}{\left(4x10^{-3}\:m\right)^{2}}=.018\:Pa
 \]
@@ -14132,7 +14078,6 @@ status open
 Solution:
 \series default
  For this we just need to multiply the stress in (b) by the total area of
-
 \begin_inset Formula $10^{-4}\:m^{2}$
 \end_inset
 
@@ -14145,7 +14090,6 @@ N, or
 \end_inset
 
 g.
-
 \end_layout
 
 \end_inset
@@ -14165,7 +14109,6 @@ g.
 \size large
 Why does the velocity of a grain boundary depend on temperature? Assume
  that the driving force for grain boundary motion is independent of temperature.
-
 \end_layout
 
 \begin_layout Enumerate-Resume
@@ -14198,7 +14141,6 @@ A thin film of Zn with a HCP crystal structure is deposited on a Ni FCC
 \size large
 Does the time to 50% transformed increase or decrease with an increase in
  nucleation rate? Defend your answer without using any equations.
-
 \end_layout
 
 \begin_layout Enumerate-Resume
