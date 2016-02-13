@@ -151,7 +151,7 @@ tabs-within-sections
 
 \begin_layout Standard
 \begin_inset Branch standalone
-status open
+status collapsed
 
 \begin_layout Title
 315: Phase Equilibria and Diffusion in Materials
@@ -31564,7 +31564,7 @@ l ratio by controlling the fuel injectors in the engine.
  The purpose of the oxygen sensor is to maintain the air-to-fuel ratio in
  a narrow range where all three catalysts in the catalytic converter function
  optimally to react unwanted pollutants (reduction of 
-\begin_inset Formula $NO_{x}$
+\begin_inset Formula $\mathrm{NO_{x}}$
 \end_inset
 
 , oxidation of CO, and oxidation of unburnt hydrocarbons).
@@ -31586,7 +31586,7 @@ filename "315problems.lyx"
 
 \begin_layout Standard
 \begin_inset Branch standalone
-status open
+status collapsed
 
 \begin_layout Standard
 \begin_inset Newpage clearpage
@@ -31598,9 +31598,8 @@ status open
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-btprint "btPrintAll"
-bibfiles "315refs"
-options "msecorestyle"
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
 
 \end_inset
 

@@ -119,6 +119,7 @@ EndPreAmble
 \suppress_date false
 \justification true
 \use_refstyle 1
+\notefontcolor #ff0000
 \branch solution
 \selected 0
 \filename_suffix 0
@@ -1764,8 +1765,12 @@ reference "sec:Algorithm"
 \end_inset
 
 ).
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 To start on a good base, you can use the following code:
@@ -1774,7 +1779,7 @@ To start on a good base, you can use the following code:
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
-filename "part1.m"
+filename "matlab/part1.m"
 
 \end_inset
 
@@ -1793,6 +1798,11 @@ status open
 \begin_layout Plain Layout
 
 https://www.dropbox.com/s/pbvgwyxigo49h6f/part1.m?dl=0
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2031,7 +2041,7 @@ reference "fig:Position-of-X"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2066,7 +2076,7 @@ Position of X corresponding to the different possible jumps
 
 \end_inset
 
- For each of these jumps, associate the matrix 
+For each of these jumps, associate the matrix 
 \begin_inset Formula $\mathrm{nveci}$
 \end_inset
 

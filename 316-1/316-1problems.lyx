@@ -2317,7 +2317,7 @@ Consider the case of a pure material with a solid spherical particle in
  Is it still possible to use a graphical construction that involves the
  molar Gibbs free energies as a function of temperature to determine the
  equilibrium temperature if the molar volume is a function of pressure?
- Defend your
+ Defend your answer.
 \end_layout
 
 \end_deeper
@@ -2657,7 +2657,7 @@ is the molar enthalpy of the liquid or solid.
 
 \begin_layout Standard
 \begin_inset Note Greyedout
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
@@ -2745,7 +2745,7 @@ Is the molar latent heat positive or negative? Is the melting temperature
 \begin_deeper
 \begin_layout Standard
 \begin_inset Note Greyedout
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
@@ -2851,7 +2851,7 @@ Plot the equilibrium activity of Cobalt as a function of composition across
 \begin_deeper
 \begin_layout Standard
 \begin_inset Note Greyedout
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
@@ -3385,7 +3385,6 @@ Determine
 .
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset Note Greyedout
 status open
@@ -3498,6 +3497,7 @@ The values that we end up with are
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate-Resume
 The surface energy of the interface between nickel and its vapor is 1.580
  J/m
@@ -5505,10 +5505,6 @@ filename "316-1computation.lyx"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

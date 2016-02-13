@@ -2317,7 +2317,7 @@ Consider the case of a pure material with a solid spherical particle in
  Is it still possible to use a graphical construction that involves the
  molar Gibbs free energies as a function of temperature to determine the
  equilibrium temperature if the molar volume is a function of pressure?
- Defend your
+ Defend your answer.
 \end_layout
 
 \end_deeper
@@ -2851,7 +2851,7 @@ Plot the equilibrium activity of Cobalt as a function of composition across
 \begin_deeper
 \begin_layout Standard
 \begin_inset Note Greyedout
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
@@ -5501,14 +5501,10 @@ You will needed to take a derivative of the error function.
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "simulation/316-1simulation.lyx"
+filename "316-1computation.lyx"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

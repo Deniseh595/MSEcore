@@ -17940,8 +17940,8 @@ status open
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "3161refs"
-options "331style"
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
 
 \end_inset
 

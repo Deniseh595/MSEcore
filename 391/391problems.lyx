@@ -105,12 +105,7 @@ enumitem
 \justification true
 \use_refstyle 1
 \notefontcolor #ff0000
-\branch unused
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch solution
+\branch solutions
 \selected 0
 \filename_suffix 0
 \color #ffff7f
@@ -174,7 +169,7 @@ are independent, prove that
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -290,7 +285,7 @@ Find a 90% two-sided confidence interval on the difference in the means.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -397,7 +392,7 @@ One of my students has developed two methods to make Ni films.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -497,18 +492,18 @@ If the student in the above exercise were to make another set of 10 Ni films
 
 \begin_deeper
 \begin_layout Standard
-
-\series bold
-Solution
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
 
 \begin_layout Standard
 Start with the method B.
@@ -685,7 +680,7 @@ Show that this happens when
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -793,7 +788,7 @@ Hint: determine the degrees of freedom for the factor (numerator) and degrees
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -864,7 +859,7 @@ What is the probability that a given battery will fail at or before 85 weeks?
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -988,7 +983,7 @@ Does the
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -1332,7 +1327,7 @@ Is there evidence to indicate that dosage level affects bioactivity? Use
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -1983,7 +1978,7 @@ Analyze the residuals from this experiment and comment on the model adequacy.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -2305,7 +2300,7 @@ In the manufacturing of solar panels, there are four process parameters
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -2967,7 +2962,7 @@ What conclusions would you draw about this experiment?
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -3431,7 +3426,7 @@ LSD
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -3916,7 +3911,7 @@ Check the adequacy of the model by performing a normal plot of the residuals.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -4732,7 +4727,7 @@ Re-analyze the above data in blocks.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -5521,7 +5516,7 @@ Show that the residuals follow the normal distribution and that there is
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -6230,7 +6225,7 @@ Nothing unusal.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -7239,7 +7234,7 @@ Let us assume that the experiment ab could not be done, and we therefore
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -7797,7 +7792,7 @@ Block 2
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -7909,7 +7904,7 @@ N_{1}=N\frac{S_{1}}{S_{1}+S_{2}}
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -8027,7 +8022,7 @@ design?
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -8372,7 +8367,7 @@ If any factors are negligible, collapse the
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -9669,7 +9664,7 @@ If all three-factor interactions are negligible, prove that
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -10736,7 +10731,7 @@ What is the resolution of this design?
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -12151,7 +12146,7 @@ Determine
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -12467,7 +12462,7 @@ If two main effects and one two-factor interaction are included in the final
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -14006,7 +14001,7 @@ Make an interaction graph between factors
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -14955,7 +14950,7 @@ A company asks you to design a new alloy.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -15338,7 +15333,7 @@ Find a 95% confidence interval on
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -18687,7 +18682,7 @@ You may notice a strange output from Minitab: the total sum of squares for
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -18847,7 +18842,7 @@ A manufacturer of cutting tools has developed two empirical equations for
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -18955,7 +18950,7 @@ If the experiment
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard

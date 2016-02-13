@@ -65,7 +65,7 @@
 \justification true
 \use_refstyle 1
 \branch labonly
-\selected 0
+\selected 1
 \filename_suffix 0
 \color #faf0e6
 \end_branch
@@ -977,13 +977,13 @@ Informal, individual write-up.
 
 \begin_layout Standard
 \begin_inset Branch labonly
-status collapsed
+status open
 
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "3161refs"
-options "bibtotoc,331style"
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
 
 \end_inset
 

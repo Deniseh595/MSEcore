@@ -8,7 +8,7 @@
 \language english
 \language_package default
 \inputencoding auto
-\fontencoding global
+\fontencoding 
 \font_roman default
 \font_sans default
 \font_typewriter default
@@ -210,6 +210,13 @@ t.
 Combined Course Documents
 \end_layout
 
+\begin_layout Standard
+In some cases it is useful to combine texts for related courses into a single
+ pdf file.
+ We may come up with more of these, but for now we just include one that
+ includes a combined text for the 314, 315, 316-1,2 sequence.
+\end_layout
+
 \begin_layout Itemize
 \noindent
 \align left
@@ -282,10 +289,11 @@ Documents corresponding to individual core classes can be obtained from
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="6">
+<lyxtabular version="3" rows="13" columns="7">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -365,6 +373,15 @@ target "301/301outcomes.xhtml"
 \begin_inset Formula $\,$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -459,6 +476,22 @@ target "314/314problems.pdf"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "computation (pdf)"
+target "314/314computation"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -540,6 +573,22 @@ target "315/315outcomes.xhtml"
 LatexCommand href
 name "labs (pdf)"
 target "315/315labs.pdf"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "computation (pdf)"
+target "315/315computation.pdf"
 
 \end_inset
 
@@ -641,6 +690,22 @@ target "316-1/316-1labs.pdf"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "computation (pdf)"
+target "316/316-1 computation.pdf"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -734,6 +799,15 @@ target "316-2/316-2labs.pdf"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -816,6 +890,22 @@ target "331/331problems.pdf"
 
 \begin_layout Plain Layout
 \begin_inset Formula $\,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "computation (pdf)"
+target "3315/331 computation.pdf"
+
 \end_inset
 
 
@@ -916,6 +1006,15 @@ target "332/332labs.pdf"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1001,6 +1100,15 @@ target "351-1/351-1outcomes.xhtml"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1066,7 +1174,11 @@ target "351-2/351-2outcomes.xhtml"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\,$
+\begin_inset CommandInset href
+LatexCommand href
+name "problems (pdf)"
+target "351-2/351-2problems.pdf"
+
 \end_inset
 
 
@@ -1085,6 +1197,15 @@ target "351-2/351-2labs.pdf"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1155,7 +1276,11 @@ target "361/361outcomes.xhtml"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\,$
+\begin_inset CommandInset href
+LatexCommand href
+name "problems (pdf)"
+target "361/361problems.pdf"
+
 \end_inset
 
 
@@ -1174,6 +1299,15 @@ target "361/361labs.pdf"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1260,6 +1394,15 @@ target "390/390outcomes.xhtml"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1325,7 +1468,11 @@ target "391/391outcomes.xhtml"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\,$
+\begin_inset CommandInset href
+LatexCommand href
+name "problems (pdf)"
+target "391/391problems.pdf"
+
 \end_inset
 
 
@@ -1340,6 +1487,15 @@ target "391/391outcomes.xhtml"
 \begin_inset Formula $\,$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1425,6 +1581,15 @@ target "396/396outcomes.xhtml"
 \begin_inset Formula $\,$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 

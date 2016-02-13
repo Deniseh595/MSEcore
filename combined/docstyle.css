@@ -1,0 +1,45 @@
+/* LyX Provided Styles */
+table.matrix{display: inline-block; vertical-align: middle; text-align:center;}
+table.matrix td{padding: 0.25px;}
+td.ldelim{width: 0.5ex; border: thin solid black; border-right: none;}
+td.rdelim{width: 0.5ex; border: thin solid black; border-left: none;}
+table { border: 1px solid black; display: inline-block; }
+td { border: 1px solid black; padding: 0.5ex; }
+
+/* Layout-provided Styles */
+h1.title {
+font-size: x-large;
+margin-bottom: 1ex;
+text-align: center;
+
+}
+div.author {
+font-size: large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: center;
+
+}
+div.standard {
+margin-bottom: 2ex;
+}
+h2.section {
+font-weight: bold;
+font-size: x-large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: left;
+
+}
+ul.itemize {
+margin-top: 0.7ex;
+margin-bottom: 0.7ex;
+margin-left: 3ex;
+text-align: left;
+
+}
+div.plain_layout {
+text-align: left;
+
+}
+

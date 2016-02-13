@@ -127,7 +127,7 @@ EndPreAmble
 \justification true
 \use_refstyle 0
 \notefontcolor #ff0000
-\branch solution
+\branch solutions
 \selected 0
 \filename_suffix 0
 \color #faf0e6
@@ -142,17 +142,12 @@ EndPreAmble
 \filename_suffix 0
 \color #faf0e6
 \end_branch
-\branch thisfileonly
+\branch problems
 \selected 0
 \filename_suffix 0
 \color #faf0e6
 \end_branch
 \branch catalogtitles
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch thisdoconly
 \selected 0
 \filename_suffix 0
 \color #faf0e6
@@ -221,7 +216,7 @@ Derive the expression for the Laplace pressure inside a long cylinder of
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -434,9 +429,18 @@ Molar mass
 \begin_layout Standard
 In their classic experiment Turnbull and Cech studied the undercooling of
  small droplets for a number of different metals 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset CommandInset citation
 LatexCommand cite
 key "turnbull_microscopic_1950"
+
+\end_inset
+
+ error from this ref for some reason 
+\end_layout
 
 \end_inset
 
@@ -455,7 +459,7 @@ The molar volume of nickel.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -500,7 +504,7 @@ The work of nucleation (
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -610,7 +614,7 @@ The dimensionless ratio,
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -691,7 +695,7 @@ The radius of the critical nucleus.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -804,7 +808,7 @@ The pressure of the critical nucleus in pascals (assume the surrounding
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -887,7 +891,7 @@ The molar enthalpy of melting at
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -929,7 +933,7 @@ Suppose a Ni droplet with a volume of about 100
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1187,7 +1191,7 @@ Derive the expressions for
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1356,7 +1360,7 @@ Units: {1x8 cell}
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1434,7 +1438,7 @@ Discuss the plots from part (b) with respect to trends in the periodic table,
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1630,7 +1634,7 @@ reference "enu:Turnbull nickel problem"
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1672,7 +1676,7 @@ Derive expressions for
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1855,7 +1859,7 @@ In the derivations for nucleation in this course we assume that the nucleus
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1986,7 +1990,7 @@ What is the contact angle for liquid gold on a solid gold surface at 1063ºC
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2028,7 +2032,7 @@ Is there thermodynamic barrier for the melting of a gold surface?
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2085,7 +2089,7 @@ C (5
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2253,7 +2257,7 @@ Very small gold particles have melting points that differ from the melting
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2307,7 +2311,7 @@ What is the ratio of the grain boundary free energy to the interfacial energy
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2376,7 +2380,7 @@ Water beads up on a freshly waxed car to form droplets with a contract angle
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2499,7 +2503,7 @@ An oil droplet (
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2568,7 +2572,7 @@ Derive the structure factor,
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2747,7 +2751,7 @@ reference "enu:Turnbull nickel problem"
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3122,7 +3126,7 @@ where a is the lattice parameter.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3295,7 +3299,7 @@ What is the ratio of
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3407,7 +3411,7 @@ If the chemical driving force
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3552,7 +3556,7 @@ Repeat the previous calculation using a misfit strains of 0.01 and 0.1.
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3654,7 +3658,7 @@ If the number of nuclei formed per cubic centimeter per second is given
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3940,7 +3944,7 @@ Suppose that a dispersion of roughly spherical
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4014,7 +4018,7 @@ Plot the equilibrium activity of Cobalt as a function of composition across
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4129,7 +4133,7 @@ Suppose the interfacial free energy for the Cu/Co interface is
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4306,7 +4310,7 @@ for a Copper rich alloy at 900ºC with a cobalt composition that exceeds
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4404,7 +4408,7 @@ Starting from
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4446,7 +4450,7 @@ y gap
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4479,7 +4483,7 @@ Using MATLAB plot the miscibility gap for this system.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4512,7 +4516,7 @@ On the same diagram plot the chemical spinodal.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4586,7 +4590,7 @@ Hint: Express
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4628,7 +4632,7 @@ The effect of coherent strains on the characteristic wavelength of the two-phase
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4718,7 +4722,7 @@ The effect of a reduction of the surface free energy on the nucleation rate.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4753,7 +4757,7 @@ ous nucleation rate.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4803,7 +4807,7 @@ Can a diffusion coefficient ever be negative? If so, when is this the case?
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4869,7 +4873,7 @@ Sketch the behavior of the impurity concentration in the liquid phase just
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4930,7 +4934,7 @@ On a separate figure, sketch the liquidus temperature in the liquid phase
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -4979,7 +4983,7 @@ Comment on the types of temperature profiles that can lead to the formation
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5059,7 +5063,7 @@ What is the interface temperature in the steady state?
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5104,7 +5108,7 @@ i.e.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5145,7 +5149,7 @@ Estimate the temperature gradient required to eliminate the appearance of
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5218,7 +5222,7 @@ r theory that was discussed in class, estimate the size of particles at
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5309,7 +5313,7 @@ Using the data for the Co/Cu system given in the previous homework, determine
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5422,7 +5426,7 @@ Use the data given to estimate the diffusion coefficient for Co in Cu at
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5701,7 +5705,7 @@ Determine the value of the exponent m in the above equation by plotting
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5800,7 +5804,7 @@ Plot the qualitative temperature dependence that you would expect for the
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5908,7 +5912,7 @@ Obtain an estimate for the heat of fusion for the Al/Si eutectic (Joules
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -5960,7 +5964,7 @@ Calculate the bulk free energy gain (ignoring the energy associated with
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6008,7 +6012,7 @@ Calculate the width of the Al and Si phases in a lamellar eutectic for the
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6064,7 +6068,7 @@ C.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6176,7 +6180,7 @@ How good is the assumption of ideal liquid mixing in this case? Plot the
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6338,7 +6342,7 @@ diffusion-controlled growth.
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6372,7 +6376,7 @@ Derive an approximate expression for the thickness of the ferrite slabs
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6433,7 +6437,7 @@ C.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6529,7 +6533,7 @@ Pearlite forms initially at grain boundaries within the parent austenite
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6574,7 +6578,7 @@ Describe what happens to the microstructure of the steel and to the hardness
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6672,7 +6676,7 @@ Support their argument using the equations derived in class for spinodal
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6779,7 +6783,7 @@ Is their argument entirely valid or do certain conditions need to be met?
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6864,7 +6868,7 @@ C from a matrix with 4.5 wt.% Cu.
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6942,7 +6946,7 @@ What phase (or phases) do you expect to be present in the solid immediately
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -6979,7 +6983,7 @@ What phase (or phases) will be present at equilibrium?
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -7027,7 +7031,7 @@ A variety of non-equilibrium phases are observed at intermediate stages
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -7079,7 +7083,7 @@ Once the equilibrium phase is formed, its rate of growth is found to decrease
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -7122,7 +7126,7 @@ Porter and Easterling, prob.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -7160,8 +7164,8 @@ Suppose that in the system of interest,
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7321,7 +7325,7 @@ Draw TTT curves for the precipitation of both
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -7412,7 +7416,7 @@ Calculate the
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -8144,14 +8148,14 @@ Equation Review
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch thisfileonly
+\begin_inset Branch problems
 status open
 
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "msecoursenotes"
-options "unsrt"
+bibfiles "MSEcore"
+options "MSEcore"
 
 \end_inset
 

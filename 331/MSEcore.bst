@@ -48,6 +48,7 @@ ENTRY
     eprint % urlbst
     doi % urlbst
     url % urlbst
+    urldate
     lastchecked % urlbst
   }
   {}
@@ -186,7 +187,7 @@ FUNCTION {inbrackets}
 FUNCTION {format.lastchecked}
 { lastchecked empty$
     { "" }
-    { inbrackets "cited " lastchecked * }
+    { inbrackets "cited " urldate * }  % krs urldate was lastchecked in original version
   if$
 }
 

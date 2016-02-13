@@ -114,17 +114,7 @@ tabs-within-sections
 \filename_suffix 0
 \color #faf0e6
 \end_branch
-\branch thisfileonly
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch catalogtitles
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch unused
+\branch solutions
 \selected 0
 \filename_suffix 0
 \color #faf0e6
@@ -374,14 +364,12 @@ Since the title of this book is 'Soft Materials', it makes sense to define
 
 \series bold
 Soft materials have low elastic moduli.
-
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
 By 'low' we mean significantly lower than the moduli of crystalline metals
  and ceramics.
-
 \begin_inset ERT
 status open
 
@@ -396,7 +384,6 @@ hyperlink{Youngs_modulus}{Young's modulus}
 
  for crystalline ceramic or metallic materials.
  The jellyfish shown in Fig.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:jellyfish"
@@ -406,7 +393,6 @@ reference "fig:jellyfish"
  is obvioulsy 'soft' in this sense.
  Metals and ceramics typically have moduli in the range of 100 MPa (see
  Fig.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:range of moduli"
@@ -423,7 +409,6 @@ reference "fig:range of moduli"
  moduli.
  The stiffest of these (Kevlar™for example) have elastic moduli in at least
  one direction that are comparable to the modulus of steel.
-
 \end_layout
 
 \end_deeper
@@ -494,7 +479,6 @@ reference "sub:rubber elasticity"
 \end_inset
 
 .
-
 \end_layout
 
 \end_deeper
@@ -643,7 +627,7 @@ Solution:
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 m=32\left(\frac{\mathrm{g}}{\mathrm{mole}}\right)\left(\frac{\mathrm{mole}}{6.02x10^{23}}\right)=5.3x10^{-23}\,\mathrm{g}=5.3x10^{-26}\,\mathrm{kg}
 \]
@@ -669,7 +653,7 @@ Don't mix units and convert everything to SI units (m-kg-s) to keep yourself
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 k_{B}=1.38x10^{-23}\,\mathrm{J/K}
 \]
@@ -698,7 +682,7 @@ Now we just need to equate
 \end_inset
 
 =300 K to get the following:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 h=\frac{k_{B}T}{mg}=\frac{\left(1.38x10^{-23}\,\textrm{J/K}\right)\left(300\,\mathrm{K}\right)}{\left(5.3x10^{-26}\,\mathrm{kg}\right)\left(9.8\mathrm{\,m/s^{2}}\right)}=8000\,\mathrm{m}=8\,\mathrm{km}
 \]
@@ -965,7 +949,6 @@ reference "fig:Elastomer examples"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -1292,7 +1275,6 @@ Semicrystalline polymers must have molecular structures that are compatible
  the material will form a glass before crystallization can occur.
  In the glassy polymer the material is kinetically trapped in the glassy
  state, even though the crystalline state has a lower free energy below
-
 \begin_inset Formula $T_{m}$
 \end_inset
 
@@ -1450,7 +1432,6 @@ name "Plain Layoutnding-Polymer-Chemistry"
 \begin_layout Standard
 Crystallization and glass formation processes are central to our understanding
  of polymeric materials, we must eventually address the following question:
-
 \end_layout
 
 \begin_layout Itemize
@@ -1500,12 +1481,10 @@ Polymer molecules consist of atoms (primarily carbon, nitrogen, oxygen and
 \begin_layout Itemize
 Nitrogen, oxygen and carbon atoms are surrounded by 8 electrons, included
  shared electrons.
-
 \end_layout
 
 \begin_layout Itemize
 Hydrogen atoms are surrounded by 2 electrons, included shared electrons.
-
 \end_layout
 
 \begin_layout Itemize
@@ -1595,9 +1574,6 @@ oxygen forms 2 bonds with neighboring atoms
 \end_inset
 
 .
-
-\color red
-
 \end_layout
 
 \begin_layout Itemize
@@ -1628,15 +1604,11 @@ status open
 \end_inset
 
 .
-
-\color red
-
 \end_layout
 
 \begin_layout Standard
  in and consider the actual backbone bonds that are connecting the polymriple
  bond counts as 3 bonds.
-
 \end_layout
 
 \begin_layout Standard
@@ -1676,7 +1648,6 @@ Most of the chemical structures illustrated in this text are relatively
  We generally don't bother to write all of the carbons and hydrogens into
  to the structure.
  We use the following common conventions.
-
 \end_layout
 
 \begin_layout Itemize
@@ -1819,7 +1790,6 @@ Additional Resource:
 The Macrogalleria web site has some excellent, simple descriptions of polymeriza
 tion reactions.
  Specific examples are referenced at different points throughout this book.
-
 \color blue
 
 \begin_inset CommandInset href
@@ -1962,8 +1932,6 @@ reference "par:Polyurethanes"
 
 \end_inset
 
-
-\color inherit
 
 \end_layout
 
@@ -2475,7 +2443,7 @@ reference "fig:step growth polymers with different N"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M=NM_{0}
 \end{equation}
@@ -2688,7 +2656,7 @@ The total number of molecules (
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 n=n_{1}+n_{2}+n_{3}+...n_{\infty}=\sum_{N}n_{N}\label{eq:n summation}
 \end{equation}
@@ -2700,7 +2668,7 @@ n=n_{1}+n_{2}+n_{3}+...n_{\infty}=\sum_{N}n_{N}\label{eq:n summation}
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 w=\sum_{N}w_{N}=M_{0}\sum_{N}Nn_{N}\label{eq:w summation}
 \end{equation}
@@ -2717,7 +2685,6 @@ Note: We've assumed here for simplicity that
 
  takes on integer values.
  This is true for chain growth polymerizations, but for step growth polymers
-
 \begin_inset Formula $N$
 \end_inset
 
@@ -2731,7 +2698,6 @@ reference "fig:step growth polymers with different N"
 ).
  In this case you can just imagine that distribution has divided into 'bins'
  of width '1'.
-
 \end_layout
 
 \begin_layout Standard
@@ -2764,7 +2730,6 @@ Histogram of molecular sizes.
 \end_inset
 
 53plotted on the right.
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Molecular size histogram"
@@ -2827,7 +2792,7 @@ Number average molecular weight (
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}=w/n
 \end{equation}
@@ -2843,7 +2808,6 @@ In more formal terms, we can replace
 \end_inset
 
  and  by the respective sums from Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:n summation"
@@ -2862,7 +2826,7 @@ reference "eq:w summation"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}=\frac{M_{0}{\displaystyle \sum_{N}}Nn_{N}}{{\displaystyle \sum_{N}}n_{N}}\label{eq:Mn defintion (formal)}
 \end{equation}
@@ -2908,7 +2872,7 @@ Number average degree of polymerization (
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 N_{n}=\frac{{\displaystyle \sum_{N}}Nn_{N}}{{\displaystyle \sum_{N}}n_{N}}
 \end{equation}
@@ -2962,7 +2926,7 @@ Weight average molecular weight (
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{w}=\frac{M_{0}{\displaystyle \sum_{N}}w_{N}N}{w}=\frac{M_{0}{\displaystyle \sum_{N}}w_{N}N}{{\displaystyle \sum_{N}}w_{N}}=\frac{M_{0}{\displaystyle \sum_{N}}n_{N}N^{2}}{{\displaystyle \sum_{N}}n_{N}N}\label{eq:Mw formal def}
 \end{equation}
@@ -2988,7 +2952,6 @@ The weight average degree of polymerization,
 ,
 \emph on
 i.e.
-
 \emph default
 
 \begin_inset Formula $N_{w}=M_{w}/M_{0}.$
@@ -3016,7 +2979,6 @@ polydispersity index
  Polymers with a polydispersity index close to 1 are said to be monodisperse,
  with a narrow distribution of molecular weights.
  While Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Mw formal def"
@@ -3038,7 +3000,7 @@ reference "eq:Mw formal def"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{w}={\displaystyle \sum_{i}w_{i}M_{i}}
 \end{equation}
@@ -3090,7 +3052,7 @@ To get
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 n=\frac{3g}{50,000g/mol}+\frac{5g}{85,000g/mol}=1.9x10^{-4}mol
 \]
@@ -3101,7 +3063,7 @@ n=\frac{3g}{50,000g/mol}+\frac{5g}{85,000g/mol}=1.9x10^{-4}mol
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=\frac{8g}{1.19x10^{-4}mol}=67,200g/mol
 \]
@@ -3117,7 +3079,7 @@ The average molecular weight is obtained from the definition of this quantity:
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{w}=\frac{M_{0}\overset{\infty}{\underset{N=1}{\sum}}w_{N}N}{w}=\frac{1}{w}\overset{\infty}{\underset{N=1}{\sum}}w_{N}M_{N}
 \end{equation}
@@ -3132,7 +3094,7 @@ In our example, we obtain the following:
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{w}=\frac{1}{8g}(3g*50,000g/mol+5g*85,000g/mol)=71,875g/mol
 \]
@@ -3144,7 +3106,7 @@ M_{w}=\frac{1}{8g}(3g*50,000g/mol+5g*85,000g/mol)=71,875g/mol
 
 \begin_layout Plain Layout
 Polydispersity Index =
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{M_{w}}{M_{n}}=\frac{71,875g/mol}{67,200g/mol}=1.07
 \]
@@ -3197,7 +3159,7 @@ We divide by the polydispersities to get number average molecular weights,
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}(poly.a)=\frac{50kg/mol}{1.6}=31kg/mol
 \]
@@ -3209,7 +3171,7 @@ M_{n}(poly.a)=\frac{50kg/mol}{1.6}=31kg/mol
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}(poly.b)=\frac{85kg/mol}{2.5}=34kg/mol
 \]
@@ -3221,7 +3183,7 @@ M_{n}(poly.b)=\frac{85kg/mol}{2.5}=34kg/mol
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 n=\frac{3g}{31,000g/mol}+\frac{5g}{34,000g/mol}=2.44x10^{-4}mol
 \]
@@ -3233,7 +3195,7 @@ n=\frac{3g}{31,000g/mol}+\frac{5g}{34,000g/mol}=2.44x10^{-4}mol
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}(blend)=\frac{8g}{2.44x10^{-4}mol}=32,800g/mol
 \]
@@ -3252,7 +3214,7 @@ Due to the form of the expression for the average molecular weight, we can
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{w}(blend)=\frac{1}{w}\underset{i}{\sum}w_{i}M_{wi}
 \end{equation}
@@ -3272,7 +3234,7 @@ In our case
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{w}=\frac{1}{8g}(3g*50,000g/mol+5g*85,000g/mol)=71,875g/mol
 \]
@@ -3285,7 +3247,7 @@ M_{w}=\frac{1}{8g}(3g*50,000g/mol+5g*85,000g/mol)=71,875g/mol
 \begin_layout Plain Layout
 \align left
 Polydispersity index =
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{M_{w}}{M_{n}}=\frac{71,875g/mol}{32,800g/mol}=2.19
 \]
@@ -3354,7 +3316,7 @@ Suppose
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 n^{min}=n_{a}-n_{b}
 \]
@@ -3380,7 +3342,7 @@ For condensation reactions, a mole of condensation product with molecular
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 w=n_{a}M_{a}+n_{b}M_{b}-2n_{b}M_{c}
 \end{equation}
@@ -3412,7 +3374,7 @@ The maximum number average molecular weight,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}^{max}=\frac{w}{n^{min}}=\frac{n_{a}M_{a}+n_{b}M_{b}-2n_{b}M_{c}}{n_{a}-n_{b}}
 \end{equation}
@@ -3442,7 +3404,7 @@ For high molecular weight polymers, we can make some additional approximations,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}^{max}\approx\frac{n_{b}\left(M_{a}+M_{b}-2M_{c}\right)}{n_{a}-n_{b}}
 \end{equation}
@@ -3465,7 +3427,7 @@ The repeat unit molecular weight,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{0}=M_{a}+M_{b}-2M_{c}
 \end{equation}
@@ -3485,7 +3447,7 @@ From this we obtain the following expression for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}^{max}\approx\frac{n_{a}M_{0}}{n_{a}-n_{b}}\label{eq:Mn max for step growth}
 \end{equation}
@@ -3517,7 +3479,7 @@ The next thing we would like to sort out is how
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 n=n_{a}+n_{b}-p\left(n_{a}+n_{b}\right)=\left(n_{a}+n_{b}\right)\left(1-p\right)\label{eq:n vs. p for step growth}
 \end{equation}
@@ -3561,7 +3523,7 @@ In this equation
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}=\frac{w}{n}=\frac{(n_{a}+n_{b})M_{0}}{2(n_{a}+n_{b})(1-p)}=\frac{M_{0}}{2(1-p)}\label{eq:Mn vs. p}
 \end{equation}
@@ -3628,7 +3590,7 @@ molecules left when all the B groups have reacted.
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 p^{max}=\frac{4n_{b}}{2\left(n_{a}+n_{b}\right)}=\frac{2n_{b}}{n_{a}+n_{b}}\label{eq:pmax}
 \end{equation}
@@ -3644,7 +3606,6 @@ Another way to obtain
 \end_inset
 
  is to use Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Mn vs. p"
@@ -3668,7 +3629,7 @@ reference "eq:Mn vs. p"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}^{max}=\frac{M_{0}}{2(1-p_{max})}=\frac{M_{0}(n_{a}+n_{b}}{2\left((n_{a}-n_{b}\right)}
 \end{equation}
@@ -3684,7 +3645,6 @@ which with
 \end_inset
 
  is equivalent to Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Mn max for step growth"
@@ -3755,7 +3715,6 @@ From the information given so far we know how the number average degree
 \end_inset
 
  groups have reacted).
-
 \end_layout
 
 \begin_layout Standard
@@ -3785,7 +3744,7 @@ p
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 n_{N}\propto p^{2N-1}\label{eq:ideal nN  distribution for step growth}
 \end{equation}
@@ -3809,7 +3768,7 @@ The weight,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 w_{N}\alpha Np^{2N-1}
 \end{equation}
@@ -3923,7 +3882,6 @@ ty for these values of p?
 Analytic expressions can be derived for number-average and weight average
  degrees of polymerization for ideal step growth polymerizations that follow
  the distribution described by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:ideal nN  distribution for step growth"
@@ -3932,7 +3890,6 @@ reference "eq:ideal nN  distribution for step growth"
 
 .
  Substitution of this expression into Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Mn defintion (formal)"
@@ -3947,7 +3904,7 @@ reference "eq:Mn defintion (formal)"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}=\frac{M_{0}\underset{N}{\sum}Np^{(2N-1)}}{\underset{N}{\sum}p^{(2N-1)}}
 \end{equation}
@@ -4003,7 +3960,7 @@ i.e.
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}=\frac{M_{0}}{2}\frac{{\displaystyle \sum}Lp^{(L-1)}}{{\displaystyle \sum}p^{(L-1)}}\label{eq:Mn sum - ideal stop growth}
 \end{equation}
@@ -4020,7 +3977,6 @@ We can follow a similar procedure to get an expression for
 
 .
  Combination of the ideal, linear step growth size distribution (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:ideal nN  distribution for step growth"
@@ -4032,7 +3988,6 @@ reference "eq:ideal nN  distribution for step growth"
 \end_inset
 
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Mw formal def"
@@ -4043,7 +3998,7 @@ reference "eq:Mw formal def"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{w}=\frac{M_{0}\underset{N}{\sum}N^{2}p^{(2N-1)}}{\underset{N}{\sum}Np^{(2N-1)}}
 \end{equation}
@@ -4070,7 +4025,7 @@ we can again let
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{w}=\frac{1}{2}\frac{M_{0}\underset{N}{\sum}L^{2}p^{(L-1)}}{\underset{N}{\sum}Lp^{(L-1)}}\label{eq:Mw sum - ideal step growth}
 \end{equation}
@@ -4094,7 +4049,7 @@ These expressions for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 {\displaystyle \sum_{L=1}^{\infty}p^{L-1}=\frac{1}{1-p}}\\
@@ -4110,7 +4065,6 @@ These expressions for
 
 \begin_layout Standard
 Substituting the results for these sums into Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Mn sum - ideal stop growth"
@@ -4129,7 +4083,7 @@ reference "eq:Mw sum - ideal step growth"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M_{n}=\frac{M_{0}}{2(1-p)};\,\,\,N_{n}=\frac{1}{2(1-p)};\label{eq:Mn vs p for linear step growth}
 \end{equation}
@@ -4140,9 +4094,9 @@ M_{n}=\frac{M_{0}}{2(1-p)};\,\,\,N_{n}=\frac{1}{2(1-p)};\label{eq:Mn vs p for li
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-M_{w}=\frac{M_{0}}{2}\left\{ \frac{1+p}{1-p}\right\}
+M_{w}=\frac{M_{0}}{2}\left\{ \frac{1+p}{1-p}\right\} 
 \end{equation}
 
 \end_inset
@@ -4167,7 +4121,7 @@ The expression for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{M_{w}}{M_{n}}=1+p
 \end{equation}
@@ -4241,7 +4195,6 @@ Formula $N_{av}$rowth polymerizations involve the use of monomers that have
 \end_inset
 
 , which is greater than 2.
-
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "$f$"
@@ -4309,7 +4262,6 @@ status open
 
 \begin_layout Plain Layout
 Molecular schematic of gel network.
-
 \end_layout
 
 \end_inset
@@ -4506,7 +4458,7 @@ ty of all the B monomers:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 n_{a}f_{a}=n_{b}f_{b}\label{eq:nonlinear step growth - stoichiometric balance}
 \end{equation}
@@ -4529,7 +4481,7 @@ We define an average reactive functionality,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left(n_{a}+n_{b}\right)f_{av}=n_{a}f_{a}+n_{b}f_{b}\label{eq:nonlinear step growth average functionality}
 \end{equation}
@@ -4577,7 +4529,7 @@ The number of initial molecules corresponding to a given number of functional
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 N_{n}=\frac{1}{2-pf_{av}}
 \end{equation}
@@ -4612,7 +4564,7 @@ Standardextent of reaction at the endpoint.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 p_{gel}=\frac{2}{f_{av}}\label{eq:nonlinear step growth gel point}
 \end{equation}
@@ -4706,7 +4658,6 @@ reference "fig:nonlinear step-growth properties"
 \end_inset
 
 , that are less than the extent of reaction corresponding to the gel point,
-
 \begin_inset Formula $p_{gel}$
 \end_inset
 
@@ -4926,7 +4877,6 @@ In this case monomer A (the hexamethylenediamine) has a molecular formula
  We want the total functionality of the A monomers to be equal to the total
  functionality of the B monomers in this case, which means that the molar
  quantities of A and B monomers should be related by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:nonlinear step growth - stoichiometric balance"
@@ -4941,7 +4891,7 @@ reference "eq:nonlinear step growth - stoichiometric balance"
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 n_{a}=\frac{n_{b}f_{b}}{n_{a}}=\frac{n_{b}}{2}
 \]
@@ -4972,7 +4922,6 @@ So we know we need about
 
 \begin_layout Plain Layout
 To figure out the average functionality, we arrange Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:nonlinear step growth average functionality"
@@ -4987,7 +4936,7 @@ reference "eq:nonlinear step growth average functionality"
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 f_{av}=\frac{n_{a}f_{a}+n_{b}f_{b}}{n_{a}+n_{b}}
 \]
@@ -4999,7 +4948,6 @@ f_{av}=\frac{n_{a}f_{a}+n_{b}f_{b}}{n_{a}+n_{b}}
 
 \begin_layout Plain Layout
 Combining this with Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:nonlinear step growth gel point"
@@ -5010,7 +4958,7 @@ reference "eq:nonlinear step growth gel point"
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 p_{gel}=\frac{2\left(n_{a}+n_{b}\right)}{n_{a}f_{a}+n_{b}f_{b}}
 \]
@@ -5148,7 +5096,6 @@ A new bond is formed between the active sight and one if the doubly bonded
 
 \begin_layout Itemize
 The double bond is shifted to a single bond.
-
 \end_layout
 
 \begin_layout Standard
@@ -5244,7 +5191,6 @@ reference "fig:chain growth propagation mechanisms"
  For our purpose we are not as interested in the detailed reaction mechanism,
  which would require that we provide a bit more information about the structure
  of some of the short-lived reaction intermediate.
-
 \end_layout
 
 \begin_layout Standard
@@ -5318,7 +5264,6 @@ Cationic Polymerization
 
 \begin_layout Plain Layout
 Propagation mechanisms for three common chain growth polymerization mechanisms.
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:chain growth propagation mechanisms"
@@ -5508,7 +5453,6 @@ name "sub:Termination-by-Combination"
 Termination is the process by which reactive chain ends become unreactive.
  Termination reactions can be avoided in 'living polymerizations' like anionic
  and cationic polymerizations.
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -7518,7 +7462,6 @@ Step Growth Polymers
 
 \begin_layout Standard
 A variety of common polymers are discussed briefly in the pages below.
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -7549,7 +7492,6 @@ reference "fig:kevlar structure"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -7854,7 +7796,6 @@ hypertarget{PPO}
 
 Polyphenylene oxide is a high performance polymer has many varied uses,
  largely because of its excellent performance at high temperatures.
-
 \begin_inset Formula ${\color{blue}T_{g}}\approx190\,^{\circ}$
 \end_inset
 
@@ -7974,7 +7915,6 @@ status open
 \begin_layout Plain Layout
 Structure of Ultem polyetherimide, with some materials that have been made
  from it.
-
 \begin_inset CommandInset href
 LatexCommand href
 target "http://www.alcanairex.com/products/e/100/120p01_e.htm"
@@ -8510,7 +8450,6 @@ reference "fig:statistical copolymer"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -8598,7 +8537,6 @@ reference "fig:diblock copolymer schematic"
  A wide variety of interesting block copolymer morphologies have been observed.
  Diblock copolymers are most often synthesized by living, chain growth polymeriz
 ations.
-
 \end_layout
 
 \begin_layout Standard
@@ -8695,7 +8633,6 @@ ion.
  It turns out that the only anionic polymerization works in this case.
  We'll choose tetrahydrofuran as a solvent, clean it up very well to get
  rid of any impurities, and add some secondary butyllithium (see Fig.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:anionic initiation"
@@ -8927,7 +8864,7 @@ Thermal expansion coefficient
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \text{\alpha\ =}\frac{1}{V}\frac{dV}{dT}
 \end{equation}
@@ -8955,7 +8892,7 @@ Note that the linear thermal expansion coefficient, defined in terms of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta V}{V}=\alpha\Delta T
 \end{equation}
@@ -8976,7 +8913,7 @@ In the glassy phase (
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta V_{occ}}{V}=\alpha\Delta T\label{eq:thermal expansion - glass}
 \end{equation}
@@ -8997,7 +8934,7 @@ In the liquid phase (
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta V}{V}=\frac{\Delta V_{f}}{V}+\frac{\Delta V_{occ}}{V}=\alpha_{\ell}\Delta T\label{eq:thermal expansion - liquid}
 \end{equation}
@@ -9020,7 +8957,7 @@ reference "eq:thermal expansion - glass"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta V_{f}}{V}=\left(\alpha_{\ell}-\alpha_{g}\right)\Delta T\label{eq:free volume vs. T}
 \end{equation}
@@ -9052,7 +8989,6 @@ reference "fig:glass transition and free volume"
 .
  To determine the fractional free volume at the glass transition, we use
  Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:free volume vs. T"
@@ -9175,7 +9111,6 @@ hyperlink{PET}{PET}
 
 \begin_layout Enumerate
 Changes to the polymer structure that introduce extra free volume will decrease
-
 \begin_inset Formula $T_{g}$
 \end_inset
 
@@ -9538,7 +9473,6 @@ name "tab:tg for repeats with R1 and R2"
 \end_inset
 
  (From ref.
-
 \begin_inset CommandInset citation
 LatexCommand cite
 key "_thermal_????"
@@ -9626,7 +9560,6 @@ Since the fractional free volume is assumed to be fixed below
 
  equilibr are looking for is simply the value at the glass transition, as
  given by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:free volume vs. T"
@@ -9651,7 +9584,7 @@ reference "eq:free volume vs. T"
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{V_{f}}{V}=\left(4\times10^{-4}\,\mathrm{K^{-1}}\right)\left(50\,\mathrm{K}\right)=0.02
 \]
@@ -10033,7 +9966,6 @@ end-to-end vector
  The shapes of amorphous polymer molecules are random, and random walk statistic
 s can be used to describe the distributions of end-to-end vectors that are
  obtained.
-
 \end_layout
 
 \begin_layout Subsection
@@ -10107,7 +10039,6 @@ steps we write down how many steps removed from the starting point our walker
 \end_inset
 
  will be approximated by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:1d random walk distribution"
@@ -10152,7 +10083,7 @@ Random walk animation
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 n(i)=2M\left(\frac{1}{2\text{\pi}N_{x}}\right)^{1/2}\exp\left(\frac{-i^{2}}{2N_{x}}\right)\label{eq:1d random walk distribution}
 \end{equation}
@@ -10168,7 +10099,7 @@ We can check that the summation is appropriately normalized.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \underset{i}{\sum}n_{i}=M\label{eq:normlization condition}
 \end{equation}
@@ -10196,7 +10127,6 @@ The summation here is over all possible values of
 
  are possible.
  We can get the summation we want by summing over all integer values of
-
 \begin_inset Formula $i$
 \end_inset
 
@@ -10205,7 +10135,7 @@ The summation here is over all possible values of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \underset{i}{\sum}n(i)=\frac{M}{\sqrt{2\pi N_{x}}}\overset{\infty}{\underset{i=-\infty}{\sum}}\exp\left(\frac{-i^{2}}{2N_{x}}\right)\approx\frac{M}{\sqrt{2\pi N_{x}}}\overset{\infty}{\underset{-\infty}{\int}}\exp\left(\frac{-i^{2}}{2N_{x}}\right)di\label{eq:1d walk discrete gaussian sum}
 \end{equation}
@@ -10231,7 +10161,7 @@ Functions of the form
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 \overset{\infty}{\underset{-\infty}{\int}}\exp-\left(x/A\right)^{2}dx=A\sqrt{\pi}\,\,\,\mathrm{(a)}\\
@@ -10256,7 +10186,6 @@ In our case,
 
  and our expression for the Gaussian distribution of random walks is indeed
  normalized.
-
 \end_layout
 
 \begin_layout Subsection
@@ -10289,7 +10218,7 @@ The entire distribution represented by the Gaussian function will be useful
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle x\right\rangle =\underset{x}{\sum}xPr\left(x\right)
 \end{equation}
@@ -10322,7 +10251,7 @@ where the sum is over all possible values of
 \noun off
 \color none
 
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle x^{2}\right\rangle =\underset{x}{\sum}x^{2}Pr\left(x\right)dx
 \end{equation}
@@ -10343,7 +10272,7 @@ The procedure can be generalized to calculate the average of any function
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle f\left(x\right)\right\rangle =\underset{x}{\sum}f\left(x\right)Pr\left(x\right)
 \end{equation}
@@ -10388,7 +10317,7 @@ For a function of i, where i is only able to take on discrete values, we
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 <f(i)>=\underset{i}{\sum}f(i)Pr(i)
 \]
@@ -10430,7 +10359,7 @@ Pr(i)
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle f\left(x\right)\right\rangle =\int f\left(x\right)Pr\left(x\right)dx\label{eq:average of a continuous function}
 \end{equation}
@@ -10479,7 +10408,6 @@ If the length of each step taken by the random walker is
 \end_inset
 
 , then the distance between the beginning and the end of the walk is simply
-
 \begin_inset Formula $i$
 \end_inset
 
@@ -10487,7 +10415,7 @@ If the length of each step taken by the random walker is
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{x}=ia
 \]
@@ -10515,7 +10443,6 @@ We can substitute
 \end_inset
 
  in Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:1d walk discrete gaussian sum"
@@ -10572,7 +10499,7 @@ reference "eq:1d walk discrete gaussian sum"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 M\left(R_{min},\,R_{max}\right)=M\overset{R_{max}}{\underset{R_{min}}{\int}}Pr\left(R_{x}\right)dR_{x}\label{eq:1d walk gaussian}
 \end{equation}
@@ -10592,7 +10519,7 @@ with the probability density function,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 Pr\left(R_{x}\right)=\frac{1}{\sqrt{2\pi N_{x}a^{2}}}\exp\left(\frac{-R_{x}^{2}}{2N_{x}a^{2}}\right)\label{eq:1d walk gaussian-1}
 \end{equation}
@@ -10616,7 +10543,7 @@ For simplicity, it is helpful to define
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 Pr\left(R_{x}\right)=\frac{1}{\sqrt{\pi}A}\exp-\left(R_{x}/A\right)^{2}\label{eq:1d walk gaussian-1-1}
 \end{equation}
@@ -10644,7 +10571,6 @@ To calculate the average values of
 \end_inset
 
 , respectively, we use Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:average of a continuous function"
@@ -10656,7 +10582,7 @@ reference "eq:average of a continuous function"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R_{x}\right\rangle =\overset{\infty}{\underset{-\infty}{\int}}R_{x}Pr(R_{x})dR_{x}=\frac{1}{\sqrt{\pi}A}\overset{\infty}{\underset{-\infty}{\int}}R_{x}\exp-\left(R_{x}/A\right)^{2}
 \end{equation}
@@ -10668,7 +10594,7 @@ reference "eq:average of a continuous function"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R_{x}^{2}\right\rangle =\overset{\infty}{\underset{-\infty}{\int}}R_{x}^{2}Pr(R_{x})dR_{x}==\frac{1}{\sqrt{\pi}A}\overset{\infty}{\underset{-\infty}{\int}}R_{x}^{2}\exp-\left(R_{x}/A\right)^{2}
 \end{equation}
@@ -10683,7 +10609,7 @@ Finally, we use the standard integrals to
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R_{x}\right\rangle =0
 \end{equation}
@@ -10694,7 +10620,7 @@ Finally, we use the standard integrals to
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R_{x}^{2}\right\rangle =\frac{A^{2}}{2}=N_{x}a^{2}
 \end{equation}
@@ -10895,7 +10821,7 @@ The value of
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \vec{R}=R_{x}\hat{x}+R_{y}\hat{y}+R_{z}\hat{z}
 \end{equation}
@@ -10937,7 +10863,7 @@ where
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 Pr(R_{x},\,R_{y},\,R_{z})=Pr(R_{x})Pr(R_{y})Pr(R_{z})=(2\pi Na^{2}/3)^{-3/2}\exp\left(\frac{-3R^{2}}{2Na^{2}}\right)
 \end{equation}
@@ -10953,7 +10879,7 @@ where we have used the following relationships:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 R^{2}=R_{x}^{2}+R_{y}^{2}+R_{z}^{2}
 \end{equation}
@@ -10969,7 +10895,7 @@ and
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 N_{x}=N_{y}=N_{z}=N/3
 \end{equation}
@@ -10985,7 +10911,6 @@ This relationship can be further simplified by recalling that
 \end_inset
 
  is the probability that x component of the end-to-end vector is between
-
 \begin_inset Formula $R_{x}$
 \end_inset
 
@@ -11028,7 +10953,7 @@ This relationship can be further simplified by recalling that
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 Pr(R)=\frac{3(6)^{1/2}R^{2}}{\text{π}^{1/2}(Na^{2})^{3/2}}\exp\left(\frac{-3R^{2}}{2Na^{2}}\right)=\frac{4.15R^{2}}{R_{0}^{3}}\exp\left(\frac{-3R^{2}}{2R_{0}^{2}}\right)
 \end{equation}
@@ -11044,7 +10969,6 @@ where
 \end_inset
 
  is the probability that the magnitude of the end-to-end vector lies between
-
 \begin_inset Formula $R$
 \end_inset
 
@@ -11061,7 +10985,7 @@ where
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 R_{0}=\sqrt{N}a\label{eq:R0 def}
 \end{equation}
@@ -11081,7 +11005,6 @@ Note that
 \end_inset
 
 , obtained from the following version of Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:average of a continuous function"
@@ -11092,7 +11015,7 @@ reference "eq:average of a continuous function"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle ={\displaystyle \overset{\infty}{\underset{0}{\int}}}R^{2}Pr\left(R\right)dR=\frac{4.15}{R_{0}^{3}}\overset{\infty}{\underset{0}{\int}}R^{4}\exp\left(\frac{-3R^{2}}{2R_{0}^{2}}\right)=R_{0}^{2}
 \end{equation}
@@ -11116,7 +11039,7 @@ We can define a dimensionless probability density
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \bar{Pr}\left(\bar{R}\right)=4.15\left(\bar{R}^{2}\right)\exp\left(-1.5\bar{R}^{2}\right)
 \end{equation}
@@ -11193,7 +11116,6 @@ Note that the distribution is normalized:
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -11259,7 +11181,7 @@ We need to integrate the probability density from
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 Pr_{tot}=4.15\overset{1.1}{\underset{0.9}{\int}}x^{2}\exp(-1.5x^{2})dx
 \]
@@ -11353,7 +11275,7 @@ reference "fig:bond vector schematic"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \vec{R}=\overset{N_{b}}{\underset{i=1}{\sum}}\vec{r}_{i}=\vec{r}_{1}+\vec{r}_{2}+\vec{r}_{3}+...+\vec{r}_{N_{b}}
 \end{equation}
@@ -11423,7 +11345,7 @@ We are interested in the average magnitude of the end-to-end vector.
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 R^{2}=\vec{R}\cdot\vec{R}=\left(\vec{r}_{1}+\vec{r}_{2}+\vec{r}_{3}+...+\vec{r}_{N_{b}}\right)\cdot\left(\vec{r}_{1}+\vec{r}_{2}+\vec{r}_{3}+...+\vec{r}_{N_{b}}\right)
 \end{equation}
@@ -11443,7 +11365,7 @@ The dot product has
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 R^{2}=\left\{ \begin{array}{ccccc}
 \vec{r}_{1}\cdot\vec{r}_{1} & +\vec{r}_{1}\cdot\vec{r}_{2} & +\vec{r}_{1}\cdot\vec{r}_{3} & +... & +\vec{r}_{1}\cdot\vec{r}_{N_{b}}\\
@@ -11451,7 +11373,7 @@ R^{2}=\left\{ \begin{array}{ccccc}
 +\vec{r}_{3}\cdot\vec{r}_{1} & +\vec{r}_{3}\cdot\vec{r}_{2} & +\vec{r}_{3}\cdot\vec{r}_{3} & +... & +\vec{r}_{3}\cdot\vec{r}_{N_{b}}\\
 +... & +... & +... & +... & +...\\
 +\vec{r}_{N_{b}}\cdot\vec{r}_{1} & +\vec{r}_{N_{b}}\cdot\vec{r}_{2} & +\vec{r}_{N_{b}}\cdot\vec{r}_{3} & +... & +\vec{r}_{N_{b}}\cdot\vec{r}_{N_{b}}
-\end{array}\right\}
+\end{array}\right\} 
 \end{equation}
 
 \end_inset
@@ -11488,7 +11410,6 @@ reference "fig:vector angle"
  the lengths of all bonds along the backbone are identical.
  This assumption is certainly valid for vinyl polymers, and other polymers
  which have only C-C single bonds along the backbone.
-
 \end_layout
 
 \begin_layout Standard
@@ -11558,7 +11479,7 @@ j
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 R^{2}=\ell^{2}\left\{ \begin{array}{ccccc}
 \cos\theta_{11} & +\cos\text{\theta}_{12} & +\cos\text{\theta}_{13} & +... & +\cos\text{\theta}_{1N_{b}}\\
@@ -11566,7 +11487,7 @@ R^{2}=\ell^{2}\left\{ \begin{array}{ccccc}
 +\cos\theta_{31} & +\cos\text{\theta}_{32} & +\cos\text{\theta}_{33} & +... & +\cos\text{\theta}_{3N_{b}}\\
 +... & +... & +... & +... & +...\\
 +\cos\theta_{N_{b}1} & +\cos\text{\theta}_{N_{b}2} & +\cos\theta_{N_{b}3} & +... & +\cos\text{\theta}_{N_{b}N_{b}}
-\end{array}\right\}
+\end{array}\right\} 
 \end{equation}
 
 \end_inset
@@ -11584,15 +11505,15 @@ The average value of R, will be determined by the average values of θ
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle =\ell^{2}\left\{ \begin{array}{ccccc}
 \left\langle \cos\theta_{11}\right\rangle  & +\left\langle \cos\text{\theta}_{12}\right\rangle  & +\left\langle \cos\text{\theta}_{13}\right\rangle  & +... & +\left\langle \cos\text{\theta}_{1N_{b}}\right\rangle \\
 +\left\langle \cos\theta_{21}\right\rangle  & +\left\langle \cos\text{\theta}_{22}\right\rangle  & +\left\langle \cos\text{\theta}_{23}\right\rangle  & +... & +\left\langle \cos\text{\theta}_{2N_{b}}\right\rangle \\
 +\left\langle \cos\theta_{31}\right\rangle  & +\left\langle \cos\text{\theta}_{32}\right\rangle  & +\left\langle \cos\text{\theta}_{33}\right\rangle  & +... & +\left\langle \cos\text{\theta}_{3N_{b}}\right\rangle \\
 +... & +... & +... & +... & +...\\
-+\left\langle \cos\theta_{N_{b}1}\right\rangle  & +\left\langle \cos\text{\theta}_{N_{b}2}\right\rangle  & +\left\langle \cos\theta_{N_{b}3}\right\rangle  & +... & +\left\langle \cos\text{\theta}_{N_{b}N_{b}}\right\rangle
-\end{array}\right\}
++\left\langle \cos\theta_{N_{b}1}\right\rangle  & +\left\langle \cos\text{\theta}_{N_{b}2}\right\rangle  & +\left\langle \cos\theta_{N_{b}3}\right\rangle  & +... & +\left\langle \cos\text{\theta}_{N_{b}N_{b}}\right\rangle 
+\end{array}\right\} 
 \end{equation}
 
 \end_inset
@@ -11606,9 +11527,9 @@ In more compact notation we can write:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-\left\langle R^{2}\right\rangle =\ell^{2}\overset{N_{b}}{\underset{i,j=1}{\sum}}\left\langle \cos\theta_{ij}\right\rangle
+\left\langle R^{2}\right\rangle =\ell^{2}\overset{N_{b}}{\underset{i,j=1}{\sum}}\left\langle \cos\theta_{ij}\right\rangle 
 \end{equation}
 
 \end_inset
@@ -11626,7 +11547,6 @@ So we have reduced the problem to figuring out what the values of
  In the following sections we consider two specific models (the freely jointed
  and freely rotating models), and a general model where the bond rotation
  angles are constrained.
-
 \end_layout
 
 \begin_layout Subsection
@@ -11674,12 +11594,11 @@ The simplest (and most unrealistic) model of chain dimensions is the freely
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle =N_{b}\ell^{2}
 \end{equation}
@@ -11799,7 +11718,7 @@ i.e.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle =\ell^{2}\left\{ \begin{array}{ccccc}
 1 & +\cos\theta & +\cos^{2}\theta & +... & +\cos^{(N_{b}-1)}\theta\\
@@ -11807,7 +11726,7 @@ i.e.
 +\cos^{2}\theta & +\cos\theta & +1 & +... & +\cos^{(N_{b}-3)}\theta\\
 +... & +... & +... & +... & +...\\
 +\cos^{(N_{b}-1)}\theta & +\cos^{(N_{b}-2)}\theta & +\cos^{(N_{b}-3)}\text{\theta} & +... & +1
-\end{array}\right\}
+\end{array}\right\} 
 \end{equation}
 
 \end_inset
@@ -11881,9 +11800,9 @@ Of the
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
-\left\langle R^{2}\right\rangle =\ell^{2}\left\{ N_{b}+2(N_{b}-1)\cos\theta+2(N_{b}-2)(\cos\theta)^{2}+...+2\left(\cos\theta\right)^{N_{b}-1}\right\}
+\left\langle R^{2}\right\rangle =\ell^{2}\left\{ N_{b}+2(N_{b}-1)\cos\theta+2(N_{b}-2)(\cos\theta)^{2}+...+2\left(\cos\theta\right)^{N_{b}-1}\right\} 
 \]
 
 \end_inset
@@ -11897,7 +11816,7 @@ In the more compact notation, we have:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle =N_{b}\ell^{2}+\ell^{2}\overset{N_{b}-1}{\underset{i=1}{\sum}}2\left(N_{b}-i\right)\left(\cos\theta\right)^{i}\label{eq:freely rotating - exact}
 \end{equation}
@@ -11984,9 +11903,9 @@ i
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-\left\langle R^{2}\right\rangle =N_{b}\text{ℓ}^{2}\left\{ 1+2\underset{i=1}{\overset{\infty}{\sum}}\left(\cos\theta\right)^{i}\right\}
+\left\langle R^{2}\right\rangle =N_{b}\text{ℓ}^{2}\left\{ 1+2\underset{i=1}{\overset{\infty}{\sum}}\left(\cos\theta\right)^{i}\right\} 
 \end{equation}
 
 \end_inset
@@ -12005,7 +11924,7 @@ At this point we are in a position to use the following standard sum, valid
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \overset{\infty}{\underset{i=1}{\sum}}x^{i}=\frac{x}{1-x}
 \end{equation}
@@ -12025,7 +11944,7 @@ Use of this expression with
 
 \begin_layout Standard
 \noindent
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle =N_{b}\ell^{2}\left\{ \frac{1+\cos\theta}{1-\cos\theta}\right\} \label{eq:freely rotating R2}
 \end{equation}
@@ -12098,7 +12017,6 @@ Newman projection
 \end_inset
 
 ).
-
 \end_layout
 
 \end_inset
@@ -12118,7 +12036,6 @@ Interferences between functional groups cause the free energy to vary as
 \end_inset
 
 , with an energy vs.
-
 \begin_inset Formula $\phi$
 \end_inset
 
@@ -12163,7 +12080,6 @@ Gauche configuration
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -12220,7 +12136,7 @@ We know that the freely rotating chain model must also be overly simplistic,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \left\langle R^{2}\right\rangle =N_{b}\ell^{2}\left\{ \frac{1+\cos\theta}{1-\cos\theta}\right\} \left\{ \frac{1+\left\langle \cos\phi\right\rangle }{1-\left\langle \cos\phi\right\rangle }\right\} \label{eq:bond angle restrictions - R^2}
 \end{equation}
@@ -12245,7 +12161,6 @@ Here
 \end_inset
 
  for the freely rotating chain model, in which case Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:bond angle restrictions - R^2"
@@ -12253,7 +12168,6 @@ reference "eq:bond angle restrictions - R^2"
 \end_inset
 
  reduces to Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:freely rotating R2"
@@ -12304,7 +12218,7 @@ Characteristic ratio
 \end_inset
 
  to the value which would be obtained from the freely jointed chain model:
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 C_{\infty}\equiv\frac{\left\langle R^{2}\right\rangle }{N_{b}\ell^{2}}\label{eq:Cinf definition}
 \end{equation}
@@ -12316,13 +12230,11 @@ C_{\infty}\equiv\frac{\left\langle R^{2}\right\rangle }{N_{b}\ell^{2}}\label{eq:
 
 \begin_layout Standard
 Each model of chain dimensions has it's own prediction for the value of
-
 \begin_inset Formula $C_{\infty}$
 \end_inset
 
 .
  For a chain with fixed bond angles, comparison to Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:bond angle restrictions - R^2"
@@ -12334,7 +12246,7 @@ reference "eq:bond angle restrictions - R^2"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 C_{\infty}=\left\{ \frac{1+\cos\theta}{1-\cos\theta}\right\} \left\{ \frac{1+\left\langle \cos\phi\right\rangle }{1-\left\langle \cos\phi\right\rangle }\right\} \label{eq:bond angle restrictions - Cinf}
 \end{equation}
@@ -12387,7 +12299,6 @@ Solution:
 
 \begin_layout Plain Layout
 We use Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:bond angle restrictions - Cinf"
@@ -12430,7 +12341,7 @@ with
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \left\langle \cos\phi\right\rangle =0.7\left(1\right)+0.3\left(-0.5\right)=0.55
 \]
@@ -12452,7 +12363,6 @@ This gives
 \end_inset
 
  that is between 6 and 10.
-
 \end_layout
 
 \end_inset
@@ -12512,7 +12422,6 @@ Solution:
 The characteristic ratio and statistical segment length are both defined
  in terms of an expression for R2.
  All we need to do is equate these two expressions (Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:R0 def"
@@ -12531,7 +12440,7 @@ reference "eq:Cinf definition"
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 C_{\infty}N_{b}\ell^{2}=Na^{2}
 \end{equation}
@@ -12558,7 +12467,7 @@ The repeat unit for a vinyl polymer contains two C-C single bonds along
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 a=2.18\mathrm{Å}\sqrt{C_{\infty}}
 \end{equation}
@@ -12646,7 +12555,7 @@ An isolated polymer molecule in a solvent no longer obeys random walk statistics
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 R_{0}=a_{s}N^{0.6}\label{eq:R0 for self avoiding walk}
 \end{equation}
@@ -12704,7 +12613,7 @@ Single strand deformation
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Omega\left(\vec{R}\right)=C\exp\left(-1.5\left(R/R_{0}\right)^{2}\right)
 \end{equation}
@@ -12720,7 +12629,7 @@ The entropy is obtained from the number of possible molecular shapes:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 S_{d}\left(\vec{R}\right)=k_{B}\ln\Omega\left(\vec{R}\right)=k_{B}\ln C-\frac{3k_{B}R^{2}}{2Na^{2}}
 \end{equation}
@@ -12737,7 +12646,7 @@ n:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{d}\left(\vec{R}\right)=-TS_{d}\left(\vec{R}\right)=-k_{B}T\ln C+\frac{3k_{B}TR^{2}}{2Na^{2}}\label{eq:deformation free energy}
 \end{equation}
@@ -12894,7 +12803,6 @@ In this section, we discuss the mechanical properties of polymers, defined
  We begin with a refresher on the fundamental definitions of stress and
  strain, and then discuss the three most important experimental geometries
  for mechanical measurements of soft materials.
-
 \end_layout
 
 \begin_layout Subsection
@@ -13081,7 +12989,6 @@ status open
 
 \begin_layout Plain Layout
 3-D representation of stress, expressed in terms of the principal stresses,
-
 \begin_inset Formula $\sigma_{1}^{p}$
 \end_inset
 
@@ -13202,7 +13109,6 @@ Principal extension ratios
  The values of these principal extension ratios, along with the orientation
  of the principal axes of the strain ellipsoid, completely specify the state
  of strain.
-
 \end_layout
 
 \begin_layout Standard
@@ -13303,7 +13209,6 @@ reference "fig:uniaxial tensile test"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Itemize
@@ -13573,7 +13478,7 @@ First law of thermodynamics
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 P_{z}d\ell=d(\Delta F_{d})
 \end{equation}
@@ -13593,7 +13498,7 @@ We can write this force in terms of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 P_{z}=\frac{d(\Delta F_{d})}{d\ell}=\frac{d(\Delta F_{d})}{d\lambda_{z}}\frac{d\lambda_{z}}{d\ell}
 \end{equation}
@@ -13626,7 +13531,7 @@ With
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{eng}=\frac{P_{z}}{A_{0}}=\frac{d}{d\lambda_{z}}\left(\frac{\Delta F_{d}}{V_{0}}\right)
 \end{equation}
@@ -13650,7 +13555,6 @@ Here
 \end_inset
 
  are the cross sectional area, length and volume of the undeformed material.
-
 \end_layout
 
 \begin_layout Standard
@@ -13664,7 +13568,7 @@ on free energy density,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{d}=\frac{\Delta F_{d}}{V_{0}}
 \end{equation}
@@ -13682,7 +13586,7 @@ n along the z axis:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{eng}=\frac{d}{d\lambda_{z}}(\Delta f_{d})\label{eq:tensile stress from strain energy}
 \end{equation}
@@ -13812,7 +13716,6 @@ Note that
 \end_inset
 
  are both commonly used symbols to represent the shear strain.
-
 \end_layout
 
 \begin_layout Standard
@@ -13863,7 +13766,7 @@ The force is again given by the derivative of the free energy with respect
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 P_{xy}=\frac{d(\Delta F_{d})}{du}=\frac{d(\Delta F_{d})}{d\gamma}\frac{d\gamma}{du}=\frac{1}{h}\frac{d}{d\gamma}\left(\Delta F_{d}\right)
 \end{equation}
@@ -13900,7 +13803,7 @@ The shear stress is then obtained by dividing by the cross-sectional area
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\frac{d}{\partial d\gamma}\left(\Delta f_{d}\right)\label{eq:shear stress from strain energy}
 \end{equation}
@@ -13953,7 +13856,7 @@ reference "fig:simple shear principal extensions"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \gamma=e_{xy}=\lambda_{1}-\lambda_{2}\label{eq:simple shear extension ratios}
 \end{equation}
@@ -13965,7 +13868,6 @@ reference "fig:simple shear principal extensions"
 
 \begin_layout Standard
 Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:simple shear extension ratios"
@@ -14056,7 +13958,6 @@ reference "fig:shear in torsion"
 
 b).
  We obtain the shear modulus by looking at the torsional stiffness of mateiral,
-
 \begin_inset Formula $i.e.$
 \end_inset
 
@@ -14132,7 +14033,7 @@ We define a cylindrical system with a z axis along the fiber axis.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 e_{\theta z}=r\frac{d\theta}{dz}=r\frac{\theta_{0}}{\ell}
 \end{equation}
@@ -14144,7 +14045,6 @@ e_{\theta z}=r\frac{d\theta}{dz}=r\frac{\theta_{0}}{\ell}
 
 \begin_layout Standard
 The corresponding shear stress is obtained by multiplying by the shear modulus,
-
 \begin_inset Formula $G$
 \end_inset
 
@@ -14152,7 +14052,7 @@ The corresponding shear stress is obtained by multiplying by the shear modulus,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{\theta z}=Gr\theta_{0}/\ell
 \end{equation}
@@ -14171,7 +14071,7 @@ We integrate the shear stress to give the torque,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 T={\displaystyle \int_{0}^{d/2}r\sigma_{\theta z}2\pi rdr=\frac{\pi G\theta_{0}d^{4}}{32\ell}}\label{eq:fiber stiffness}
 \end{equation}
@@ -14200,7 +14100,6 @@ reference "sub:Dynamic-Moduli"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Subsection
@@ -14503,7 +14402,6 @@ What really matters when determining the mechanical properties of a material
 \end_inset
 
  in Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:deformation free energy"
@@ -14515,9 +14413,9 @@ reference "eq:deformation free energy"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-F_{0}=-k_{B}T\ln C+\frac{3k_{B}T}{2Na^{2}}\left\{ R_{x}^{2}+R_{y}^{2}+R_{z}^{2}\right\}
+F_{0}=-k_{B}T\ln C+\frac{3k_{B}T}{2Na^{2}}\left\{ R_{x}^{2}+R_{y}^{2}+R_{z}^{2}\right\} 
 \end{equation}
 
 \end_inset
@@ -14557,9 +14455,9 @@ After deformation, the values of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-F_{def}=-k_{B}T\ln C+\frac{3k_{B}T}{2Na^{2}}\left\{ \lambda_{x}^{2}R_{x}^{2}+\lambda_{y}^{2}R_{y}^{2}+\lambda_{z}^{2}R_{z}^{2}\right\}
+F_{def}=-k_{B}T\ln C+\frac{3k_{B}T}{2Na^{2}}\left\{ \lambda_{x}^{2}R_{x}^{2}+\lambda_{y}^{2}R_{y}^{2}+\lambda_{z}^{2}R_{z}^{2}\right\} 
 \end{equation}
 
 \end_inset
@@ -14573,7 +14471,7 @@ The free energy change due to deformation of the molecule is given as follows:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta F_{d}=F_{def}-F_{0}=\frac{3k_{B}T\left\{ (\lambda_{x}^{2}-1)R_{x}^{2}+(\lambda_{y}^{2}-1)R_{y}^{2}+(\lambda_{z}^{2}-1)R_{z}^{2}\right\} }{2Na^{2}}
 \end{equation}
@@ -14589,7 +14487,6 @@ This result is for the deformation of a single polymer molecule, which for
  points.
  There are a huge number of these segments in a macroscopic chunk of rubber.
  To get the free energy change for the material as a whole, we need to replace
-
 \begin_inset Formula $R_{x}^{2}$
 \end_inset
 
@@ -14623,7 +14520,7 @@ This result is for the deformation of a single polymer molecule, which for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta F_{d}=\frac{3k_{B}Tn_{s}\left\{ (\lambda_{x}^{2}-1)\left\langle R_{x}^{2}\right\rangle +(\lambda_{y}^{2}-1)\left\langle R_{y}^{2}\right\rangle +(\lambda_{z}^{2}-1)\left\langle R_{z}^{2}\right\rangle \right\} }{2Na^{2}}
 \end{equation}
@@ -14649,7 +14546,7 @@ Now we assume that the material was isotropic when it was crosslinked, so
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta F_{d}=\frac{k_{B}Tn_{s}\left\langle R^{2}\right\rangle \left\{ \lambda_{x}^{2}+\lambda_{y}^{2}+\lambda_{z}^{2}-3\right\} }{2R_{0}^{2}}
 \end{equation}
@@ -14708,7 +14605,7 @@ It is often useful to work in terms of intensive free energy changes (free
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{d}=\frac{\Delta F_{d}}{V}=\frac{k_{B}Tv_{s}\beta\left\{ \lambda_{x}^{2}+\lambda_{y}^{2}+\lambda_{z}^{2}-3\right\} }{2}\label{eq:Neohookian strain energy}
 \end{equation}
@@ -14732,7 +14629,7 @@ where
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \nu_{s}=\frac{n_{s}}{V};\,\,\beta=\frac{\left\langle R^{2}\right\rangle }{R_{0}^{2}}
 \end{equation}
@@ -14769,7 +14666,7 @@ Neohookean model
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \lambda_{1}\lambda_{2}\lambda_{3}=1\label{eq:incompressibility condition}
 \end{equation}
@@ -14813,7 +14710,6 @@ For pure shear we need to relate the shear strain,
 \end_inset
 
  = 1 so the Neohookean strain energy function (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Neohookian strain energy"
@@ -14825,7 +14721,7 @@ reference "eq:Neohookian strain energy"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{d}=\frac{k_{B}Tv_{s}\beta\left\{ \lambda_{1}^{2}+\lambda_{2}^{2}-2\right\} }{2}=\frac{k_{B}Tv_{s}\beta(\lambda_{1}-\lambda_{2})^{2}}{2}=\frac{k_{B}Tv_{s}\beta\gamma^{2}}{2}
 \end{equation}
@@ -14842,7 +14738,6 @@ The shear stress is obtained by differentiation of the strain energy function
 \end_inset
 
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:shear stress from strain energy"
@@ -14854,7 +14749,7 @@ reference "eq:shear stress from strain energy"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\frac{d}{d\gamma}(\Delta f_{d})=G\gamma
 \end{equation}
@@ -14874,7 +14769,7 @@ where
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G=k_{B}Tv_{s}\beta
 \end{equation}
@@ -14911,7 +14806,6 @@ For uniaxial extension or compression the deformation is applied along one
  axis, which we define as the z axis.
  We assume that our material is isotropic, so that the extensions in the
  x and z directions are identical to one another, i.e.
-
 \begin_inset Formula $\lambda_{x}=\lambda_{y}$
 \end_inset
 
@@ -14936,9 +14830,9 @@ For uniaxial extension or compression the deformation is applied along one
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-\Delta f_{d}=\frac{G}{2}\left\{ \lambda_{z}^{2}+\frac{2}{\lambda_{z}}-3\right\}
+\Delta f_{d}=\frac{G}{2}\left\{ \lambda_{z}^{2}+\frac{2}{\lambda_{z}}-3\right\} 
 \end{equation}
 
 \end_inset
@@ -14952,7 +14846,6 @@ The engineering stress is obtained by differentiating with respect to
 \end_inset
 
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:tensile stress from strain energy"
@@ -14964,9 +14857,9 @@ reference "eq:tensile stress from strain energy"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-\sigma_{eng}=\frac{d}{\partial d\lambda}\left(\Delta f_{d}\right)=G\left\{ \lambda_{z}-\frac{1}{\lambda_{z}^{2}}\right\}
+\sigma_{eng}=\frac{d}{\partial d\lambda}\left(\Delta f_{d}\right)=G\left\{ \lambda_{z}-\frac{1}{\lambda_{z}^{2}}\right\} 
 \end{equation}
 
 \end_inset
@@ -14985,7 +14878,7 @@ Young's modulus (E) is defined as the derivative of the stress with respect
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 E\equiv\frac{\partial\sigma_{eng}}{\partial\lambda_{z}}|_{\lambda_{z}=1}=G\left.\left\{ 1+\frac{2}{\lambda_{z}^{2}}\right\} \right|_{\lambda_{z}=1}=3G=3v_{s}\beta k_{B}T,
 \end{equation}
@@ -15012,7 +14905,7 @@ The concentration of network strands (
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 v_{s}\mathrm{\left(\frac{strands}{volume}\right)}=\frac{\rho\left(\mathrm{mass/volume}\right)}{M_{s}\left(\mathrm{mass/mole}\right)}\cdot N_{av}\left(\mathrm{strands/mole}\right)
 \end{equation}
@@ -15051,7 +14944,7 @@ Avogadro's number
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 E=\frac{3\rho\beta RT}{M_{s}}
 \]
@@ -15152,7 +15045,7 @@ Because the polymer was crosslinked under equilibrium conditions, the network
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 E=\mathrm{\frac{3(900\,kg/m^{3})(8.314J/mole-K)(300K)}{4kg/mole}=1.6x10^{6}\,J/m^{3}}.
 \]
@@ -15238,7 +15131,7 @@ Solution
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G=k_{B}Tv_{s}\beta=k_{B}Tv_{s}\frac{<R^{2}>}{R_{0}^{2}}
 \end{equation}
@@ -15285,7 +15178,7 @@ For the unswollen polymer (
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{G}{G_{0}}=\frac{v_{s}<R^{2}>}{v_{s_{0}}R_{dry}^{2}}
 \end{equation}
@@ -15297,7 +15190,7 @@ For the unswollen polymer (
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{v_{s}}{v_{s_{0}}}=\phi_{p}
 \end{equation}
@@ -15309,7 +15202,7 @@ For the unswollen polymer (
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{<R^{2}>}{R_{0}^{2}}=\phi_{p}^{-2/3}
 \end{equation}
@@ -15355,7 +15248,7 @@ The strand concentration,
 
 \begin_layout Quote
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G=G_{0}\phi_{p}^{1/3}
 \end{equation}
@@ -15376,7 +15269,7 @@ The example from the previous page illustrates the use of a more Page 283
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G=v_{s}k_{B}T\frac{<R^{2}>}{R_{0}^{2}}
 \end{equation}
@@ -15395,7 +15288,7 @@ We can write this in terms of an average strand molecular weight,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G=\frac{f\phi_{p}^{1/3}\rho RT}{M_{s}}\frac{<R_{dry}^{2}>}{R_{0}^{2}}
 \end{equation}
@@ -15696,7 +15589,6 @@ Before we discuss the way that the properties of viscoelastic materials
 
  that begins to increase at some constant rate to some final value, and
  is then fixed at this final value as illustrated in the top panel of Figure
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:viscoelasticity: liquids and solids"
@@ -15763,7 +15655,7 @@ Shear viscosity
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\eta\frac{d\gamma}{dt}=\eta\dot{\gamma}
 \end{equation}
@@ -15863,7 +15755,7 @@ reference "fig:shear strain - instantaneous"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G\left(t\right)\equiv\frac{\sigma_{xy}\left(t\right)}{\gamma_{0}}
 \end{equation}
@@ -15881,7 +15773,6 @@ The shear modulus is independent of
  is sufficiently small.
  This low strain regime, referred to as the linear viscoelastic regime is
  the focus of our remaining discussion of viscoelasticity.
-
 \end_layout
 
 \begin_layout Standard
@@ -16063,7 +15954,7 @@ The stress contribution from these different strains is obtained by multiplying
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\Delta\gamma_{1}G(t-t_{1})+\Delta\gamma_{2}G(t-t_{2})+\Delta\gamma_{3}G(t-t_{3})
 \end{equation}
@@ -16080,7 +15971,7 @@ This expression can easily be extended to include an arbitrary number of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\underset{i}{\sum}\Delta\gamma_{i}G(t-t_{i})
 \end{equation}
@@ -16102,7 +15993,7 @@ By taking a sum of very small strain increments, we can generalize this
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta\gamma_{i}=\frac{d\gamma}{dt}(t_{i})\Delta t_{i}=\dot{\gamma}(t_{i})\Delta t_{i}
 \end{equation}
@@ -16130,7 +16021,7 @@ This substitution leads to the following expression for the stress:
 \uwave off
 \noun off
 \color none
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\underset{i}{\sum}\dot{\gamma}(t_{i})G(t-t_{i})\Delta t_{i}
 \end{equation}
@@ -16151,7 +16042,7 @@ We can write this in integral form by taking
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}(t)=\overset{t}{\underset{-\infty}{\int}}\dot{\gamma}(t_{i})G(t-t_{i})dt_{i}
 \end{equation}
@@ -16195,7 +16086,7 @@ This expression gives the current stress that remains as a result of all
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}(t)=\overset{\infty}{\underset{0}{\int}}\dot{\gamma}(t-s)G(s)ds\label{eq:boltzmann superposition}
 \end{equation}
@@ -16243,7 +16134,7 @@ The simplest application of Eq.
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}=\dot{\gamma}\overset{\infty}{\underset{0}{\int}}G(t)dt
 \end{equation}
@@ -16259,7 +16150,7 @@ The following expression is obtained for the viscosity:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \eta_{0}=\frac{\sigma_{xy}}{\dot{\gamma}}=\overset{\infty}{\underset{0}{\int}}G(t)dt\label{eq:zero shear viscosity - time domain}
 \end{equation}
@@ -16310,12 +16201,10 @@ One thing to keep in mind when looking at the viscoelastic properties of
  The same is true for the frequency-domain experiments discussed below.
  The relaxation modulus can often vary of several orders of magnitude, so
  that we also plot the relaxation modulus itself on a logarithmic scale.
-
 \end_layout
 
 \begin_layout Standard
 Three different idealized forms of the relaxation modulus are shown in Figure
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:relaxation modulus examples"
@@ -16355,7 +16244,7 @@ Maxwell model
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G\left(t\right)=G_{g}\exp\left(-t/\tau_{g}\right)
 \end{equation}
@@ -16397,7 +16286,7 @@ reference "fig:entanglement schematic"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G\left(t\right)=G_{g}\exp\left(-t/\tau_{g}\right)+G_{e}\exp\left(-t/\tau_{e}\right)
 \end{equation}
@@ -16434,7 +16323,6 @@ Entanglements
 \end_inset
 
 , or equivalently, by the number average molecular weight between entanglements,
-
 \begin_inset Formula $M_{e}$
 \end_inset
 
@@ -16443,7 +16331,7 @@ Entanglements
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G_{e}=v_{e}k_{B}T=\frac{\rho RT}{M_{e}}
 \end{equation}
@@ -16567,7 +16455,7 @@ Maxwell model - Generalized
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G(t)=\overset{N_{r}}{\underset{i=1}{\sum}}G_{i}\exp(-t/\tau_{i})
 \end{equation}
@@ -16579,7 +16467,6 @@ G(t)=\overset{N_{r}}{\underset{i=1}{\sum}}G_{i}\exp(-t/\tau_{i})
 
 \begin_layout Standard
 Inclusion of a sufficiently large number of relaxation processes (large
-
 \begin_inset Formula $N_{r}$
 \end_inset
 
@@ -16704,7 +16591,7 @@ Vogel equation
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \log(a_{T})=A+\frac{B}{T-T_{\infty}}
 \end{equation}
@@ -16727,7 +16614,7 @@ The factor A is determined from the requirement that
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 A=-\frac{B}{T_{ref}-T_{\infty}}
 \end{equation}
@@ -16803,7 +16690,7 @@ Experimentally, a wide variation in time scales is accessed by oscillating
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \gamma=\gamma_{0}\sin(\omega t)
 \end{equation}
@@ -16819,7 +16706,7 @@ The strain rate is also sinusoidal:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \dot{\gamma}(t)=\frac{d\gamma(t)}{dt}=\omega\gamma_{0}\cos(\omega t)=\omega\gamma_{0}\sin(\omega t+\pi/2)
 \end{equation}
@@ -16847,7 +16734,7 @@ Note that the strain and the strain rate are out of phase by
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}(t)=\overset{\infty}{\underset{0}{\int}}\dot{\gamma}(t-s)G(s)ds=-\omega\gamma_{0}\overset{\infty}{\underset{0}{\int}}\cos\left\{ \omega(t-s)\right\} G(s)ds
 \end{equation}
@@ -16863,7 +16750,7 @@ Now we make use of the following trigonometric identity:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \cos(a-b)=\sin(a)\sin(b)+\cos(a)\cos(b)
 \end{equation}
@@ -16875,12 +16762,11 @@ Now we make use of the following trigonometric identity:
 
 \begin_layout Standard
 We can therefore write the time dependent stress in the following way.
-
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}(t)=\gamma_{0}\omega\left[\overset{\infty}{\underset{0}{\int}}G(s)\sin(\omega s)ds\right]\sin(\omega t)+\gamma_{0}\omega\left[\overset{\infty}{\underset{0}{\int}}G(s)\cos(\omega s)ds\right]\cos(\omega t)\label{eq:dynamic mech.  - sinusoidal stress}
 \end{equation}
@@ -16914,7 +16800,7 @@ We define
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\sigma_{xy}(t)}{\gamma_{0}}=G^{\prime}(\omega)\sin(\omega t)+G^{\prime\prime}(\omega)\cos(\omega t)\label{eq:dynamic mech - G' and G" def.}
 \end{equation}
@@ -16951,7 +16837,7 @@ reference "eq:dynamic mech - G' and G\" def."
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 G^{\prime}(\omega)=\omega\overset{\infty}{\underset{0}{\int}}G(t)\sin(\omega t)dt\\
@@ -16995,7 +16881,7 @@ In this case the shear modulus is independent of both time and frequency.
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}(t)=G\gamma(t)=G\gamma_{0}\sin(\omega t)
 \end{equation}
@@ -17007,7 +16893,6 @@ In this case the shear modulus is independent of both time and frequency.
 
 \begin_layout Standard
 Comparing to Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:dynamic mech - G' and G\" def."
@@ -17018,7 +16903,7 @@ reference "eq:dynamic mech - G' and G\" def."
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 G^{\prime}=G\\
@@ -17047,7 +16932,7 @@ We again have
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \sigma_{xy}(t)=\eta\frac{d\gamma(t)}{dt}=\eta\omega\gamma_{0}\cos(\omega t)
 \end{equation}
@@ -17059,7 +16944,6 @@ We again have
 
 \begin_layout Standard
 Comparing to Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:dynamic mech - G' and G\" def."
@@ -17070,7 +16954,7 @@ reference "eq:dynamic mech - G' and G\" def."
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 G^{\prime}=0\\
@@ -17096,7 +16980,6 @@ Phase Angle and Loss Tangent
 \end_inset
 
  can be viewed as the real and imaginary components of a a complex modulus,
-
 \begin_inset Formula $G^{*}$
 \end_inset
 
@@ -17104,7 +16987,7 @@ Phase Angle and Loss Tangent
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G^{*}\left(\omega\right)=G^{\prime}\left(\omega\right)+iG^{\prime\prime}\left(\omega\right)
 \end{equation}
@@ -17131,7 +17014,7 @@ As with any complex number, we can represent
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 \left|G^{*}\left(\omega\right)\right|=\left\{ \left(G^{\prime}\left(\omega\right)\right)^{2}+\left(G^{\prime\prime}\left(\omega\right)\right)^{2}\right\} ^{1/2}\\
@@ -17159,7 +17042,7 @@ The significance of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\gamma\left(t\right)}{\gamma_{0}}=\sin(\omega t)
 \end{equation}
@@ -17171,7 +17054,7 @@ The significance of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\sigma_{xy}(t)}{\gamma_{0}}=\left|G^{*}\right|\sin(\omega t+\delta)
 \end{equation}
@@ -17210,7 +17093,7 @@ gives the ratio of the stress amplitude to the strain amplitude, and
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 G^{\prime}=\left|G^{*}\right|\cos(\delta)\\
@@ -17309,7 +17192,6 @@ reference "fig:Maxwell-model"
 \end_inset
 
 , and gives and gives an exponential relaxation with a relaxation time,
-
 \begin_inset Formula $\tau$
 \end_inset
 
@@ -17376,7 +17258,6 @@ reference "fig:generalized Maxwell model"
 
 .
  The overall stress after the instantaneous application of a tensile strain,
-
 \begin_inset Formula $e$
 \end_inset
 
@@ -17384,7 +17265,7 @@ reference "fig:generalized Maxwell model"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\sigma}{e}=E_{r}+\sum_{j}E_{j}\exp\left(-t/\tau_{j}\right),
 \end{equation}
@@ -17405,7 +17286,6 @@ with
 \end_inset
 
  we use Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:G' and G\" in terms of G(t)"
@@ -17430,7 +17310,7 @@ reference "eq:G' and G\" in terms of G(t)"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 G^{\prime}(\omega)=\omega G_{0}\overset{\infty}{\underset{0}{\int}}\exp\left(-t/\tau\right)\sin(\omega t)dt=\frac{G_{0}\omega\tau}{1+\left(\omega\tau\right)^{2}}\\
@@ -17490,7 +17370,6 @@ reference "fig:Maxwell model plots"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -17560,7 +17439,6 @@ status open
 \end_inset
 
  for a Maxwell model (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:maxwell model"
@@ -17590,7 +17468,6 @@ name "fig:Maxwell model plots"
 \begin_layout Standard
 Because the generalized Maxwell model is just the sum of individual Maxwell
  elements, we can apply Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:maxwell model"
@@ -17604,7 +17481,7 @@ reference "eq:maxwell model"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 G^{\prime}(\omega)=E_{r}+{\displaystyle \sum_{j}}\frac{G_{j}\omega\tau_{j}}{1+\left(\omega\tau_{j}\right)^{2}}\\
@@ -17646,7 +17523,7 @@ If
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \eta_{0}\equiv\underset{\omega\rightarrow0}{\lim}\frac{G^{\prime\prime}(\omega)}{\omega}
 \end{equation}
@@ -17658,7 +17535,6 @@ If
 
 \begin_layout Standard
 This quantity is equal to the zero shear viscosity defined in Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:zero shear viscosity - time domain"
@@ -17859,7 +17735,6 @@ Many polymers of commercial importance are able to crystallize to a certain
  are still valid for semicrystalline polymers.
  For example, semicrystalline polymers are often quite brittle at temperatures
  below the glass transition temperature of the amorphous fraction.
-
 \end_layout
 
 \begin_layout Standard
@@ -18026,20 +17901,17 @@ The repeating unit here is simply
 
  since I can reconstruct the polymer simply by connecting these units to
  one another.
-
 \end_layout
 
 \begin_layout Enumerate
 The repeating unit here contains 4 backbone carbons and two methyl groups,
  since there is a methyl group on every other carbon, and these methyl groups
  alternate from one side of the backbone to the other.
-
 \end_layout
 
 \begin_layout Enumerate
 In this case there are two backbone carbons and a single methyl group (a
  single proplyne unit).
-
 \end_layout
 
 \begin_layout Enumerate
@@ -18086,7 +17958,6 @@ reference "fig:planar zigzag"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -18165,7 +18036,6 @@ reference "fig:planar zigzag"
 
  represents the helix that passes through each of the carbon atoms in a
  single molecule in the polyethylene crystal structure.
-
 \end_layout
 
 \begin_layout Standard
@@ -18224,7 +18094,6 @@ The general notation describing the helical structure is
 \end_inset
 
 : the number of turns of the helix per crystallographic repeat.
-
 \end_layout
 
 \begin_layout Standard
@@ -18250,7 +18119,6 @@ reference "fig:planar zigzag"
 \end_inset
 
 ) adopts a more complicated, 13/7 helix, which is is shown below in Figure
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:helix - 13/7"
@@ -18326,7 +18194,7 @@ ne chain, which we get by dividing the molecular weight of 10,000 g/mole
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 L=1.25\mathrm{\,Å}\left(\frac{10,000\,\mathrm{g/mole}}{14\,\mathrm{g/mole}}\right)=960\mathrm{\,Å}
 \]
@@ -18537,7 +18405,6 @@ reference "fig:polyethylene crystal structure"
 \end_inset
 
  direction of the unit cell.
-
 \end_layout
 
 \begin_layout Standard
@@ -19150,7 +19017,6 @@ Solution:
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -19160,7 +19026,6 @@ Solution:
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -19897,11 +19762,7 @@ target "http://bly.colorado.edu/lcphysics/textures/"
 If the object between the polarizer and analyzer has spherical symmetry,
  as is the case with these liquid crystalline droplets, the
 \color red
-'Maltese
-\color inherit
-
-\color red
-cross
+'Maltesecross
 \begin_inset Index idx
 status open
 
@@ -19971,7 +19832,7 @@ The bulk component can be written in terms of the undercooling (
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{c}=\Delta h_{c}-T\Delta s_{c}
 \end{equation}
@@ -20030,7 +19891,7 @@ Undercooling
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{c}=-\frac{\Delta h_{c}\Delta T}{T_{m}}\label{eq:crystallization free energy vs. undercooling}
 \end{equation}
@@ -20132,7 +19993,7 @@ If we account for the surface energies associated with the new crystal/amorphous
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta F=2a'\lambda_{c}\gamma_{s}+2na'b'\gamma_{e}+na'b'\lambda_{c}\Delta f_{c}
 \end{equation}
@@ -20165,7 +20026,6 @@ If we assume that
 \end_inset
 
  given by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:crystallization free energy vs. undercooling"
@@ -20180,7 +20040,7 @@ reference "eq:crystallization free energy vs. undercooling"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \lambda_{c}>\frac{2\gamma_{e}T_{m}^{0}}{\Delta h_{c}\Delta T}
 \end{equation}
@@ -20209,7 +20069,7 @@ A crystal will grow by the addition of additional strands when this criterion
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \lambda_{c}\thickapprox\frac{2\gamma_{e}T_{m}^{0}}{\Delta h\Delta T}\label{eq:crystal thickness prediction}
 \end{equation}
@@ -20241,7 +20101,6 @@ status open
 
 \begin_layout Plain Layout
 Graphical representation of the crystal thickness prediction from Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:crystal thickness prediction"
@@ -20343,7 +20202,7 @@ The percent crystallinity in a polymer sample is generally determined by
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \%Crystallinity=\frac{\rho-\rho_{amorphous}}{\rho_{crystalline}-\rho_{amorphous}}x100
 \end{equation}
@@ -20690,19 +20549,16 @@ We now move from our discussion of the shapes of individual polymer molecules
 \begin_layout Enumerate
 Characterization: many of the properties of polymer molecules are determined
  by the properties of polymer solutions.
-
 \end_layout
 
 \begin_layout Enumerate
 Processing: many applications of polymers involve require that the polymer
  molecules be dissolved in an appropriate solvent.
-
 \end_layout
 
 \begin_layout Enumerate
 Improved materials: new materials with improved properties can often be
  formed by blending or "alloying" different polymers.
-
 \end_layout
 
 \begin_layout Enumerate
@@ -20813,7 +20669,7 @@ Solution:
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 V_{0}=\mathrm{\left(\frac{92\,g}{mole}\right)\left(\frac{cm^{3}}{0.87\,g}\right)=106\,cm^{3}/mole}
 \]
@@ -20842,7 +20698,7 @@ The value of
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 N_{polystyrene}=\mathrm{\left(\frac{100,000\,g}{mole}\right)\left(\frac{cm^{3}}{1.05\,g}\right)\left(\frac{mole}{106\,cm^{3}}\right)}=898
 \]
@@ -20911,7 +20767,7 @@ Chemical potential
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F=n_{a}\mu_{a}+n_{b}\mu_{b}
 \end{equation}
@@ -20922,7 +20778,7 @@ F=n_{a}\mu_{a}+n_{b}\mu_{b}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 \left.\frac{\partial F}{\partial n_{a}}\right|_{n_{b}}=\mu_{a}\\
@@ -21011,7 +20867,7 @@ The chemical potentials of A and B molecules of the pure components are
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{unmixed}=n_{a}\mu_{a}^{0}+n_{b}\mu_{b}^{0}
 \end{equation}
@@ -21027,7 +20883,7 @@ The free energy of mixing is equal to the difference in the free energies
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta F_{mix}=F-F_{unmixed}=n_{a}\mu_{a}+n_{b}\mu_{b}-(n_{a}\mu_{a}^{0}+n_{b}\mu_{b}^{0})=n_{a}(\mu_{a}-\mu_{a}^{0})+n_{b}(\mu_{b}-\mu_{b}^{0})
 \end{equation}
@@ -21053,7 +20909,7 @@ By defining the chemical potentials of the pure components as zero, we obtain:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta F_{mix}=n_{a}\mu_{a}+n_{b}\mu_{b}\label{eq:Delf in terms of mua, mub (general)}
 \end{equation}
@@ -21095,7 +20951,7 @@ reference "eq:Delf in terms of mua, mub (general)"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 X_{a}=\frac{n_{a}}{n_{a}+n_{b}}\\
@@ -21174,7 +21030,7 @@ The concepts in this section can be easily extended to systems with more
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 V=n_{a}N_{a}V_{0}+n_{b}N_{b}V_{0}\label{eq:overall system volume V}
 \end{equation}
@@ -21185,7 +21041,7 @@ V=n_{a}N_{a}V_{0}+n_{b}N_{b}V_{0}\label{eq:overall system volume V}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 \phi_{a}=\frac{n_{a}N_{a}V_{0}}{V}\\
@@ -21212,7 +21068,7 @@ The free energy of mixing per unit volume,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{mix}=\frac{n_{a}\mu_{a}+n_{b}\mu_{b}}{n_{a}N_{a}V_{0}+n_{b}N_{b}V_{0}}=\frac{\mu_{a}\phi_{a}}{N_{a}V_{0}}+\frac{\mu_{b}\phi_{b}}{N_{b}V_{0}}
 \end{equation}
@@ -21228,7 +21084,7 @@ By rearranging the equation at the bottom of the previous page we obtain:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{mix}V_{0}=\frac{\mu_{a}\phi_{a}}{N_{a}}+\frac{\mu_{b}\phi_{b}}{N_{b}}\label{eq:delf normalized vs. phi}
 \end{equation}
@@ -21303,7 +21159,6 @@ reference "fig:tangent construction"
 \end_inset
 
  This result is consistent with Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:delf normalized vs. phi"
@@ -21318,7 +21173,6 @@ reference "eq:delf normalized vs. phi"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -21332,7 +21186,6 @@ reference "fig:tangent construction"
  we still need to show that the straight line between the chemical potentials
  must be equal to the slope of the free energy curve.
  This can done in formal terms by combining Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:chemical potential definitions"
@@ -21351,7 +21204,7 @@ reference "eq:phi in terms of n"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\partial(\Delta f_{mix}V_{0})}{\partial\phi_{b}}=\frac{\mu_{b}}{N_{b}}-\frac{\mu_{a}}{N_{a}}=-\frac{\partial(\Delta f_{mix}V_{0})}{\partial\phi_{a}}
 \end{equation}
@@ -21396,7 +21249,6 @@ status open
 
 \begin_layout Plain Layout
 Relationship of the free energy of mixing to the the chemical potentials.
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:tangent construction"
@@ -21434,7 +21286,7 @@ For small molecules the ideal free energy of mixing is given by the following
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta s_{ideal}V_{0}}{R}=-X_{a}\ln X_{b}-X_{b}\ln X_{b}
 \end{equation}
@@ -21493,7 +21345,7 @@ The quantity
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{s_{ideal}V_{0}}{R}=-\frac{\phi_{a}\ln\phi_{a}}{N_{a}}-\frac{\phi_{b}\ln\phi_{b}}{N_{b}}
 \end{equation}
@@ -21630,7 +21482,7 @@ H, associated with the removal of the square from a pure blue phase on the
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta H=3E_{ab}+E_{bb}-4E_{bb}=3(E_{ab}-E_{bb})
 \end{equation}
@@ -21711,7 +21563,7 @@ How do we calculate the energy of a randomly mixed collection of A and B
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 n_{aa}=n_{a}zp_{a}/2\\
@@ -21746,7 +21598,6 @@ where
 
  =2, there is only one interaction between the two molecules, not 2.) Now
  we invoke the mean field (or random mixing) approximation, which is that
-
 \begin_inset Formula $p_{a}=\phi_{a}$
 \end_inset
 
@@ -21756,12 +21607,11 @@ where
 
 .
  We obtain the follwing.
-
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 n_{aa}=n_{a}z\phi_{a}/2\\
@@ -21782,7 +21632,7 @@ The energy of the mixed state is obtained by multiplying the numbers of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 E_{mixed}=E_{aa}n_{aa}+E_{bb}n_{bb}+E_{ab}n_{ab}
 \end{equation}
@@ -21810,7 +21660,7 @@ Substitution for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 E_{mixed}=E_{aa}n_{a}z\phi_{a}/2+E_{bb}n_{b}z\phi_{b}/2+E_{ab}n_{a}z\phi_{b}
 \end{equation}
@@ -21828,7 +21678,7 @@ The energy of the unmixed state is obtained in a similar fashion, remembering
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 E_{unmixed}=E_{aa}n_{a}z/2+E_{bb}n_{b}z/2
 \end{equation}
@@ -21845,7 +21695,7 @@ The energy change due to mixing is obtained by subtracting the energy of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta E_{mix}=E_{mixed}-E_{unmixed}=\frac{E_{aa}n_{a}z\phi_{a}}{2}+\frac{E_{bb}n_{b}z\phi_{b}}{2}+E_{ab}n_{a}z\phi_{b}-\frac{E_{aa}n_{a}z}{2}-\frac{E_{bb}n_{b}z}{2}
 \end{equation}
@@ -21889,7 +21739,7 @@ This expression can be further simplified by recalling that
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta E_{mix}=nz\left[\frac{E_{aa}\phi_{a}^{2}}{2}+\frac{E_{bb}\phi_{b}^{2}}{2}+E_{ab}\phi_{a}\phi_{b}-\frac{E_{aa}\phi_{a}}{2}-\frac{E_{bb}\phi_{b}}{2}\right]
 \end{equation}
@@ -21905,7 +21755,7 @@ After some rearrangement we obtain the following expression:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta E_{mix}=nz\phi_{a}\phi_{b}[E_{ab}-\frac{E_{aa}+E_{bb}}{2}]
 \end{equation}
@@ -21956,7 +21806,7 @@ Chi parameter
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi\equiv\frac{z}{k_{B}T}\left[E_{ab}-\frac{E_{aa}+E_{bb}}{2}\right]
 \end{equation}
@@ -21976,7 +21826,7 @@ With this definition of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta H_{mix}=\Delta E_{mix}=RT\chi n\phi_{a}\phi_{b}
 \end{equation}
@@ -22004,7 +21854,7 @@ amic quantity at fixed temperature and volume.
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta h_{mix}=\frac{\Delta H_{mix}}{nV_{0}}=\frac{RT\chi\phi_{a}\phi_{b}}{v_{0}}
 \end{equation}
@@ -22020,7 +21870,7 @@ Normalizing as we did for the ideal entropy of mixing gives:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta h_{mix}V_{0}}{RT}=\chi\phi_{a}\phi_{b}
 \end{equation}
@@ -22059,7 +21909,7 @@ The most commonly used expression used to describe the free energy of mixing
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{mix}=\Delta h_{mix}-T\Delta s_{ideal}
 \end{equation}
@@ -22076,7 +21926,7 @@ n, referred to as the Flory-Huggins free energy of mixing:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Delta f_{mix}V_{0}}{RT}=\frac{\phi_{a}\ln\phi}{N_{a}}+\frac{\phi_{b}\ln\phi_{b}}{N_{b}}+\chi\phi_{a}\phi_{b}\label{eq:Flory Huggins free energy of mixing}
 \end{equation}
@@ -22147,7 +21997,6 @@ reference "fig:free energy of mixing - regular solution, small molecules"
  is larger than this critical value there will be a region of compositions
  where the free energy curve has a negative curvature in the free energy
  curve.
-
 \end_layout
 
 \begin_layout Standard
@@ -22227,7 +22076,6 @@ reference "fig:Free-energy-Na 200 Nb 300"
 \end_inset
 
 , where we plot the Flory-Huggins free energy of mixing (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Flory Huggins free energy of mixing"
@@ -22257,7 +22105,6 @@ reference "eq:Flory Huggins free energy of mixing"
 \end_inset
 
 , the two compositions defined by the common tangent construction in Figure
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Free-energy-Na 200 Nb 300"
@@ -22464,7 +22311,7 @@ reference "fig:phase diagram 200 300"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\partial^{2}}{\partial\phi_{a}^{2}}\left(\frac{\phi_{a}\ln\phi_{a}}{N_{a}}+\frac{\left(1-\phi_{a}\right)\left(\ln1-\phi_{a}\right)}{N_{b}}+\chi_{s}\phi_{a}\left(1-\phi_{a}\right)\right)=0
 \end{equation}
@@ -22480,7 +22327,7 @@ Evaluating the second derivative leads to the following:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{1}{\phi_{a}N_{a}}+\frac{1}{(1-\phi_{a})N_{b}}-2\chi_{s}=0
 \end{equation}
@@ -22500,7 +22347,7 @@ which can be rearranged to give the following for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi_{s}=\frac{1}{2\phi_{a}N_{a}}+\frac{1}{2\phi_{b}N_{b}}\label{eq:spinodal chi}
 \end{equation}
@@ -22552,7 +22399,7 @@ The phase diagrams obtained from the free energy of mixing expression show
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\partial}{\partial\phi_{a}}\left(\frac{1}{2\phi_{a}N_{a}}+\frac{1}{2(1-\phi_{a})N_{b}}\right)=0
 \end{equation}
@@ -22580,7 +22427,7 @@ The solution to this equation is given by
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \phi_{a,crit}=\frac{\sqrt{N_{b}}}{\sqrt{N_{b}}+\sqrt{N_{a}}}\label{eq:critical composition}
 \end{equation}
@@ -22592,7 +22439,7 @@ The solution to this equation is given by
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}}\label{eq:critical chi}
 \end{equation}
@@ -22654,7 +22501,7 @@ Solution:
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}}=\frac{2}{N}
 \end{equation}
@@ -22860,7 +22707,7 @@ Exercise:
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi=1.45-0.0115T
 \end{equation}
@@ -22908,7 +22755,7 @@ From the phase diagram, we see that the two components are completely miscible
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi_{crit}=\frac{1+N_{b}+2\sqrt{N_{b}}}{2N_{b}}
 \end{equation}
@@ -22941,7 +22788,6 @@ As the polymer molecular weight becomes very large (
 \end_inset
 
  is equal to this critical value of 0.5 for polymer solutions is called the
-
 \begin_inset Note Greyedout
 status open
 
@@ -22982,7 +22828,6 @@ C.
 
  decreases with increasing temperature, this system exhibits an upper critical
  solution temperature (UCST).
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -23040,7 +22885,7 @@ reference "sub:Chemical-Potential"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{mix}=\frac{RT}{v_{0}}\left\{ \frac{\phi_{a}\ln\phi_{a}}{N_{a}}+\frac{\phi_{b}\ln\phi_{b}}{N_{b}}+\chi\phi_{a}\phi_{b}\right\} V
 \end{equation}
@@ -23060,7 +22905,6 @@ Using the expressions for
 \end_inset
 
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:phi in terms of n"
@@ -23072,7 +22916,6 @@ reference "eq:phi in terms of n"
 \end_inset
 
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:overall system volume V"
@@ -23084,9 +22927,9 @@ reference "eq:overall system volume V"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
-\frac{\Delta F_{mix}}{RT}=\left\{ n_{a}\ln\phi_{a}+n_{b}\ln\phi_{b}+\chi n_{a}N_{a}\phi_{b}\right\}
+\frac{\Delta F_{mix}}{RT}=\left\{ n_{a}\ln\phi_{a}+n_{b}\ln\phi_{b}+\chi n_{a}N_{a}\phi_{b}\right\} 
 \end{equation}
 
 \end_inset
@@ -23103,7 +22946,7 @@ s are equal to zero (activities of the pure components equal to one):
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \mu_{a}=\frac{\partial\Delta F_{mix}}{\partial n_{a}}=RT\frac{\partial}{\partial n_{a}}\left(n_{a}\ln\phi_{a}+n_{b}\ln\phi_{b}+\chi n_{a}N_{a}\phi_{b}\right)
 \end{equation}
@@ -23119,7 +22962,7 @@ In this way we obtain the following result:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\mu_{a}}{RT}=\ln\phi_{a}+\phi_{b}\left(1-\frac{N_{a}}{N_{b}}\right)+\chi N_{a}\phi_{b}^{2}
 \end{equation}
@@ -23151,7 +22994,7 @@ When discussing polymer/solvent mixtures we replace the 'a' and 'b' subscripts
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\mu_{s}}{RT}=\ln(1-\phi_{p})+\phi_{p}\left(1-\frac{1}{N_{p}}\right)+\chi\phi_{p}^{2}\label{eq:flory huggins solvent chemical potential}
 \end{equation}
@@ -23179,7 +23022,7 @@ For
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\mu_{s}^{\infty}}{RT}=\ln(1-\phi_{p})+\phi_{p}+\chi\phi_{p}^{2}\label{eq:flory huggins solvent chemical potential - N infinity}
 \end{equation}
@@ -23191,7 +23034,6 @@ For
 
 \begin_layout Standard
 In addition the critical point from Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:critical composition"
@@ -23283,7 +23125,6 @@ status open
 \begin_layout Plain Layout
 Concentration dependence of the solvent chemical potential from Eq.
  .
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:solvent chmical potential for infinite N"
@@ -23317,7 +23158,7 @@ For small values of
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \ln(1-\phi_{p})=-\phi_{p}-\frac{\phi_{p}^{2}}{2}-...
 \end{equation}
@@ -23334,7 +23175,7 @@ Retaining only the first two terms in the expansion gives the following
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\mu_{s}}{RT}=-\frac{\phi_{p}}{N}+\left(\chi-1/2\right)\phi_{p}^{2}\label{eq:solvent chemical potential - flory dilute solution}
 \end{equation}
@@ -23395,7 +23236,6 @@ What is the polymer volume fraction for a polymer solution with a concentration
 \end_inset
 
  and there is no volume change on mixing.
-
 \end_layout
 
 \begin_layout Paragraph
@@ -23404,7 +23244,6 @@ Solution:
 
 \begin_layout Plain Layout
 We just need to calculate the total weight of solution in a volume of 1
-
 \begin_inset Formula $cm^{3}$
 \end_inset
 
@@ -23412,7 +23251,7 @@ We just need to calculate the total weight of solution in a volume of 1
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 c=\phi_{p}\rho_{p}=0.05(1.1\,\mathrm{g/cm^{3})=0.055g/cm^{3}}
 \end{equation}
@@ -23494,7 +23333,7 @@ c pressure generated by the increased depth of the liquid layer provides
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=-\mu_{s}/V_{s}\label{eq:osmotic pressure definition}
 \end{equation}
@@ -23564,7 +23403,6 @@ One important aspect of an osmotic pressure measurement is that it can be
 \begin_layout Standard
 By combining the Flory-Huggins expression for the solvent chemical potential
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:flory huggins solvent chemical potential"
@@ -23572,7 +23410,6 @@ reference "eq:flory huggins solvent chemical potential"
 \end_inset
 
 ) with the definition of the osmotic pressure (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure definition"
@@ -23588,7 +23425,7 @@ reference "eq:osmotic pressure definition"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=\frac{RT}{V_{s}}\left(-\ln(1-\phi_{p})-\phi_{p}\left(1-\frac{1}{N_{p}}\right)-\chi\phi_{p}^{2}\right)
 \end{equation}
@@ -23614,7 +23451,7 @@ If
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=\frac{RT}{V_{s}}\left(-\ln(1-\phi_{p})-\phi_{p}-\chi\phi_{p}^{2}\right)\label{eq:osmotic pressure flory N infinite}
 \end{equation}
@@ -23633,7 +23470,6 @@ The number average molecular weight can be obtained by measuring the osmotic
  pressure of a dilute polymer solution.
  Using the dilute solution form of the Flory-Huggins expression for the
  solvent chemical potential (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:solvent chemical potential - flory dilute solution"
@@ -23649,7 +23485,7 @@ reference "eq:solvent chemical potential - flory dilute solution"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Pi}{RT}=\frac{\phi_{p}}{N_{p}V_{s}}+\left(1/2-\chi\right)\frac{\phi_{p}^{2}}{V_{s}}
 \end{equation}
@@ -23666,7 +23502,7 @@ The polymer volume fraction and overall solution volume (V) are given by
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \phi_{p}=\frac{n_{p}N_{p}V_{s}}{V}
 \end{equation}
@@ -23690,7 +23526,7 @@ Use of this expression for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Pi}{RT}=\frac{n_{p}}{V}+(0.5-\chi)N_{p}^{2}V_{s}\left(\frac{n_{p}}{V}\right)^{2}+...
 \end{equation}
@@ -23710,7 +23546,7 @@ Here it is helpful to rewrite
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{n_{p}}{V}=\left(\frac{w}{V}\right)\left(\frac{n_{p}}{w}\right)=\frac{C}{M_{n}}\label{eq:np/v=c/mn}
 \end{equation}
@@ -23756,7 +23592,7 @@ where
 \uwave off
 \noun off
 \color none
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Pi}{RT}=\frac{C}{M_{n}}+(0.5-\chi)N_{p}^{2}V_{s}\left(\frac{1}{M_{n}}\right)^{2}C^{2}+...\label{eq:osmotic pressure dilute solution}
 \end{equation}
@@ -23781,7 +23617,7 @@ Virial expansion
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Pi}{RT}=\frac{C}{M_{n}}+A_{2}C^{2}+A_{3}C^{3}+...\label{eq:osmotic pressure virial expansion}
 \end{equation}
@@ -23807,7 +23643,6 @@ Second virial coefficient
 
 , which describes effective two-body interactions between polymer segments
  within the solvent.
-
 \begin_inset Formula $A_{2}$
 \end_inset
 
@@ -23847,7 +23682,7 @@ The previous derivation of the expressions for the osmotic pressure are
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 PV=nRT
 \end{equation}
@@ -23884,7 +23719,6 @@ If we replace the pressure,
 \end_inset
 
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:np/v=c/mn"
@@ -23893,7 +23727,6 @@ reference "eq:np/v=c/mn"
 
 ), we recover the leading term in virial expansion for the osmotic pressure
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure virial expansion"
@@ -23904,7 +23737,7 @@ reference "eq:osmotic pressure virial expansion"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=\frac{CRT}{M_{n}}\label{eq:osmotic pressure - leading term}
 \end{equation}
@@ -23919,7 +23752,6 @@ In the dilute regime, molecular collisions are rare, and the pressure and
  free energy are dominated by the entropic penalty associated with confinement
  of the molecules into a fixed volume.
  Virial coefficients quantify the deviations from this ideal, dilute limit.
-
 \end_layout
 
 \begin_layout Standard
@@ -23944,7 +23776,6 @@ status open
 
 \begin_layout Plain Layout
 Polymer solution at a concentration less than the overlap concentration,
-
 \begin_inset Formula $c^{*}$
 \end_inset
 
@@ -24009,7 +23840,7 @@ Overlap concentration
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 C^{*}\,\mathrm{\left(g/cm^{3}\right)}=\frac{M\,\mathrm{\left(g/mole\right)}}{R_{0}^{3}\,\mathrm{\left(cm^{3}\right)}N_{av}\,\mathrm{\left(mole^{-1}\right)}}\label{eq:overlap concentration}
 \end{equation}
@@ -24042,7 +23873,7 @@ reference "fig:correlation length for dilute solutions"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=\frac{RT}{\xi^{3}}\label{eq:osmotic pressure vs correlation length}
 \end{equation}
@@ -24134,7 +23965,6 @@ Solution:
 
 \begin_layout Plain Layout
 We can combine Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:overlap concentration"
@@ -24142,7 +23972,6 @@ reference "eq:overlap concentration"
 \end_inset
 
  for the overlap concentration with Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:R0 for self avoiding walk"
@@ -24158,7 +23987,7 @@ reference "eq:R0 for self avoiding walk"
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 C^{*}=\frac{M}{R_{0}^{3}N_{av}}=\frac{M}{a_{s}^{3}N^{1.8}N_{av}}=\frac{M_{0}}{a_{s}^{3}N^{0.8}N_{av}}
 \end{equation}
@@ -24213,7 +24042,6 @@ Note that we have used the self-avoiding walk expression for
 
 , so this corresponds to a polymer weight fraction of a couple tenths of
  a percent.
-
 \end_layout
 
 \end_inset
@@ -24232,7 +24060,6 @@ The basic assumption of scaling theory of osmotic pressure is that
 \end_inset
 
  is still given by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure vs correlation length"
@@ -24288,7 +24115,6 @@ reference "fig:correlation length concentration schematic"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -24343,7 +24169,7 @@ To get the concentration dependence of the the correlation length, we can
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\Pi M}{CRT}=1+f\left(C/C^{*}\right)
 \end{equation}
@@ -24402,7 +24228,6 @@ Here
 .
  This means that that the correlation length, which is related to the osmotic
  pressure through Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure vs correlation length"
@@ -24418,7 +24243,7 @@ reference "eq:osmotic pressure vs correlation length"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \xi=a_{0}\phi_{p}^{-3/4}
 \end{equation}
@@ -24440,7 +24265,6 @@ Here
 \end_inset
 
  can then be combined with Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure vs correlation length"
@@ -24453,7 +24277,7 @@ reference "eq:osmotic pressure vs correlation length"
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=\frac{k_{B}T}{a_{0}^{3}}\phi_{p}^{9/4}\label{eq:osmotic pressure semidilute scaling vs phi}
 \end{equation}
@@ -24478,7 +24302,7 @@ and adding the osmotic pressure that dominates in the dilute limit:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi=\frac{CRT}{M}+\frac{k_{B}T}{a_{0}^{3}}\phi_{p}^{9/4}
 \end{equation}
@@ -24490,7 +24314,6 @@ and adding the osmotic pressure that dominates in the dilute limit:
 
 \begin_layout Standard
 While derived in completely different ways, Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure flory N infinite"
@@ -24513,7 +24336,6 @@ reference "fig:osmotic pressure expression comparison"
 \end_inset
 
 ., where these two expressions are compared for a specific combination of
-
 \begin_inset Formula $a_{0}$
 \end_inset
 
@@ -24522,7 +24344,6 @@ reference "fig:osmotic pressure expression comparison"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -24551,7 +24372,6 @@ status open
 \begin_layout Plain Layout
 Concentration dependence of the Flory-Huggins form for the osmotic pressure
  (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure flory N infinite"
@@ -24559,7 +24379,6 @@ reference "eq:osmotic pressure flory N infinite"
 \end_inset
 
 ) with the semidilute scaling form (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:osmotic pressure semidilute scaling vs phi"
@@ -24575,7 +24394,6 @@ reference "eq:osmotic pressure semidilute scaling vs phi"
 \end_inset
 
 .
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:osmotic pressure expression comparison"
@@ -24614,7 +24432,7 @@ The fundamental pressure scale for water is the thermal energy,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 V_{s}=\mathrm{\frac{18\,g}{mole}\frac{10^{-6}m^{3}}{1g}=1.8x10^{-5}\,m^{3}=18\,cm^{3}}
 \end{equation}
@@ -24626,7 +24444,7 @@ V_{s}=\mathrm{\frac{18\,g}{mole}\frac{10^{-6}m^{3}}{1g}=1.8x10^{-5}\,m^{3}=18\,c
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{RT}{V_{s}}=\frac{(8.314\,\mathrm{J/mole-K})(298\,\mathrm{K})}{3.0\times10^{-29}\,\mathrm{m}^{3}}=1.4\times10^{8}\,\mathrm{Pa}
 \end{equation}
@@ -24712,7 +24530,7 @@ key "_seawater_2015"
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Pi=\left(8.314\,\mathrm{J/mol\cdot K}\right)\left(300\,\mathrm{K}\right)\left(1025\,\mathrm{kg/m^{3}}\right)=2.6x10^{6}\,\mathrm{Pa}
 \]
@@ -25077,7 +24895,7 @@ Work done on system:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 (p_{in}-p_{out})dV=\Delta pdV
 \end{equation}
@@ -25092,7 +24910,7 @@ Change in elastic free energy:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 d(\Delta F_{d})
 \end{equation}
@@ -25104,7 +24922,7 @@ d(\Delta F_{d})
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta p=\frac{\partial}{\partial V}\Delta F_{d}=V\frac{\partial}{\partial V}\Delta f_{d}
 \end{equation}
@@ -25125,7 +24943,7 @@ For the specific case of a Neohookean material, we begin with the appropriate
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{d}=\frac{G\left\{ \lambda_{x}^{2}+\lambda_{y}^{2}+\lambda_{z}^{2}-3\right\} }{2}
 \end{equation}
@@ -25156,7 +24974,7 @@ For isotropic swelling,
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta f_{d}=\frac{3G(\lambda^{2}-1)}{2}=\frac{3G}{2}\left[\left(\frac{V}{V_{0}}\right)^{2/3}-1\right]
 \end{equation}
@@ -25177,7 +24995,7 @@ The elastic pressure at the reference state is given by differentiating
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta p=V_{0}\frac{\partial(\Delta f_{d})}{\partial V}|_{V=V_{0}}=\frac{\partial}{\partial V}\left[\frac{3G}{2}\left(\frac{V}{V_{0}}\right)^{2/3}\right]_{V=V_{0}}=G
 \end{equation}
@@ -25199,7 +25017,7 @@ e associated with the difference in polymer concentrations inside and outside
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Pi_{in}-\Pi_{out}=\frac{f\phi_{p}^{1/3}\rho RT}{M_{s}}\frac{\left\langle R_{dry}^{2}\right\rangle }{R_{0}^{2}}
 \end{equation}
@@ -25264,7 +25082,7 @@ The osmotic pressure in a bath of pure solvent is zero (
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{k_{B}T}{a_{0}^{3}}\phi_{p}^{9/4}=\frac{f\phi_{p}^{1/3}\rho RT}{M_{s}}\frac{<R_{dry}^{2}>}{R_{0}^{2}}
 \end{equation}
@@ -25276,7 +25094,7 @@ The osmotic pressure in a bath of pure solvent is zero (
 
 \begin_layout Standard
 \noindent
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \phi_{p}=\left(G_{dry}\frac{a_{0}^{3}}{k_{B}T}\right)^{12/23}
 \end{equation}
@@ -25885,7 +25703,6 @@ The interface between two immiscible polymers is characterized by a finite
 \end_inset
 
  and the interfacial free energy between immiscible A and B polymers.
-
 \end_layout
 
 \begin_layout Standard
@@ -25902,7 +25719,7 @@ The enthalpic contribution to the interfacial free energy is obtained by
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Delta h(z)=\frac{RT}{V_{0}}\chi\phi_{a}(z)\phi_{b}(z)
 \end{equation}
@@ -25926,12 +25743,11 @@ reference "fig:interfacial width concentration profile"
 \end_inset
 
 ).
-
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \phi_{a}(z)=1-z/w;
 \end{equation}
@@ -25939,7 +25755,7 @@ reference "fig:interfacial width concentration profile"
 \end_inset
 
 
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \phi_{b}(z)=z/w
 \end{equation}
@@ -26013,7 +25829,7 @@ These expressions result in the following for
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \gamma_{\chi}=\overset{w}{\underset{0}{\int}}\Delta h\left(z\right)dz=\frac{RT\chi}{V_{0}}\overset{w}{\underset{0}{\int}}\left(\frac{z}{w}\right)\left(1-\frac{z}{w}\right)dz=\frac{RTw\chi}{6V_{0}}
 \end{equation}
@@ -26032,7 +25848,6 @@ A simple argument for the entropic contribution every time a random walk
 \end_inset
 
 , the configurational entropy of associated with these configuration is
-
 \begin_inset Formula $k_{B}\ln\Omega$
 \end_inset
 
@@ -26228,7 +26043,7 @@ This approximate approach gives the correct scaling (
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 w=\frac{2a}{\sqrt{6\chi}}
 \end{equation}
@@ -26239,7 +26054,7 @@ w=\frac{2a}{\sqrt{6\chi}}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \gamma_{ab}=\frac{aRT}{V_{0}}\sqrt{\chi/6}\label{eq:gamma helfand form}
 \end{equation}
@@ -26274,7 +26089,6 @@ Block copolymers consisting of two different polymers characterized by a
  different phases are covalently linked to one another along a single molecule.
  The morphologies observed for simple diblock copolymer molecules (a sequence
  of A repeat units linked to a sequence of B repeat units) is shown in Figure
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Diblock-copolymer-morphologies."
@@ -26461,7 +26275,7 @@ The free energy per molecule of a lamellar-forming diblock copolymer is
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 f_{a}=\frac{N_{a}}{N_{a}+N_{b}}=\frac{N_{a}}{N}\\
@@ -26503,7 +26317,7 @@ i.e.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 R_{0}^{a}=f_{a}\ell/2\\
@@ -26538,7 +26352,7 @@ We define
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{s}=\frac{3}{2}\frac{RT\left(R_{0}^{a}\right)^{2}}{N_{a}a^{2}}+\frac{3}{2}\frac{RT\left(R_{0}^{b}\right)^{2}}{N_{b}a^{2}}=\frac{3}{8}\frac{\ell^{2}}{Na^{2}}\label{eq:lamellar diblock stretching free energy}
 \end{equation}
@@ -26559,7 +26373,7 @@ The interfacial free energy is obtained by multiplying the interfacial free
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{\gamma}=\gamma_{ab}\Sigma\label{eq:lamellar diblock interfacial free energy}
 \end{equation}
@@ -26582,7 +26396,7 @@ This area per molecule is given by dividing the molecular volume,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \Sigma=\frac{2NV_{0}}{\ell}\label{eq:lamellar diblock interfacial area}
 \end{equation}
@@ -26607,7 +26421,6 @@ The overall free energy per chain,
 
 .
  Combination of Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:gamma helfand form"
@@ -26619,7 +26432,6 @@ reference "eq:gamma helfand form"
 \end_inset
 
  with Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:lamellar diblock stretching free energy"
@@ -26644,7 +26456,7 @@ reference "eq:lamellar diblock interfacial area"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{tot}=\frac{3}{8}\frac{RT\ell^{2}}{Na^{2}}+\frac{2aNRT}{\ell}\sqrt{\chi/6}\label{eq:lamellar diblock overall free energy expression}
 \end{equation}
@@ -26684,7 +26496,7 @@ The equilibrium value of
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{8a^{3}N^{2}}{3}\sqrt{\chi/6}=\ell^{3}
 \]
@@ -26700,7 +26512,7 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \ell_{eq}=\left(\frac{8}{3\cdot\sqrt{6}}\right)^{1/3}aN^{2/3}\chi^{1/6}=1.03aN^{2/3}\chi^{1/6}
 \end{equation}
@@ -26723,7 +26535,7 @@ a to write the expression for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \frac{\ell_{eq}}{R_{0}}=1.03\left(\chi N\right)^{1/6}
 \end{equation}
@@ -26743,7 +26555,6 @@ We can now substitute
 \end_inset
 
  in Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:lamellar diblock overall free energy expression"
@@ -26759,7 +26570,7 @@ reference "eq:lamellar diblock overall free energy expression"
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 F_{tot}=\frac{3}{8}\frac{RT}{Na^{2}}\left(\frac{8}{3\cdot\sqrt{6}}\right)^{2/3}a^{2}N^{4/3}\chi^{1/3}+\left(\frac{8}{3\cdot\sqrt{6}}\right)^{-1/3}\frac{2aNRT}{aN^{2/3}\chi^{1/6}}\sqrt{\chi/6}
 \]
@@ -26770,7 +26581,7 @@ F_{tot}=\frac{3}{8}\frac{RT}{Na^{2}}\left(\frac{8}{3\cdot\sqrt{6}}\right)^{2/3}a
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{F_{tot}}{RT\left(\chi N\right)^{1/3}}=\frac{3}{8}\left(\frac{8}{3\cdot\sqrt{6}}\right)^{2/3}+\left(\frac{8}{3\cdot\sqrt{6}}\right)^{-1/3}\frac{2}{6^{1/2}}
 \]
@@ -26781,7 +26592,7 @@ F_{tot}=\frac{3}{8}\frac{RT}{Na^{2}}\left(\frac{8}{3\cdot\sqrt{6}}\right)^{2/3}a
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{F_{tot}}{RT\left(\chi N\right)^{1/3}}=\frac{3}{8}\left(\frac{8}{3}\right)^{2/3}6^{-1/3}+2\left(\frac{8}{3}\right)^{-1/3}6^{-1/3}
 \]
@@ -26792,7 +26603,7 @@ F_{tot}=\frac{3}{8}\frac{RT}{Na^{2}}\left(\frac{8}{3\cdot\sqrt{6}}\right)^{2/3}a
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{F_{tot}}{RT\left(\chi N\right)^{1/3}}=3\left(\frac{3}{8\cdot6}\right)^{1/3}
 \]
@@ -26808,7 +26619,7 @@ F_{tot}=\frac{3}{8}\frac{RT}{Na^{2}}\left(\frac{8}{3\cdot\sqrt{6}}\right)^{2/3}a
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{eq}=1.19RT\left(\chi N\right)^{1/3}\label{eq:molar free energy for lamellar phase}
 \end{equation}
@@ -26833,7 +26644,6 @@ reference "eq:molar free energy for lamellar phase"
  disordered phase, where the A and B blocks remain completely mixed with
  one another.
  To do this we use the Flory-Huggins free energy of mixing (Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Flory Huggins free energy of mixing"
@@ -26863,7 +26673,7 @@ reference "eq:Flory Huggins free energy of mixing"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 F_{dis}=RT\chi\phi_{a}\phi_{b}=RT\chi f_{a}f_{b}\label{eq:diblock disordered phase free energy}
 \end{equation}
@@ -26892,7 +26702,6 @@ For a symmetric diblock copolymer with
 \end_inset
 
  is larger than this value, the ordered phase free energy given by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:molar free energy for lamellar phase"
@@ -26900,7 +26709,6 @@ reference "eq:molar free energy for lamellar phase"
 \end_inset
 
  is lower than the disordered phase free energy given by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:diblock disordered phase free energy"
@@ -26909,7 +26717,6 @@ reference "eq:diblock disordered phase free energy"
 
 .
  As a result we expect that an ordered lamellar phase will be formed for
-
 \begin_inset Formula $f_{a}=0.5$
 \end_inset
 
@@ -26961,7 +26768,6 @@ status open
 
 \begin_layout Plain Layout
 Block copolymer phase diagram (adapted from ref.
-
 \begin_inset CommandInset citation
 LatexCommand cite
 key "bates_block_2008"
@@ -27086,7 +26892,7 @@ reference "fig:triblock gel chemical structure"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \chi=1.45-0.0115T\label{eq:PMMA butanol chi}
 \end{equation}
@@ -27106,7 +26912,6 @@ with
 \end_inset
 
 C.
-
 \end_layout
 
 \begin_layout Standard
@@ -27287,7 +27092,6 @@ Solvents
 \begin_layout Plain Layout
 Chemical structure of gel-forming triblock copolymer gels (a), and the alcohols
  used as the solvents (b).
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:triblock gel chemical structure"
@@ -27309,7 +27113,6 @@ name "fig:triblock gel chemical structure"
 
 \begin_layout Standard
 From Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:PMMA butanol chi"
@@ -27349,7 +27152,6 @@ reference "fig:triblock gelation schematic"
  increases and solvent is expelled from these aggregates.
  When sufficient solvent has been expelled from the PMMA aggregates, they
  become glassy, and the system behaves as a solid.
-
 \end_layout
 
 \begin_layout Standard
@@ -27418,7 +27220,6 @@ reference "fig:gelcasting schematic"
  at a relatively high volume fraction (around 50% by volume).
  The thermoreversible nature of the triblock copolymer solution allows the
  suspension to be poured into a silicone mold at high tempertures (typically
-
 \begin_inset Formula $\approx80\,^{\circ}$
 \end_inset
 
@@ -27532,7 +27333,7 @@ The temperature dependence of the mechanical properties of the triblock
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G\left(t\right)={\displaystyle \sum_{i}G_{i}\exp\left(-t/\tau_{i}\right)}
 \end{equation}
@@ -27548,7 +27349,7 @@ In the frequency domain, the values storage and loss moduli are given by
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G^{\prime}\left(\omega\right)={\displaystyle \sum_{i}\frac{G_{i}\tau_{i}^{2}\omega^{2}}{1+\tau_{i}^{2}\omega^{2}}}\label{eq:G prime with multiple relaxation times}
 \end{equation}
@@ -27559,7 +27360,7 @@ G^{\prime}\left(\omega\right)={\displaystyle \sum_{i}\frac{G_{i}\tau_{i}^{2}\ome
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G^{\prime\prime}\left(\omega\right)={\displaystyle \sum_{i}\frac{G_{i}\tau_{i}\omega}{1+\tau_{i}^{2}\omega^{2}}}\label{eq:G double prime with multiple relaxation times}
 \end{equation}
@@ -27583,7 +27384,7 @@ The most important thing for us is the viscosity, which we can obtain in
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \eta={\displaystyle \sum_{i}G_{i}\tau_{i}}{\displaystyle =\lim_{\omega\rightarrow0}\frac{G^{\prime\prime}}{\omega}}
 \end{equation}
@@ -27609,7 +27410,7 @@ ng by
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \eta=a_{T}\lim_{a_{T}\omega\rightarrow0}\frac{G^{\prime\prime}}{a_{T}\omega}
 \end{equation}
@@ -27625,7 +27426,7 @@ We can also obtain an expression for the limiting modulus at high frequency
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G_{0}=\sum_{i}G_{i}
 \end{equation}
@@ -27644,7 +27445,7 @@ Finally, we define an average relaxation time,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \tau_{av}=\frac{\eta}{G_{0}}=\frac{\sum G_{i}\tau_{i}}{\sum G_{i}}
 \end{equation}
@@ -27722,7 +27523,6 @@ a) Master curves for
 \end_inset
 
  (symbols) with fits to Eqs.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:G prime with multiple relaxation times"
@@ -27911,7 +27711,6 @@ reference "fig:triblock gel aging peaks"
  time at room temperature is increased.
  This peak has the appearance of a melting peak associated with crystallization,
  but in this case it arises from the glassy PMMA domains.
-
 \end_layout
 
 \begin_layout Standard
@@ -27963,7 +27762,6 @@ reference "fig:triblock gel enthalpy recovery origin"
 \end_inset
 
 , the sample is able to equilibrate, and the enthalpy increases by an amount
-
 \begin_inset Formula $\Delta H_{r}$
 \end_inset
 
@@ -28012,7 +27810,6 @@ reference "fig:triblock gel aging peaks"
 \end_inset
 
 C.
-
 \end_layout
 
 \begin_layout Standard
@@ -28161,7 +27958,6 @@ C that we are claiming here.
 
  significantly.
  How much solvent do we expect there to be in the PMMA domains? From Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:PMMA butanol chi"
@@ -28217,7 +28013,7 @@ reference "eq:flory huggins solvent chemical potential - N infinity"
 \uwave off
 \noun off
 \color none
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 \begin{array}{c}
 \ln(\phi_{s})+1-\phi_{s}+\chi\left(1-\phi_{s}\right)^{2}=0\\
@@ -28277,7 +28073,6 @@ C.
 \end_inset
 
  given by Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:solvent chemical potential N inf equil with pure sollvent"
@@ -28324,7 +28119,6 @@ Relationship between
 \end_inset
 
  obtained from Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:solvent chemical potential N inf equil with pure sollvent"
@@ -28367,7 +28161,6 @@ i.e.
 
 \emph default
  the number of PMMA endblocks in a single aggregate, by the probability
-
 \begin_inset Formula $f$
 \end_inset
 
@@ -28385,7 +28178,6 @@ reference "fig:triblock gel aggregation numbers"
 .
  For high molecular weight polymers the percolation threshold, where the
  average functionality of a micelle is 2, is quite low, corresponding to
-
 \begin_inset Formula $\phi_{p}\approx0.035.$
 \end_inset
 
@@ -28394,7 +28186,7 @@ reference "fig:triblock gel aggregation numbers"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \begin{equation}
 G_{0}=\nu k_{B}T\frac{D^{2}}{R_{0}^{2}}
 \end{equation}
@@ -28433,7 +28225,7 @@ ally by x-ray scattering.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \nu=\frac{f\phi_{p}\rho N_{av}}{M}
 \]
@@ -28638,7 +28430,6 @@ reference "fig:triblock hydrogel structure"
  characterizing the solvent/PMMA interaction.
  The result is that the relaxation times for the triblock copolymer solution
  increase dramatically, as illustrated by the rheological data in Figure
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:triblock hydrogel rheology"
@@ -28739,7 +28530,6 @@ Master plots of storage and loss moduli for PMMA-PMAA-PMMA triblock copolymer
  gels in DMSO/water mixtures, for water contents within the solvent of 4,
  6 and 8 wt.
  %.
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:triblock hydrogel rheology"
@@ -28833,7 +28623,6 @@ reference "fig:triblock hydrogel tensile data"
 \end_inset
 
 ).
-
 \end_layout
 
 \begin_layout Standard
@@ -28977,21 +28766,17 @@ Molecular Weight Averages
 
 \color red
 N
-\color inherit
-
 \bar under
+\color inherit
 Degree of polymerization
-\bar default
-
 \end_layout
 
 \begin_layout Standard
 
 \color red
 M
-\color inherit
-
 \bar under
+\color inherit
 Molecular weight
 \end_layout
 
@@ -29005,7 +28790,7 @@ Molecular weight per repeat unit
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=w/n
 \]
@@ -29016,7 +28801,7 @@ M_{n}=w/n
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 {\color{red}M=NM_{0}}
 \]
@@ -29067,7 +28852,7 @@ Linear step growth polymerization
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=\frac{M_{0}}{2(1-p)}
 \]
@@ -29078,7 +28863,7 @@ M_{n}=\frac{M_{0}}{2(1-p)}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{M_{w}}{M_{n}}=1+p
 \]
@@ -29089,7 +28874,7 @@ M_{n}=\frac{M_{0}}{2(1-p)}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 n=n_{a}-n_{b}
 \]
@@ -29109,7 +28894,7 @@ Nonlinear step growth polymerization
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 M_{n}=\frac{M_{0}}{2-pf_{av}}
 \]
@@ -29120,7 +28905,7 @@ M_{n}=\frac{M_{0}}{2-pf_{av}}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 (n_{a}+n_{b})f_{av}=n_{a}f_{a}+n_{b}f_{b}
 \]
@@ -29165,22 +28950,18 @@ Chain Growth Polymerization
 
 \begin_layout Standard
 Active site is typically a free radical, anion, or cation.
-
 \end_layout
 
 \begin_layout Standard
 Propagation corresponds to addition to a double bond, or opening of a ring.
-
 \end_layout
 
 \begin_layout Standard
 Termination can occur by Disproportionation or combination.
-
 \end_layout
 
 \begin_layout Standard
 Intermolecular chain transfer reduces molecular weight.
-
 \end_layout
 
 \begin_layout Standard
@@ -29238,7 +29019,7 @@ The probability density distribution for the end to end vector, R (with
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 {\color{blue}P(R_{x},R_{y},R_{z})\exp(-\frac{3R^{2}}{2Na^{2}})}
 \]
@@ -29250,7 +29031,7 @@ The probability density distribution for the end to end vector, R (with
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 {\color{blue}P(R)R^{2}\exp(-\frac{3R^{2}}{2Na^{2}})}
 \]
@@ -29267,7 +29048,7 @@ n:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 {\color{blue}R_{0}\equiv<R^{2}>^{1/2}=N^{1/2}a}
 \]
@@ -29282,7 +29063,7 @@ Structure of amorphous vinyl polymers
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 R_{0}^{2}=C_{\infty}N_{b}l^{2}=Na^{2}
 \]
@@ -29293,9 +29074,9 @@ R_{0}^{2}=C_{\infty}N_{b}l^{2}=Na^{2}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
-C_{\infty}=\left\{ \frac{1+\cos\theta}{1-\cos\theta}\right\} \left\{ \frac{1+<\cos\phi>}{1-<\cos\phi>}\right\}
+C_{\infty}=\left\{ \frac{1+\cos\theta}{1-\cos\theta}\right\} \left\{ \frac{1+<\cos\phi>}{1-<\cos\phi>}\right\} 
 \]
 
 \end_inset
@@ -29325,7 +29106,7 @@ Glass Transition
 
 \begin_layout Standard
 \align center
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{V_{f}}{V}=(\alpha_{l}-\alpha_{g})(T_{g}-T_{\infty})
 \]
@@ -29419,7 +29200,7 @@ Single Chain:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \Delta F_{d}=\frac{3k_{B}TR^{2}}{2Na^{2}}
 \]
@@ -29434,9 +29215,9 @@ Bulk Elastomer:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
-\Delta f_{d}=\frac{v_{s}k_{B}T}{2}\left\{ \lambda_{x}^{2}+\lambda_{y}^{2}+\lambda_{z}^{2}-3\right\}
+\Delta f_{d}=\frac{v_{s}k_{B}T}{2}\left\{ \lambda_{x}^{2}+\lambda_{y}^{2}+\lambda_{z}^{2}-3\right\} 
 \]
 
 \end_inset
@@ -29450,7 +29231,7 @@ Shear:
 \end_inset
 
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G=v_{s}k_{B}T=\frac{\rho RT}{M}
 \]
@@ -29462,9 +29243,9 @@ G=v_{s}k_{B}T=\frac{\rho RT}{M}
 
 \begin_layout Standard
 Uniaxial Extension or Compression:
-\begin_inset Formula
+\begin_inset Formula 
 \[
-\sigma_{eng}=G\left\{ \lambda_{y}-\frac{1}{\lambda_{y}^{2}}\right\}
+\sigma_{eng}=G\left\{ \lambda_{y}-\frac{1}{\lambda_{y}^{2}}\right\} 
 \]
 
 \end_inset
@@ -29531,7 +29312,7 @@ Response to step strain:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 G(t)\equiv\frac{\sigma_{xy}(t)}{\gamma(0)}
 \]
@@ -29546,7 +29327,7 @@ Boltzmann superposition principle:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \sigma_{xy}(t)=\overset{\infty}{\underset{0}{\int}G(s)\gamma(t-s)ds}
 \]
@@ -29608,7 +29389,7 @@ Dynamic Mechanical Spectroscopy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \gamma=\gamma_{0}\sin(\omega t)
 \]
@@ -29619,7 +29400,7 @@ Dynamic Mechanical Spectroscopy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \gamma(t)=\omega\gamma_{0}\cos(\omega t)
 \]
@@ -29630,7 +29411,7 @@ Dynamic Mechanical Spectroscopy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\sigma_{12}(t)}{\gamma_{0}}=G'(w)\sin(\omega t)+G"(w)\cos(\omega t)
 \]
@@ -29641,7 +29422,7 @@ Dynamic Mechanical Spectroscopy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \tan\delta=\frac{G"(\omega)}{G'(\omega)}
 \]
@@ -29673,7 +29454,7 @@ Dynamic Mechanical Spectroscopy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \eta_{0}=\underset{\omega\rightarrow0}{\lim}\frac{G^{\prime\prime}(\omega)}{\omega}=\overset{\infty}{\underset{0}{\int}}G(t)dt=A\exp\left(\frac{B}{T-T_{\infty}}\right)
 \]
@@ -29711,7 +29492,7 @@ Yield and Fracture
 
 \begin_layout Plain Layout
 Criteria for necking:
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\partial\sigma_{true}}{\partial\lambda}=\frac{\sigma_{true}}{\lambda}
 \]
@@ -29724,7 +29505,6 @@ Criteria for necking:
 \begin_layout Plain Layout
 Sufficient strain hardening of the polymer allows a stable neck to form
  (cold drawing).
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -29748,9 +29528,9 @@ Free energy of mixing
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
-\Delta f_{mix}=\frac{RT}{V_{0}}\left\{ \frac{\phi_{a}\ln\phi_{a}}{N_{a}}+\frac{\phi_{b}\ln\phi}{N_{b}}+\chi\phi_{a}\phi_{b}\right\}
+\Delta f_{mix}=\frac{RT}{V_{0}}\left\{ \frac{\phi_{a}\ln\phi_{a}}{N_{a}}+\frac{\phi_{b}\ln\phi}{N_{b}}+\chi\phi_{a}\phi_{b}\right\} 
 \]
 
 \end_inset
@@ -29759,7 +29539,7 @@ Free energy of mixing
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \pi=-\frac{\mu_{s}}{v_{0}}
 \]
@@ -29776,7 +29556,7 @@ Chemical potential:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \frac{\mu_{a}}{RT}=\ln\phi_{a}+\phi_{b}(1-\frac{N_{a}}{N_{b}})+\chi N_{a}\phi_{b}^{2}
 \]
@@ -29800,7 +29580,7 @@ Chemical potential:
 Spinodal curve:
 \bar default
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \chi_{s}=\frac{1}{2\phi_{a}N_{a}}+\frac{1}{2(1-\phi_{a})N_{b}}
 \]
@@ -29816,7 +29596,7 @@ Spinodal curve:
 Critical point:
 \bar default
 
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \phi_{a,crit}=\frac{\sqrt{N_{b}}}{\sqrt{N_{b}}+\sqrt{N_{a}}}
 \]
@@ -29827,7 +29607,7 @@ Critical point:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \chi_{crit}=\frac{N_{a}+N_{b}+2\sqrt{N_{a}N_{b}}}{2N_{a}N_{b}}=\left\{ \begin{array}{c}
 0.5\,\mathrm{for}\,N_{a}=1,\,N_{b}\rightarrow\infty\\
@@ -29849,7 +29629,7 @@ Polymer/Polymer Interfaces
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 w=\frac{2a}{\sqrt{6\chi}}
 \]
@@ -29860,7 +29640,7 @@ w=\frac{2a}{\sqrt{6\chi}}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula
+\begin_inset Formula 
 \[
 \gamma=\frac{a}{V_{0}}RT\sqrt{\chi/6}
 \]
@@ -30027,7 +29807,6 @@ How is it related to the statistical segment length?
 
 \begin_layout Itemize
 How can it be calculated from a given distribution of bond rotation angles?
-
 \end_layout
 
 \begin_layout Itemize
@@ -30275,7 +30054,6 @@ MATLAB ! Symbolic math
 
 The following script uses MATLAB's symbolic math capability to evaluate
  the integrals in Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:maxwell model"
@@ -30310,7 +30088,6 @@ reference "fig:symbolic_visco outpout"
 \end_inset
 
 ) needs to be manipulated a little bit to give the form shown in Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:maxwell model"
@@ -30387,7 +30164,6 @@ The following script returns
 \end_inset
 
  as the solution to Eq.
-
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:solvent chemical potential N inf equil with pure sollvent"
@@ -30399,7 +30175,6 @@ reference "eq:solvent chemical potential N inf equil with pure sollvent"
 \end_inset
 
 .
-
 \end_layout
 
 \begin_layout Standard
@@ -32414,8 +32189,8 @@ status open
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "331text"
-options "msecorestyle"
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
 
 \end_inset
 

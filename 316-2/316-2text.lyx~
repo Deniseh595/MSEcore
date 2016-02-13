@@ -86,7 +86,7 @@ EndPreAmble
 \font_tt_scale 100
 \graphics default
 \default_output_format pdf2
-\output_sync 1
+\output_sync 0
 \bibtex_command default
 \index_command makeindex
 \float_placement H
@@ -127,37 +127,22 @@ EndPreAmble
 \justification true
 \use_refstyle 0
 \notefontcolor #ff0000
-\branch solution
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
 \branch standalone
 \selected 1
 \filename_suffix 0
 \color #faf0e6
 \end_branch
-\branch labonly
+\branch labs
 \selected 0
 \filename_suffix 0
 \color #faf0e6
 \end_branch
-\branch thisfileonly
+\branch solutions
 \selected 0
 \filename_suffix 0
 \color #faf0e6
 \end_branch
-\branch catalogtitles
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch thisdoconly
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch unused
+\branch problems
 \selected 0
 \filename_suffix 0
 \color #faf0e6
@@ -2560,7 +2545,7 @@ reference "eq:wrstar vs v"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3007,6 +2992,10 @@ For solidification from the melt, one can use Richard's rule for metals
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -3014,7 +3003,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/ken/Dropbox/MSE_coursenotes/Shannon/316-2/figures/HomogeneousNucleationFigure4.svg
+	filename figures/HomogeneousNucleationFigure4.svg
 	scale 37
 
 \end_inset
@@ -3026,6 +3015,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -14660,35 +14654,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Branch standalone
-status open
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "316-2labs.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "316-2problems.lyx"
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Appendix: Thermodynamic Data for Cu
 \begin_inset CommandInset label
@@ -14711,9 +14676,26 @@ filename "matlab/Cu_PT_Shomate_NIST.m"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
+\begin_inset CommandInset include
+LatexCommand input
+filename "316-2labs.lyx"
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "316-2problems.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -14722,10 +14704,44 @@ filename "matlab/Cu_PT_Shomate_NIST.m"
 status open
 
 \begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "msecoursenotes"
-options "unsrt"
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "auto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
 
 \end_inset
 

@@ -101,17 +101,7 @@ enumitem
 \justification true
 \use_refstyle 1
 \notefontcolor #ff0000
-\branch unused
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch solution
-\selected 0
-\filename_suffix 0
-\color #faf0e6
-\end_branch
-\branch thisfileonly
+\branch solutions
 \selected 0
 \filename_suffix 0
 \color #faf0e6
@@ -143,7 +133,7 @@ enumitem
 
 \begin_layout Standard
 \begin_inset Branch thisfileonly
-status open
+status collapsed
 
 \begin_layout Title
 301 Problems
@@ -190,8 +180,8 @@ Calculate the repeat unit molecular weights for each of the 22 polymers
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1265,8 +1255,8 @@ status collapsed
 \begin_layout Plain Layout
 \noindent
 \align left
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 \noindent
@@ -1371,22 +1361,18 @@ Poly (dimethyl siloxane)
 
 \end_deeper
 \begin_layout Enumerate-Resume
-\begin_inset Note Comment
-status open
-
-\begin_layout Enumerate-Resume
 Draw Lewis diagrams illustrating the valence shell configurations for amide,
  ester and urethane linkages.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1447,11 +1433,6 @@ Urethane
 \end_layout
 
 \end_deeper
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Polymerization Reactions
 \end_layout
@@ -1471,8 +1452,8 @@ List all of the monomers that will polymerize by chain growth polymerization.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1507,8 +1488,8 @@ Draw the repeat unit structures of 3 different polymer structures that can
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1555,8 +1536,8 @@ Which monomers will react with each other to form a linear polyamide?
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1590,8 +1571,8 @@ Which monomers can you combine to produce a highly crosslinked polymer network
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1617,10 +1598,6 @@ Solution:
 \end_deeper
 \end_deeper
 \begin_layout Enumerate-Resume
-\begin_inset Note Comment
-status open
-
-\begin_layout Enumerate-Resume
 Suppose a polyester is formed by combining 1.00 mol of a diacid (2 acid groups
  per molecule) with 1.01 mol of a dialcohol in a homogeneous solution.
  The molecular weight of the diacid is 160g/mol and the molecular weight
@@ -1637,12 +1614,12 @@ that can be expected from this combination?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1767,12 +1744,12 @@ How many grams of water will be produced during the polymerization reaction?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -1804,11 +1781,6 @@ Solution:
 
 \end_deeper
 \end_deeper
-\end_inset
-
-
-\end_layout
-
 \begin_layout Enumerate-Resume
 Consider the following 5 monomers:
 \end_layout
@@ -1839,8 +1811,8 @@ Draw the repeat units for three linear polymers that can be produced by
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -1941,8 +1913,8 @@ What combination of monomers from this list would you choose in order to
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -2043,7 +2015,7 @@ Suppose a diamine (primary amines at each of the molecule) is reacted with
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2096,7 +2068,7 @@ Solution
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2168,7 +2140,7 @@ Why is tacticity relevant for polystyrene or polypropylene, but not polyethylene
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2222,7 +2194,7 @@ A mutiblock copolymer consisting of alternating Nylon 6-6 and Nylon 6-10
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2419,7 +2391,7 @@ Comment on the polydispersity of block lengths, and of the number of blocks
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2523,7 +2495,7 @@ A step-growth reactions takes place between 1.2 moles of dicarboxylic acid,
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2670,7 +2642,7 @@ In 1963 Karl Ziegler and Giulio Natta received the Nobel prize in chemistry
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2729,8 +2701,8 @@ Discuss the conditions that must be met in order for polymers with a low
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -2773,8 +2745,8 @@ What type of reactions must be avoided in order to produce block copolymers
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -2817,8 +2789,8 @@ Proteins are perfectly disperse copolymers, with a polydispersity index
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -2863,7 +2835,7 @@ Draw the repeat unit structure of the polymer which is formed in this reaction.
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2902,7 +2874,7 @@ Below what temperature will this polymer behave as a rigid material?
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -2945,7 +2917,7 @@ Suppose that there are no chain transfer or termination events during the
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -3022,8 +2994,8 @@ What is the ratio of
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3119,8 +3091,8 @@ Suppose equal weights of the polymers formed by these two reactions are
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3250,10 +3222,10 @@ Draw the chemical structures of the monomers from which the following polymers
 \begin_deeper
 \begin_layout Standard
 \begin_inset Note Greyedout
-status collapsed
+status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status open
 
 \begin_layout Standard
@@ -3412,10 +3384,6 @@ Poly (methyl cyanoacrylate)
 
 \end_deeper
 \begin_layout Enumerate-Resume
-\begin_inset Note Comment
-status open
-
-\begin_layout Enumerate-Resume
 Find answers to the following problems:
 \end_layout
 
@@ -3427,13 +3395,13 @@ ion product.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3486,13 +3454,13 @@ Draw the structure of a polymer formed by ring opening polymerization of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3533,13 +3501,13 @@ tion? Draw the chemical structure of the resultant polymers.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3640,13 +3608,13 @@ Suppose you want to sell a set of cheap plastic mugs which are suitable
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3686,13 +3654,13 @@ Solution:
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3733,13 +3701,13 @@ Solution:
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3805,7 +3773,7 @@ Draw the chemical structures of the two different monomers that were used
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/rolayer.svg
 	lyxscale 50
@@ -3816,13 +3784,13 @@ Draw the chemical structures of the two different monomers that were used
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3860,13 +3828,13 @@ What type of polymer is this (polyester, polyamide, polyurethane, epoxy,
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3894,13 +3862,13 @@ Next to each structure that you have drawn in part a, indicate its chemical
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3935,13 +3903,13 @@ What is the relative amount of each of the two monomers from part a (in
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -3974,13 +3942,13 @@ Assuming that the two monomers are added together in optimum proportions
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4090,13 +4058,13 @@ Calculate the glass transition temperature if the fractional free volume
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4174,13 +4142,13 @@ The glass transition temperature measured at a different cooling rate is
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4243,7 +4211,7 @@ Rank these three polymers in the order of high
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Box Frameless
 position "t"
@@ -4347,13 +4315,13 @@ Poly(
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4448,7 +4416,7 @@ The DSC curves below correspond to the 3 polymers listed below.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename figures/dsc_slide1.PNG
@@ -4468,13 +4436,13 @@ C.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4521,13 +4489,13 @@ C to room temperature.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4581,13 +4549,13 @@ C.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4669,13 +4637,13 @@ Describe how each of these two types of groups is expected to affect the
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4714,13 +4682,13 @@ Polymers with very little flexibility along the backbone of the polymer
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4787,13 +4755,13 @@ What is the rms end-to-end distance for a polystyrene molecule with M=250,000
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4916,13 +4884,13 @@ What is the characteristic ratio (
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -4997,13 +4965,13 @@ What is the statistical segment length (equivalent length of a repeat unit
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5070,13 +5038,13 @@ The volume pervaded by a single molecule is given approximately by
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5152,13 +5120,13 @@ Consider a simple model of polystyrene for which all of the bonds are in
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5376,13 +5344,13 @@ What fraction of the backbone bonds are in the gauche configuration if
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5548,13 +5516,13 @@ Calculate the statistical segment length of a repeat unit, assuming the
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5635,13 +5603,13 @@ What fraction of molecules in an equilibrated amorphous polymer melt have
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5742,13 +5710,13 @@ A thermoset is cooled to a very low temperature.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5818,13 +5786,13 @@ What is the average molecular weight between crosslinks for a polymer with
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -5902,13 +5870,13 @@ Plot the predicted tensile stress/strain curve for this material for engineering
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6078,13 +6046,13 @@ The yield point of a material is often defined as the onset of nonlinear
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6130,13 +6098,13 @@ Suppose a sample of Sylgard 184 is cured, and the degree of polymerization
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6229,13 +6197,13 @@ Plot the free energy of a uniaxially stretched rubber as a function of the
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6364,13 +6332,13 @@ At what value of the strain is the free energy minimized?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6458,13 +6426,13 @@ For what compressive value of the extension ratio is the free energy of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6547,13 +6515,13 @@ Calculate the force required to fix the ends of a 1,4 polyisoprene molecule
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6684,13 +6652,13 @@ with respect to the bottom disk.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6765,13 +6733,13 @@ Calculate the torque required to rotate the top plate by
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6866,13 +6834,13 @@ l rotation with a magnitude of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -6932,7 +6900,7 @@ G(t)=G_{1}\exp\left(\frac{-t}{\tau_{1}}\right)+G_{2}\exp\left(\frac{-t}{\tau_{2}
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \align left
 Suppose
 \begin_inset Formula $G_{1}=10^{9}\,\mathrm{Pa}$
@@ -6966,13 +6934,13 @@ Calculate the zero shear viscosity for this polymer.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7034,13 +7002,13 @@ Is this polymer crosslinked? How do you know?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7070,13 +7038,13 @@ Calculate the average molecular weight between entanglements.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7150,13 +7118,13 @@ Describe what happens to
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7198,13 +7166,13 @@ What vibrational frequencies do you expect to be most efficiently damped
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7257,13 +7225,13 @@ Describe what happens to
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7328,7 +7296,7 @@ Consider a polymer with the behavior of the relaxation modulus (
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Box Frameless
 position "t"
@@ -7400,13 +7368,13 @@ Describe in qualitative terms what is going on at each of the two characteristic
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7438,13 +7406,13 @@ Is this polymer crosslinked? Briefly explain your answer.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7476,13 +7444,13 @@ Estimate the entanglement molecular weight for this polymer.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7570,13 +7538,13 @@ Estimate the viscosity of this polymer that is obtained at very low shear
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7711,13 +7679,13 @@ C?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7777,13 +7745,13 @@ C.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -7866,13 +7834,13 @@ C as the reference temperature.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8007,13 +7975,13 @@ Determine the zero shear viscosity of PtBA with M=350,000 g/mol at
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8130,13 +8098,13 @@ for PtBA.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8229,12 +8197,12 @@ C as the reference temperature (where
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -8445,7 +8413,7 @@ on of the crosslinked structure is shown at the right.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename figures/pnba.svg
@@ -8468,13 +8436,13 @@ Calculate the shear modulus, G, for this material at room temperature.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8555,13 +8523,13 @@ Give Young's modulus (E) and the Poisson's ratio (
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8601,13 +8569,13 @@ What is the root mean square end-to-end distance
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8639,13 +8607,13 @@ What is the value of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8716,13 +8684,13 @@ Simple shear at a shear strain,
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8776,13 +8744,13 @@ Uniaxial extension to an engineering strain of 100 % (
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8862,13 +8830,13 @@ Uniaxial compression to a engineering strain of -50% (
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -8909,7 +8877,7 @@ largest
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="2">
 <features rotate="0" tabularvalignment="middle">
@@ -9081,13 +9049,13 @@ entropy
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9297,13 +9265,13 @@ Estimate the number of times the molecule folds back on itself within a
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9372,13 +9340,13 @@ From your answer to part a, what can you say about the ability to stretch
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9412,13 +9380,13 @@ Describe how axis of the unit cell in polyethylene is oriented with respect
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9548,13 +9516,13 @@ What is the theoretical density of a completely crystalline version of this
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9639,13 +9607,13 @@ The percent crystallinity of a sample with a density of 1.35 g/cc is 60%.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9706,13 +9674,13 @@ Poly(ethylene terephthalate) has a relatively high equilibrium melting point
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9762,13 +9730,13 @@ Consider two perfect single crystals of polyethylene and polypropylene.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -9812,13 +9780,13 @@ s: one at 100 °C and one at 125 °C.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -10062,13 +10030,13 @@ Graphically determine the equilibrium melting temperature,
 .
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -10302,13 +10270,13 @@ Use the Bragg equation to calculate the values of the lamellar period for
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -10612,13 +10580,13 @@ The degree of crystallinity was measured to be 45% for all samples.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11389,13 +11357,13 @@ Describe any differences you expect rate of crystallization, and the crystal
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11445,13 +11413,13 @@ Suppose the two samples are slowly heated.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11483,13 +11451,13 @@ PEO is always crystalline at room temperature, but PET is often amorphous
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11535,13 +11503,13 @@ Give an example of the type of defect that can lie at the places where 4
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11581,13 +11549,13 @@ Describe why alternating light and dark bands emanate from these defect
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11624,13 +11592,13 @@ Is it possible to obtain a completely black image from a sample that has
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11657,7 +11625,7 @@ Sure.
 
 \end_deeper
 \end_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 
 \end_layout
 
@@ -11671,13 +11639,13 @@ Which contribution to the free energy (enthalpy of entropy) dominates at
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11711,13 +11679,13 @@ for a system which has an LCST phase diagram?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11760,13 +11728,13 @@ For what values of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11810,7 +11778,7 @@ Measured values of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \chi=\frac{0.326}{T}-2.3\times10^{-4}
@@ -11821,11 +11789,11 @@ Measured values of
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 where T is the absolute temperature.
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 Consider a blend with
 \begin_inset Formula $N_{a}=2500,\:N_{b}=3500$
 \end_inset
@@ -11839,13 +11807,13 @@ re for this blend?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -11933,13 +11901,13 @@ Plot free energy curves (free energy as a function of composition) for
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12035,7 +12003,7 @@ Consider the following phase diagram:
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename figures/28-1-problem.PNG
@@ -12051,13 +12019,13 @@ Is the enthalpy of mixing positive or negative for this system?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12084,13 +12052,13 @@ Is the entropy of mixing positive or negative for this system?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12123,13 +12091,13 @@ Draw free energy of mixing vs.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12169,13 +12137,13 @@ Determine the critical value of the chi parameter (
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12222,13 +12190,13 @@ What is polymer volume fraction at the critical point?
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12275,13 +12243,13 @@ Plot the solvent chemical potential for this system as a function of polymer
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12354,13 +12322,13 @@ Suppose that the polymer is dipped into a pure solvent (solvent chemical
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12428,13 +12396,13 @@ Describe in your own words why most pairs of different types of polymers
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12466,13 +12434,13 @@ Most liquids mix better at high temperatures than they do at low temperatures.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12507,7 +12475,7 @@ Consider the following osmotic pressure data obtained for polyethylene oxide
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="2">
@@ -12782,13 +12750,13 @@ Plot the osmotic pressure as a function of the polymer volume fraction,
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12850,13 +12818,13 @@ Repeat part a, but now compare the data to the scaling expression for
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -12942,13 +12910,13 @@ The concentration of PEO at
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13015,13 +12983,13 @@ What is the correlation length
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13089,13 +13057,13 @@ is made in water.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13178,7 +13146,7 @@ The interfacial free energy characterizing the interface high molecular
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Box Frameless
 position "t"
@@ -13255,13 +13223,13 @@ What is
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13316,13 +13284,13 @@ Suppose PS and P2VP polymers with equal degrees of polymerization are mixed
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13364,13 +13332,13 @@ Suppose monodisperse PS and P2VP samples with degrees of polymerization
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13477,13 +13445,13 @@ A diblock copolymer is synthesized that has a PS block with a degree of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13549,13 +13517,13 @@ Describe in qualitative terms the equilibrium geometries of the structures
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13595,7 +13563,7 @@ C.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename figures/polyisopropylacrylamide.svg
@@ -13641,13 +13609,13 @@ C.
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13684,13 +13652,13 @@ Is the entropy of mixing for this system positive or negative? Briefly explain
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13719,13 +13687,13 @@ Calculate the osmotic pressure of an aqueous solution of high molecular
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13817,13 +13785,13 @@ Calculate the internal tube diameter that gives a capillary rise of 10 cm,
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13901,13 +13869,13 @@ Calculate the capillary rise if the same glass tube from part a is coated
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -13954,13 +13922,13 @@ Calculate the force required to push a cylindrical fiber with a radius of
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -14018,13 +13986,13 @@ What stress can be supported if you create an array of these fibers on a
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -14064,13 +14032,13 @@ How much weight could be supported by an object like this with a total area
 \end_layout
 
 \begin_deeper
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
-status open
+\begin_inset Branch solutions
+status collapsed
 
 \begin_layout Standard
 
@@ -14104,78 +14072,10 @@ g.
 
 \end_deeper
 \end_deeper
-\begin_layout Enumerate-Resume
-
-\size large
-Why does the velocity of a grain boundary depend on temperature? Assume
- that the driving force for grain boundary motion is independent of temperature.
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-Assume a simple cubic crystal structure with nearest neighbor interactions.
- Why does a solid surface with a {100} orientation have the lowest surface
- energy?
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-Why do very small precipitates tend to have coherent interfaces? Defend
- your answer.
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-A thin film of Zn with a HCP crystal structure is deposited on a Ni FCC
- substrate with a {111} orientation.
- Which plane of the HCP crystal would you expect to contact the {111} Ni
- surface.
- Defend your answer
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-Does the time to 50% transformed increase or decrease with an increase in
- nucleation rate? Defend your answer without using any equations.
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-The grain size of a material is measured as a function of time in a strain-free
- material at constant temperature.
- The grain size increases for some time and then stops increasing at a certain
- size.
- Why? Defend your answer.
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-Draw the shape of a grain undergoing abnormal grain growth.
- Defend your answer.
-\end_layout
-
-\begin_layout Enumerate-Resume
-
-\size large
-Give an example of an interface between two crystals that displays a very
- large change in energy with a change in the orientation of the interface.
-\end_layout
-
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
 filename "331computation.lyx"
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 

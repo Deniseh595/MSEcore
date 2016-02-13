@@ -3,29 +3,14 @@
 \begin_document
 \begin_header
 \textclass article
-\use_default_options true
-\begin_modules
-enumitem
-\end_modules
-\maintain_unincluded_children false
-\begin_local_layout
-#\DeclareLyXModule{MSE Coursenotes}
-#DescriptionBegin
-#Various settings formatting for MSE course notes project
-#DescriptionEnd
-
-AddToPreamble
-\usepackage{animate}
+\begin_preamble
+\usepackage{tocbibind} % adds index to table of contents
 \usepackage{comment}
 \usepackage[margin=10pt,font=small,labelfont=bf]{caption}
 \usepackage[all]{hypcap}  % links to top of figures
-\usepackage{tocbibind} % add index to table of contents
 \usepackage{tocloft}
-% \def\nompreamble{\addcontentsline{toc}{section} %{\nomname}\markboth{\nomname}{\nomname}}
-\usepackage{pgfplots,tikz}
-\usepackage{nomencl}
-\setlength{\nomitemsep}{-\parsep} % single space nomenclature
-
+%\setlength{\nomitemsep}{-\parsep} % single space nomenclature
+\def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
 \usepackage{listings}
 \usepackage{cite}
 \definecolor{hellgelb}{rgb}{1,1,0.85}
@@ -60,10 +45,15 @@ AddToPreamble
      xleftmargin=1em,%
      xrightmargin=\fboxsep%
 }
-
-
-EndPreAmble
-\end_local_layout
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\maintain_unincluded_children false
 \language english
 \language_package default
 \inputencoding auto
@@ -191,17 +181,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -226,17 +215,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -265,17 +253,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -290,7 +277,7 @@ Solution:
 
 \end_deeper
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 A silicon
 \begin_inset Formula $\mathrm{p^{+}-n}$
 \end_inset
@@ -314,17 +301,55 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+For metallic aluminum, calculate:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The valence electron density.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -339,15 +364,6 @@ Solution:
 
 \end_deeper
 \begin_layout Enumerate
-For metallic aluminum, calculate:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-The valence electron density.
-\end_layout
-
-\begin_layout Enumerate
 The radius of the Fermi sphere
 \begin_inset Formula $\mathrm{k_{F}}.$
 \end_inset
@@ -355,8 +371,67 @@ The radius of the Fermi sphere
 
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+Solution goes here:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Fermi energy in eV.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+Solution goes here:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -761,6 +836,7 @@ Note: we are using the free electron model (solution to Schrodinger's equation
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate-Resume
 From the Schrodinger equation for a quantum well, show that the wave vector
  is equal to
@@ -777,17 +853,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -801,7 +876,7 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 Calculate the energy of light emitted from a 10 nm wide AlGaAs/GaAs quantum
  well structure that is photoexcited with 2.5 eV laser light.
 \end_layout
@@ -813,17 +888,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -837,7 +911,7 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 What is the luminescent energy for a CdSe quantum dot with a 2 nm radius.
 \end_layout
 
@@ -848,17 +922,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -872,7 +945,7 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 For a MOSFET device briefly describe how the three types of device work:
  a) enhancement mode b) depletion mode c) inversion mode.
 \end_layout
@@ -884,17 +957,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -908,7 +980,7 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 Calculate the capacitance of an MOS capacitor with a 10 nm thick
 \begin_inset Formula $\mathrm{HfO_{2}}$
 \end_inset
@@ -933,17 +1005,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -956,7 +1027,6 @@ Solution:
 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset Note Note
 status collapsed
@@ -1411,12 +1481,22 @@ Ratio for
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 Reference Solymar Chap 9,12.
  Show work.
 \end_layout
 
-\begin_layout Enumerate
-9.9
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate-Resume
+Problem 9.9 in Solymar and Walsh
 \end_layout
 
 \begin_deeper
@@ -1426,17 +1506,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -1450,8 +1529,8 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-9.14
+\begin_layout Enumerate-Resume
+Problem 9.14 in Solymar and Walsh
 \end_layout
 
 \begin_deeper
@@ -1461,17 +1540,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -1485,8 +1563,8 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-9.16
+\begin_layout Enumerate-Resume
+Problem 9.16 in Solymar and Walsh
 \end_layout
 
 \begin_deeper
@@ -1496,17 +1574,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -1520,8 +1597,8 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-12.10
+\begin_layout Enumerate-Resume
+Problem 12.10 in Solymar and Walsh
 \end_layout
 
 \begin_deeper
@@ -1531,17 +1608,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -1555,7 +1631,7 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 Consider a quantum cascade laser (QCL) made from GaAs and GaAlAs.
  What well thickness is needed for laser emission at 3 microns?
 \end_layout
@@ -1567,17 +1643,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -1590,7 +1665,6 @@ Solution:
 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset Note Note
 status collapsed
@@ -2498,6 +2572,7 @@ For
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate-Resume
 Derive the expression for the average value of the dipole moment.
  Show that it is given by:
@@ -2521,17 +2596,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -2578,17 +2652,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -2614,17 +2687,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -2679,17 +2751,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -2702,7 +2773,6 @@ Solution:
 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset Note Note
 status collapsed
@@ -3347,8 +3417,9 @@ Magnitude and phase of the polarizability with arbitrary values of
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate-Resume
-Problems 4.6 in Solymar and Walsh.
+Problem 4.6 in Solymar and Walsh.
 \end_layout
 
 \begin_deeper
@@ -3358,17 +3429,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -3383,7 +3453,7 @@ Solution:
 
 \end_deeper
 \begin_layout Enumerate-Resume
-Problems 4.7 in Solymar and Walsh.
+Problem 4.7 in Solymar and Walsh.
 \end_layout
 
 \begin_deeper
@@ -3393,17 +3463,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -3418,7 +3487,7 @@ Solution:
 
 \end_deeper
 \begin_layout Enumerate-Resume
-Problems 4.8 in Solymar and Walsh.
+Problem 4.8 in Solymar and Walsh.
 \end_layout
 
 \begin_deeper
@@ -3428,17 +3497,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -3453,7 +3521,7 @@ Solution:
 
 \end_deeper
 \begin_layout Enumerate-Resume
-Problems 4.9 in Solymar and Walsh.
+Problem 4.9 in Solymar and Walsh.
 \end_layout
 
 \begin_deeper
@@ -3463,17 +3531,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -3486,7 +3553,6 @@ Solution:
 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset Note Note
 status collapsed
@@ -4041,6 +4107,7 @@ Assembling the TISE for lithium considering all combinations of electrons
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate-Resume
 Calculate the magnetic susceptibility of metallic copper.
  How does it compare to the measured value of -1.0?
@@ -4053,17 +4120,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -4093,17 +4159,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -4133,17 +4198,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -4157,7 +4221,7 @@ Solution:
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Enumerate-Resume
 What is the electron configuration
 \begin_inset Formula $\mathrm{Mn^{2+}}$
 \end_inset
@@ -4177,17 +4241,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -4212,17 +4275,16 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Branch solution
-status collapsed
+status open
 
 \begin_layout Standard
 
 \series bold
-\color notefontcolor
 Solution:
 \end_layout
 
 \begin_layout Standard
-(paste solution here_
+Solution goes here:
 \end_layout
 
 \end_inset
@@ -4244,6 +4306,35 @@ For metallic Co, which has a Curie temperature of 1388 K, calculate the
 \end_inset
 
  Calculate the exchange constant in meV.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+\begin_inset Branch solution
+status open
+
+\begin_layout Standard
+
+\series bold
+Solution:
+\end_layout
+
+\begin_layout Standard
+Solution goes here:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5085,5 +5176,6 @@ Substituting in known values,
 
 \end_layout
 
+\end_deeper
 \end_body
 \end_document

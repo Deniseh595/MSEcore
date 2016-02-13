@@ -14246,26 +14246,17 @@ Future applications: current carrying wires, Maglev trains
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "351-2Labs.lyx"
+filename "351-2problems.lyx"
 
 \end_inset
 
 
 \end_layout
-
-\begin_layout Standard
-\begin_inset Branch unused
-status collapsed
 
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "361problems.lyx"
-
-\end_inset
-
-
-\end_layout
+filename "351-2Labs.lyx"
 
 \end_inset
 
@@ -14275,6 +14266,24 @@ filename "361problems.lyx"
 \begin_layout Standard
 \begin_inset Branch standalone
 status open
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset nomencl_print
@@ -14286,48 +14295,12 @@ set_width "auto"
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage clearpage
 \end_inset
 
 
 \end_layout
-
-\begin_layout Standard
-\begin_inset Branch unused
-status collapsed
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "3161refs"
-options "331style"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage clearpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch standalone
-status open
 
 \begin_layout Standard
 \begin_inset CommandInset index_print

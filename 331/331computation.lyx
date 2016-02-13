@@ -124,7 +124,7 @@ EndPreAmble
 \filename_suffix 0
 \color #faf0e6
 \end_branch
-\branch thisfileonly
+\branch computation
 \selected 1
 \filename_suffix 0
 \color #faf0e6
@@ -155,16 +155,11 @@ EndPreAmble
 \begin_body
 
 \begin_layout Standard
-\begin_inset Branch thisfileonly
+\begin_inset Branch computation
 status open
 
 \begin_layout Title
 331 MATLAB Exercises
-\end_layout
-
-\begin_layout Author
-Kenneth R.
- Shull
 \end_layout
 
 \begin_layout Standard
@@ -313,7 +308,7 @@ Plot the free energy expression
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -385,7 +380,7 @@ Repeat the previous calculation for
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -486,7 +481,7 @@ Decrease
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard
@@ -629,7 +624,7 @@ Hint:
 status open
 
 \begin_layout Plain Layout
-\begin_inset Branch solution
+\begin_inset Branch solutions
 status collapsed
 
 \begin_layout Standard

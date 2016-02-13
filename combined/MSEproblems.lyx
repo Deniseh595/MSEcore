@@ -364,8 +364,8 @@ filename "../361/361problems.lyx"
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "316-1/3161refs,316-2/msecoursenotes,331/331text"
-options "plainnat"
+bibfiles "MSEcore"
+options "MSEcore"
 
 \end_inset
 

@@ -185,9 +185,9 @@ FUNCTION {inbrackets}
 }
 
 FUNCTION {format.lastchecked}
-{ urldate empty$
+{ lastchecked empty$
     { "" }
-    { inbrackets "accessed " urldate * }  % krs urldate was lastchecked in original version
+    { inbrackets "cited " urldate * }  % krs urldate was lastchecked in original version
   if$
 }
 

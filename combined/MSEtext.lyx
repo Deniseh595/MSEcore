@@ -4,36 +4,13 @@
 \begin_header
 \textclass article
 \begin_preamble
-\usepackage{cancel}
-\usepackage{comment}
-\usepackage{lmodern}
-\end_preamble
-\use_default_options true
-\begin_modules
-enumitem
-eqs-within-sections
-figs-within-sections
-tabs-within-sections
-MSE coursenotes
-\end_modules
-\maintain_unincluded_children false
-\begin_local_layout
-AddToPreamble
-\usepackage{animate}
+\usepackage{tocbibind} % adds index to table of contents
 \usepackage{comment}
 \usepackage[margin=10pt,font=small,labelfont=bf]{caption}
 \usepackage[all]{hypcap}  % links to top of figures
-\usepackage{tocbibind} % add index to table of contents
 \usepackage{tocloft}
-\setlength\cftbeforesecskip{0 pt}   % change space before section
-% \def\nompreamble{\addcontentsline{toc}{section} %{\nomname}\markboth{\nomname}{\nomname}}
-\usepackage{nomencl} 
 \setlength{\nomitemsep}{-\parsep} % single space nomenclature
-\usepackage{chngcntr}
-\counterwithin*{equation}{part}
-\counterwithin*{figure}{part}
-\counterwithin*{section}{part}
-
+\def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
 \usepackage{listings}
 \usepackage{cite}
 \definecolor{hellgelb}{rgb}{1,1,0.85}
@@ -68,10 +45,17 @@ AddToPreamble
      xleftmargin=1em,%
      xrightmargin=\fboxsep%
 }
-
-
-EndPreAmble
-\end_local_layout
+\end_preamble
+\options sort&compress
+\use_default_options true
+\begin_modules
+enumitem
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+MSE coursenotes
+\end_modules
+\maintain_unincluded_children false
 \language english
 \language_package default
 \inputencoding auto
@@ -90,8 +74,8 @@ EndPreAmble
 \default_output_format pdf2
 \output_sync 1
 \bibtex_command default
-\index_command default
-\float_placement h
+\index_command makeindex
+\float_placement H
 \paperfontsize 10
 \spacing single
 \use_hyperref true
@@ -100,7 +84,7 @@ EndPreAmble
 \pdf_bookmarksnumbered true
 \pdf_bookmarksopen true
 \pdf_bookmarksopenlevel 1
-\pdf_breaklinks true
+\pdf_breaklinks false
 \pdf_pdfborder true
 \pdf_colorlinks true
 \pdf_backref page
@@ -169,13 +153,33 @@ EndPreAmble
 \filename_suffix 0
 \color #faf0e6
 \end_branch
+\branch problemsfile
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch solutions
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch problems
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch computation
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 1.5cm
+\leftmargin 2cm
 \topmargin 2cm
-\rightmargin 1.5cm
+\rightmargin 2cm
 \bottommargin 2cm
 \secnumdepth 3
 \tocdepth 1
@@ -207,394 +211,39 @@ This working document includes all of course content that has been developed
  as part of our department initiative to digitize our course content.
  This particular document has everything in one place, but can be a little
  overwhelming.
- A bunch of links are included below, which aggregate the information in
- different ways.
-\end_layout
-
-\begin_layout Standard
-\align center
-Laboratories: 
+ To get the pieces broken up in more useful ways, go to 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-http://msecore.northwestern.edu/MSElabs.pdf
+msecore.northwestern.edu
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\align center
-Problems: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://msecore.northwestern.edu/MSEproblems.pdf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-MATLAB Tutorials and Example Code: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://msecore.northwestern.edu/matlab/matlab.pdf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-Catalog Descriptions: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://msecore.northwestern.edu/MSEcatalog.pdf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-Course Outcomes: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://msecore.northwestern.edu/MSEoutcomes.pdf
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-\align center
-Contents (The first few pages of MSEtext.pdf): 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://msecore.northwestern.edu/MSEcontents.pdf
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-\align center
-Everything (the complete MSE core course text): 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://msecore.northwestern.edu/MSEtext.pdf
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Paragraph
-Standard Course Sequence (Click on the course number to get the corresponding
- individual course file).
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="4">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fall
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Winter
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spring
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sophomore
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "301"
-target "http://msecore.northwestern.edu/301/301text.pdf"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "314"
-target "http://msecore.northwestern.edu/314/314text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "315"
-target "http://msecore.northwestern.edu/315/315text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "316-1"
-target "http://msecore.northwestern.edu/316/316-1text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Junior
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "316-2"
-target "http://msecore.northwestern.edu/316-2/316-2text.pdf"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "332"
-target "http://msecore.northwestern.edu/332/332text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "331"
-target "http://msecore.northwestern.edu/331/331text.pdf"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "351-1"
-target "http://msecore.northwestern.edu/351-1/351-1text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "351-2"
-target "http://msecore.northwestern.edu/351-2/351-2text.pdf"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "390"
-target "http://msecore.northwestern.edu/390/390text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Senior
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "391"
-target "http://msecore.northwestern.edu/391/391text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-name "361"
-target "http://msecore.northwestern.edu/361/361text.pdf"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "396-1"
-target "http://msecore.northwestern.edu/396/396text.pdf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-396-2
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{comment}
+\end_layout
 
 \end_inset
 
@@ -714,6 +363,22 @@ name "part:316-2"
 \begin_inset CommandInset include
 LatexCommand input
 filename "../316-2/316-2text.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{comment}
+\end_layout
 
 \end_inset
 
@@ -963,6 +628,24 @@ It's not really possible to have one set of nomenclature for the entire
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset nomencl_print
 LatexCommand printnomenclature
 set_width "auto"
@@ -973,24 +656,7 @@ set_width "auto"
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypertarget{Index}{}
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "msecoursenotes"
-options "plain"
-
+\begin_inset Newpage clearpage
 \end_inset
 
 
