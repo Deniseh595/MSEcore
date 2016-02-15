@@ -281,6 +281,7 @@ Dealing with Git and Github
 
 \begin_layout Standard
 Here's a brief outline of how to contribute to the MSE core text project.
+ Much of the 
 \end_layout
 
 \begin_layout Subsection
@@ -664,7 +665,7 @@ status open
 
 \begin_layout Plain Layout
 
-$  git push origin my-new-branch
+$  git push origin my-new-branchzXc
 \end_layout
 
 \end_inset
