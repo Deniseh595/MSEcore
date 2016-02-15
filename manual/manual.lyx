@@ -157,8 +157,8 @@ EndPreAmble
 \use_package stackrel 0
 \use_package stmaryrd 0
 \use_package undertilde 0
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type numerical
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -281,9 +281,37 @@ Dealing with Git and Github
 
 \begin_layout Standard
 Here's a brief outline of how to contribute to the MSE core text project.
+ Much of this information is taken from a web book describing git and github
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "_git_????"
+
+\end_inset
+
+.
+ Chapter 6 is particularly useful.
+ A downloadable pdf version is also available 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "_progit.en.pdf_????"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsection
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Establish a Repository
+\end_layout
+
+\end_inset
+
 Establish a Remote Development Repository on Github
 \end_layout
 
@@ -315,7 +343,8 @@ your_github_username
 \end_inset
 
 .
- 
+ In some of the example screenshots shown below, I've used shulltest as
+ my username.
 \end_layout
 
 \end_deeper
@@ -360,7 +389,8 @@ Once you initiate the search, you should get a screen that looks like this:
 \end_layout
 
 \begin_layout Standard
-We refer to the krshull/MSEcore repository as the 'production 
+We refer to the krshull/MSEcore repository as the 'upstream' repository.
+ 
 \end_layout
 
 \end_deeper
@@ -389,6 +419,7 @@ Click on the fork button at the upper right.
  called your_github_username/MSEcore.
  This is the version of the repository that you will be able to edit and
  upload as you see fit.
+ This repository is the 'origin' repository.
 \end_layout
 
 \begin_layout Enumerate
@@ -408,7 +439,8 @@ reference "sec:command line appendix"
 
 \begin_layout Enumerate
 Enter the following command (type everything after the dollar sign, which
- is the command prompt you should see in the command window):
+ is the command prompt you should see in the command window.
+ Make sure that 'your_github_username' is your own username, and NOT krshull):
 \end_layout
 
 \begin_deeper
@@ -446,6 +478,98 @@ description "The local directory  on your own computer that includes all of the 
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+Move into the MSEcore directory that you just made:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+$ cd MSEcore
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Add the upstream repository that you originally forked from by issuing the
+ following command (type it in exactly this way, including 'krshull' as
+ the git username):
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+$  git remote add upstream https://github.com/krshull/MSEcore.git
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+To make sure we have the remote repositories set up properly, run the following
+ command:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+$ git remote -v
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The result of this command should look like this:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+(The -v option here stand for 'verbose'.) This will list the nickname of
+ your remote repository (most likely 'origin', in addition to the corresponding
+ url.
+ The url should NOT correspond to the upstream repository (https://github.com/krs
+hull/MSEcore.git).
+ If it does, you need to change it to your forked version of this repository
+ by issuing the following command:
+\end_layout
+
+\begin_layout Standard
+The 'origin' in this command means that we can use 'origin' as an alias
+ to refer to the remote repository, without having to type in the entire
+ url.
+ (Note that 'origin' is the default alias for the remote repository that
+ we initially cloned from, back in step 
+\end_layout
+
 \begin_layout Subsection
 Updating your Local Repository
 \end_layout
@@ -585,7 +709,16 @@ The -a option means you are committing all updated files, and the -m option
 
 \end_deeper
 \begin_layout Subsection
-Updating your Remote Repository and Submitting Changes for Approve
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Updating your Remote Repository
+\end_layout
+
+\end_inset
+
+Updating your Remote Repository and Submitting Changes for Approval
 \end_layout
 
 \begin_layout Standard
@@ -595,61 +728,6 @@ The next step is to upload your changes to your remote repository, and request
  The steps are as follows:
 \end_layout
 
-\begin_layout Enumerate
-First, make sure you are using the correct remote directory.
- Run the following command:
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-$ git remote -v
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-(The -v option here stand for 'verbose'.) This will list the nickname of
- your remote repository (most likely 'origin', in addition to the corresponding
- url.
- The url should NOT correspond to the production repository (https://github.com/k
-rshull/MSEcore.git).
- If it does, you need to change it to your forked version of this repository
- by issuing the following command:
-\end_layout
-
-\begin_layout Standard
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-$  git remote set-url origin https://github.com/your_github_username/MSEcore.git
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The 'origin' in this command means that we can use 'origin' as an alias
- to refer to the remote repository, without having to type in the entire
- url.
- (Note that 'origin' is the default alias for the remote repository that
- we initially cloned from, back in step 
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 Now you can upload our new branch with the changes to your development repositor
 y on github.
@@ -732,6 +810,17 @@ Commands are entered right after the command prompt, which is usually a
 \begin_inset CommandInset nomencl_print
 LatexCommand printnomenclature
 set_width "auto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "MSEcore"
+options "bibtotoc,MSEcore"
 
 \end_inset
 
