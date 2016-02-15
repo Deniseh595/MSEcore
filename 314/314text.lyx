@@ -1539,11 +1539,16 @@ Conservation of energy
 
 \end_inset
 
-
+In mathematical terms, the first law of thermodynamics can be written in
+ the following form:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Delta U=Q+W+W'$
+\begin_inset Formula 
+\begin{equation}
+\Delta U=Q+W+W'
+\end{equation}
+
 \end_inset
 
  
