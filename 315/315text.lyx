@@ -16077,7 +16077,7 @@ reference "eq:TaylorC"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-c_{2}=c_{1}+\alpha(\frac{\partial c}{\partial x})_{t}\label{eq:TaylorC}
+c_{2}=c_{1}+\alpha\frac{\partial c}{\partial x}\label{eq:TaylorC}
 \end{equation}
 
 \end_inset
@@ -16107,7 +16107,7 @@ reference "eq:Cgradient"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\left(\frac{\partial c}{\partial x}\right)_{t}=\left(\frac{c_{2}-c_{1}}{\alpha}\right)=-\left(\frac{c_{1}-c_{2}}{\alpha}\right)\label{eq:Cgradient}
+\frac{\partial c}{\partial x}=\left(\frac{c_{2}-c_{1}}{\alpha}\right)=-\left(\frac{c_{1}-c_{2}}{\alpha}\right)\label{eq:Cgradient}
 \end{equation}
 
 \end_inset
@@ -16130,7 +16130,7 @@ reference "eq:ConcDiff"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-(c_{1}-c_{2})=-\alpha(\frac{\partial c}{\partial x})_{t}\label{eq:ConcDiff}
+(c_{1}-c_{2})=-\alpha\frac{\partial c}{\partial x}\label{eq:ConcDiff}
 \end{equation}
 
 \end_inset
@@ -16163,7 +16163,7 @@ reference "eq:FluxFicks"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-J=\frac{1}{6}\varGamma\alpha(c_{1}-c_{2})=-\frac{1}{6}\varGamma\alpha^{2}(\frac{\partial c}{\partial x})_{t}\label{eq:FluxFicks}
+J=\frac{1}{6}\varGamma\alpha(c_{1}-c_{2})=-\frac{1}{6}\varGamma\alpha^{2}\frac{\partial c}{\partial x}\label{eq:FluxFicks}
 \end{equation}
 
 \end_inset
