@@ -544,34 +544,45 @@ $ git remote -v
 \end_layout
 
 \begin_layout Standard
-The result of this command should look like this:
+(The -v option here stand for 'verbose'.) The result of this command should
+ look like this:
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename figures/remote_status_check.png
+	width 100text%
+
+\end_inset
+
 
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-(The -v option here stand for 'verbose'.) This will list the nickname of
- your remote repository (most likely 'origin', in addition to the corresponding
+This will list the nickname of your own remote repository, which is named
+ origin.
+ Note that the url for the origin repository has your own username in the
  url.
- The url should NOT correspond to the upstream repository (https://github.com/krs
-hull/MSEcore.git).
- If it does, you need to change it to your forked version of this repository
- by issuing the following command:
-\end_layout
-
-\begin_layout Standard
-The 'origin' in this command means that we can use 'origin' as an alias
- to refer to the remote repository, without having to type in the entire
- url.
- (Note that 'origin' is the default alias for the remote repository that
- we initially cloned from, back in step 
+ The upstream repository has krshull in the url.
+ Once you get the output of the git remote -v command to look like the example
+ above, you are done with the steps in this section and you don't need to
+ do it all again.
 \end_layout
 
 \begin_layout Subsection
-Updating your Local Repository
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Making Changes to Local Project Files
+\end_layout
+
+\end_inset
+
+Making Changes to Local Project Files and Including them in your Local Repositor
+y
 \end_layout
 
 \begin_layout Standard
@@ -581,14 +592,13 @@ Once you have made a bunch of changes to one of the files you'll want to
  For example, if you've made some changes to some of the problems in 314,
  make sure that you can generate a clean pdf from the 314problems.lyx file.
  Once you've made all the changes you want to make, you need to follow the
- steps listed below to update your the local repository in your working
- directory.
+ steps listed below to update the local repository in your working directory.
  You don't need to be connected to the internet to do any of this.
 \end_layout
 
 \begin_layout Enumerate
 Open a command window from your local working directory (the MSEcore directory
- created when you cloned the forked, remote repository .
+ created when you cloned the forked, remote repository).
  
 \end_layout
 
@@ -639,7 +649,7 @@ status open
 
 \begin_layout Plain Layout
 
-$ git checkout -b my-new-branch
+$ git checkout -b myedits
 \end_layout
 
 \end_inset
@@ -648,18 +658,18 @@ $ git checkout -b my-new-branch
 \end_layout
 
 \begin_layout Standard
-This command moves you to the branch called my-new-branch, creating this
- branch if it doesn't already exist.
+This command moves you to the branch called myedits, creating this branch
+ if it doesn't already exist.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-Now we want to update my-new-branch so that accounts for any changes to
- all the files in your working directory that have changed.
+Now we want to update the myedits branch so that accounts for any changes
+ to all the files in your working directory.
  First we account for the fact that we may have either added or deleted
  files in the working directory.
- We 'stage' these files for inclusion the branched repository by running
- the following command:
+ We 'stage' these files for inclusion in the myedits branch by running the
+ following command:
 \end_layout
 
 \begin_deeper
@@ -680,8 +690,8 @@ $ git add -A
 
 \end_deeper
 \begin_layout Enumerate
-Now we update my-new-branch in the local git repository to include all of
- the changes to these files.
+Now we update the myedits branch to include all of the changes to these
+ files.
  We do this by running the following command:
 \end_layout
 
@@ -705,32 +715,23 @@ $ git commit -a -m 'a brief description of the changes in this commit'
 The -a option means you are committing all updated files, and the -m option
  means that the subsequent part of the command (in single quotes) is the
  commit message describing what you have changed.
+ Inclusion of the commit message is not optional.
 \end_layout
 
 \end_deeper
 \begin_layout Subsection
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Updating your Remote Repository
-\end_layout
-
-\end_inset
-
-Updating your Remote Repository and Submitting Changes for Approval
+Submitting Changes for Approval
 \end_layout
 
 \begin_layout Standard
 The next step is to upload your changes to your remote repository, and request
- that the changes included by included in the active repository for the
- project.
+ that the changes included by included in the upstream repository.
  The steps are as follows:
 \end_layout
 
 \begin_layout Enumerate
-Now you can upload our new branch with the changes to your development repositor
-y on github.
+Upload your changes included in your myedits branch to your own (origin)
+ repository on github.
  Use the following command:
 \end_layout
 
@@ -742,18 +743,12 @@ status open
 
 \begin_layout Plain Layout
 
-$  git push origin my-new-branchzXc
+$  git push origin myedits
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-The actual name of your branch will probably be something different than
- 'my-new-branch', in which case you should substitute 'my-new-branch' for
- the actual branch name.
 \end_layout
 
 \end_deeper
