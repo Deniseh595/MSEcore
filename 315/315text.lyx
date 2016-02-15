@@ -16246,7 +16246,7 @@ reference "eq:FicksFirst"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-J=-D(\frac{\partial c}{\partial x})_{t}\label{eq:FicksFirst}
+J=-D\frac{\partial c}{\partial x}\label{eq:FicksFirst}
 \end{equation}
 
 \end_inset
