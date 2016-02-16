@@ -837,15 +837,7 @@ Click on the create pull request button at the lower right.
 \end_layout
 
 \begin_layout Standard
-If you've made it all of the way through this, read through the blog entry
- from Scott Low (ref 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "lowe_using_????"
-
-\end_inset
-
-), which summarizes things nicely.
+If you've made it all of the way through this, take a look at the 
 \end_layout
 
 \begin_layout Section
@@ -869,6 +861,7 @@ Graphical user interfaces or nice, but a lot of things are less confusing
 
 \begin_layout Standard
 \align center
+or
 \begin_inset Graphics
 	filename figures/command_line.png
 	width 50text%
