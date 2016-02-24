@@ -157,10 +157,1267 @@ tabs-within-sections
 351-1 Problems
 \end_layout
 
-\begin_layout Standard
-1.
- This is a test
+\begin_layout Subsection
+Homework 1
 \end_layout
 
+\begin_layout Enumerate
+Newton’s Laws Can be derived from Hamilton’s equations.
+ Identify the Hamiltonian from conservation of energy using only momentum
+ 
+\begin_inset Formula $p$
+\end_inset
+
+ (for Kinetic Energy) and position 
+\begin_inset Formula $x$
+\end_inset
+
+(for potential Energy).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $H=KE+PE$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Use the Hamiltonian for a particle in a 1-D quadratic potential like a mass
+ on a spring.
+ What is 
+\begin_inset Formula $KE,PE$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Hamiltion's equations are 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dρ}{dt}=-\frac{\partial H}{\partial x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dx}{dt}=\frac{\partial H}{\partialρ}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Show these give Newton’s laws of motion for the mass on a spring.
+ 
+\end_layout
+
+\begin_layout Standard
+Derive the 1-D differential equation of motion from Hamilton equation.
+ For a particle of total energy E and spring constant 
+\begin_inset Formula $k$
+\end_inset
+
+,
+\begin_inset Formula $x=0$
+\end_inset
+
+ at 
+\begin_inset Formula $t=0$
+\end_inset
+
+, what is the equation of motion
+\begin_inset Formula $x(t)$
+\end_inset
+
+.
+ what is 
+\begin_inset Formula $p(t)$
+\end_inset
+
+.
+ show the region of Phase Space (
+\begin_inset Formula $p$
+\end_inset
+
+ vs
+\begin_inset Formula $x$
+\end_inset
+
+) that describes the particle throughout its motion.
+\end_layout
+
+\begin_layout Standard
+Use the equipartition theorem (where <A> is time average of A, and 
+\begin_inset Formula $i$
+\end_inset
+
+ is index for each spatial dimension)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\langle p_{i}\frac{\partial H}{\partial p_{i}}\right\rangle =\left\langle x_{i}\frac{\partial H}{\partial x_{i}}\right\rangle =k_{B}T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+to derive the relationship between thermal velocity and temperature 
+\begin_inset Formula $\frac{1}{2}mv_{th}^{2}=\frac{3}{2}k_{B}T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Derive the Dulong-Petit law for atoms in a 3-D potential from the equipartition
+ theorem
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\langle E\rangle=3k_{B}T.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is the heat capacity 
+\begin_inset Formula $C=dE/dT$
+\end_inset
+
+ in this case?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Problem 1.1 from Solymar and Walsh: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+A 10 mm cube of germanium passes a current of 6.4 mA when 10 mV is applied
+ between two of its parallel faces.
+ Calculate the resistivity of the sample.
+ Assuming that the charge carriers are electrons that have a mobility of
+ 0.39 
+\begin_inset Formula $m^{2}V^{-1}s^{-1}$
+\end_inset
+
+, calculate the density of carriers.
+ What is their collision time if the electron's effective mass in germanium
+ is 0.12 
+\begin_inset Formula $m_{e}$
+\end_inset
+
+ where 
+\begin_inset Formula $m_{e}$
+\end_inset
+
+ is the free electron mass?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Give a one line description of each of these experiments and their significance
+ to modern physics: Photoelectric Effect, Compton Effect, Black Body Radiation,
+ Rutherford Backscattering (Bohr model), Electron Diffraction, Atomic spectra.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Classical: https://www.youtube.com/watch?v=yXsHflXB7QM
+\end_layout
+
+\begin_layout Standard
+Bohr Atom: https://www.youtube.com/watch?v=ydPzEZTd-98
+\end_layout
+
+\begin_layout Standard
+Wave Particle Duality - photoelectric effect: https://www.youtube.com/watch?v=frNL
+tEm1glg
+\end_layout
+
+\begin_layout Standard
+Schrödinger waves: https://www.youtube.com/watch?v=C8XGIYz1PCw
+\end_layout
+
+\begin_layout Standard
+Probability interpretation: https://www.youtube.com/watch?v=p7xIKoBdViY
+\end_layout
+
+\begin_layout Standard
+Compton Effect: https://www.youtube.com/watch?v=0Y648TNGAIo
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Problem 2.1 from Solymar and Walsh.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Find the de Broglie wavelength of the following particles, ignoring relativistic
+ effects: 
+\end_layout
+
+\begin_layout Standard
+(i) an electron in a semiconductor having average thermal velocity at 
+\begin_inset Formula $T=300K$
+\end_inset
+
+ and an effective mass of 
+\begin_inset Formula $m_{e}^{*}=am_{o}$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+(ii) a helium atom having thermal energy at 
+\begin_inset Formula $T=300K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(iii) an α particle (
+\begin_inset Formula $He^{4}$
+\end_inset
+
+ nucleus) of kinetic energy 10 MeV.
+ 
+\end_layout
+
+\begin_layout Standard
+Hint: See question 1.
+ For a gas of non-interacting particles, 
+\begin_inset Formula $\frac{1}{2}mv_{th}^{2}=\frac{3}{2}k_{B}T$
+\end_inset
+
+ .
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Homework 2
+\end_layout
+
+\begin_layout Enumerate
+A particle of mass, 
+\begin_inset Formula $m$
+\end_inset
+
+, is confined to a 1-D region 
+\begin_inset Formula $0≤x≤L$
+\end_inset
+
+ .
+ In class, we derived the following stationary state wavefunctions and energies
+ for this 1-D infinite square well potential:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\psi_{n}(x)=Asin\left(\frac{\pi n}{L}s\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Normalize the wave function to find the value of 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Find the Energy of these stationary states
+\end_layout
+
+\begin_layout Standard
+Assuming that the initial normalized wavefunction of this particle at
+\begin_inset Formula $t=0$
+\end_inset
+
+ is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Psi(x,t=0)=\sqrt{\frac{8}{5L}}\left[1+cos\left(\frac{\pi}{L}x\right)\right]sin\left(\frac{\pi}{L}x\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Derive an expression for the wavefunction 
+\begin_inset Formula $\Psi(x,T)$
+\end_inset
+
+, at all later times 
+\begin_inset Formula $t>0.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Show that the probability of finding the particle in the left half of the
+ box (i.e., in the region 
+\begin_inset Formula $0\leq x\leq L/2$
+\end_inset
+
+) at time 
+\begin_inset Formula $t>0$
+\end_inset
+
+ is: 
+\begin_inset Formula $\frac{1}{2}+\frac{16}{15\pi}cos\left(\frac{3\pi^{2}ht}{2mL^{2}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Assuming that Ψ(x,t) is a solution of the 1-D Schrödinger Equation, the
+ current density is defined as:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+J(x)=-\frac{i\hbar e}{2m}\left[\Psi^{*}\frac{\partial\Psi}{\partial x}-\Psi\frac{\partial\Psi^{*}}{\partial x}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this problem, consider the potential barrier of height (
+\begin_inset Formula $V$
+\end_inset
+
+) and width (
+\begin_inset Formula $d$
+\end_inset
+
+) that is depicted in Fig.
+ 3.3 of Solymar and Walsh.
+ Assume that the electron energy (
+\begin_inset Formula $E$
+\end_inset
+
+) is less than 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+By applying suitable boundary conditions and your knowledge of quantum mechanics
+, develop a system of equations that could be solved to determine the transmitte
+d current through the barrier (
+\begin_inset Formula $J_{t}$
+\end_inset
+
+) in terms of the incident current on the barrier (
+\begin_inset Formula $J_{i}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+By solving your system of equations from part (a), show that:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{J_{t}}{J_{t}}=\frac{1}{1+\frac{V^{2}}{4(V-E)E}sinh^{2}(\gamma d)}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\gamma=\frac{\sqrt{2m(V-E)}}{\hbar}$
+\end_inset
+
+ and 
+\begin_inset Formula $sinh(\gamma d)=\frac{1}{2}(e^{\gamma d}-e^{-\gamma d})$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+In the limit where 
+\begin_inset Formula $\gamma d\gg1,$
+\end_inset
+
+ show that: 
+\begin_inset Formula $\frac{J_{t}}{J_{t}}=\frac{16(V-E)E}{V^{2}}e^{-2\gamma d}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+The exponential dependence of the “tunneling” current on distance is utilized
+ for atomic resolution imaging of conductive surfaces with the scanning
+ tunneling microscope (STM).
+ Conservatively assume that the STM can detect changes in the tunneling
+ current of 1%.
+ Under typical tunneling conditions (e.g., 
+\begin_inset Formula $V-E~1eV$
+\end_inset
+
+, d ~ 10 Å), estimate the vertical spatial resolution of the STM.
+ Hint: The answer can be expressed in picometers (
+\begin_inset Formula $10^{-12}$
+\end_inset
+
+ m)!
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Homework 3
+\end_layout
+
+\begin_layout Enumerate
+Derive the solution of the 2-D particle in a box (particle is constrained
+ in both 
+\begin_inset Formula $x$
+\end_inset
+
+, and 
+\begin_inset Formula $y$
+\end_inset
+
+ directions; 
+\begin_inset Formula $V→∞$
+\end_inset
+
+ at the boundaries).
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Solve for the energies and wave functions of the ground and first excited
+ states.
+\end_layout
+
+\begin_layout Enumerate
+What is the degeneracy of the first excited state?
+\end_layout
+
+\begin_layout Enumerate
+Plot the probability distributions 2 ψ of the first excited states as surface
+ plots.
+\end_layout
+
+\begin_layout Enumerate
+Optional: plot probability distributions of the ground state, first excited
+ states, and 2nd excited states, and comment on the evolution.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider the infinite spherical well: 
+\begin_inset Formula $V(r)=0$
+\end_inset
+
+ if 
+\begin_inset Formula $r≤a$
+\end_inset
+
+, 
+\begin_inset Formula $V(r)=∞$
+\end_inset
+
+ if 
+\begin_inset Formula $r>a$
+\end_inset
+
+ .
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For 
+\begin_inset Formula $l=0$
+\end_inset
+
+, determine the allowed energies 
+\begin_inset Formula $(E_{n})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+For 
+\begin_inset Formula $l=0$
+\end_inset
+
+, show that the corresponding wavefunctions are:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Psi_{n}(r)=\frac{1}{\sqrt{2\pi a}}\frac{sin(n\pi r/a)}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\shape italic
+In class, we worked through the Schrödinger equation in spherical coordinates
+ for spherically symmetric potentials by breaking the solution into radial
+ and angular functions.
+ You should be able to solve the radial equation for the conditions given
+ here.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider the infinite spherical well: 
+\begin_inset Formula $V(r)=0$
+\end_inset
+
+ if 
+\begin_inset Formula $r\leq a$
+\end_inset
+
+, 
+\begin_inset Formula $V(r)=V_{o}$
+\end_inset
+
+ if 
+\begin_inset Formula $r>a$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For 
+\begin_inset Formula $l=0$
+\end_inset
+
+, show that there is no bound state if: 
+\begin_inset Formula $V_{o}a^{2}<\frac{\pi^{2}\hbar^{2}}{8m}$
+\end_inset
+
+.
+ This can be shown without resorting to numerical computation.
+\end_layout
+
+\begin_layout Enumerate
+Given 
+\begin_inset Formula $V_{o}=\frac{2\hbar\pi^{2}}{ma^{2}}$
+\end_inset
+
+, find the energies of the two bound states by graphing in MATLAB or Excel.
+ You can also use MATLAB to check your solution by solving the transcendental
+ equation directly.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+This problem is analogous to the finite square well problem solved in 3.8
+ of Solymar and Walsh, but in the spherical coordinate system.
+ Through the appropriate application of boundary conditions, you should
+ arrive at a transcendental equation whose argument can be analyzed to establish
+ the condition for the existence of bound states.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Homework 4
+\end_layout
+
+\begin_layout Enumerate
+Suppose that the nucleus of a hydrogen atom is located at a distance d from
+ a two-dimensional infinite potential wall which, of course, tends to distort
+ the hydrogen atom.
+ As 
+\begin_inset Formula $d$
+\end_inset
+
+ approaches zero, determine the following items:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The ground state wavefunction.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The degeneracy of the first excited state (ignore degeneracy due to spin).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The wavelength of light that is emitted upon transition between the first
+ excited state and the ground state (express your answer in nanometers).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+With the exception of part (c), this problem does not involve mathematical
+ calculation.
+ The proper choice of coordinate system can make the relationship between
+ these solutions and the usual hydrogen atom solutions clear.
+ Bear in mind that the ground state refers to the lowest energy state that
+ exists.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider a double finite potential well in one dimension.
+ Suppose that the depth 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ and the width 
+\begin_inset Formula $a$
+\end_inset
+
+ are fixed such that 
+\begin_inset Formula $\beta^{2}=\frac{V_{0}ma^{2}}{2\hbar^{2}}=4\pi^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hw4.PNG
+	width 25page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Qualitatively sketch the ground state wavefunction 
+\begin_inset Formula $ψ_{1}$
+\end_inset
+
+and the first excited state wavefunction 
+\begin_inset Formula $ψ_{2}$
+\end_inset
+
+ for: (i) 
+\begin_inset Formula $b=$
+\end_inset
+
+0, (ii) 
+\begin_inset Formula $b=a/2$
+\end_inset
+
+, and (iii) 
+\begin_inset Formula $b\gg a$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+For 
+\begin_inset Formula $b=0$
+\end_inset
+
+, show that the ground state energy 
+\begin_inset Formula $(E_{1}$
+\end_inset
+
+) is given by: 
+\begin_inset Formula $E_{1}=\frac{\hbar^{2}x_{1}^{2}}{2ma^{2}}$
+\end_inset
+
+ , where 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ is the solution of the following equation: 
+\begin_inset Formula $tanx_{1}=\sqrt{\left(\frac{2\beta}{x_{1}}\right)^{2}-1}$
+\end_inset
+
+ .
+ Calculate
+\begin_inset Formula $E_{1}$
+\end_inset
+
+ in units of 
+\begin_inset Formula $\frac{\hbar}{ma^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+For
+\begin_inset Formula $b=0$
+\end_inset
+
+, show that the first excited state energy 
+\begin_inset Formula $(E_{2})$
+\end_inset
+
+ is given by: 
+\begin_inset Formula $E_{2}=\frac{\hbar^{2}x_{2}^{2}}{2ma^{2}}$
+\end_inset
+
+ where 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ is the solution of the following equation: 
+\begin_inset Formula $-cotx_{2}=\sqrt{\left(\frac{2\beta}{x_{2}}\right)^{2}-1}$
+\end_inset
+
+ .
+ Calculate 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+ in units of 
+\begin_inset Formula $\frac{\hbar^{2}}{ma^{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+For 
+\begin_inset Formula $b\gg a$
+\end_inset
+
+, estimate 
+\begin_inset Formula $E_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+ in units of 
+\begin_inset Formula $\frac{\hbar^{2}}{ma^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use the MATLAB code derived from Garcia, R., Zozulya, A.
+ & Stickney, J.
+ MATLAB codes for teaching quantum physics: Part 1.
+ 
+\shape italic
+arXiv
+\shape default
+ 
+\series bold
+physics.ed-ph
+\series default
+, (2007).
+ http://arxiv.org/pdf/0704.1622.pdf 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Consult the original publication for background on the code.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is the Heaviside function? How is it used in this code (for what purpose)?
+ 
+\end_layout
+
+\begin_layout Enumerate
+Using the MATLAB code, generate the plots you sketched in part (a) (ground
+ and first excited states for b=0, b=a/2, and b>>a).
+ You should have three graphs with two curves on each.
+ Label the graphs and the wave functions.
+\end_layout
+
+\begin_layout Enumerate
+Generate 2 more plots with intermediate barrier widths, and sketch the trends
+ in 
+\begin_inset Formula $E_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+ as a function of barrier width (you should have 5 different widths).
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Note: in the code, you can change the potential profile quite easily (e.g.
+ the quadratic harmonic oscillator potential or single square well).
+ Parameters can be varied to develop insight into how the wavefunctions
+ vary with the potentials.
+
+\shape default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Provide a physical explanation for the variation of 
+\begin_inset Formula $E_{1}$
+\end_inset
+
+ with b that you observed in part (e).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The double well is a primitive one dimensional model for the potential experienc
+ed by an electron in a diatomic molecule (the two wells represent the attractive
+ force of the nuclei).
+ If the nuclei are free to move, they will adopt the configuration of minimum
+ energy.
+ In view of your conclusions in (b), does the electron in the ground state
+ (
+\begin_inset Formula $E_{1}$
+\end_inset
+
+) tend to draw the nuclei together or push them apart? What about 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+? Provide a physical reason for these behaviors, considering your answer
+ to the previous question.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+%**************************************************************** 
+\end_layout
+
+\begin_layout Standard
+% Program 4: Find several lowest eigenmodes V(x) and 
+\end_layout
+
+\begin_layout Standard
+% eigenenergies E of 1D Schrodinger equation 
+\end_layout
+
+\begin_layout Standard
+% -1/2*hbar^2/m(d2/dx2)V(x) + U(x)V(x) = EV(x) 
+\end_layout
+
+\begin_layout Standard
+\align left
+% for arbitrary potentials U(x) %***********************************************
+***************** 
+\end_layout
+
+\begin_layout Standard
+% Parameters for solving problem in the interval -L < x < L
+\end_layout
+
+\begin_layout Standard
+% PARAMETERS: 
+\end_layout
+
+\begin_layout Standard
+L = 5;% Interval Length
+\end_layout
+
+\begin_layout Standard
+N = 1000; % No of points
+\end_layout
+
+\begin_layout Standard
+x = linspace(-L,L,N)’;% Coordinate vector 
+\end_layout
+
+\begin_layout Standard
+dx = x(2) -x(1); % Coordinate step 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% POTENTIAL, choose one or make your own 
+\end_layout
+
+\begin_layout Standard
+U = 1/2*100*x.^(2); % quadratic harmonic oscillator potential 
+\end_layout
+
+\begin_layout Standard
+%U = 1/2*x.^(4); % quartic potential 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Finite square well of width 2w and depth given 
+\end_layout
+
+\begin_layout Standard
+%w = L/50; 
+\end_layout
+
+\begin_layout Standard
+%U = -500*(heaviside(x+w)-heaviside(x-w)); 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Two finite square wells of width 2w and distance 2a apart 
+\end_layout
+
+\begin_layout Standard
+%w = L/50; a=3*w; 
+\end_layout
+
+\begin_layout Standard
+%U = -200*(heaviside(x+w-a) -heaviside(x-w-a) ...
+ 
+\end_layout
+
+\begin_layout Standard
+% + heaviside(x+w+a) -heaviside(x-w+a)); 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Three-point finite-difference representation of Laplacian 
+\end_layout
+
+\begin_layout Standard
+% using sparse matrices, where you save memory by only
+\end_layout
+
+\begin_layout Standard
+% storing non-zero matrix elements 
+\end_layout
+
+\begin_layout Standard
+e = ones(N,1); Lap = spdiags([e -2*e e],[-1 0 1],N,N)/dx^2; 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Total Hamiltonian hbar = 1; m = 1; 
+\end_layout
+
+\begin_layout Standard
+% constants for Hamiltonian H = -1/2*(hbar^2/m)*Lap + spdiags(U,0,N,N);
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Find lowest nmodes eigenvectors and eigenvalues of sparse matrix 
+\end_layout
+
+\begin_layout Standard
+nmodes = 3; options.disp = 0; 
+\end_layout
+
+\begin_layout Standard
+[V,E] = eigs(H,nmodes,’sa’,options);% find eigs 
+\end_layout
+
+\begin_layout Standard
+[E,ind] = sort(diag(E));% convert E to vector and sort low to high
+\end_layout
+
+\begin_layout Standard
+V = V(:,ind); % rearrange corresponding eigenvectors 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Generate plot of lowest energy eigenvectors V(x) and U(x) 
+\end_layout
+
+\begin_layout Standard
+Usc = U*max(abs(V(:)))/max(abs(U)); % rescale U for plotting 
+\end_layout
+
+\begin_layout Standard
+plot(x,V,x,Usc,’-­k’); % plot V(x) and rescaled U(x) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+% Add legend showing Energy of plotted V(x) 
+\end_layout
+
+\begin_layout Standard
+lgnd_str = [repmat(’E = ’,nmodes,1),num2str(E)]; 
+\end_layout
+
+\begin_layout Standard
+legend(lgnd_str) % place lengend string on plot
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Homework 5
+\end_layout
+
+\begin_layout Enumerate
+Consider a cesium chloride crystal where the potential energy per formula
+ unit is: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E(r)=\frac{A}{r^{n}}-\frac{Me^{2}}{4\pi\epsilon_{0}r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\begin_inset Formula $A$
+\end_inset
+
+ is a constant, 
+\begin_inset Formula $n>1$
+\end_inset
+
+, 
+\begin_inset Formula $r$
+\end_inset
+
+ is interionic distance, and
+\begin_inset Formula $M$
+\end_inset
+
+ is the Madelung constant.
+\end_layout
+
+\begin_layout Enumerate
+Express the binding energy (
+\begin_inset Formula $E_{0}$
+\end_inset
+
+) in terms of 
+\begin_inset Formula $M,n,r_{0}$
+\end_inset
+
+, and fundamental constants.
+ 
+\shape italic
+Hint: first express A in terms of these constants by considering the equilibrium
+ condition.
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Enumerate
+The cesium chloride crystal structure consists of cations located on a simple
+ cubic lattice (lattice constant = 
+\begin_inset Formula $a$
+\end_inset
+
+) with an anion located at the center of the cube.
+ What is the volume per formula unit (
+\begin_inset Formula $v$
+\end_inset
+
+) in terms of 
+\begin_inset Formula $r$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+From thermodynamics, the bulk modulus (B) is known to be: 
+\begin_inset Formula $B=v\frac{\partial}{\partial v}\left(\frac{\partial E}{\partial v}\right).$
+\end_inset
+
+Show that 
+\begin_inset Formula $B_{o}$
+\end_inset
+
+ is of the form 
+\begin_inset Formula $B_{0}=\frac{C}{r_{o}}\frac{d^{2}E}{dr^{2}}|_{r=r_{o}}$
+\end_inset
+
+, and find 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ 
+\shape italic
+Hint: use your result from the previous problem to rewrite the derivatives
+ in terms of r.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Using the result from part (c), express the equilibrium bulk modulus (
+\begin_inset Formula $B_{0}$
+\end_inset
+
+) in terms of 
+\begin_inset Formula $M,n,r_{0}$
+\end_inset
+
+, and fundamental constants.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The experimentally determined values of 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ for CsCl are 19.8 GPa and 3.571 Å respectively.
+ Calculate 
+\begin_inset Formula $E_{0}$
+\end_inset
+
+ for CsCl in eV.
+ 
+\bar under
+Note
+\bar default
+: M = 1.7627 for CsCl.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
