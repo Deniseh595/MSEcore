@@ -250,6 +250,204 @@ filename "391outcomes.lyx"
 
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+ANOVA: Expected Value of Mean Square Erro
+\series default
+r
+\end_layout
+
+\begin_layout Standard
+The mean square error is defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+MS_{E}=\frac{1}{N-a}\sum_{i=1}^{a}\sum_{j=1}^{n}(y_{ij}-\bar{y_{ij}})^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Expanding the summation and noting that 
+\begin_inset Formula $\overset{n}{\underset{j=1}{\sum}}y_{ij}=n\bar{y_{ij}}$
+\end_inset
+
+and 
+\begin_inset Formula $\overset{n}{\underset{j=1}{\sum}}y_{ij}=n\bar{y_{ij}}$
+\end_inset
+
+we can show: 
+\end_layout
+
+\begin_layout Standard
+Expanding the expression for 
+\begin_inset Formula $\bar{y_{ij}}$
+\end_inset
+
+, we have:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $MS_{E}=\frac{1}{N-a}\left[\underset{i=1}{\overset{a}{\sum}}\underset{j=1}{\overset{n}{\sum}}y_{ij}^{2}-n\underset{i=1}{\overset{a}{\sum}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The next step involves writing the term yij in the form of the fixed effects
+ model: 
+\end_layout
+
+\begin_layout Standard
+This is a messy expression, of which we will obtain the expected value.
+ Let us look at the first square term: 
+\end_layout
+
+\begin_layout Standard
+Knowing the properties of expected values, we can simplify the above expression
+ to the following (note that N = na):
+\end_layout
+
+\begin_layout Standard
+The second square term in the MSE is a bit messier:
+\end_layout
+
+\begin_layout Standard
+The j summation can be expanded as follows:
+\end_layout
+
+\begin_layout Standard
+The expected values of cross-terms are all equal to zero (e.g., i ).
+ The above expression can be further simplified by noting that the expected
+ values of cross-terms involving ij (i  j)are all equal to zero:
+\end_layout
+
+\begin_layout Standard
+Putting everything together:
+\end_layout
+
+\begin_layout Standard
+Therefore,
+\end_layout
+
+\begin_layout Standard
+Example: Calculation of Type II Error
+\end_layout
+
+\begin_layout Standard
+The fuel consumption rate of a particular type of aircraft engine is normally
+ distributed with a mean value of 0.4 lb/hp-hr and 
+\begin_inset Formula $σ_{1}$
+\end_inset
+
+ = 0.02.
+ A modified version of this engine is found to have a lower fuel consumption
+ rate of 0.33 and 
+\begin_inset Formula $σ_{2}$
+\end_inset
+
+ = 0.02.
+ A random sample of the modified engine is tested.
+ Assume α = 0.05.
+ What is the probability of committing type II error, i.e., asserting that
+ the modified engine performs the same as the unmodified engine?
+\end_layout
+
+\begin_layout Standard
+Solution: Null hypothesis 
+\begin_inset Formula $H_{o}:m_{1}=m_{2}$
+\end_inset
+
+ (two fuel consumption rates are the same) Alternative hypothesis H1: 
+\begin_inset Formula $m_{1}≠m_{2}$
+\end_inset
+
+ (two-sided) Set α = 0.05.
+\end_layout
+
+\begin_layout Standard
+In order for the null hypothesis to be valid, the performance of the modified
+ engine has to fall within a band, ±Δ, where Δ=
+\begin_inset Formula $z_{0.025}σ=1.96×0.02≈0.04$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That is, to accept 
+\begin_inset Formula $H_{o}$
+\end_inset
+
+, the fuel consumption of the modified engine has to fall between 0.36 and
+ 0.44, as indicated below.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is the probability that this will occur, remembering that this modified
+ engine comes from a different distribution shown below.
+ This probability β is given by the shaded area between 0.36 and 0.44.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Referenced to 0.33, the z value for 0.36 = (0.36 – 0.33)/σ = 0.03/0.02 = 1.5 
+\end_layout
+
+\begin_layout Standard
+Referenced to 0.33, the z value for 0.44 = (0.44 – 0.33)/0.02 = 0.11/0.02 = 5.5
+\end_layout
+
+\begin_layout Standard
+Use the normal distribution table: the shaded area β = Φ(5.5) – Φ(1.5) = 0.9999
+ – 0.9332 = 0.0668.
+\end_layout
+
+\begin_layout Standard
+That is, the probability of committing type II error = 6.7 % 
+\end_layout
+
 \end_inset
 
 
